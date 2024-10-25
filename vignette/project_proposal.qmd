@@ -1,0 +1,115 @@
+---
+title: "Project Proposal"
+format: 
+  html:
+    embed-resources: true
+---
+
+Project Plan: Number Crunchers
+
+# Admin
+Course: DATA-413.001/DATA-613.001
+
+App title: Against the Spread
+
+Group members: Ethan Kobrowski (DATA-413.001, Jacob Federbusch (DATA-613.001), Henry Goodwin (DATA-413.001)
+
+# Topic and Data
+Context of problem to be analyzed
+
+As in all gambling, consumers of sports gambling desire a way to make bets that maximize their winnings. To do this, one needs a model that can accurately predict the winners. Various models have been developed, but their accuracy may differ depending on the circumstances. For example, models may be more accurate for predicting home games than away games for a specific team. Our app would provide bettors with an interface to easily access data that will inform their bets. 
+
+Our app would work with National Football League (NFL) data, and would focus primarily on the “spread.” The spread is a betting term that refers to the difference between the winning and losing team’s scores. The favorite (i.e., the team that is expected to win the game) has a negative spread, while the underdog has a positive spread. For example, a team’s spread for a given game may be -4.5, meaning that Vegas expects that that team will win by 4.5 points. We refer to this number as the “Vegas spread” in this document to differentiate it from the “actual spread,” or the actual difference between the team’s scores after the game is complete. Bettors then bet whether they think the actual spread will be less than or greater than the Vegas spread. If the Vegas spread is -4.5, but the favorite wins by 5 or more, they “beat” or “covered” the spread. If the favorite wins by less than 5, or the underdog wins, the underdog beat or covered the spread.
+
+Our app’s goal is twofold: first, allow users to see what the actual spread was for games with characteristics selected and filtered by the user, and second, allow users to predict what the actual spread will be for a game using an analytical model based on user-selected input variables. In doing so, the app would allow users to make better-informed bets and hopefully make money.
+
+Key takeaways from literature review
+
+The online gambling market has grown into an industry worth hundreds of billions of dollars. The shift towards the online environment specifically allows clients far greater flexibility in the bets that can be placed, with fewer constraints on the time and events for placing bets. Users often desire to beat the bookmakers–those that set the odds and pays out winnings. Over the past few decades, various researchers have attempted to create models that can compete with the models used by bookmakers to make predictions. Developing predictive models for sports betting has posed a challenge to data scientists, as the random nature of sports cannot be controlled like in other settings, such as casinos. A range of different strategies have been developed, although most fail to produce consistent wins over multiple years. Calculating the probability of a football game can involve many different factors, and successfully creating an accurate predictive model is quite complex, although more recent models have been more successful.
+
+https://arxiv.org/abs/1710.02824
+Kaunitz, L., Zhong, S., & Kreiner, J. (2017). Beating the bookies with their own numbers—And how the online sports betting market is rigged (arXiv:1710.02824). arXiv. https://doi.org/10.48550/arXiv.1710.02824
+https://academic.oup.com/imaman/article/32/4/465/6128334
+
+Uhrín Matej, Šourek Gustav, Hubáček Ondřej, Železný Filip, Optimal sports betting strategies in practice: an experimental review, IMA Journal of Management Mathematics, Volume 32, Issue 4, October 2021, Pages 465–489, https://doi.org/10.1093/imaman/dpaa029
+
+https://www.tandfonline.com/doi/pdf/10.1080/16066359.2023.2241350?needAccess=true&role=button
+
+Torrance, J., O’Hanrahan, M., Carroll, J., & Newall, P. (2024). The structural characteristics of online sports betting: A scoping review of current product features and utility patents as indicators of potential future developments. Addiction Research & Theory, 32(3), 204–218. https://doi.org/10.1080/16066359.2023.2241350
+
+Proposed data source:
+
+Pro Football Reference (PFR): https://www.pro-football-reference.com 
+
+Data used will be from the 2021 NFL season to the present. That is three full seasons and an in progress 4th season. While we are unsure on what variables we would like to include (there are hundreds of variables on PFR), we know we would like to include some variables that are more  stagnant/variables that affect both teams equally. Field conditions, weather, time of day, home or away, bye week, etc. are all variables that are not impacted by on field performance. We also want to include some variables that while related to on field performance, are more general summaries of team performance. This could include winning percentage and record vs conference and non-conference opponents. There are 272 regular season games a year in the NFL meaning by the end of the 2024 nfl season, there will have been 1,088 cases. 
+
+# Use case
+
+Use case and actor description
+
+A user of this app is likely someone interested in sports gambling and sport betting but unsure of where to begin. This app would allow users to input data on the game they are interested in betting on and would return a result that would inform the user on past trends when their inputted variables were similar. 
+
+Actor question of interest
+
+Should I bet that X team will cover the spread in Y game?
+
+Anticipated workflow for the actor
+
+After launching the app, the user could input variables such as time of day, field type, weather, matchup, team records, etc. for the game they are interested in betting on. The app would then output typical spreads and results from similar matchups and the user can make an informed decision on the bet they place.
+
+Example:
+
+A user is interested in betting on Bears @ Commanders. While the current spread is -3 in favor of the Bears, the user feels that the Commanders have a shot of covering the spread and winning the game. However, the user is concerned that there may be some limiting factors to the Commanders winning the game, aside from rosters. Field type, weather, time of day, team records, and historical results could all inform the result of this particular game. In this app, the user can input certain variables and based off of those variables, can analyze results and make a more informed decision on what to bet.
+
+(Source: ​​https://sportsbook.fanduel.com/navigation/nfl)
+
+# Ethical review
+
+There are a few ethical concerns with this app, but none are limiting to the ability of the app as a whole. The first and most obvious ethical concern is the perception of giving financial advice. This app would not guarantee that based on all the data the user provides, the result will be a certain given result. However, this app does allow for a user to consider more factors than just what Vegas provides and allows them to make a more informed decision. That being said, unpredictability will always be in sports and this app in no way should be considered as serious financial advice. Gambling is a risk. 
+
+The other primary ethical consideration is the sourcing of the data used for the app. We’ve determined that pro-football-reference has the most comprehensive data for comparing football statistics and variables and Vegas odds. Pro-football-reference is free to use however they have a pay wall in place for more specific data searches. We determined that while there is a paywall to access the data, all of the data is publicly available and was not collected by pro-football-reference but instead just aggregated on their site. The data we are using is also all publicly available on their website, but placed into different data sets.  Essentially, the search ability allows us to drastically reduce data cleaning time. This is the only benefit to using it as compared to the free version, there is no data locked behind the paywall. 
+
+Throughout this project we will operate using AU code of ethics and the academic integrity code. 
+
+# App concept
+
+General layout of the app
+
+We envision the app as having two primary outputs. First, the app will output graphical and other representation of historical results of NFL games (and corresponding betting lines) based on game and betting characteristics selected by the user. Second, the app will predict the results of a game with the selected characteristics using a statistical model. These outputs will be located under two separate tabs. Both tabs would include a sidebar allowing users to filter by characteristic (tab 1) or select relevant characteristics (tab 2). We could optionally include a third tab allowing users to interact with the raw data.
+
+Planned options for user data selection and manipulation (if any)
+
+Both tabs will include a sidebar. Tab 1’s sidebar will allow users to select NFL game (and corresponding betting line) characteristics. In the above example (Bears @ Commanders), users might be interested in filtering historical games where the spread was close (say, within 3.5), where both teams had a winning percentage of .666 or better, and where the away team was coming off a bye week. Other characteristics might include the selection of a range of years in which a game was played, specific teams, weather conditions, and/or field conditions. Tab 2’s sidebar would allow the user to select variables of interest to be used in the statistical model. These variables would be the same as the tab 1’s, but unlike tab 1, users would not simply select (and not filter) them.
+
+Planned options for user exploratory numerical/graphical analysis
+
+The app’s first tab would output analysis based on the characteristics selected in the sidebar. This would include some simple information, like how often the favorite beat the spread under those conditions. It would also include graphical analysis. One chart would show how the actual spread compared to the Vegas spread for games with the selected characteristics. If the actual spread was consistently greater than the Vegas spread, that would be helpful information for the user, as it may indicate that they should bet on the favorite (because they have consistently outperformed expectations in similar situations). Another chart would plot the actual spread over time, allowing the user to see trends in the spread. For example, if in recent years, the actual spread for a given set of conditions has been increasing, that may also indicate that the user should bet on the favorite.
+
+Planned options for user statistical models and tests
+
+The app’s second tab would include a statistical model predicting a game’s spread based on variables selected in the sidebar. Though we haven’t decided what type of model would be best, a multiple regression model is one option. The user’s selections would be inputs for the model. The model would output several key pieces of information, including how well the model predicted the actual spread (R-squared), how important each input was for the model (the p-values for the user’s selections), and what the formula for predicting the spread would be for those inputs. This information would be displayed in a manner that is easy to read and understand. An additional feature could allow users to use the formula created by the model to output the predicted actual spread for an upcoming game based on inputted information for each selected variable.
+
+# Collaboration
+
+Preliminary responsibilities, which we may decide to change:
+
+Jacob: Statistical models, graphics, design
+
+Ethan: Data gathering, cleaning, tidying
+
+Henry: Sever code, lead UI structure
+
+Approach to Team workflow: collaboration and branching
+
+Each of us will discuss which aspects of the app to work on. Each of us will create a branch and make changes locally. Before merging with the main branch, we will create a pull request so that others can review the code and discuss the changes if needed.
+
+Schedule
+
+- Gathering data: 11/10
+- Data Preparation: 11/15
+- Initial Code: 11/22
+- Finalize app: 12/6
+- Final Testing and vignette: Week of the 12/9
+- Project Due: 12/12
+
+
