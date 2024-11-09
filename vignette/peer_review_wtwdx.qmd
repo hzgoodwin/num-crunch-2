@@ -1,0 +1,35 @@
+---
+title: "Peer Review wtwdx by Number Crunchers"
+author: "Number Crunchers"
+date: "2024-11-06"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+---
+
+## Participants
+
+- From reviewing group: Jacob Federbusch, Henry Goodwin
+- From reviewed group: Te-Jou Hou, Yen Jo Lee, Fang-Yi Wu
+
+## Summary:
+### Strengths
+
+- Useful features. Although the proposal is similar to the map available on the Airbnb website, it adds useful functionality: specifically, the ability to filter to Airbnbs near attractions and a model that generates a reasonable price range given selected criteria. The proposed model would be particularly helpful. It is similar to a feature on Google Flights that tells the user how flight prices compare to the average.
+- Intuitive design. An interactive map that is filtered by selections made in a sidebar is simple, easy to use, and straightforward.
+- Introduction tab. The use of an introduction tab will provide guidance for first-time users, helping them understand the app’s functionality.
+
+### Gaps
+
+- Data sourcing. If Airbnb is sourced by web scraping, it may not be possible to obtain information on important features (e.g., how many people the Airbnb sleeps) from the main Airbnb page without going to a listing’s individual page. Additionally, Airbnb prices are variable. The price that shows up on Airbnb’s website appears to default to the lowest price available for any date, which may not be reflective of prices for specific dates desired by the user.
+- Separate tabs for attraction selection and accommodation selection. As proposed, both tabs 2 and 3 include an interactive map. Tab 2 shows listings near a selected attraction, while tab 3 shows Airbnbs based on selected accommodations. The use of two separate maps may be confusing.
+- The proposed model that builds a reasonable price range might not always be very helpful. For example, if most of the Airbnbs among selected criteria are already overpriced, then the model may end up considering overpriced Airbnbs as “reasonable,” even when they are not. 
+
+## Key Recommendations:
+
+- Integrate specific tab 2 and 3 functionalities. Consider merging the interactive maps for tabs 2 and 3, allowing users to select both attractions and specific accommodations at once. Tab 3 could be reserved for the statistical model only. Doing so may reduce the amount of code needed for the app and provide a more intuitive interface for the user.
+- Links to Airbnb listings. Consider including links to Airbnb listings within the app so users can easily reserve a listing once they have used the app’s functionality to determine that it is a good fit for them.
+- Comparison tool. Consider adding a feature allowing users to select and compare Airbnbs based on their chosen attractions and accommodations. This tool could enable users to evaluate the differences between two (or potentially more) listings, such as room types and amenities, helping them choose a better listing for their needs.
+
