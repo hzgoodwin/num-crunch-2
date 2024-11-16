@@ -1,41 +1,62 @@
 library(shiny)
+library(tidyverse)
+library(bslib)
+library(DT)
+library(thematic)
+library(showtext)
+
+# Business Logic
+
+## Read Data, Clean Data
+
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
 
-    # Application title
-    titlePanel(""),
-
-    # Sidebar with a slider input for number of bins 
-    sidebarLayout(
-        sidebarPanel(
-            sliderInput("bins",
-                        "Number of bins:",
-                        min = 1,
-                        max = 50,
-                        value = 30)
-        ),
-
-        # Show a plot of the generated distribution
-        mainPanel(
-           plotOutput("distPlot")
-        )
+  theme = bslib::bs_theme(version = 5, bootswatch = "minty"),
+  titlePanel("Against the Spread"),
+  tabsetPanel(
+    tabPanel(
+      "Introduction",
+      textOutput("Add text that explains sports betting terms and the app's usage; see peer review of our group")
+    ),
+    tabPanel("Actual Spread v. Vegas Spread",
+             sidebarLayout(
+               sidebarPanel(
+                 textOutput("This tab allows the user to filter by various characteristics to see how vegas spread compares to actual spread based on selected characteristics.")
+                 # Add inputs for variables we choose
+               ),
+               mainPanel(
+                 plotOutput("Vegas_plot"),
+                 tableOutput("ttest_res")
+               )
+             )
+    ),
+    tabPanel("Spread v. User Selected Variables",
+             sidebarLayout(
+               sidebarPanel(
+                 varSelectInput("ActualX_var", "For the Multiple Regression Plot, select the variable for the X axis", data = (NA)),
+                 varSelectInput("ActualY_var", "For the Multiple Regression Plot, select the variable for the Y axis", data = (NA))
+               ),
+               mainPanel(
+                 plotOutput("MLR_plot"),
+                 verbatimTextOutput("lm_sum")
+               )
+             )
+    ),
+    tabPanel(
+      "Raw Data",
+      checkboxInput("num_only", "Select only numerical variables?"),
+      dataTableOutput("allData")
     )
+  )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic
 server <- function(input, output) {
 
-    output$distPlot <- renderPlot({
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
-
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white',
-             xlab = 'Waiting time to next eruption (in mins)',
-             main = 'Histogram of waiting times')
-    })
+    
 }
 
 # Run the application 
