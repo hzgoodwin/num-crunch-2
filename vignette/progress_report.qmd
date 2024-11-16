@@ -1,0 +1,67 @@
+---
+title: "Progress Report"
+date: today
+toc: true
+format: 
+  html:
+    embed-resources: true
+---
+
+## Admin
+* Course: DATA-413.001/DATA-613.001
+* App title: Against the Spread
+* Group members: Ethan Kobrowski (DATA-413.001), Jacob Federbusch (DATA-613.001), Henry Goodwin (DATA-413.001)
+
+## Topic and data
+* **Updates on context, problem, use case, or literature review:** \
+There have been no significant updates on the context, problem, use case, or literature review of the app. As stated originally, the app is designed to be used by consumers of sports gambling for the following:
+  * To predict how well bookmakers can make predictions about the results of a football game, based on a variety of criteria selected by the user.
+  * To predict the results of a game based on a variety of criteria selected by the user.\
+* **Updates on proposed data sources and project status:** \
+We downloaded a dataset from Pro Football Reference. (Unfortunately, the dataset cannot be linked because it requires a free trial to access). The dataset is sufficient for us to begin constructing our app, and will require minimal cleaning, though tidying will be necessary. Unlike the project proposal, in which we stated that we would use data from the 2021 season and onwards, we ultimately decided to download data from all games stretching back to the 2000 season after discussing it with our peer reviewing group. 2020 was an unusual season because of coronavirus and 2021 was the first seventeen game season, which was our rationale for using the 2021 season onwards. However, our peer reviewing group pointed out that including more data would make our model more robust, and that users would be able to filter the seasons that they are interested in when obtaining the spread for historical games.\
+However, the dataset we downloaded does not include all variables we were interested in, due to two issues. We hope to use the dataset we downloaded temporarily while we figure out the best way to include those additional data. More discussion of the issue with our data source is found in section 6 below.\
+It should be noted that the dataset will not include real-time data, which was identified as a weakness by the reviewing group. Our data source does not offer an API.
+
+## Ethical review
+In our project plan, we described our concerns about providing information that could be seen as financial advice. However, as pointed out in the feedback we received and by the peer reviewing group, sports gambling itself has ethical concerns. As a result, we decided that we will include a disclosure on the new introduction tab for our app that discloses the potential harms of sports, much like a betting site would. It will include a link to the problem gambling hotline.
+
+## App design
+* **Layout:**\
+Our peer reviewing group suggested the addition of an introduction tab (tab 1) to provide background on gambling terminology and explain how the app works, and we will implement their suggestion. Otherwise, no significant changes have been made to the layout of the app. Tab 2 (formerly tab 1) will output graphical and other representation of historical results of NFL games (and corresponding betting lines) based on game and betting characteristics selected by the user. Tab 3 (formerly tab 2) will predict the results of a game with user-selected variables using a multiple linear regression.
+* **User data selection and manipulation:**\
+No significant changes have been made to these features. Tab 2 will allow users to filter NFL game (and corresponding betting line) characteristics, such as the week, the spread, the day of the week the game was played on, the season, etc. Tab 3 will allow users to select (but not filter) the same variables to include in a statistical model to predict a game’s actual spread.
+* **User exploratory analysis/graphical analysis:**\
+No significant changes have been made to these features. Tab 2 will output analysis based on the characteristics selected by the user. This will include some simple information, like how often the favorite beat the spread under those conditions. It would also include graphical analysis. One chart will show how the actual spread compared to the Vegas spread for games with the selected characteristics. Another chart will plot the actual spread over time, allowing the user to see trends in the spread.
+* **User statistical models and tests:**\
+Our peer reviewing group suggested the addition of a confidence interval when predicting a game’s actual spread, and we will implement their suggestion. Otherwise, no significant changes have been made to the statistical model, which will predict a game’s actual spread using a multiple regression on user-selected variables.
+
+## Demonstration outline
+We plan on dividing our fifteen minute oral presentation into three equal five minute parts:
+
+* First, Ethan will give a brief overview of how sports betting (i.e. the spread) works, a background on our data source, and the use case for the app.
+* Next, Henry will give an overview of the app’s structure and workflow, and show how to use the app to filter and obtain the Vegas spread and actual spread for historical NFL games that match specific characteristics.
+* Finally, Jacob will show how to use the app’s statistical model to predict a game’s actual spread based on user-selected characteristics.
+
+Any remaining time will be used to answer audience questions.
+
+## Risk assessment mitigation
+As noted above, we have encountered two issues with our data source. First, certain variables we are interested in, such as field type, cannot be added as a column to our dataset; they can only be used to filter the game data available on the website. Second, other variables, such as the win percentages for the two teams entering the game, do not appear to be available on the data download page–they are only available on the webpage for the specific game. We have emailed the data source to ask if there’s a way to easily obtain these data. In the meantime, we have developed the following mitigation measures:
+
+* For the variables that can only be used to filter the data, we could download multiple datasets, manually add a column with the variable, and then combine them. For example, field type can either be turf or grass. we could download all games on turf, add a column for field type and manually set it to turf. We could then do the same with grass and combine the two datasets. Finally, we could join this dataset with other datasets that we have manually created for other variables.
+* If there is no way to obtain certain other variables, like win percentage, from the main download page, we will look into web scraping all relevant game-specific pages on the website. If that proves infeasible, we may have to manually download data from each game’s page, which will necessarily require limiting the number of seasons, likely back to 2021 onwards.
+* Alternatively, we will look into whether a comprehensive database exists for any other team sports. While Pro Football Reference is the best database for football that we know of that is not behind a paywall, more comprehensive databases may exist for other sports. Our project plan and use case could also apply to other team sports with a spread, like soccer, basketball, and baseball.
+
+## Collaboration
+* **Responsibilities:**
+  * Ethan: Data downloading, cleaning, and tidying.
+  * Henry: Historical spread portion of the app, including plots (previously tab 2, now tab 3).
+  * Jacob: Statistical analysis portion of the app (previously tab 3, now tab 4) and general layout/thematics.
+* **Schedule:**
+  * Gathering data: 11/22
+  * Data Preparation: 11/26
+  * Initial Code: 11/29
+  * Finalize app: 12/6
+  * Final Testing and vignette: Week of the 12/9
+  * Project Due: 12/12
+
+
