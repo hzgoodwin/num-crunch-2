@@ -65,7 +65,7 @@ nfc_north <- c("DET", "MIN", "GNB", "CHI")
 nfc_south <- c("ATL", "TAM", "NOR", "CAR")
 nfc_west <-c("SEA", "ARI", "LAR", "SFO")
 
-temp |>
+temp <- temp |>
   mutate(divisional = case_when(
     (Team %in% afc_west & Opp %in% afc_west) ~ 1,
     (Team %in% afc_east & Opp %in% afc_east) ~ 1,
