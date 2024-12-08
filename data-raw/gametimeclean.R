@@ -1,6 +1,5 @@
-```{r}
 library(tidyverse)
-```
+
 # Run Once
 gametimedata <- read_csv("data-raw/gametimedata.csv")
 View(gametimedata)
