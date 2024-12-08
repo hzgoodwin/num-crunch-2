@@ -78,3 +78,5 @@ temp <- temp |>
     TRUE ~ 0
   )
 )
+
+write_csv(temp, "./data-raw/merged_data.csv")
