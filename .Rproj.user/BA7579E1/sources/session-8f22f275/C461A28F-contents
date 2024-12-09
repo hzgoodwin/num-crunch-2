@@ -1,4 +1,0 @@
-import math
-x = 2 * math.pi
-print(x)
-type(x)
