@@ -2,7 +2,7 @@ library(tidyverse)
 
 # loading data
 game_time <- read_csv("./data-raw/gametimedata.csv")
-bye_week <- read_csv("./data-raw/bye_week.csv")
+bye_week <- read_csv("./data-raw/bye_week2.csv")
 team_records <- read_csv("./data-raw/team_records.csv")
 
 # tidying col names
@@ -20,7 +20,7 @@ game_time$Week <- as.numeric(game_time$Week)
 # combining
 temp <- game_time |>
   select(Team, Date, `G#`, Week, `Game time`) |>
-  inner_join(bye_week, ., by = c("Team", "Date", "G#", "Week"))
+  left_join(bye_week, ., by = c("Team", "Date", "G#", "Week"))
 
 # converting to date
 temp$Date <- mdy(temp$Date)
