@@ -2,7 +2,7 @@ library(tidyverse)
 
 # loading data
 game_time <- read_csv("./data-raw/gametimedata.csv")
-bye_week <- read_csv("./data-raw/bye_week.csv")
+bye_week <- read_csv("./data-raw/bye_week2.csv")
 team_records <- read_csv("./data-raw/team_records.csv")
 
 # tidying col names
@@ -20,7 +20,7 @@ game_time$Week <- as.numeric(game_time$Week)
 # combining
 temp <- game_time |>
   select(Team, Date, `G#`, Week, `Game time`) |>
-  inner_join(bye_week, ., by = c("Team", "Date", "G#", "Week"))
+  left_join(bye_week, ., by = c("Team", "Date", "G#", "Week"))
 
 # converting to date
 temp$Date <- mdy(temp$Date)
@@ -37,13 +37,11 @@ temp <- temp |>
 ) # not all seasons have the same number of games -- some seasons are missing a few
 # games that did not have recorded temperatures
 
-# cleaning team records
-team_records <- team_records |> rename(win_percentage = `W-L%...4`)
-
 # merging
-team_records <- team_records |>
+team_records <- team_records |> 
+  rename(win_percentage = `W-L%...4`) |>
   select(Season, Team, win_percentage)
-         
+
 team_records$Season <- as.character(team_records$Season)
 
 temp <- inner_join(team_records, temp, by = c("Season", "Team"))
@@ -79,4 +77,18 @@ temp <- temp |>
   )
 )
 
-write_csv(temp, "./data-raw/merged_data.csv")
+# removing extra columns
+temp <- temp |> select(!(Rk|Spread...13 |`Over/Under...15`))
+
+# one observation per row
+temp <- temp |>
+  mutate(
+    home_team = if_else(Location == "home", Team, Opp),
+    away_team = if_else(Location == "away", Team, Opp)
+  )
+
+temp |> pivot_wider(
+  id_cols = c(Season, Date, home_team, away_team, Temperature, divisional, Week, `Game time`, `Over/Under...5`, Day),
+  names_from = Location,
+  values_from = c(Team, win_percentage, Spread...4, Location, Opp, Result, `vs. Line`, `OU Result`, after_bye)
+)
