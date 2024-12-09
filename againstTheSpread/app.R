@@ -45,10 +45,19 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel(
-      "Raw Data",
-      checkboxInput("num_only", "Select only numerical variables?"),
-      dataTableOutput("allData")
+    tabPanel("Spread v. User Selected Variables",
+             sidebarLayout(
+               sidebarPanel(
+                 checkboxGroupInput("X_var", "Report Year of Interest:", 
+                                    choices = names(dataset),
+                                    selected = "NA"),
+                 varSelectInput("ActualY_var", "For the Multiple Regression Plot, select the variable for the Y axis", data = (NA))
+               ),
+               mainPanel(
+                 plotOutput("MLR_plot"),
+                 verbatimTextOutput("lm_sum")
+               )
+             )
     )
   )
 )
@@ -56,7 +65,10 @@ ui <- fluidPage(
 # Define server logic
 server <- function(input, output) {
 
-    
+    model_formula <- reactive({
+      req(input$X_var)
+      as.formula(paste0("spread" ~ paste(input$X_var, collapse = " + ")))
+    })
 }
 
 # Run the application 
