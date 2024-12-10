@@ -70,9 +70,7 @@ ui <- fluidPage(
              sidebarLayout(
                sidebarPanel(
                  checkboxGroupInput("X_var", "Report Year of Interest:", 
-                                    choices = names(data),
-                                    selected = "NA"),
-                 varSelectInput("ActualY_var", "For the Multiple Regression Plot, select the variable for the Y axis", data = (NA))
+                                    choices = names(data))
                ),
                mainPanel(
                  plotOutput("MLR_plot"),
@@ -110,9 +108,12 @@ server <- function(input, output) {
     })
   
 
-    model_formula <- reactive({
-      req(input$X_var)
-      as.formula(paste0("spread" ~ paste(input$X_var, collapse = " + ")))
+    model <- reactive({
+      validate(
+        need(length(input$X_var) > 0, "Select at least one predictor to display linear model")
+      )
+      lm(as.formula(paste0("spread_home" ~ paste(input$X_var, collapse = " + "))),
+         data = data)
     })
     
     output$spread_vs_actual <- renderPlotly({
