@@ -81,9 +81,13 @@ server <- function(input, output) {
     
     output$time_graph <- renderPlot({
       data |>
-        mutate(yearless_date = format(date, "%m-%d")) |>
-        ggplot(aes(yearless_date, actual_result_home)) +
-        geom_point(alpha = 0.4)
+        mutate(month_day = format(date, "%m-%d")) |>
+        ggplot(aes(x = month_day, y = actual_result_home, color = as.factor(season))) +
+        geom_point(alpha = 0.6) +
+        scale_x_discrete(
+          labels = scales::date_format("%m-%d")
+        ) +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1))
     })
 
 }
