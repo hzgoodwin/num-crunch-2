@@ -1,4 +1,5 @@
 library(tidyverse)
+library(janitor)
 
 # loading data
 game_time <- read_csv("./data-raw/gametimedata.csv")
@@ -14,13 +15,12 @@ game_time <- distinct(game_time)
 bye_week <- distinct(bye_week)
 
 # fixing types
-game_time$`G#` <- as.numeric(game_time$`G#`)
 game_time$Week <- as.numeric(game_time$Week)
 
 # combining
 temp <- game_time |>
-  select(Team, Date, `G#`, Week, `Game time`) |>
-  left_join(bye_week, ., by = c("Team", "Date", "G#", "Week"))
+  select(Team, Date, Week, `Game time`) |>
+  inner_join(bye_week, by = c("Team", "Date", "Week"))
 
 # converting to date
 temp$Date <- mdy(temp$Date)
@@ -48,7 +48,7 @@ temp <- inner_join(team_records, temp, by = c("Season", "Team"))
 
 # fixing home and away
 temp <- temp |>
-  rename(Location = `...10`)
+  rename(Location = `...9`)
 
 temp$Location[is.na(temp$Location)] <- "home"
 temp$Location[temp$Location == "@"] <- "away"
@@ -78,17 +78,32 @@ temp <- temp |>
 )
 
 # removing extra columns
-temp <- temp |> select(!(Rk|Spread...13 |`Over/Under...15`))
+temp <- temp |> select(!(Rk|Spread...12))
 
 # one observation per row
 temp <- temp |>
   mutate(
     home_team = if_else(Location == "home", Team, Opp),
     away_team = if_else(Location == "away", Team, Opp)
-  )
+  ) 
 
-temp |> pivot_wider(
-  id_cols = c(Season, Date, home_team, away_team, Temperature, divisional, Week, `Game time`, `Over/Under...5`, Day),
+temp <- temp |> distinct() |> pivot_wider(
+  id_cols = c(Season, Date, home_team, away_team, Temperature, divisional, Week, 
+              `Game time`, `Over/Under`, Day, `OU Result`),
   names_from = Location,
-  values_from = c(Team, win_percentage, Spread...4, Location, Opp, Result, `vs. Line`, `OU Result`, after_bye)
-)
+  values_from = c(win_percentage, Spread...4, Result, `vs. Line`, after_bye))
+
+# removing problematic rows
+temp <- temp |> drop_na()
+
+# tidying names
+temp <- temp |> clean_names()
+
+temp <- temp |>
+  rename(spread_away = spread_4_away,
+         spread_home = spread_4_home)
+
+# adding result
+temp |>
+  mutate(actual_result_home = ,
+         actual_result_away = )
