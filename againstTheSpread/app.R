@@ -72,7 +72,8 @@ ui <- fluidPage(
                  checkboxGroupInput("X_var", "Report Year of Interest:", 
                                     choices = names(data)),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
-                 varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data)
+                 varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data),
+                 numericInput("predmeanYIn", "Single Value of Predictor to Predict Spread", value = 0, min = 0, max = 1)
                ),
                mainPanel(
                  verbatimTextOutput("lm_sum"),
@@ -81,7 +82,8 @@ ui <- fluidPage(
                  plotOutput("qqplot"),
                  plotOutput("resplotpred"),
                  plotOutput("MLR_plot"),
-                 plotOutput("timeplot")
+                 plotOutput("timeplot"),
+                 verbarimTextOutput("predmeanYOut")
                )
              )
     )
@@ -180,6 +182,16 @@ server <- function(input, output) {
       ggplot(data = data, aes(x = date, y = resid(model()))) +
         geom_line() +
         geom_point()
+    })
+    
+    # Predict mean of Y at single obs:
+    
+    output$predmeanY <- renderPrint({
+      validate(
+        need(length(input$X_var) > 0, message = FALSE)
+      )
+      predict(model(), newdata = data.frame(data[[input$plotpred]] = 0),
+              interval = "confidence", level = input$conflev)
     })
     
     
