@@ -31,7 +31,8 @@ ui <- fluidPage(
                  # Add inputs for variables we choose
                ),
                mainPanel(
-                 plotOutput("Vegas_plot"),
+                 verbatimTextOutput("results_text"),
+                 plotOutput("spread_vs_actual"),
                  tableOutput("ttest_res")
                )
              )
@@ -61,9 +62,24 @@ server <- function(input, output) {
       as.formula(paste0("spread" ~ paste(input$X_var, collapse = " + ")))
     })
     
-    output$two_var_plot <- renderPlot({
+    output$spread_vs_actual <- renderPlot({
+      ggplot(data, aes(spread_home, actual_result_home)) +
+        geom_point(alpha = .4) +
+        geom_abline(slope=1, color= "blue")
+      })
     
-}
+    output$results_text <- renderText({
+      paste0(
+      "Percent of games in which the home team covered the spread: ",
+      round(filter(data, vs_line_home == "covered") |> nrow()*100 /nrow(data), 2), "%\n",
+      "Percent of games in which the away team covered the spread: ",
+      round(filter(data, vs_line_away == "covered") |> nrow()*100 /nrow(data), 2), "%\n",
+      "Percent of games in where the teams pushed: ",
+      round(filter(data, vs_line_home == "push") |> nrow()*100 /nrow(data), 2), "%"
+      )
+    })
 
+}
+        
 # Run the application 
 shinyApp(ui = ui, server = server)
