@@ -12,7 +12,7 @@ library(plotly)
 data <- read_csv("../data/data.csv")
 
 teams <- c("--All--", str_sort(unique(data$home_team)))
-# cleaning done in final_cleaning.R file
+# cleaning done in final_cleaning.R file in raw-data directory
 
 ## UI
 ui <- fluidPage(
@@ -70,18 +70,13 @@ ui <- fluidPage(
              sidebarLayout(
                sidebarPanel(
                  checkboxGroupInput("X_var", "Report Year of Interest:", 
-                                    choices = names(data)),
-                 sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
-                 varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data)
+                                    choices = names(data),
+                                    selected = "NA"),
+                 varSelectInput("ActualY_var", "For the Multiple Regression Plot, select the variable for the Y axis", data = (NA))
                ),
                mainPanel(
-                 verbatimTextOutput("lm_sum"),
-                 verbatimTextOutput("confint"),
-                 plotOutput("resplotfit"),
-                 plotOutput("qqplot"),
-                 plotOutput("resplotpred"),
                  plotOutput("MLR_plot"),
-                 plotOutput("timeplot")
+                 verbatimTextOutput("lm_sum")
                )
              )
     )
@@ -115,73 +110,10 @@ server <- function(input, output) {
     })
   
 
-    model <- reactive({
-      validate(
-        need(length(input$X_var) > 0, message = FALSE)
-      )
-      lm(as.formula(paste0("spread_home ~ ", paste(input$X_var, collapse = "+"))),
-         data = data)
+    model_formula <- reactive({
+      req(input$X_var)
+      as.formula(paste0("spread" ~ paste(input$X_var, collapse = " + ")))
     })
-    
-    output$lm_sum <- renderPrint({
-      validate(
-        need(length(input$X_var) > 0, "Select at least one predictor to display linear model")
-      )
-      print(summary(model()))
-    })
-    
-    output$confint <- renderPrint({
-      confint(model(), level = input$conflev)
-    })
-    
-    output$resplotfit <- renderPlot({
-      ggplot(mapping = aes(x = fitted(model()), y = resid(model()))) +
-        geom_point() +
-        geom_hline(yintercept = 0)
-    })
-    
-    output$qqplot <- renderPlot({
-      ggplot(mapping = aes(sample = resid(model()))) +
-        geom_qq() +
-        geom_qq_line()
-    })
-    
-    observe({
-      updateVarSelectInput(inputId = "plotpred", data = data |> dplyr::select(input$X_var))
-    }) |> 
-      bindEvent(model())
-    
-    output$resplotpred <- renderPlot({
-      validate(
-        need(length(input$X_var) > 0, message = FALSE)
-      )
-      ggplot(data = data, mapping = aes(x = !!(input$plotpred), y = resid(model()))) +
-        geom_point() +
-        geom_hline(yintercept = 0)
-    })
-    
-    # correlation plot
-    
-    output$MLR_plot <- renderPlot({
-      validate(
-        need(length(input$X_var) > 0, message = FALSE)
-      )
-      ggplot(data = data, aes(x = !!(input$plotpred), y = spread_home)) +
-        geom_point() +
-        geom_smooth(method = lm, se = FALSE)
-    })
-    
-    # time-correlation plot
-    
-    output$timeplot <- renderPlot({
-      validate(
-        need(length(input$X_var) > 0, message = FALSE)
-      )
-      ggplot(data = data, aes(x = date, y = resid(model()))) +
-        geom_line() +
-        geom_point()
-    })
-    
     
     output$spread_vs_actual <- renderPlotly({
       p1 <- ggplot(filtered_data(), aes(spread_home, actual_result_home, 
