@@ -70,11 +70,13 @@ ui <- fluidPage(
              sidebarLayout(
                sidebarPanel(
                  checkboxGroupInput("X_var", "Report Year of Interest:", 
-                                    choices = names(data))
+                                    choices = names(data)),
+                 sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
                ),
                mainPanel(
                  plotOutput("MLR_plot"),
-                 verbatimTextOutput("lm_sum")
+                 verbatimTextOutput("lm_sum"),
+                 verbatimTextOutput("confint")
                )
              )
     )
@@ -110,14 +112,21 @@ server <- function(input, output) {
 
     model <- reactive({
       validate(
-        need(length(input$X_var) > 0, "Select at least one predictor to display linear model")
+        need(length(input$X_var) > 0, message = FALSE)
       )
       lm(as.formula(paste0("spread_home ~ ", paste(input$X_var, collapse = "+"))),
          data = data)
     })
     
     output$lm_sum <- renderPrint({
+      validate(
+        need(length(input$X_var) > 0, "Select at least one predictor to display linear model")
+      )
       print(summary(model()))
+    })
+    
+    output$confint <- renderPrint({
+      confint(model(), level = input$conflev)
     })
     
     output$spread_vs_actual <- renderPlotly({
