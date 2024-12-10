@@ -1,0 +1,1993 @@
+﻿,,,,,,,,,,,,,,,,
+Rk,Team,Date,Spread,Over/Under,Temperature,Day,G#,Week,,Opp,Result,Spread,vs. Line,Over/Under,OU Result,Game time
+1,SEA,12/1/24,0,42,37,Sun,12,13,@,NYJ,W 26-21,0,covered,42,over,early
+2,TEN,12/1/24,6,44.5,42,Sun,12,13,@,WAS,L 19-42,6,did not cover,44.5,over,early
+3,WAS,12/1/24,-6,44.5,42,Sun,13,13,,TEN,W 42-19,-6,covered,44.5,over,early
+4,ARI,12/1/24,3.5,44.5,12,Sun,12,13,@,MIN,L 22-23,3.5,covered,44.5,over,early
+5,MIN,12/1/24,-3.5,44.5,12,Sun,12,13,,ARI,W 23-22,-3.5,did not cover,44.5,over,early
+6,IND,12/1/24,-2.5,42.5,36,Sun,13,13,@,NWE,W 25-24,-2.5,did not cover,42.5,over,early
+7,NYJ,12/1/24,0,42,37,Sun,12,13,,SEA,L 21-26,0,did not cover,42,over,early
+8,CIN,12/1/24,-3,47,32,Sun,12,13,,PIT,L 38-44,-3,did not cover,47,over,early
+9,NWE,12/1/24,2.5,42.5,36,Sun,13,13,,IND,L 24-25,2.5,covered,42.5,over,early
+10,PIT,12/1/24,3,47,32,Sun,12,13,@,CIN,W 44-38,3,covered,47,over,early
+11,CHI,11/28/24,9.5,48,38,Thu,12,13,@,DET,L 20-23,9.5,covered,48,under,early
+12,DET,11/28/24,-9.5,48,38,Thu,12,13,,CHI,W 23-20,-9.5,did not cover,48,under,early
+13,IND,11/24/24,7.5,50,51,Sun,12,12,,DET,L 6-24,7.5,did not cover,50,under,early
+14,DAL,11/24/24,10.5,45,55,Sun,11,12,@,WAS,W 34-26,10.5,covered,45,over,early
+15,DET,11/24/24,-7.5,50,51,Sun,11,12,@,IND,W 24-6,-7.5,covered,50,under,early
+16,CHI,11/24/24,3.5,39.5,47,Sun,11,12,,MIN,L 27-30 (OT),3.5,covered,39.5,over,early
+17,TEN,11/24/24,9,40.5,78,Sun,11,12,@,HOU,W 32-27,9,covered,40.5,over,early
+18,MIA,11/24/24,-7,46,77,Sun,11,12,,NWE,W 34-15,-7,covered,46,over,early
+19,NYG,11/24/24,6,40.5,50,Sun,11,12,,TAM,L 7-30,6,did not cover,40.5,under,early
+20,MIN,11/24/24,-3.5,39.5,47,Sun,11,12,@,CHI,W 30-27 (OT),-3.5,did not cover,39.5,over,early
+21,CAR,11/24/24,11,43,61,Sun,11,12,,KAN,L 27-30,11,covered,43,over,early
+22,KAN,11/24/24,-11,43,61,Sun,11,12,@,CAR,W 30-27,-11,did not cover,43,over,early
+23,TAM,11/24/24,-6,40.5,50,Sun,11,12,@,NYG,W 30-7,-6,covered,40.5,under,early
+24,WAS,11/24/24,-10.5,45,55,Sun,12,12,,DAL,L 26-34,-10.5,did not cover,45,over,early
+25,NWE,11/24/24,7,46,77,Sun,12,12,@,MIA,L 15-34,7,did not cover,46,over,early
+26,HOU,11/24/24,-9,40.5,78,Sun,12,12,,TEN,L 27-32,-9,did not cover,40.5,over,early
+27,NOR,11/17/24,1,44,76,Sun,11,11,,CLE,W 35-14,1,covered,44,over,early
+28,PIT,11/17/24,3,48.5,52,Sun,10,11,,BAL,W 18-16,3,covered,48.5,under,early
+29,MIA,11/17/24,-7.5,43.5,80,Sun,10,11,,LVR,W 34-19,-7.5,covered,43.5,over,early
+30,NWE,11/17/24,4.5,43.5,59,Sun,11,11,,LAR,L 22-28,4.5,did not cover,43.5,over,early
+31,DET,11/17/24,-14,47,68,Sun,10,11,,JAX,W 52-6,-14,covered,47,over,early
+32,CHI,11/17/24,5.5,40.5,54,Sun,10,11,,GNB,L 19-20,5.5,covered,40.5,under,early
+33,BAL,11/17/24,-3,48.5,52,Sun,11,11,@,PIT,L 16-18,-3,did not cover,48.5,under,early
+34,LAR,11/17/24,-4.5,43.5,59,Sun,10,11,@,NWE,W 28-22,-4.5,covered,43.5,over,early
+35,LVR,11/17/24,7.5,43.5,80,Sun,10,11,@,MIA,L 19-34,7.5,did not cover,43.5,over,early
+36,IND,11/17/24,4,43.5,62,Sun,11,11,@,NYJ,W 28-27,4,covered,43.5,over,early
+37,GNB,11/17/24,-5.5,40.5,54,Sun,10,11,@,CHI,W 20-19,-5.5,did not cover,40.5,under,early
+38,JAX,11/17/24,14,47,68,Sun,11,11,@,DET,L 6-52,14,did not cover,47,over,early
+39,CLE,11/17/24,-1,44,76,Sun,10,11,@,NOR,L 14-35,-1,did not cover,44,over,early
+40,NYJ,11/17/24,-4,43.5,62,Sun,11,11,,IND,L 27-28,-4,did not cover,43.5,over,early
+41,MIN,11/17/24,-6,39.5,66,Sun,10,11,@,TEN,W 23-13,-6,covered,39.5,under,early
+42,TEN,11/17/24,6,39.5,66,Sun,10,11,,MIN,L 13-23,6,did not cover,39.5,under,early
+43,NYG,11/10/24,-6.5,40.5,40,Sun,10,10,@,CAR,L 17-20 (OT),-6.5,did not cover,40.5,under,early
+44,PIT,11/10/24,2.5,45.5,57,Sun,9,10,@,WAS,W 28-27,2.5,covered,45.5,over,early
+45,CHI,11/10/24,-6,38.5,60,Sun,9,10,,NWE,L 3-19,-6,did not cover,38.5,under,early
+46,JAX,11/10/24,7,43.5,79,Sun,10,10,,MIN,L 7-12,7,covered,43.5,under,early
+47,BUF,11/10/24,-4,46.5,63,Sun,10,10,@,IND,W 30-20,-4,covered,46.5,over,early
+48,CAR,11/10/24,6.5,40.5,40,Sun,10,10,,NYG,W 20-17 (OT),6.5,covered,40.5,under,early
+49,MIN,11/10/24,-7,43.5,79,Sun,9,10,@,JAX,W 12-7,-7,did not cover,43.5,under,early
+50,NOR,11/10/24,3.5,46.5,78,Sun,10,10,,ATL,W 20-17,3.5,covered,46.5,under,early
+51,IND,11/10/24,4,46.5,63,Sun,10,10,,BUF,L 20-30,4,did not cover,46.5,over,early
+52,WAS,11/10/24,-2.5,45.5,57,Sun,10,10,,PIT,L 27-28,-2.5,did not cover,45.5,over,early
+53,DEN,11/10/24,7.5,42,57,Sun,10,10,@,KAN,L 14-16,7.5,covered,42,under,early
+54,KAN,11/10/24,-7.5,42,57,Sun,9,10,,DEN,W 16-14,-7.5,did not cover,42,under,early
+55,TAM,11/10/24,6.5,50.5,85,Sun,10,10,,SFO,L 20-23,6.5,covered,50.5,under,early
+56,NWE,11/10/24,6,38.5,60,Sun,10,10,@,CHI,W 19-3,6,covered,38.5,under,early
+57,SFO,11/10/24,-6.5,50.5,85,Sun,9,10,@,TAM,W 23-20,-6.5,did not cover,50.5,under,early
+58,ATL,11/10/24,-3.5,46.5,78,Sun,10,10,@,NOR,L 17-20,-3.5,did not cover,46.5,under,early
+59,CIN,11/3/24,-7,45,67,Sun,9,9,,LVR,W 41-24,-7,covered,45,over,early
+60,LAC,11/3/24,-1,42.5,57,Sun,8,9,@,CLE,W 27-10,-1,covered,42.5,under,early
+61,DAL,11/3/24,3,52,66,Sun,8,9,@,ATL,L 21-27,3,did not cover,52,under,early
+62,DEN,11/3/24,9.5,46.5,57,Sun,9,9,@,BAL,L 10-41,9.5,did not cover,46.5,over,early
+63,LVR,11/3/24,7,45,67,Sun,9,9,@,CIN,L 24-41,7,did not cover,45,over,early
+64,NOR,11/3/24,-7,43.5,66,Sun,9,9,@,CAR,L 22-23,-7,did not cover,43.5,over,early
+65,CAR,11/3/24,7,43.5,66,Sun,9,9,,NOR,W 23-22,7,covered,43.5,over,early
+66,MIA,11/3/24,6,49.5,54,Sun,8,9,@,BUF,L 27-30,6,covered,49.5,over,early
+67,BUF,11/3/24,-6,49.5,54,Sun,9,9,,MIA,W 30-27,-6,did not cover,49.5,over,early
+68,NYG,11/3/24,4,44,52,Sun,9,9,,WAS,L 22-27,4,did not cover,44,over,early
+69,WAS,11/3/24,-4,44,52,Sun,9,9,@,NYG,W 27-22,-4,covered,44,over,early
+70,CLE,11/3/24,1,42.5,57,Sun,9,9,,LAC,L 10-27,1,did not cover,42.5,under,early
+71,TEN,11/3/24,-3.5,38.5,75,Sun,8,9,,NWE,W 20-17 (OT),-3.5,did not cover,38.5,under,early
+72,NWE,11/3/24,3.5,38.5,75,Sun,9,9,@,TEN,L 17-20 (OT),3.5,covered,38.5,under,early
+73,ATL,11/3/24,-3,52,66,Sun,9,9,,DAL,W 27-21,-3,covered,52,under,early
+74,BAL,11/3/24,-9.5,46.5,57,Sun,9,9,,DEN,W 41-10,-9.5,covered,46.5,over,early
+75,CIN,10/27/24,-2.5,47.5,59,Sun,8,8,,PHI,L 17-37,-2.5,did not cover,47.5,over,early
+76,ARI,10/27/24,4,46,82,Sun,8,8,@,MIA,W 28-27,4,covered,46,over,early
+77,NWE,10/27/24,7,41,53,Sun,8,8,,NYJ,W 25-22,7,covered,41,over,early
+78,NYJ,10/27/24,-7,41,53,Sun,8,8,@,NWE,L 22-25,-7,did not cover,41,over,early
+79,GNB,10/27/24,-4,49.5,84,Sun,8,8,@,JAX,W 30-27,-4,did not cover,49.5,over,early
+80,MIA,10/27/24,-4,46,82,Sun,7,8,,ARI,L 27-28,-4,did not cover,46,over,early
+81,ATL,10/27/24,-2.5,45.5,79,Sun,8,8,@,TAM,W 31-26,-2.5,covered,45.5,over,early
+82,CLE,10/27/24,9,45.5,52,Sun,8,8,,BAL,W 29-24,9,covered,45.5,over,early
+83,TEN,10/27/24,11.5,44.5,56,Sun,7,8,@,DET,L 14-52,11.5,did not cover,44.5,over,early
+84,PHI,10/27/24,2.5,47.5,59,Sun,7,8,@,CIN,W 37-17,2.5,covered,47.5,over,early
+85,DET,10/27/24,-11.5,44.5,56,Sun,7,8,,TEN,W 52-14,-11.5,covered,44.5,over,early
+86,HOU,10/27/24,-5,45.5,82,Sun,8,8,,IND,W 23-20,-5,did not cover,45.5,under,early
+87,IND,10/27/24,5,45.5,82,Sun,8,8,@,HOU,L 20-23,5,covered,45.5,under,early
+88,JAX,10/27/24,4,49.5,84,Sun,8,8,,GNB,L 27-30,4,covered,49.5,over,early
+89,BAL,10/27/24,-9,45.5,52,Sun,8,8,@,CLE,L 24-29,-9,did not cover,45.5,over,early
+90,TAM,10/27/24,2.5,45.5,79,Sun,8,8,,ATL,L 26-31,2.5,did not cover,45.5,over,early
+91,ATL,10/20/24,-3,52,69,Sun,7,7,,SEA,L 14-34,-3,did not cover,52,under,early
+92,BUF,10/20/24,-9.5,41,66,Sun,7,7,,TEN,W 34-10,-9.5,covered,41,over,early
+93,SEA,10/20/24,3,52,69,Sun,7,7,@,ATL,W 34-14,3,covered,52,under,early
+94,HOU,10/20/24,3,48,72,Sun,7,7,@,GNB,L 22-24,3,covered,48,under,early
+95,MIN,10/20/24,-1,50.5,69,Sun,6,7,,DET,L 29-31,-1,did not cover,50.5,over,early
+96,JAX,10/20/24,-6.5,42.5,63,Sun,7,7,,NWE,W 32-16,-6.5,covered,42.5,over,early
+97,CIN,10/20/24,-5.5,41,62,Sun,7,7,@,CLE,W 21-14,-5.5,covered,41,under,early
+98,NYG,10/20/24,3,43,71,Sun,7,7,,PHI,L 3-28,3,did not cover,43,under,early
+99,DET,10/20/24,1,50.5,69,Sun,6,7,@,MIN,W 31-29,1,covered,50.5,over,early
+100,TEN,10/20/24,9.5,41,66,Sun,6,7,@,BUF,L 10-34,9.5,did not cover,41,over,early
+101,PHI,10/20/24,-3,43,71,Sun,6,7,@,NYG,W 28-3,-3,covered,43,under,early
+102,NWE,10/20/24,6.5,42.5,63,Sun,7,7,@,JAX,L 16-32,6.5,did not cover,42.5,over,early
+103,CLE,10/20/24,5.5,41,62,Sun,7,7,,CIN,L 14-21,5.5,did not cover,41,under,early
+104,MIA,10/20/24,3,43.5,68,Sun,6,7,@,IND,L 10-16,3,did not cover,43.5,under,early
+105,GNB,10/20/24,-3,48,72,Sun,7,7,,HOU,W 24-22,-3,did not cover,48,under,early
+106,IND,10/20/24,-3,43.5,68,Sun,7,7,,MIA,W 16-10,-3,covered,43.5,under,early
+107,TEN,10/13/24,-2.5,43,80,Sun,5,6,,IND,L 17-20,-2.5,did not cover,43,under,early
+108,WAS,10/13/24,6.5,51.5,75,Sun,6,6,@,BAL,L 23-30,6.5,did not cover,51.5,over,early
+109,CLE,10/13/24,9.5,42.5,82,Sun,6,6,@,PHI,L 16-20,9.5,covered,42.5,under,early
+110,ARI,10/13/24,5.5,47,50,Sun,6,6,@,GNB,L 13-34,5.5,did not cover,47,push,early
+111,BAL,10/13/24,-6.5,51.5,75,Sun,6,6,,WAS,W 30-23,-6.5,covered,51.5,over,early
+112,CHI,10/13/24,1,45,54,Sun,6,6,,JAX,W 35-16,1,covered,45,over,early
+113,HOU,10/13/24,-7,37.5,53,Sun,6,6,@,NWE,W 41-21,-7,covered,37.5,over,early
+114,JAX,10/13/24,-1,45,54,Sun,6,6,@,CHI,L 16-35,-1,did not cover,45,over,early
+115,IND,10/13/24,2.5,43,80,Sun,6,6,@,TEN,W 20-17,2.5,covered,43,under,early
+116,TAM,10/13/24,-3.5,41.5,76,Sun,6,6,@,NOR,W 51-27,-3.5,covered,41.5,over,early
+117,GNB,10/13/24,-5.5,47,50,Sun,6,6,,ARI,W 34-13,-5.5,covered,47,push,early
+118,NOR,10/13/24,3.5,41.5,76,Sun,6,6,,TAM,L 27-51,3.5,did not cover,41.5,over,early
+119,NWE,10/13/24,7,37.5,53,Sun,6,6,,HOU,L 21-41,7,did not cover,37.5,over,early
+120,PHI,10/13/24,-9.5,42.5,82,Sun,5,6,,CLE,W 20-16,-9.5,did not cover,42.5,under,early
+121,CAR,10/6/24,4,40.5,74,Sun,5,5,@,CHI,L 10-36,4,did not cover,40.5,over,early
+122,CLE,10/6/24,3,43.5,73,Sun,5,5,@,WAS,L 13-34,3,did not cover,43.5,over,early
+123,BUF,10/6/24,1,47.5,86,Sun,5,5,@,HOU,L 20-23,1,did not cover,47.5,under,early
+124,NWE,10/6/24,1,35,65,Sun,5,5,,MIA,L 10-15,1,did not cover,35,under,early
+125,MIA,10/6/24,-1,35,65,Sun,5,5,@,NWE,W 15-10,-1,covered,35,under,early
+126,WAS,10/6/24,-3,43.5,73,Sun,5,5,,CLE,W 34-13,-3,covered,43.5,over,early
+127,HOU,10/6/24,-1,47.5,86,Sun,5,5,,BUF,W 23-20,-1,covered,47.5,under,early
+128,CHI,10/6/24,-4,40.5,74,Sun,5,5,,CAR,W 36-10,-4,covered,40.5,over,early
+129,NYJ,10/6/24,2.5,41,59,Sun,5,5,@,MIN,L 17-23,2.5,did not cover,41,under,early
+130,CIN,10/6/24,1,48.5,81,Sun,5,5,,BAL,L 38-41 (OT),1,did not cover,48.5,over,early
+131,IND,10/6/24,3,45,74,Sun,5,5,@,JAX,L 34-37,3,push,45,over,early
+132,BAL,10/6/24,-1,48.5,81,Sun,5,5,@,CIN,W 41-38 (OT),-1,covered,48.5,over,early
+133,MIN,10/6/24,-2.5,41,59,Sun,5,5,,NYJ,W 23-17,-2.5,covered,41,under,early
+134,JAX,10/6/24,-3,45,74,Sun,5,5,,IND,W 37-34,-3,push,45,over,early
+135,ATL,9/29/24,-2.5,41,75,Sun,4,4,,NOR,W 26-24,-2.5,did not cover,41,over,early
+136,TAM,9/29/24,1,42.5,88,Sun,4,4,,PHI,W 33-16,1,covered,42.5,over,early
+137,PHI,9/29/24,-1,42.5,88,Sun,4,4,@,TAM,L 16-33,-1,did not cover,42.5,over,early
+138,DEN,9/29/24,9,40,67,Sun,4,4,@,NYJ,W 10-9,9,covered,40,under,early
+139,GNB,9/29/24,-3,44,71,Sun,4,4,,MIN,L 29-31,-3,did not cover,44,over,early
+140,CIN,9/29/24,-4.5,47,78,Sun,4,4,@,CAR,W 34-24,-4.5,covered,47,over,early
+141,NYJ,9/29/24,-9,40,67,Sun,4,4,,DEN,L 9-10,-9,did not cover,40,under,early
+142,JAX,9/29/24,5.5,44.5,82,Sun,4,4,@,HOU,L 20-24,5.5,covered,44.5,under,early
+143,PIT,9/29/24,-1,40.5,70,Sun,4,4,@,IND,L 24-27,-1,did not cover,40.5,over,early
+144,IND,9/29/24,1,40.5,70,Sun,4,4,,PIT,W 27-24,1,covered,40.5,over,early
+145,HOU,9/29/24,-5.5,44.5,82,Sun,4,4,,JAX,W 24-20,-5.5,did not cover,44.5,under,early
+146,CHI,9/29/24,-3,40.5,70,Sun,4,4,,LAR,W 24-18,-3,covered,40.5,over,early
+147,MIN,9/29/24,3,44,71,Sun,4,4,@,GNB,W 31-29,3,covered,44,over,early
+148,CAR,9/29/24,4.5,47,78,Sun,4,4,,CIN,L 24-34,4.5,did not cover,47,over,early
+149,NOR,9/29/24,2.5,41,75,Sun,4,4,@,ATL,L 24-26,2.5,covered,41,over,early
+150,LAR,9/29/24,3,40.5,70,Sun,4,4,@,CHI,L 18-24,3,did not cover,40.5,over,early
+151,PHI,9/22/24,2.5,49.5,87,Sun,3,3,@,NOR,W 15-12,2.5,covered,49.5,under,early
+152,MIN,9/22/24,1,46.5,63,Sun,3,3,,HOU,W 34-7,1,covered,46.5,under,early
+153,TEN,9/22/24,-3,37.5,87,Sun,3,3,,GNB,L 14-30,-3,did not cover,37.5,over,early
+154,TAM,9/22/24,-6,41,85,Sun,3,3,,DEN,L 7-26,-6,did not cover,41,under,early
+155,LAC,9/22/24,1,34.5,72,Sun,3,3,@,PIT,L 10-20,1,did not cover,34.5,under,early
+156,NOR,9/22/24,-2.5,49.5,87,Sun,3,3,,PHI,L 12-15,-2.5,did not cover,49.5,under,early
+157,PIT,9/22/24,-1,34.5,72,Sun,3,3,,LAC,W 20-10,-1,covered,34.5,under,early
+158,DEN,9/22/24,6,41,85,Sun,3,3,@,TAM,W 26-7,6,covered,41,under,early
+159,HOU,9/22/24,-1,46.5,63,Sun,3,3,@,MIN,L 7-34,-1,did not cover,46.5,under,early
+160,NYG,9/22/24,6.5,38.5,76,Sun,3,3,@,CLE,W 21-15,6.5,covered,38.5,under,early
+161,GNB,9/22/24,3,37.5,87,Sun,3,3,@,TEN,W 30-14,3,covered,37.5,over,early
+162,CLE,9/22/24,-6.5,38.5,76,Sun,3,3,,NYG,L 15-21,-6.5,did not cover,38.5,under,early
+163,IND,9/22/24,-1,43.5,75,Sun,3,3,,CHI,W 21-16,-1,covered,43.5,under,early
+164,CHI,9/22/24,1,43.5,75,Sun,3,3,@,IND,L 16-21,1,did not cover,43.5,under,early
+165,CAR,9/15/24,5,38.5,78,Sun,2,2,,LAC,L 3-26,5,did not cover,38.5,under,early
+166,LAC,9/15/24,-5,38.5,78,Sun,2,2,@,CAR,W 26-3,-5,covered,38.5,under,early
+167,DAL,9/15/24,-6,46.5,86,Sun,2,2,,NOR,L 19-44,-6,did not cover,46.5,over,early
+168,DET,9/15/24,-7.5,51.5,68,Sun,2,2,,TAM,L 16-20,-7.5,did not cover,51.5,under,early
+169,NOR,9/15/24,6,46.5,86,Sun,2,2,@,DAL,W 44-19,6,covered,46.5,over,early
+170,NWE,9/15/24,3,38,77,Sun,2,2,,SEA,L 20-23 (OT),3,push,38,over,early
+171,GNB,9/15/24,2.5,40.5,85,Sun,2,2,,IND,W 16-10,2.5,covered,40.5,under,early
+172,IND,9/15/24,-2.5,40.5,85,Sun,2,2,@,GNB,L 10-16,-2.5,did not cover,40.5,under,early
+173,SEA,9/15/24,-3,38,77,Sun,2,2,@,NWE,W 23-20 (OT),-3,push,38,over,early
+174,JAX,9/15/24,-3,41,80,Sun,2,2,,CLE,L 13-18,-3,did not cover,41,under,early
+175,MIN,9/15/24,4.5,46,82,Sun,2,2,,SFO,W 23-17,4.5,covered,46,under,early
+176,BAL,9/15/24,-9,41.5,76,Sun,2,2,,LVR,L 23-26,-9,did not cover,41.5,over,early
+177,TAM,9/15/24,7.5,51.5,68,Sun,2,2,@,DET,W 20-16,7.5,covered,51.5,under,early
+178,SFO,9/15/24,-4.5,46,82,Sun,2,2,@,MIN,L 17-23,-4.5,did not cover,46,under,early
+179,NYJ,9/15/24,-3.5,41,80,Sun,2,2,@,TEN,W 24-17,-3.5,covered,41,push,early
+180,CLE,9/15/24,3,41,80,Sun,2,2,@,JAX,W 18-13,3,covered,41,under,early
+181,LVR,9/15/24,9,41.5,76,Sun,2,2,@,BAL,W 26-23,9,covered,41.5,over,early
+182,TEN,9/15/24,3.5,41,80,Sun,2,2,,NYJ,L 17-24,3.5,did not cover,41,push,early
+183,NYG,9/15/24,1,43,82,Sun,2,2,@,WAS,L 18-21,1,did not cover,43,under,early
+184,WAS,9/15/24,-1,43,82,Sun,2,2,,NYG,W 21-18,-1,covered,43,under,early
+185,CHI,9/8/24,-3.5,44.5,67,Sun,1,1,,TEN,W 24-17,-3.5,covered,44.5,under,early
+186,CIN,9/8/24,-7.5,41,66,Sun,1,1,,NWE,L 10-16,-7.5,did not cover,41,under,early
+187,ARI,9/8/24,6.5,46.5,61,Sun,1,1,@,BUF,L 28-34,6.5,covered,46.5,over,early
+188,BUF,9/8/24,-6.5,46.5,61,Sun,1,1,,ARI,W 34-28,-6.5,did not cover,46.5,over,early
+189,NWE,9/8/24,7.5,41,66,Sun,1,1,@,CIN,W 16-10,7.5,covered,41,under,early
+190,JAX,9/8/24,3.5,49.5,91,Sun,1,1,@,MIA,L 17-20,3.5,covered,49.5,under,early
+191,MIN,9/8/24,-1.5,41,64,Sun,1,1,@,NYG,W 28-6,-1.5,covered,41,under,early
+192,NYG,9/8/24,1.5,41,64,Sun,1,1,,MIN,L 6-28,1.5,did not cover,41,under,early
+193,PIT,9/8/24,3.5,42,76,Sun,1,1,@,ATL,W 18-10,3.5,covered,42,under,early
+194,TEN,9/8/24,3.5,44.5,67,Sun,1,1,@,CHI,L 17-24,3.5,did not cover,44.5,under,early
+195,NOR,9/8/24,-4,41.5,77,Sun,1,1,,CAR,W 47-10,-4,covered,41.5,over,early
+196,ATL,9/8/24,-3.5,42,76,Sun,1,1,,PIT,L 10-18,-3.5,did not cover,42,under,early
+197,MIA,9/8/24,-3.5,49.5,91,Sun,1,1,,JAX,W 20-17,-3.5,did not cover,49.5,under,early
+198,HOU,9/8/24,-2.5,48.5,63,Sun,1,1,@,IND,W 29-27,-2.5,did not cover,48.5,over,early
+199,CAR,9/8/24,4,41.5,77,Sun,1,1,@,NOR,L 10-47,4,did not cover,41.5,over,early
+200,IND,9/8/24,2.5,48.5,63,Sun,1,1,,HOU,L 27-29,2.5,covered,48.5,over,early
+201,TEN,1/7/24,4,41.5,41,Sun,17,18,,JAX,W 28-20,4,covered,41.5,over,early
+202,JAX,1/7/24,-4,41.5,41,Sun,17,18,@,TEN,L 20-28,-4,did not cover,41.5,over,early
+203,NYJ,1/7/24,1.5,29.5,33,Sun,17,18,@,NWE,W 17-3,1.5,covered,29.5,under,early
+204,NWE,1/7/24,-1.5,29.5,33,Sun,17,18,,NYJ,L 3-17,-1.5,did not cover,29.5,under,early
+205,NOR,1/7/24,-3,42,52,Sun,17,18,,ATL,W 48-17,-3,covered,42,over,early
+206,ATL,1/7/24,3,42,52,Sun,17,18,@,NOR,L 17-48,3,did not cover,42,over,early
+207,MIN,1/7/24,3.5,46,34,Sun,17,18,@,DET,L 20-30,3.5,did not cover,46,over,early
+208,DET,1/7/24,-3.5,46,34,Sun,17,18,,MIN,W 30-20,-3.5,covered,46,over,early
+209,CLE,1/7/24,7.5,37,38,Sun,17,18,@,CIN,L 14-31,7.5,did not cover,37,over,early
+210,CIN,1/7/24,-7.5,37,38,Sun,17,18,,CLE,W 31-14,-7.5,covered,37,over,early
+211,TAM,1/7/24,-4,37,54,Sun,17,18,@,CAR,W 9-0,-4,covered,37,under,early
+212,CAR,1/7/24,4,37,54,Sun,17,18,,TAM,L 0-9,4,did not cover,37,under,early
+213,WAS,12/31/23,14,49.5,48,Sun,16,17,,SFO,L 10-27,14,did not cover,49.5,under,early
+214,SFO,12/31/23,-14,49.5,48,Sun,16,17,@,WAS,W 27-10,-14,covered,49.5,under,early
+215,TAM,12/31/23,-2.5,42,66,Sun,16,17,,NOR,L 13-23,-2.5,did not cover,42,under,early
+216,NOR,12/31/23,2.5,42,66,Sun,16,17,@,TAM,W 23-13,2.5,covered,42,under,early
+217,BAL,12/31/23,-3.5,46.5,50,Sun,16,17,,MIA,W 56-19,-3.5,covered,46.5,over,early
+218,MIA,12/31/23,3.5,46.5,50,Sun,16,17,@,BAL,L 19-56,3.5,did not cover,46.5,over,early
+219,PHI,12/31/23,-12,48,45,Sun,16,17,,ARI,L 31-35,-12,did not cover,48,over,early
+220,ARI,12/31/23,12,48,45,Sun,16,17,@,PHI,W 35-31,12,covered,48,over,early
+221,LAR,12/31/23,-6,43.5,41,Sun,16,17,@,NYG,W 26-25,-6,did not cover,43.5,over,early
+222,NYG,12/31/23,6,43.5,41,Sun,16,17,,LAR,L 25-26,6,covered,43.5,over,early
+223,JAX,12/31/23,-4,36.5,56,Sun,16,17,,CAR,W 26-0,-4,covered,36.5,under,early
+224,CAR,12/31/23,4,36.5,56,Sun,16,17,@,JAX,L 0-26,4,did not cover,36.5,under,early
+225,TEN,12/31/23,4,44,64,Sun,16,17,@,HOU,L 3-26,4,did not cover,44,under,early
+226,HOU,12/31/23,-4,44,64,Sun,16,17,,TEN,W 26-3,-4,covered,44,under,early
+227,LVR,12/31/23,4,42.5,32,Sun,16,17,@,IND,L 20-23,4,covered,42.5,over,early
+228,IND,12/31/23,-4,42.5,32,Sun,16,17,,LVR,W 23-20,-4,did not cover,42.5,over,early
+229,CHI,12/31/23,-2.5,38,32,Sun,16,17,,ATL,W 37-17,-2.5,covered,38,over,early
+230,ATL,12/31/23,2.5,38,32,Sun,16,17,@,CHI,L 17-37,2.5,did not cover,38,over,early
+231,NWE,12/31/23,14,40,35,Sun,16,17,@,BUF,L 21-27,14,covered,40,over,early
+232,BUF,12/31/23,-14,40,35,Sun,16,17,,NWE,W 27-21,-14,did not cover,40,over,early
+233,LVR,12/25/23,10.5,40.5,38,Mon,15,16,@,KAN,W 20-14,10.5,covered,40.5,under,early
+234,KAN,12/25/23,-10.5,40.5,38,Mon,15,16,,LVR,L 14-20,-10.5,did not cover,40.5,under,early
+235,SEA,12/24/23,-3.5,41.5,61,Sun,15,16,@,TEN,W 20-17,-3.5,did not cover,41.5,under,early
+236,TEN,12/24/23,3.5,41.5,61,Sun,15,16,,SEA,L 17-20,3.5,covered,41.5,under,early
+237,WAS,12/24/23,3,37.5,45,Sun,15,16,@,NYJ,L 28-30,3,covered,37.5,over,early
+238,NYJ,12/24/23,-3,37.5,45,Sun,15,16,,WAS,W 30-28,-3,did not cover,37.5,over,early
+239,MIN,12/24/23,3,47.5,54,Sun,15,16,,DET,L 24-30,3,did not cover,47.5,over,early
+240,DET,12/24/23,-3,47.5,54,Sun,15,16,@,MIN,W 30-24,-3,covered,47.5,over,early
+241,HOU,12/24/23,3,40,68,Sun,15,16,,CLE,L 22-36,3,did not cover,40,over,early
+242,CLE,12/24/23,-3,40,68,Sun,15,16,@,HOU,W 36-22,-3,covered,40,over,early
+243,GNB,12/24/23,-4,37.5,67,Sun,15,16,@,CAR,W 33-30,-4,did not cover,37.5,over,early
+244,CAR,12/24/23,4,37.5,67,Sun,15,16,,GNB,L 30-33,4,covered,37.5,over,early
+245,IND,12/24/23,3,45,60,Sun,15,16,@,ATL,L 10-29,3,did not cover,45,under,early
+246,ATL,12/24/23,-3,45,60,Sun,15,16,,IND,W 29-10,-3,covered,45,under,early
+247,TEN,12/17/23,-3,37,48,Sun,14,15,,HOU,L 16-19 (OT),-3,did not cover,37,under,early
+248,HOU,12/17/23,3,37,48,Sun,14,15,@,TEN,W 19-16 (OT),3,covered,37,under,early
+249,NWE,12/17/23,8.5,37,53,Sun,14,15,,KAN,L 17-27,8.5,did not cover,37,over,early
+250,KAN,12/17/23,-8.5,37,53,Sun,14,15,@,NWE,W 27-17,-8.5,covered,37,over,early
+251,NYG,12/17/23,5.5,39.5,56,Sun,14,15,@,NOR,L 6-24,5.5,did not cover,39.5,under,early
+252,NOR,12/17/23,-5.5,39.5,56,Sun,14,15,,NYG,W 24-6,-5.5,covered,39.5,under,early
+253,NYJ,12/17/23,9,36.5,76,Sun,14,15,@,MIA,L 0-30,9,did not cover,36.5,under,early
+254,MIA,12/17/23,-9,36.5,76,Sun,14,15,,NYJ,W 30-0,-9,covered,36.5,under,early
+255,TAM,12/17/23,3.5,42.5,42,Sun,14,15,@,GNB,W 34-20,3.5,covered,42.5,over,early
+256,GNB,12/17/23,-3.5,42.5,42,Sun,14,15,,TAM,L 20-34,-3.5,did not cover,42.5,over,early
+257,CLE,12/17/23,-3,38,45,Sun,14,15,,CHI,W 20-17,-3,push,38,under,early
+258,CHI,12/17/23,3,38,45,Sun,14,15,@,CLE,L 17-20,3,push,38,under,early
+259,CAR,12/17/23,3,33,47,Sun,14,15,,ATL,W 9-7,3,covered,33,under,early
+260,ATL,12/17/23,-3,33,47,Sun,14,15,@,CAR,L 7-9,-3,did not cover,33,under,early
+261,MIN,12/16/23,3,41,53,Sat,14,15,@,CIN,L 24-27 (OT),3,push,41,over,early
+262,CIN,12/16/23,-3,41,53,Sat,14,15,,MIN,W 27-24 (OT),-3,push,41,over,early
+263,NYJ,12/10/23,3.5,33,58,Sun,13,14,,HOU,W 30-6,3.5,covered,33,over,early
+264,ATL,12/10/23,-1,41,68,Sun,13,14,,TAM,L 25-29,-1,did not cover,41,over,early
+265,TAM,12/10/23,1,41,68,Sun,13,14,@,ATL,W 29-25,1,covered,41,over,early
+266,CHI,12/10/23,3,43,36,Sun,13,14,,DET,W 28-13,3,covered,43,under,early
+267,DET,12/10/23,-3,43,36,Sun,13,14,@,CHI,L 13-28,-3,did not cover,43,under,early
+268,CIN,12/10/23,-2.5,44.5,40,Sun,13,14,,IND,W 34-14,-2.5,covered,44.5,over,early
+269,IND,12/10/23,2.5,44.5,40,Sun,13,14,@,CIN,L 14-34,2.5,did not cover,44.5,over,early
+270,CLE,12/10/23,-2.5,34,39,Sun,13,14,,JAX,W 31-27,-2.5,covered,34,over,early
+271,CAR,12/10/23,6,38.5,55,Sun,13,14,@,NOR,L 6-28,6,did not cover,38.5,under,early
+272,NOR,12/10/23,-6,38.5,55,Sun,13,14,,CAR,W 28-6,-6,covered,38.5,under,early
+273,HOU,12/10/23,-3.5,33,58,Sun,13,14,@,NYJ,L 6-30,-3.5,did not cover,33,over,early
+274,JAX,12/10/23,2.5,34,39,Sun,13,14,@,CLE,L 27-31,2.5,did not cover,34,over,early
+275,LAR,12/10/23,7.5,39.5,57,Sun,13,14,@,BAL,L 31-37 (OT),7.5,covered,39.5,over,early
+276,BAL,12/10/23,-7.5,39.5,57,Sun,13,14,,LAR,W 37-31 (OT),-7.5,did not cover,39.5,over,early
+277,WAS,12/3/23,9,49.5,53,Sun,13,13,,MIA,L 15-45,9,did not cover,49.5,over,early
+278,MIA,12/3/23,-9,49.5,53,Sun,12,13,@,WAS,W 45-15,-9,covered,49.5,over,early
+279,PIT,12/3/23,-6.5,41,56,Sun,12,13,,ARI,L 10-24,-6.5,did not cover,41,under,early
+280,ARI,12/3/23,6.5,41,56,Sun,13,13,@,PIT,W 24-10,6.5,covered,41,under,early
+281,TEN,12/3/23,1,42,53,Sun,12,13,,IND,L 28-31 (OT),1,did not cover,42,over,early
+282,IND,12/3/23,-1,42,53,Sun,12,13,@,TEN,W 31-28 (OT),-1,covered,42,over,early
+283,NYJ,12/3/23,2,33.5,50,Sun,12,13,,ATL,L 8-13,2,did not cover,33.5,under,early
+284,ATL,12/3/23,-2,33.5,50,Sun,12,13,@,NYJ,W 13-8,-2,covered,33.5,under,early
+285,LAC,12/3/23,-5.5,39,44,Sun,12,13,@,NWE,W 6-0,-5.5,covered,39,under,early
+286,NWE,12/3/23,5.5,39,44,Sun,12,13,,LAC,L 0-6,5.5,did not cover,39,under,early
+287,NOR,12/3/23,4.5,47.5,65,Sun,12,13,,DET,L 28-33,4.5,did not cover,47.5,over,early
+288,DET,12/3/23,-4.5,47.5,65,Sun,12,13,@,NOR,W 33-28,-4.5,covered,47.5,over,early
+289,HOU,12/3/23,-3,47,68,Sun,12,13,,DEN,W 22-17,-3,covered,47,under,early
+290,DEN,12/3/23,3,47,68,Sun,12,13,@,HOU,L 17-22,3,did not cover,47,under,early
+291,TEN,11/26/23,-3.5,36.5,51,Sun,11,12,,CAR,W 17-10,-3.5,covered,36.5,under,early
+292,CAR,11/26/23,3.5,36.5,51,Sun,11,12,@,TEN,L 10-17,3.5,did not cover,36.5,under,early
+293,NYG,11/26/23,4,34,43,Sun,12,12,,NWE,W 10-7,4,covered,34,under,early
+294,NWE,11/26/23,-4,34,43,Sun,11,12,@,NYG,L 7-10,-4,did not cover,34,under,early
+295,JAX,11/26/23,-1.5,48,57,Sun,11,12,@,HOU,W 24-21,-1.5,covered,48,under,early
+296,HOU,11/26/23,1.5,48,57,Sun,11,12,,JAX,L 21-24,1.5,did not cover,48,under,early
+297,TAM,11/26/23,2.5,45.5,37,Sun,11,12,@,IND,L 20-27,2.5,did not cover,45.5,over,early
+298,IND,11/26/23,-2.5,45.5,37,Sun,11,12,,TAM,W 27-20,-2.5,covered,45.5,over,early
+299,PIT,11/26/23,-2,36.5,48,Sun,11,12,@,CIN,W 16-10,-2,covered,36.5,under,early
+300,CIN,11/26/23,2,36.5,48,Sun,11,12,,PIT,L 10-16,2,did not cover,36.5,under,early
+301,NOR,11/26/23,-1.5,42,72,Sun,11,12,@,ATL,L 15-24,-1.5,did not cover,42,under,early
+302,ATL,11/26/23,1.5,42,72,Sun,11,12,,NOR,W 24-15,1.5,covered,42,under,early
+303,GNB,11/23/23,8,47,68,Thu,11,12,@,DET,W 29-22,8,covered,47,over,early
+304,DET,11/23/23,-8,47,68,Thu,11,12,,GNB,L 22-29,-8,did not cover,47,over,early
+305,WAS,11/19/23,-9,38,56,Sun,11,11,,NYG,L 19-31,-9,did not cover,38,over,early
+306,NYG,11/19/23,9,38,56,Sun,11,11,@,WAS,W 31-19,9,covered,38,over,early
+307,LVR,11/19/23,13.5,46,82,Sun,11,11,@,MIA,L 13-20,13.5,covered,46,under,early
+308,MIA,11/19/23,-13.5,46,82,Sun,10,11,,LVR,W 20-13,-13.5,did not cover,46,under,early
+309,TEN,11/19/23,6.5,40,75,Sun,10,11,@,JAX,L 14-34,6.5,did not cover,40,over,early
+310,JAX,11/19/23,-6.5,40,75,Sun,10,11,,TEN,W 34-14,-6.5,covered,40,over,early
+311,HOU,11/19/23,-5.5,49,68,Sun,10,11,,ARI,W 21-16,-5.5,did not cover,49,under,early
+312,ARI,11/19/23,5.5,49,68,Sun,11,11,@,HOU,L 16-21,5.5,covered,49,under,early
+313,LAC,11/19/23,-3,44,45,Sun,10,11,@,GNB,L 20-23,-3,did not cover,44,under,early
+314,GNB,11/19/23,3,44,45,Sun,10,11,,LAC,W 23-20,3,covered,44,under,early
+315,DET,11/19/23,-8,48,68,Sun,10,11,,CHI,W 31-26,-8,did not cover,48,over,early
+316,CHI,11/19/23,8,48,68,Sun,11,11,@,DET,L 26-31,8,covered,48,over,early
+317,PIT,11/19/23,2,33,48,Sun,10,11,@,CLE,L 10-13,2,did not cover,33,under,early
+318,CLE,11/19/23,-2,33,48,Sun,10,11,,PIT,W 13-10,-2,covered,33,under,early
+319,DAL,11/19/23,-11,43,65,Sun,10,11,@,CAR,W 33-10,-11,covered,43,push,early
+320,CAR,11/19/23,11,43,65,Sun,10,11,,DAL,L 10-33,11,did not cover,43,push,early
+321,TAM,11/12/23,-2.5,38.5,85,Sun,9,10,,TEN,W 20-6,-2.5,covered,38.5,under,early
+322,TEN,11/12/23,2.5,38.5,85,Sun,9,10,@,TAM,L 6-20,2.5,did not cover,38.5,under,early
+323,BAL,11/12/23,-6,38.5,49,Sun,10,10,,CLE,L 31-33,-6,did not cover,38.5,over,early
+324,CLE,11/12/23,6,38.5,49,Sun,9,10,@,BAL,W 33-31,6,covered,38.5,over,early
+325,PIT,11/12/23,-3,38.5,50,Sun,9,10,,GNB,W 23-19,-3,covered,38.5,over,early
+326,GNB,11/12/23,3,38.5,50,Sun,9,10,@,PIT,L 19-23,3,did not cover,38.5,over,early
+327,NWE,11/12/23,2.5,41.5,47,Sun,10,10,,IND,L 6-10,2.5,did not cover,41.5,under,early
+328,IND,11/12/23,-2.5,41.5,47,Sun,10,10,@,NWE,W 10-6,-2.5,covered,41.5,under,early
+329,NOR,11/12/23,-2.5,40.5,51,Sun,10,10,@,MIN,L 19-27,-2.5,did not cover,40.5,over,early
+330,MIN,11/12/23,2.5,40.5,51,Sun,10,10,,NOR,W 27-19,2.5,covered,40.5,over,early
+331,SFO,11/12/23,-3,44.5,59,Sun,9,10,@,JAX,W 34-3,-3,covered,44.5,under,early
+332,JAX,11/12/23,3,44.5,59,Sun,9,10,,SFO,L 3-34,3,did not cover,44.5,under,early
+333,HOU,11/12/23,5.5,45.5,56,Sun,9,10,@,CIN,W 30-27,5.5,covered,45.5,over,early
+334,CIN,11/12/23,-5.5,45.5,56,Sun,9,10,,HOU,L 27-30,-5.5,did not cover,45.5,over,early
+335,BAL,11/5/23,-6.5,44.5,70,Sun,9,9,,SEA,W 37-3,-6.5,covered,44.5,under,early
+336,ATL,11/5/23,-3.5,39.5,70,Sun,9,9,,MIN,L 28-31,-3.5,did not cover,39.5,over,early
+337,MIN,11/5/23,3.5,39.5,70,Sun,9,9,@,ATL,W 31-28,3.5,covered,39.5,over,early
+338,CLE,11/5/23,-13.5,38.5,56,Sun,8,9,,ARI,W 27-0,-13.5,covered,38.5,under,early
+339,ARI,11/5/23,13.5,38.5,56,Sun,9,9,@,CLE,L 0-27,13.5,did not cover,38.5,under,early
+340,GNB,11/5/23,-3.5,37.5,51,Sun,8,9,,LAR,W 20-3,-3.5,covered,37.5,under,early
+341,LAR,11/5/23,3.5,37.5,51,Sun,9,9,@,GNB,L 3-20,3.5,did not cover,37.5,under,early
+342,HOU,11/5/23,-2.5,36.5,80,Sun,8,9,,TAM,W 39-37,-2.5,did not cover,36.5,over,early
+343,TAM,11/5/23,2.5,36.5,80,Sun,8,9,@,HOU,L 37-39,2.5,covered,36.5,over,early
+344,MIA,11/5/23,1.5,51.5,53,Sun,9,9,@,KAN,L 14-21,1.5,did not cover,51.5,under,early
+345,CHI,11/5/23,8.5,42.5,72,Sun,9,9,@,NOR,L 17-24,8.5,covered,42.5,under,early
+346,NOR,11/5/23,-8.5,42.5,72,Sun,9,9,,CHI,W 24-17,-8.5,did not cover,42.5,under,early
+347,NWE,11/5/23,-2.5,40.5,62,Sun,9,9,,WAS,L 17-20,-2.5,did not cover,40.5,under,early
+348,WAS,11/5/23,2.5,40.5,62,Sun,9,9,@,NWE,W 20-17,2.5,covered,40.5,under,early
+349,SEA,11/5/23,6.5,44.5,70,Sun,8,9,@,BAL,L 3-37,6.5,did not cover,44.5,under,early
+350,KAN,11/5/23,-1.5,51.5,53,Sun,9,9,,MIA,W 21-14,-1.5,covered,51.5,under,early
+351,WAS,10/29/23,6.5,42.5,69,Sun,8,8,,PHI,L 31-38,6.5,did not cover,42.5,over,early
+352,PHI,10/29/23,-6.5,42.5,69,Sun,8,8,@,WAS,W 38-31,-6.5,covered,42.5,over,early
+353,PIT,10/29/23,2.5,40.5,58,Sun,7,8,,JAX,L 10-20,2.5,did not cover,40.5,under,early
+354,JAX,10/29/23,-2.5,40.5,58,Sun,8,8,@,PIT,W 20-10,-2.5,covered,40.5,under,early
+355,TEN,10/29/23,2.5,35.5,77,Sun,7,8,,ATL,W 28-23,2.5,covered,35.5,over,early
+356,ATL,10/29/23,-2.5,35.5,77,Sun,8,8,@,TEN,L 23-28,-2.5,did not cover,35.5,over,early
+357,NYJ,10/29/23,-3.5,34.5,52,Sun,7,8,@,NYG,W 13-10 (OT),-3.5,did not cover,34.5,under,early
+358,NYG,10/29/23,3.5,34.5,52,Sun,8,8,,NYJ,L 10-13 (OT),3.5,covered,34.5,under,early
+359,NWE,10/29/23,8.5,46.5,83,Sun,8,8,@,MIA,L 17-31,8.5,did not cover,46.5,over,early
+360,MIA,10/29/23,-8.5,46.5,83,Sun,8,8,,NWE,W 31-17,-8.5,covered,46.5,over,early
+361,MIN,10/29/23,-1.5,41.5,39,Sun,8,8,@,GNB,W 24-10,-1.5,covered,41.5,under,early
+362,GNB,10/29/23,1.5,41.5,39,Sun,7,8,,MIN,L 10-24,1.5,did not cover,41.5,under,early
+363,LAR,10/29/23,6.5,44.5,45,Sun,8,8,@,DAL,L 20-43,6.5,did not cover,44.5,over,early
+364,DAL,10/29/23,-6.5,44.5,45,Sun,7,8,,LAR,W 43-20,-6.5,covered,44.5,over,early
+365,NOR,10/29/23,-1.5,43.5,51,Sun,8,8,@,IND,W 38-27,-1.5,covered,43.5,over,early
+366,IND,10/29/23,1.5,43.5,51,Sun,8,8,,NOR,L 27-38,1.5,did not cover,43.5,over,early
+367,HOU,10/29/23,-3.5,42.5,77,Sun,7,8,@,CAR,L 13-15,-3.5,did not cover,42.5,under,early
+368,CAR,10/29/23,3.5,42.5,77,Sun,7,8,,HOU,W 15-13,3.5,covered,42.5,under,early
+369,DET,10/22/23,3,43.5,62,Sun,7,7,@,BAL,L 6-38,3,did not cover,43.5,over,early
+370,CHI,10/22/23,2.5,38.5,52,Sun,7,7,,LVR,W 30-12,2.5,covered,38.5,over,early
+371,LVR,10/22/23,-2.5,38.5,52,Sun,7,7,@,CHI,L 12-30,-2.5,did not cover,38.5,over,early
+372,CLE,10/22/23,-3.5,39.5,53,Sun,6,7,@,IND,W 39-38,-3.5,did not cover,39.5,over,early
+373,IND,10/22/23,3.5,39.5,53,Sun,7,7,,CLE,L 38-39,3.5,covered,39.5,over,early
+374,BUF,10/22/23,-7.5,41.5,55,Sun,7,7,@,NWE,L 25-29,-7.5,did not cover,41.5,over,early
+375,NWE,10/22/23,7.5,41.5,55,Sun,7,7,,BUF,W 29-25,7.5,covered,41.5,over,early
+376,WAS,10/22/23,-3,36.5,54,Sun,7,7,@,NYG,L 7-14,-3,did not cover,36.5,under,early
+377,BAL,10/22/23,-3,43.5,62,Sun,7,7,,DET,W 38-6,-3,covered,43.5,over,early
+378,ATL,10/22/23,3,37.5,79,Sun,7,7,@,TAM,W 16-13,3,covered,37.5,under,early
+379,TAM,10/22/23,-3,37.5,79,Sun,6,7,,ATL,L 13-16,-3,did not cover,37.5,under,early
+380,NYG,10/22/23,3,36.5,54,Sun,7,7,,WAS,W 14-7,3,covered,36.5,under,early
+381,CLE,10/15/23,9.5,35.5,53,Sun,5,6,,SFO,W 19-17,9.5,covered,35.5,over,early
+382,ATL,10/15/23,-1.5,41.5,62,Sun,6,6,,WAS,L 16-24,-1.5,did not cover,41.5,under,early
+383,WAS,10/15/23,1.5,41.5,62,Sun,6,6,@,ATL,W 24-16,1.5,covered,41.5,under,early
+384,CHI,10/15/23,3,44.5,53,Sun,6,6,,MIN,L 13-19,3,did not cover,44.5,under,early
+385,MIN,10/15/23,-3,44.5,53,Sun,6,6,@,CHI,W 19-13,-3,covered,44.5,under,early
+386,CIN,10/15/23,-3,45.5,57,Sun,6,6,,SEA,W 17-13,-3,covered,45.5,under,early
+387,SEA,10/15/23,3,45.5,57,Sun,5,6,@,CIN,L 13-17,3,did not cover,45.5,under,early
+388,HOU,10/15/23,2.5,41.5,67,Sun,6,6,,NOR,W 20-13,2.5,covered,41.5,under,early
+389,NOR,10/15/23,-2.5,41.5,67,Sun,6,6,@,HOU,L 13-20,-2.5,did not cover,41.5,under,early
+390,CAR,10/15/23,14,47.5,87,Sun,6,6,@,MIA,L 21-42,14,did not cover,47.5,over,early
+391,MIA,10/15/23,-14,47.5,87,Sun,6,6,,CAR,W 42-21,-14,covered,47.5,over,early
+392,TEN,10/15/23,5,42.5,52,Sun,6,6,,BAL,L 16-24,5,did not cover,42.5,under,early
+393,BAL,10/15/23,-5,42.5,52,Sun,6,6,@,TEN,W 24-16,-5,covered,42.5,under,early
+394,SFO,10/15/23,-9.5,35.5,53,Sun,6,6,@,CLE,L 17-19,-9.5,did not cover,35.5,over,early
+395,CAR,10/8/23,9.5,43.5,68,Sun,5,5,@,DET,L 24-42,9.5,did not cover,43.5,over,early
+396,ATL,10/8/23,-2.5,42,63,Sun,5,5,,HOU,W 21-19,-2.5,did not cover,42,under,early
+397,TEN,10/8/23,-2.5,43.5,53,Sun,5,5,@,IND,L 16-23,-2.5,did not cover,43.5,under,early
+398,IND,10/8/23,2.5,43.5,53,Sun,5,5,,TEN,W 23-16,2.5,covered,43.5,under,early
+399,HOU,10/8/23,2.5,42,63,Sun,5,5,@,ATL,L 19-21,2.5,covered,42,under,early
+400,MIA,10/8/23,-13,47.5,88,Sun,5,5,,NYG,W 31-16,-13,covered,47.5,under,early
+401,CAR,10/8/23,9.5,43.5,68,Sun,5,5,@,DET,L 24-42,9.5,did not cover,43.5,over,early
+402,DET,10/8/23,-9.5,43.5,68,Sun,5,5,,CAR,W 42-24,-9.5,covered,43.5,over,early
+403,MIA,10/8/23,-13,47.5,88,Sun,5,5,,NYG,W 31-16,-13,covered,47.5,under,early
+404,NYG,10/8/23,13,47.5,88,Sun,5,5,@,MIA,L 16-31,13,did not cover,47.5,under,early
+405,NOR,10/8/23,1.5,38.5,61,Sun,5,5,@,NWE,W 34-0,1.5,covered,38.5,under,early
+406,NWE,10/8/23,-1.5,38.5,61,Sun,5,5,,NOR,L 0-34,-1.5,did not cover,38.5,under,early
+407,PIT,10/8/23,4.5,38.5,53,Sun,5,5,,BAL,W 17-10,4.5,covered,38.5,under,early
+408,BAL,10/8/23,-4.5,38.5,53,Sun,5,5,@,PIT,L 10-17,-4.5,did not cover,38.5,under,early
+409,BUF,10/1/23,-2.5,53,70,Sun,4,4,,MIA,W 48-20,-2.5,covered,53,over,early
+410,MIA,10/1/23,2.5,53,70,Sun,4,4,@,BUF,L 20-48,2.5,did not cover,53,over,early
+411,CAR,10/1/23,4.5,46.5,78,Sun,4,4,,MIN,L 13-21,4.5,did not cover,46.5,under,early
+412,MIN,10/1/23,-4.5,46.5,78,Sun,4,4,@,CAR,W 21-13,-4.5,covered,46.5,under,early
+413,CHI,10/1/23,3,47,80,Sun,4,4,,DEN,L 28-31,3,push,47,over,early
+414,DEN,10/1/23,-3,47,80,Sun,4,4,@,CHI,W 31-28,-3,push,47,over,early
+415,CLE,10/1/23,2.5,41,71,Sun,4,4,,BAL,L 3-28,2.5,did not cover,41,under,early
+416,BAL,10/1/23,-2.5,41,71,Sun,4,4,@,CLE,W 28-3,-2.5,covered,41,under,early
+417,IND,10/1/23,1,44.5,80,Sun,4,4,,LAR,L 23-29 (OT),1,did not cover,44.5,over,early
+418,LAR,10/1/23,-1,44.5,80,Sun,4,4,@,IND,W 29-23 (OT),-1,covered,44.5,over,early
+419,HOU,10/1/23,3,41.5,90,Sun,4,4,,PIT,W 30-6,3,covered,41.5,under,early
+420,PIT,10/1/23,-3,41.5,90,Sun,4,4,@,HOU,L 6-30,-3,did not cover,41.5,under,early
+421,ATL,10/1/23,3.5,42.5,72,Sun,4,4,@,JAX,L 7-23,3.5,did not cover,42.5,under,early
+422,JAX,10/1/23,-3.5,42.5,72,Sun,4,4,,ATL,W 23-7,-3.5,covered,42.5,under,early
+423,NOR,10/1/23,-4.5,41,82,Sun,4,4,,TAM,L 9-26,-4.5,did not cover,41,under,early
+424,TAM,10/1/23,4.5,41,82,Sun,4,4,@,NOR,W 26-9,4.5,covered,41,under,early
+425,CIN,10/1/23,-2.5,41.5,82,Sun,4,4,@,TEN,L 3-27,-2.5,did not cover,41.5,under,early
+426,TEN,10/1/23,2.5,41.5,82,Sun,4,4,,CIN,W 27-3,2.5,covered,41.5,under,early
+427,CLE,9/24/23,-3.5,38,68,Sun,3,3,,TEN,W 27-3,-3.5,covered,38,under,early
+428,TEN,9/24/23,3.5,38,68,Sun,3,3,@,CLE,L 3-27,3.5,did not cover,38,under,early
+429,ATL,9/24/23,3,47.5,0,Sun,3,3,@,DET,L 6-20,3,did not cover,47.5,under,early
+430,DET,9/24/23,-3,47.5,0,Sun,3,3,,ATL,W 20-6,-3,covered,47.5,under,early
+431,GNB,9/24/23,-1.5,41.5,68,Sun,3,3,,NOR,W 18-17,-1.5,did not cover,41.5,under,early
+432,NOR,9/24/23,1.5,41.5,68,Sun,3,3,@,GNB,L 17-18,1.5,covered,41.5,under,early
+433,HOU,9/24/23,9.5,43.5,84,Sun,3,3,@,JAX,W 37-17,9.5,covered,43.5,over,early
+434,JAX,9/24/23,-9.5,43.5,84,Sun,3,3,,HOU,L 17-37,-9.5,did not cover,43.5,over,early
+435,DEN,9/24/23,6,47.5,86,Sun,3,3,@,MIA,L 20-70,6,did not cover,47.5,over,early
+436,MIA,9/24/23,-6,47.5,86,Sun,3,3,,DEN,W 70-20,-6,covered,47.5,over,early
+437,MIN,9/24/23,-1,53,67,Sun,3,3,,LAC,L 24-28,-1,did not cover,53,under,early
+438,LAC,9/24/23,1,53,67,Sun,3,3,@,MIN,W 28-24,1,covered,53,under,early
+439,NWE,9/24/23,-2.5,35.5,64,Sun,3,3,@,NYJ,W 15-10,-2.5,covered,35.5,under,early
+440,NYJ,9/24/23,2.5,35.5,64,Sun,3,3,,NWE,L 10-15,2.5,did not cover,35.5,under,early
+441,IND,9/24/23,7.5,44.5,68,Sun,3,3,@,BAL,W 22-19 (OT),7.5,covered,44.5,under,early
+442,BAL,9/24/23,-7.5,44.5,68,Sun,3,3,,IND,L 19-22 (OT),-7.5,did not cover,44.5,under,early
+443,BUF,9/24/23,-4.5,43.5,65,Sun,3,3,@,WAS,W 37-3,-4.5,covered,43.5,under,early
+444,WAS,9/24/23,4.5,43.5,65,Sun,3,3,,BUF,L 3-37,4.5,did not cover,43.5,under,early
+445,ATL,9/17/23,-3,40.5,69,Sun,2,2,,GNB,W 25-24,-3,did not cover,40.5,over,early
+446,GNB,9/17/23,3,40.5,69,Sun,2,2,@,ATL,L 24-25,3,covered,40.5,over,early
+447,BUF,9/17/23,-8,47,70,Sun,2,2,,LVR,W 38-10,-8,covered,47,over,early
+448,LVR,9/17/23,8,47,70,Sun,2,2,@,BUF,L 10-38,8,did not cover,47,over,early
+449,CIN,9/17/23,-3.5,45.5,72,Sun,2,2,,BAL,L 24-27,-3.5,did not cover,45.5,over,early
+450,BAL,9/17/23,3.5,45.5,72,Sun,2,2,@,CIN,W 27-24,3.5,covered,45.5,over,early
+451,DET,9/17/23,-4.5,47,68,Sun,2,2,,SEA,L 31-37 (OT),-4.5,did not cover,47,over,early
+452,SEA,9/17/23,4.5,47,68,Sun,2,2,@,DET,W 37-31 (OT),4.5,covered,47,over,early
+453,IND,9/17/23,1,40,85,Sun,2,2,@,HOU,W 31-20,1,covered,40,over,early
+454,HOU,9/17/23,-1,40,85,Sun,2,2,,IND,L 20-31,-1,did not cover,40,over,early
+455,JAX,9/17/23,3.5,51,87,Sun,2,2,,KAN,L 9-17,3.5,did not cover,51,under,early
+456,KAN,9/17/23,-3.5,51,87,Sun,2,2,@,JAX,W 17-9,-3.5,covered,51,under,early
+457,TEN,9/17/23,2.5,45.5,64,Sun,2,2,,LAC,W 27-24 (OT),2.5,covered,45.5,over,early
+458,LAC,9/17/23,-2.5,45.5,64,Sun,2,2,@,TEN,L 24-27 (OT),-2.5,did not cover,45.5,over,early
+459,CHI,9/17/23,2.5,42,89,Sun,2,2,@,TAM,L 17-27,2.5,did not cover,42,over,early
+460,TAM,9/17/23,-2.5,42,89,Sun,2,2,,CHI,W 27-17,-2.5,covered,42,over,early
+461,ATL,9/10/23,-3.5,39.5,72,Sun,1,1,,CAR,W 24-10,-3.5,covered,39.5,under,early
+462,CAR,9/10/23,3.5,39.5,72,Sun,1,1,@,ATL,L 10-24,3.5,did not cover,39.5,under,early
+463,CIN,9/10/23,-1.5,47.5,68,Sun,1,1,@,CLE,L 3-24,-1.5,did not cover,47.5,under,early
+464,CLE,9/10/23,1.5,47.5,68,Sun,1,1,,CIN,W 24-3,1.5,covered,47.5,under,early
+465,IND,9/10/23,3.5,46.5,72,Sun,1,1,,JAX,L 21-31,3.5,did not cover,46.5,over,early
+466,JAX,9/10/23,-3.5,46.5,72,Sun,1,1,@,IND,W 31-21,-3.5,covered,46.5,over,early
+467,MIN,9/10/23,-4.5,45.5,67,Sun,1,1,,TAM,L 17-20,-4.5,did not cover,45.5,under,early
+468,TAM,9/10/23,4.5,45.5,67,Sun,1,1,@,MIN,W 20-17,4.5,covered,45.5,under,early
+469,NOR,9/10/23,-3,41.5,83,Sun,1,1,,TEN,W 16-15,-3,did not cover,41.5,under,early
+470,TEN,9/10/23,3,41.5,83,Sun,1,1,@,NOR,L 15-16,3,covered,41.5,under,early
+471,PIT,9/10/23,1.5,41.5,72,Sun,1,1,,SFO,L 7-30,1.5,did not cover,41.5,under,early
+472,SFO,9/10/23,-1.5,41.5,72,Sun,1,1,@,PIT,W 30-7,-1.5,covered,41.5,under,early
+473,HOU,9/10/23,9.5,43.5,78,Sun,1,1,@,BAL,L 9-25,9.5,did not cover,43.5,under,early
+474,BAL,9/10/23,-9.5,43.5,78,Sun,1,1,,HOU,W 25-9,-9.5,covered,43.5,under,early
+475,ARI,9/10/23,6.5,38.5,76,Sun,1,1,@,WAS,L 16-20,6.5,covered,38.5,under,early
+476,WAS,9/10/23,-6.5,38.5,76,Sun,1,1,,ARI,W 20-16,-6.5,did not cover,38.5,under,early
+477,ATL,1/8/23,-4,40.5,57,Sun,17,18,,TAM,W 30-17,-4,covered,40.5,over,early
+478,TAM,1/8/23,4,40.5,57,Sun,17,18,@,ATL,L 17-30,4,did not cover,40.5,over,early
+479,BUF,1/8/23,-7.5,43.5,30,Sun,16,18,,NWE,W 35-23,-7.5,covered,43.5,over,early
+480,NWE,1/8/23,7.5,43.5,30,Sun,17,18,@,BUF,L 23-35,7.5,did not cover,43.5,over,early
+481,CHI,1/8/23,7,42.5,32,Sun,17,18,,MIN,L 13-29,7,did not cover,42.5,under,early
+482,MIN,1/8/23,-7,42.5,32,Sun,17,18,@,CHI,W 29-13,-7,covered,42.5,under,early
+483,CIN,1/8/23,-9,39.5,38,Sun,16,18,,BAL,W 27-16,-9,covered,39.5,over,early
+484,BAL,1/8/23,9,39.5,38,Sun,17,18,@,CIN,L 16-27,9,did not cover,39.5,over,early
+485,IND,1/8/23,-2.5,37.5,36,Sun,17,18,,HOU,L 31-32,-2.5,did not cover,37.5,over,early
+486,HOU,1/8/23,2.5,37.5,36,Sun,17,18,@,IND,W 32-31,2.5,covered,37.5,over,early
+487,MIA,1/8/23,-3.5,37,75,Sun,17,18,,NYJ,W 11-6,-3.5,covered,37,under,early
+488,NYJ,1/8/23,3.5,37,75,Sun,17,18,@,MIA,L 6-11,3.5,did not cover,37,under,early
+489,CAR,1/8/23,3.5,41.5,62,Sun,17,18,@,NOR,W 10-7,3.5,covered,41.5,under,early
+490,NOR,1/8/23,-3.5,41.5,62,Sun,17,18,,CAR,L 7-10,-3.5,did not cover,41.5,under,early
+491,CLE,1/8/23,2.5,40,36,Sun,17,18,@,PIT,L 14-28,2.5,did not cover,40,over,early
+492,PIT,1/8/23,-2.5,40,36,Sun,17,18,,CLE,W 28-14,-2.5,covered,40,over,early
+493,ATL,1/1/23,-6,41,66,Sun,16,17,,ARI,W 20-19,-6,did not cover,41,under,early
+494,ARI,1/1/23,6,41,66,Sun,16,17,@,ATL,L 19-20,6,covered,41,under,early
+495,CHI,1/1/23,6,52.5,38,Sun,16,17,@,DET,L 10-41,6,did not cover,52.5,under,early
+496,DET,1/1/23,-6,52.5,38,Sun,16,17,,CHI,W 41-10,-6,covered,52.5,under,early
+497,HOU,1/1/23,3,43,70,Sun,16,17,,JAX,L 3-31,3,did not cover,43,under,early
+498,JAX,1/1/23,-3,43,70,Sun,16,17,@,HOU,W 31-3,-3,covered,43,under,early
+499,DEN,1/1/23,12.5,45,47,Sun,16,17,@,KAN,L 24-27,12.5,covered,45,over,early
+500,KAN,1/1/23,-12.5,45,47,Sun,16,17,,DEN,W 27-24,-12.5,did not cover,45,over,early
+501,MIA,1/1/23,2.5,41,53,Sun,16,17,@,NWE,L 21-23,2.5,covered,41,over,early
+502,NWE,1/1/23,-2.5,41,53,Sun,16,17,,MIA,W 23-21,-2.5,did not cover,41,over,early
+503,IND,1/1/23,5.5,39,52,Sun,16,17,@,NYG,L 10-38,5.5,did not cover,39,over,early
+504,NYG,1/1/23,-5.5,39,52,Sun,16,17,,IND,W 38-10,-5.5,covered,39,over,early
+505,NOR,1/1/23,5.5,41.5,54,Sun,16,17,@,PHI,W 20-10,5.5,covered,41.5,under,early
+506,PHI,1/1/23,-5.5,41.5,54,Sun,16,17,,NOR,L 10-20,-5.5,did not cover,41.5,under,early
+507,CAR,1/1/23,3.5,40.5,75,Sun,16,17,@,TAM,L 24-30,3.5,did not cover,40.5,over,early
+508,TAM,1/1/23,-3.5,40.5,75,Sun,16,17,,CAR,W 30-24,-3.5,covered,40.5,over,early
+509,CLE,1/1/23,2,40.5,59,Sun,16,17,@,WAS,W 24-10,2,covered,40.5,under,early
+510,WAS,1/1/23,-2,40.5,59,Sun,16,17,,CLE,L 10-24,-2,did not cover,40.5,under,early
+511,GNB,12/25/22,3.5,49.5,45,Sun,15,16,@,MIA,W 26-20,3.5,covered,49.5,under,early
+512,MIA,12/25/22,-3.5,49.5,45,Sun,15,16,,GNB,L 20-26,-3.5,did not cover,49.5,under,early
+513,CAR,12/24/22,2.5,43.5,20,Sat,15,16,,DET,W 37-23,2.5,covered,43.5,over,early
+514,DET,12/24/22,-2.5,43.5,20,Sat,15,16,@,CAR,L 23-37,-2.5,did not cover,43.5,over,early
+515,BUF,12/24/22,-8,40,7,Sat,15,16,@,CHI,W 35-13,-8,covered,40,over,early
+516,CHI,12/24/22,8,40,7,Sat,15,16,,BUF,L 13-35,8,did not cover,40,over,early
+517,CLE,12/24/22,-3,32,6,Sat,15,16,,NOR,L 10-17,-3,did not cover,32,under,early
+518,NOR,12/24/22,3,32,6,Sat,15,16,@,CLE,W 17-10,3,covered,32,under,early
+519,KAN,12/24/22,-10,49.5,12,Sat,15,16,,SEA,W 24-10,-10,covered,49.5,under,early
+520,SEA,12/24/22,10,49.5,12,Sat,15,16,@,KAN,L 10-24,10,did not cover,49.5,under,early
+521,MIN,12/24/22,-4,49.5,2,Sat,15,16,,NYG,W 27-24,-4,did not cover,49.5,over,early
+522,NYG,12/24/22,4,49.5,2,Sat,15,16,@,MIN,L 24-27,4,covered,49.5,over,early
+523,CIN,12/24/22,-3,41.5,21,Sat,15,16,@,NWE,W 22-18,-3,covered,41.5,under,early
+524,NWE,12/24/22,3,41.5,21,Sat,15,16,,CIN,L 18-22,3,did not cover,41.5,under,early
+525,HOU,12/24/22,3,35.5,22,Sat,15,16,@,TEN,W 19-14,3,covered,35.5,under,early
+526,TEN,12/24/22,-3,35.5,22,Sat,15,16,,HOU,L 14-19,-3,did not cover,35.5,under,early
+527,ATL,12/24/22,6.5,34.5,17,Sat,15,16,@,BAL,L 9-17,6.5,did not cover,34.5,under,early
+528,BAL,12/24/22,-6.5,34.5,17,Sat,15,16,,ATL,W 17-9,-6.5,covered,34.5,under,early
+529,CAR,12/18/22,-2.5,37.5,47,Sun,14,15,,PIT,L 16-24,-2.5,did not cover,37.5,over,early
+530,PIT,12/18/22,2.5,37.5,47,Sun,14,15,@,CAR,W 24-16,2.5,covered,37.5,over,early
+531,CHI,12/18/22,8.5,48.5,17,Sun,14,15,,PHI,L 20-25,8.5,covered,48.5,under,early
+532,PHI,12/18/22,-8.5,48.5,17,Sun,14,15,@,CHI,W 25-20,-8.5,did not cover,48.5,under,early
+533,HOU,12/18/22,14.5,48.5,50,Sun,14,15,,KAN,L 24-30 (OT),14.5,covered,48.5,over,early
+534,KAN,12/18/22,-14.5,48.5,50,Sun,14,15,@,HOU,W 30-24 (OT),-14.5,did not cover,48.5,over,early
+535,DAL,12/18/22,-4,48,54,Sun,14,15,@,JAX,L 34-40 (OT),-4,did not cover,48,over,early
+536,JAX,12/18/22,4,48,54,Sun,14,15,,DAL,W 40-34 (OT),4,covered,48,over,early
+537,ATL,12/18/22,4,43.5,49,Sun,14,15,@,NOR,L 18-21,4,covered,43.5,under,early
+538,NOR,12/18/22,-4,43.5,49,Sun,14,15,,ATL,W 21-18,-4,did not cover,43.5,under,early
+539,DET,12/18/22,1,43.5,38,Sun,14,15,@,NYJ,W 20-17,1,covered,43.5,under,early
+540,NYJ,12/18/22,-1,43.5,38,Sun,14,15,,DET,L 17-20,-1,did not cover,43.5,under,early
+541,IND,12/17/22,3.5,47.5,19,Sat,14,15,@,MIN,L 36-39 (OT),3.5,covered,47.5,over,early
+542,MIN,12/17/22,-3.5,47.5,19,Sat,14,15,,IND,W 39-36 (OT),-3.5,did not cover,47.5,over,early
+543,BUF,12/11/22,-10,43,36,Sun,13,14,,NYJ,W 20-12,-10,did not cover,43,under,early
+544,NYJ,12/11/22,10,43,36,Sun,13,14,@,BUF,L 12-20,10,covered,43,under,early
+545,CIN,12/11/22,-5.5,46.5,47,Sun,13,14,,CLE,W 23-10,-5.5,covered,46.5,under,early
+546,CLE,12/11/22,5.5,46.5,47,Sun,13,14,@,CIN,L 10-23,5.5,did not cover,46.5,under,early
+547,DAL,12/11/22,-17,44,53,Sun,13,14,,HOU,W 27-23,-17,did not cover,44,over,early
+548,HOU,12/11/22,17,44,53,Sun,13,14,@,DAL,L 23-27,17,covered,44,over,early
+549,DET,12/11/22,-2,51.5,40,Sun,13,14,,MIN,W 34-23,-2,covered,51.5,over,early
+550,MIN,12/11/22,2,51.5,40,Sun,13,14,@,DET,L 23-34,2,did not cover,51.5,over,early
+551,NYG,12/11/22,7,45,37,Sun,13,14,,PHI,L 22-48,7,did not cover,45,over,early
+552,PHI,12/11/22,-7,45,37,Sun,13,14,@,NYG,W 48-22,-7,covered,45,over,early
+553,JAX,12/11/22,3.5,41,54,Sun,13,14,@,TEN,W 36-22,3.5,covered,41,over,early
+554,TEN,12/11/22,-3.5,41,54,Sun,13,14,,JAX,L 22-36,-3.5,did not cover,41,over,early
+555,PIT,12/11/22,-1.5,36.5,42,Sun,13,14,,BAL,L 14-16,-1.5,did not cover,36.5,under,early
+556,BAL,12/11/22,1.5,36.5,42,Sun,13,14,@,PIT,W 16-14,1.5,covered,36.5,under,early
+557,ATL,12/4/22,-1,43,52,Sun,13,13,,PIT,L 16-19,-1,did not cover,43,under,early
+558,PIT,12/4/22,1,43,52,Sun,12,13,@,ATL,W 19-16,1,covered,43,under,early
+559,CHI,12/4/22,4.5,45,38,Sun,13,13,,GNB,L 19-28,4.5,did not cover,45,over,early
+560,GNB,12/4/22,-4.5,45,38,Sun,13,13,@,CHI,W 28-19,-4.5,covered,45,over,early
+561,DET,12/4/22,-1,51,41,Sun,12,13,,JAX,W 40-14,-1,covered,51,over,early
+562,JAX,12/4/22,1,51,41,Sun,12,13,@,DET,L 14-40,1,did not cover,51,over,early
+563,CLE,12/4/22,-8,46.5,37,Sun,12,13,@,HOU,W 27-14,-8,covered,46.5,under,early
+564,HOU,12/4/22,8,46.5,37,Sun,12,13,,CLE,L 14-27,8,did not cover,46.5,under,early
+565,MIN,12/4/22,-3,44.5,37,Sun,12,13,,NYJ,W 27-22,-3,covered,44.5,over,early
+566,NYJ,12/4/22,3,44.5,37,Sun,12,13,@,MIN,L 22-27,3,did not cover,44.5,over,early
+567,NYG,12/4/22,2,40.5,40,Sun,12,13,,WAS,T 20-20 (OT),2,covered,40.5,under,early
+568,WAS,12/4/22,-2,40.5,40,Sun,13,13,@,NYG,T 20-20 (OT),-2,did not cover,40.5,under,early
+569,TEN,12/4/22,4,44,60,Sun,12,13,@,PHI,L 10-35,4,did not cover,44,over,early
+570,PHI,12/4/22,-4,44,60,Sun,12,13,,TEN,W 35-10,-4,covered,44,over,early
+571,DEN,12/4/22,9.5,39.5,63,Sun,12,13,@,BAL,L 9-10,9.5,covered,39.5,under,early
+572,BAL,12/4/22,-9.5,39.5,63,Sun,12,13,,DEN,W 10-9,-9.5,did not cover,39.5,under,early
+573,CAR,11/27/22,1,36,66,Sun,12,12,,DEN,W 23-10,1,covered,36,under,early
+574,DEN,11/27/22,-1,36,66,Sun,11,12,@,CAR,L 10-23,-1,did not cover,36,under,early
+575,CLE,11/27/22,3,42,56,Sun,11,12,,TAM,W 23-17 (OT),3,covered,42,under,early
+576,TAM,11/27/22,-3,42,56,Sun,11,12,@,CLE,L 17-23 (OT),-3,did not cover,42,under,early
+577,JAX,11/27/22,3.5,43,77,Sun,11,12,,BAL,W 28-27,3.5,covered,43,over,early
+578,BAL,11/27/22,-3.5,43,77,Sun,11,12,@,JAX,L 27-28,-3.5,did not cover,43,over,early
+579,HOU,11/27/22,14,47,84,Sun,11,12,@,MIA,L 15-30,14,did not cover,47,under,early
+580,MIA,11/27/22,-14,47,84,Sun,11,12,,HOU,W 30-15,-14,covered,47,under,early
+581,CHI,11/27/22,7,38.5,50,Sun,12,12,@,NYJ,L 10-31,7,did not cover,38.5,over,early
+582,NYJ,11/27/22,-7,38.5,50,Sun,11,12,,CHI,W 31-10,-7,covered,38.5,over,early
+583,CIN,11/27/22,-1.5,43,56,Sun,11,12,@,TEN,W 20-16,-1.5,covered,43,under,early
+584,TEN,11/27/22,1.5,43,56,Sun,11,12,,CIN,L 16-20,1.5,did not cover,43,under,early
+585,ATL,11/27/22,4,40.5,46,Sun,12,12,@,WAS,L 13-19,4,did not cover,40.5,under,early
+586,WAS,11/27/22,-4,40.5,46,Sun,12,12,,ATL,W 19-13,-4,covered,40.5,under,early
+587,BUF,11/24/22,-9.5,54.5,44,Thu,11,12,@,DET,W 28-25,-9.5,did not cover,54.5,under,early
+588,DET,11/24/22,9.5,54.5,44,Thu,11,12,,BUF,L 25-28,9.5,covered,54.5,under,early
+589,ATL,11/20/22,-2.5,49,41,Sun,11,11,,CHI,W 27-24,-2.5,covered,49,over,early
+590,CHI,11/20/22,2.5,49,41,Sun,11,11,@,ATL,L 24-27,2.5,did not cover,49,over,early
+591,BUF,11/20/22,-7.5,50,24,Sun,10,11,,CLE,W 31-23,-7.5,covered,50,over,early
+592,CLE,11/20/22,7.5,50,24,Sun,10,11,@,BUF,L 23-31,7.5,did not cover,50,over,early
+593,IND,11/20/22,6.5,45.5,27,Sun,11,11,,PHI,L 16-17,6.5,covered,45.5,under,early
+594,PHI,11/20/22,-6.5,45.5,27,Sun,10,11,@,IND,W 17-16,-6.5,did not cover,45.5,under,early
+595,HOU,11/20/22,3,41,51,Sun,10,11,,WAS,L 10-23,3,did not cover,41,under,early
+596,WAS,11/20/22,-3,41,51,Sun,11,11,@,HOU,W 23-10,-3,covered,41,under,early
+597,NOR,11/20/22,-2.5,39,48,Sun,11,11,,LAR,W 27-20,-2.5,covered,39,over,early
+598,LAR,11/20/22,2.5,39,48,Sun,10,11,@,NOR,L 20-27,2.5,did not cover,39,over,early
+599,NWE,11/20/22,-3.5,38,42,Sun,10,11,,NYJ,W 10-3,-3.5,covered,38,under,early
+600,NYJ,11/20/22,3.5,38,42,Sun,10,11,@,NWE,L 3-10,3.5,did not cover,38,under,early
+601,DET,11/20/22,3,44.5,35,Sun,10,11,@,NYG,W 31-18,3,covered,44.5,over,early
+602,NYG,11/20/22,-3,44.5,35,Sun,10,11,,DET,L 18-31,-3,did not cover,44.5,over,early
+603,CAR,11/20/22,13,41.5,36,Sun,11,11,@,BAL,L 3-13,13,covered,41.5,under,early
+604,BAL,11/20/22,-13,41.5,36,Sun,10,11,,CAR,W 13-3,-13,did not cover,41.5,under,early
+605,BUF,11/13/22,-6.5,44.5,38,Sun,9,10,,MIN,L 30-33 (OT),-6.5,did not cover,44.5,over,early
+606,MIN,11/13/22,6.5,44.5,38,Sun,9,10,@,BUF,W 33-30 (OT),6.5,covered,44.5,over,early
+607,CHI,11/13/22,-2.5,48.5,34,Sun,10,10,,DET,L 30-31,-2.5,did not cover,48.5,over,early
+608,DET,11/13/22,2.5,48.5,34,Sun,9,10,@,CHI,W 31-30,2.5,covered,48.5,over,early
+609,JAX,11/13/22,9,51,33,Sun,10,10,@,KAN,L 17-27,9,did not cover,51,under,early
+610,KAN,11/13/22,-9,51,33,Sun,9,10,,JAX,W 27-17,-9,covered,51,under,early
+611,CLE,11/13/22,3.5,49.5,85,Sun,9,10,@,MIA,L 17-39,3.5,did not cover,49.5,over,early
+612,MIA,11/13/22,-3.5,49.5,85,Sun,10,10,,CLE,W 39-17,-3.5,covered,49.5,over,early
+613,HOU,11/13/22,4.5,41,50,Sun,9,10,@,NYG,L 16-24,4.5,did not cover,41,under,early
+614,NYG,11/13/22,-4.5,41,50,Sun,9,10,,HOU,W 24-16,-4.5,covered,41,under,early
+615,DEN,11/13/22,2.5,39,36,Sun,9,10,@,TEN,L 10-17,2.5,did not cover,39,under,early
+616,TEN,11/13/22,-2.5,39,36,Sun,9,10,,DEN,W 17-10,-2.5,covered,39,under,early
+617,NOR,11/13/22,-1,40,37,Sun,10,10,@,PIT,L 10-20,-1,did not cover,40,under,early
+618,PIT,11/13/22,1,40,37,Sun,9,10,,NOR,W 20-10,1,covered,40,under,early
+619,SEA,11/13/22,2.5,45,54,Sun,10,10,@,TAM,L 16-21,2.5,did not cover,45,under,early
+620,TAM,11/13/22,-2.5,45,54,Sun,10,10,,SEA,W 21-16,-2.5,covered,45,under,early
+621,ATL,11/6/22,3,49.5,78,Sun,9,9,,LAC,L 17-20,3,push,49.5,under,early
+622,LAC,11/6/22,-3,49.5,78,Sun,8,9,@,ATL,W 20-17,-3,push,49.5,under,early
+623,CHI,11/6/22,4,45.5,58,Sun,9,9,,MIA,L 32-35,4,covered,45.5,over,early
+624,MIA,11/6/22,-4,45.5,58,Sun,9,9,@,CHI,W 35-32,-4,did not cover,45.5,over,early
+625,CAR,11/6/22,7,42.5,68,Sun,9,9,@,CIN,L 21-42,7,did not cover,42.5,over,early
+626,CIN,11/6/22,-7,42.5,68,Sun,9,9,,CAR,W 42-21,-7,covered,42.5,over,early
+627,DET,11/6/22,3.5,49.5,59,Sun,8,9,,GNB,W 15-9,3.5,covered,49.5,under,early
+628,GNB,11/6/22,-3.5,49.5,59,Sun,9,9,@,DET,L 9-15,-3.5,did not cover,49.5,under,early
+629,JAX,11/6/22,2.5,48,81,Sun,9,9,,LVR,W 27-20,2.5,covered,48,under,early
+630,LVR,11/6/22,-2.5,48,81,Sun,8,9,@,JAX,L 20-27,-2.5,did not cover,48,under,early
+631,IND,11/6/22,5,40.5,78,Sun,9,9,@,NWE,L 3-26,5,did not cover,40.5,under,early
+632,NWE,11/6/22,-5,40.5,78,Sun,9,9,,IND,W 26-3,-5,covered,40.5,under,early
+633,BUF,11/6/22,-11,46,69,Sun,8,9,@,NYJ,L 17-20,-11,did not cover,46,under,early
+634,NYJ,11/6/22,11,46,69,Sun,9,9,,BUF,W 20-17,11,covered,46,under,early
+635,MIN,11/6/22,-3,43.5,71,Sun,8,9,@,WAS,W 20-17,-3,push,43.5,under,early
+636,WAS,11/6/22,3,43.5,71,Sun,9,9,,MIN,L 17-20,3,push,43.5,under,early
+637,ATL,10/30/22,-4,41,72,Sun,8,8,,CAR,W 37-34 (OT),-4,did not cover,41,over,early
+638,CAR,10/30/22,4,41,72,Sun,8,8,@,ATL,L 34-37 (OT),4,covered,41,over,early
+639,DET,10/30/22,3.5,51.5,68,Sun,7,8,,MIA,L 27-31,3.5,did not cover,51.5,over,early
+640,MIA,10/30/22,-3.5,51.5,68,Sun,8,8,@,DET,W 31-27,-3.5,covered,51.5,over,early
+641,DEN,10/30/22,2,40.5,61,Sun,8,8,@,JAX,W 21-17,2,covered,40.5,under,early
+642,JAX,10/30/22,-2,40.5,61,Sun,8,8,,DEN,L 17-21,-2,did not cover,40.5,under,early
+643,ARI,10/30/22,3.5,48.5,56,Sun,8,8,@,MIN,L 26-34,3.5,did not cover,48.5,over,early
+644,MIN,10/30/22,-3.5,48.5,56,Sun,7,8,,ARI,W 34-26,-3.5,covered,48.5,over,early
+645,NOR,10/30/22,1.5,49.5,68,Sun,8,8,,LVR,W 24-0,1.5,covered,49.5,under,early
+646,LVR,10/30/22,-1.5,49.5,68,Sun,7,8,@,NOR,L 0-24,-1.5,did not cover,49.5,under,early
+647,NWE,10/30/22,-2.5,40,59,Sun,8,8,@,NYJ,W 22-17,-2.5,covered,40,under,early
+648,NYJ,10/30/22,2.5,40,59,Sun,8,8,,NWE,L 17-22,2.5,did not cover,40,under,early
+649,PHI,10/30/22,-10.5,43,61,Sun,7,8,,PIT,W 35-13,-10.5,covered,43,over,early
+650,PIT,10/30/22,10.5,43,61,Sun,8,8,@,PHI,L 13-35,10.5,did not cover,43,over,early
+651,CAR,10/23/22,13,39.5,67,Sun,7,7,,TAM,W 21-3,13,covered,39.5,under,early
+652,TAM,10/23/22,-13,39.5,67,Sun,7,7,@,CAR,L 3-21,-13,did not cover,39.5,under,early
+653,ATL,10/23/22,6.5,47,73,Sun,7,7,@,CIN,L 17-35,6.5,did not cover,47,over,early
+654,CIN,10/23/22,-6.5,47,73,Sun,7,7,,ATL,W 35-17,-6.5,covered,47,over,early
+655,DAL,10/23/22,-6.5,49,80,Sun,7,7,,DET,W 24-6,-6.5,covered,49,under,early
+656,DET,10/23/22,6.5,49,80,Sun,6,7,@,DAL,L 6-24,6.5,did not cover,49,under,early
+657,IND,10/23/22,2.5,41.5,74,Sun,7,7,@,TEN,L 10-19,2.5,did not cover,41.5,under,early
+658,TEN,10/23/22,-2.5,41.5,74,Sun,6,7,,IND,W 19-10,-2.5,covered,41.5,under,early
+659,CLE,10/23/22,6.5,45.5,64,Sun,7,7,@,BAL,L 20-23,6.5,covered,45.5,under,early
+660,BAL,10/23/22,-6.5,45.5,64,Sun,7,7,,CLE,W 23-20,-6.5,did not cover,45.5,under,early
+661,GNB,10/23/22,-4.5,41.5,62,Sun,7,7,@,WAS,L 21-23,-4.5,did not cover,41.5,over,early
+662,WAS,10/23/22,4.5,41.5,62,Sun,7,7,,GNB,W 23-21,4.5,covered,41.5,over,early
+663,ATL,10/16/22,4.5,45,77,Sun,6,6,,SFO,W 28-14,4.5,covered,45,under,early
+664,SFO,10/16/22,-4.5,45,77,Sun,6,6,@,ATL,L 14-28,-4.5,did not cover,45,under,early
+665,CLE,10/16/22,-2.5,43,62,Sun,6,6,,NWE,L 15-38,-2.5,did not cover,43,over,early
+666,NWE,10/16/22,2.5,43,62,Sun,6,6,@,CLE,W 38-15,2.5,covered,43,over,early
+667,IND,10/16/22,-1.5,41,62,Sun,6,6,,JAX,W 34-27,-1.5,covered,41,over,early
+668,JAX,10/16/22,1.5,41,62,Sun,6,6,@,IND,L 27-34,1.5,did not cover,41,over,early
+669,GNB,10/16/22,-7.5,45,49,Sun,6,6,,NYJ,L 10-27,-7.5,did not cover,45,under,early
+670,NYJ,10/16/22,7.5,45,49,Sun,6,6,@,GNB,W 27-10,7.5,covered,45,under,early
+671,MIA,10/16/22,3,45.5,86,Sun,6,6,,MIN,L 16-24,3,did not cover,45.5,under,early
+672,MIN,10/16/22,-3,45.5,86,Sun,6,6,@,MIA,W 24-16,-3,covered,45.5,under,early
+673,CIN,10/16/22,-3,43,77,Sun,6,6,@,NOR,W 30-26,-3,covered,43,over,early
+674,NOR,10/16/22,3,43,77,Sun,6,6,,CIN,L 26-30,3,did not cover,43,over,early
+675,NYG,10/16/22,5.5,45.5,60,Sun,6,6,,BAL,W 24-20,5.5,covered,45.5,under,early
+676,BAL,10/16/22,-5.5,45.5,60,Sun,6,6,@,NYG,L 20-24,-5.5,did not cover,45.5,under,early
+677,PIT,10/16/22,9.5,46,62,Sun,6,6,,TAM,W 20-18,9.5,covered,46,under,early
+678,TAM,10/16/22,-9.5,46,62,Sun,6,6,@,PIT,L 18-20,-9.5,did not cover,46,under,early
+679,BUF,10/9/22,-14,45.5,55,Sun,5,5,,PIT,W 38-3,-14,covered,45.5,under,early
+680,PIT,10/9/22,14,45.5,55,Sun,5,5,@,BUF,L 3-38,14,did not cover,45.5,under,early
+681,CLE,10/9/22,1,47,59,Sun,5,5,,LAC,L 28-30,1,did not cover,47,over,early
+682,LAC,10/9/22,-1,47,59,Sun,5,5,@,CLE,W 30-28,-1,covered,47,over,early
+683,GNB,10/9/22,-8,41.5,64,Sun,5,5,,NYG,L 22-27,-8,did not cover,41.5,over,early
+684,NYG,10/9/22,8,41.5,64,Sun,5,5,@,GNB,W 27-22,8,covered,41.5,over,early
+685,HOU,10/9/22,7,43.5,80,Sun,5,5,@,JAX,W 13-6,7,covered,43.5,under,early
+686,JAX,10/9/22,-7,43.5,80,Sun,5,5,,HOU,L 6-13,-7,did not cover,43.5,under,early
+687,CHI,10/9/22,7.5,44,59,Sun,5,5,@,MIN,L 22-29,7.5,covered,44,over,early
+688,MIN,10/9/22,-7.5,44,59,Sun,5,5,,CHI,W 29-22,-7.5,did not cover,44,over,early
+689,NOR,10/9/22,-5,45,71,Sun,5,5,,SEA,W 39-32,-5,covered,45,over,early
+690,SEA,10/9/22,5,45,71,Sun,5,5,@,NOR,L 32-39,5,did not cover,45,over,early
+691,DET,10/9/22,3,45.5,58,Sun,5,5,@,NWE,L 0-29,3,did not cover,45.5,under,early
+692,NWE,10/9/22,-3,45.5,58,Sun,5,5,,DET,W 29-0,-3,covered,45.5,under,early
+693,MIA,10/9/22,-3.5,45,63,Sun,5,5,@,NYJ,L 17-40,-3.5,did not cover,45,over,early
+694,NYJ,10/9/22,3.5,45,63,Sun,5,5,,MIA,W 40-17,3.5,covered,45,over,early
+695,ATL,10/9/22,10,46.5,83,Sun,5,5,@,TAM,L 15-21,10,covered,46.5,under,early
+696,TAM,10/9/22,-10,46.5,83,Sun,5,5,,ATL,W 21-15,-10,did not cover,46.5,under,early
+697,TEN,10/9/22,-2,43,61,Sun,5,5,@,WAS,W 21-17,-2,covered,43,under,early
+698,WAS,10/9/22,2,43,61,Sun,5,5,,TEN,L 17-21,2,did not cover,43,under,early
+699,ATL,10/2/22,1,47.5,68,Sun,4,4,,CLE,W 23-20,1,covered,47.5,under,early
+700,CLE,10/2/22,-1,47.5,68,Sun,4,4,@,ATL,L 20-23,-1,did not cover,47.5,under,early
+701,IND,10/2/22,-3.5,43,62,Sun,4,4,,TEN,L 17-24,-3.5,did not cover,43,under,early
+702,TEN,10/2/22,3.5,43,62,Sun,4,4,@,IND,W 24-17,3.5,covered,43,under,early
+703,DAL,10/2/22,-3,41.5,74,Sun,4,4,,WAS,W 25-10,-3,covered,41.5,under,early
+704,WAS,10/2/22,3,41.5,74,Sun,4,4,@,DAL,L 10-25,3,did not cover,41.5,under,early
+705,DET,10/2/22,-3.5,48,62,Sun,4,4,,SEA,L 45-48,-3.5,did not cover,48,over,early
+706,SEA,10/2/22,3.5,48,62,Sun,4,4,@,DET,W 48-45,3.5,covered,48,over,early
+707,HOU,10/2/22,6,45,78,Sun,4,4,,LAC,L 24-34,6,did not cover,45,over,early
+708,LAC,10/2/22,-6,45,78,Sun,4,4,@,HOU,W 34-24,-6,covered,45,over,early
+709,MIN,10/2/22,-3.5,42,64,Sun,4,4,@,NOR,W 28-25,-3.5,did not cover,42,over,early
+710,NOR,10/2/22,3.5,42,64,Sun,4,4,,MIN,L 25-28,3.5,covered,42,over,early
+711,CHI,10/2/22,3,39,59,Sun,4,4,@,NYG,L 12-20,3,did not cover,39,under,early
+712,NYG,10/2/22,-3,39,59,Sun,4,4,,CHI,W 20-12,-3,covered,39,under,early
+713,JAX,10/2/22,6.5,45.5,57,Sun,4,4,@,PHI,L 21-29,6.5,did not cover,45.5,over,early
+714,PHI,10/2/22,-6.5,45.5,57,Sun,4,4,,JAX,W 29-21,-6.5,covered,45.5,over,early
+715,NYJ,10/2/22,3.5,41.5,57,Sun,4,4,@,PIT,W 24-20,3.5,covered,41.5,over,early
+716,PIT,10/2/22,-3.5,41.5,57,Sun,4,4,,NYJ,L 20-24,-3.5,did not cover,41.5,over,early
+717,BUF,10/2/22,-3,51,58,Sun,4,4,@,BAL,W 23-20,-3,push,51,under,early
+718,BAL,10/2/22,3,51,58,Sun,4,4,,BUF,L 20-23,3,push,51,under,early
+719,CAR,9/25/22,2.5,41,68,Sun,3,3,,NOR,W 22-14,2.5,covered,41,under,early
+720,NOR,9/25/22,-2.5,41,68,Sun,3,3,@,CAR,L 14-22,-2.5,did not cover,41,under,early
+721,CHI,9/25/22,-3,39,66,Sun,3,3,,HOU,W 23-20,-3,push,39,over,early
+722,HOU,9/25/22,3,39,66,Sun,3,3,@,CHI,L 20-23,3,push,39,over,early
+723,IND,9/25/22,5.5,51,65,Sun,3,3,,KAN,W 20-17,5.5,covered,51,under,early
+724,KAN,9/25/22,-5.5,51,65,Sun,3,3,@,IND,L 17-20,-5.5,did not cover,51,under,early
+725,BUF,9/25/22,-4.5,53,89,Sun,3,3,@,MIA,L 19-21,-4.5,did not cover,53,under,early
+726,MIA,9/25/22,4.5,53,89,Sun,3,3,,BUF,W 21-19,4.5,covered,53,under,early
+727,DET,9/25/22,6,52.5,65,Sun,3,3,@,MIN,L 24-28,6,covered,52.5,under,early
+728,MIN,9/25/22,-6,52.5,65,Sun,3,3,,DET,W 28-24,-6,did not cover,52.5,under,early
+729,NWE,9/25/22,2.5,44,66,Sun,3,3,,BAL,L 26-37,2.5,did not cover,44,over,early
+730,BAL,9/25/22,-2.5,44,66,Sun,3,3,@,NWE,W 37-26,-2.5,covered,44,over,early
+731,CIN,9/25/22,-6,45,66,Sun,3,3,@,NYJ,W 27-12,-6,covered,45,under,early
+732,NYJ,9/25/22,6,45,66,Sun,3,3,,CIN,L 12-27,6,did not cover,45,under,early
+733,TEN,9/25/22,2,45.5,77,Sun,3,3,,LVR,W 24-22,2,covered,45.5,over,early
+734,LVR,9/25/22,-2,45.5,77,Sun,3,3,@,TEN,L 22-24,-2,did not cover,45.5,over,early
+735,PHI,9/25/22,-6,47.5,72,Sun,3,3,@,WAS,W 24-8,-6,covered,47.5,under,early
+736,WAS,9/25/22,6,47.5,72,Sun,3,3,,PHI,L 8-24,6,did not cover,47.5,under,early
+737,CLE,9/18/22,-6.5,39.5,80,Sun,2,2,,NYJ,L 30-31,-6.5,did not cover,39.5,over,early
+738,NYJ,9/18/22,6.5,39.5,80,Sun,2,2,@,CLE,W 31-30,6.5,covered,39.5,over,early
+739,DET,9/18/22,-1.5,48.5,68,Sun,2,2,,WAS,W 36-27,-1.5,covered,48.5,over,early
+740,WAS,9/18/22,1.5,48.5,68,Sun,2,2,@,DET,L 27-36,1.5,did not cover,48.5,over,early
+741,NOR,9/18/22,2.5,44,85,Sun,2,2,,TAM,L 10-20,2.5,did not cover,44,under,early
+742,TAM,9/18/22,-2.5,44,85,Sun,2,2,@,NOR,W 20-10,-2.5,covered,44,under,early
+743,CAR,9/18/22,2,43.5,73,Sun,2,2,@,NYG,L 16-19,2,did not cover,43.5,under,early
+744,NYG,9/18/22,-2,43.5,73,Sun,2,2,,CAR,W 19-16,-2,covered,43.5,under,early
+745,NWE,9/18/22,-2.5,40.5,81,Sun,2,2,@,PIT,W 17-14,-2.5,covered,40.5,under,early
+746,PIT,9/18/22,2.5,40.5,81,Sun,2,2,,NWE,L 14-17,2.5,did not cover,40.5,under,early
+747,MIA,9/18/22,3.5,44.5,82,Sun,2,2,@,BAL,W 42-38,3.5,covered,44.5,over,early
+748,BAL,9/18/22,-3.5,44.5,82,Sun,2,2,,MIA,L 38-42,-3.5,did not cover,44.5,over,early
+749,ATL,9/11/22,5.5,43.5,80,Sun,1,1,,NOR,L 26-27,5.5,covered,43.5,over,early
+750,NOR,9/11/22,-5.5,43.5,80,Sun,1,1,@,ATL,W 27-26,-5.5,did not cover,43.5,over,early
+751,CAR,9/11/22,-1.5,42,80,Sun,1,1,,CLE,L 24-26,-1.5,did not cover,42,over,early
+752,CLE,9/11/22,1.5,42,80,Sun,1,1,@,CAR,W 26-24,1.5,covered,42,over,early
+753,CHI,9/11/22,6,38,69,Sun,1,1,,SFO,W 19-10,6,covered,38,under,early
+754,SFO,9/11/22,-6,38,69,Sun,1,1,@,CHI,L 10-19,-6,did not cover,38,under,early
+755,CIN,9/11/22,-7,44,76,Sun,1,1,,PIT,L 20-23 (OT),-7,did not cover,44,under,early
+756,PIT,9/11/22,7,44,76,Sun,1,1,@,CIN,W 23-20 (OT),7,covered,44,under,early
+757,DET,9/11/22,6,48.5,68,Sun,1,1,,PHI,L 35-38,6,covered,48.5,over,early
+758,PHI,9/11/22,-6,48.5,68,Sun,1,1,@,DET,W 38-35,-6,did not cover,48.5,over,early
+759,IND,9/11/22,-7,45.5,88,Sun,1,1,@,HOU,T 20-20 (OT),-7,did not cover,45.5,under,early
+760,HOU,9/11/22,7,45.5,88,Sun,1,1,,IND,T 20-20 (OT),7,covered,45.5,under,early
+761,MIA,9/11/22,-3,46,92,Sun,1,1,,NWE,W 20-7,-3,covered,46,under,early
+762,NWE,9/11/22,3,46,92,Sun,1,1,@,MIA,L 7-20,3,did not cover,46,under,early
+763,NYJ,9/11/22,6.5,44,73,Sun,1,1,,BAL,L 9-24,6.5,did not cover,44,under,early
+764,BAL,9/11/22,-6.5,44,73,Sun,1,1,@,NYJ,W 24-9,-6.5,covered,44,under,early
+765,JAX,9/11/22,3,43,74,Sun,1,1,@,WAS,L 22-28,3,did not cover,43,over,early
+766,WAS,9/11/22,-3,43,74,Sun,1,1,,JAX,W 28-22,-3,covered,43,over,early
+767,ATL,1/9/22,3.5,40,61,Sun,17,18,,NOR,L 20-30,3.5,did not cover,40,over,early
+768,NOR,1/9/22,-3.5,40,61,Sun,17,18,@,ATL,W 30-20,-3.5,covered,40,over,early
+769,CIN,1/9/22,5.5,37,38,Sun,17,18,@,CLE,L 16-21,5.5,covered,37,push,early
+770,CLE,1/9/22,-5.5,37,38,Sun,17,18,,CIN,W 21-16,-5.5,did not cover,37,push,early
+771,DET,1/9/22,3,44.5,36,Sun,17,18,,GNB,W 37-30,3,covered,44.5,over,early
+772,GNB,1/9/22,-3,44.5,36,Sun,17,18,@,DET,L 30-37,-3,did not cover,44.5,over,early
+773,HOU,1/9/22,10.5,42.5,75,Sun,17,18,,TEN,L 25-28,10.5,covered,42.5,over,early
+774,TEN,1/9/22,-10.5,42.5,75,Sun,17,18,@,HOU,W 28-25,-10.5,did not cover,42.5,over,early
+775,IND,1/9/22,-15,43.5,76,Sun,17,18,@,JAX,L 11-26,-15,did not cover,43.5,under,early
+776,JAX,1/9/22,15,43.5,76,Sun,17,18,,IND,W 26-11,15,covered,43.5,under,early
+777,MIA,1/9/22,6,40,75,Sun,17,18,,NWE,W 33-24,6,covered,40,over,early
+778,NWE,1/9/22,-6,40,75,Sun,17,18,@,MIA,L 24-33,-6,did not cover,40,over,early
+779,CHI,1/9/22,4,44.5,0,Sun,17,18,@,MIN,L 17-31,4,did not cover,44.5,over,early
+780,MIN,1/9/22,-4,44.5,0,Sun,17,18,,CHI,W 31-17,-4,covered,44.5,over,early
+781,NYG,1/9/22,7,37.5,38,Sun,17,18,,WAS,L 7-22,7,did not cover,37.5,under,early
+782,WAS,1/9/22,-7,37.5,38,Sun,17,18,@,NYG,W 22-7,-7,covered,37.5,under,early
+783,PIT,1/9/22,3.5,41,36,Sun,17,18,@,BAL,W 16-13 (OT),3.5,covered,41,under,early
+784,BAL,1/9/22,-3.5,41,36,Sun,17,18,,PIT,L 13-16 (OT),-3.5,did not cover,41,under,early
+785,CAR,1/9/22,9,41.5,80,Sun,17,18,@,TAM,L 17-41,9,did not cover,41.5,over,early
+786,TAM,1/9/22,-9,41.5,80,Sun,17,18,,CAR,W 41-17,-9,covered,41.5,over,early
+787,ATL,1/2/22,14.5,44,26,Sun,16,17,@,BUF,L 15-29,14.5,covered,44,push,early
+788,BUF,1/2/22,-14.5,44,26,Sun,16,17,,ATL,W 29-15,-14.5,did not cover,44,push,early
+789,CHI,1/2/22,-6.5,36.5,25,Sun,16,17,,NYG,W 29-3,-6.5,covered,36.5,under,early
+790,NYG,1/2/22,6.5,36.5,25,Sun,16,17,@,CHI,L 3-29,6.5,did not cover,36.5,under,early
+791,CIN,1/2/22,4,51.5,33,Sun,16,17,,KAN,W 34-31,4,covered,51.5,over,early
+792,KAN,1/2/22,-4,51.5,33,Sun,16,17,@,CIN,L 31-34,-4,did not cover,51.5,over,early
+793,IND,1/2/22,-8,45,27,Sun,16,17,,LVR,L 20-23,-8,did not cover,45,under,early
+794,LVR,1/2/22,8,45,27,Sun,16,17,@,IND,W 23-20,8,covered,45,under,early
+795,CAR,1/2/22,6.5,37.5,58,Sun,16,17,@,NOR,L 10-18,6.5,did not cover,37.5,under,early
+796,NOR,1/2/22,-6.5,37.5,58,Sun,16,17,,CAR,W 18-10,-6.5,covered,37.5,under,early
+797,JAX,1/2/22,16.5,41.5,46,Sun,16,17,@,NWE,L 10-50,16.5,did not cover,41.5,over,early
+798,NWE,1/2/22,-16.5,41.5,46,Sun,16,17,,JAX,W 50-10,-16.5,covered,41.5,over,early
+799,NYJ,1/2/22,13.5,45.5,57,Sun,16,17,,TAM,L 24-28,13.5,covered,45.5,over,early
+800,TAM,1/2/22,-13.5,45.5,57,Sun,16,17,@,NYJ,W 28-24,-13.5,did not cover,45.5,over,early
+801,MIA,1/2/22,3,40,43,Sun,16,17,@,TEN,L 3-34,3,did not cover,40,under,early
+802,TEN,1/2/22,-3,40,43,Sun,16,17,,MIA,W 34-3,-3,covered,40,under,early
+803,PHI,1/2/22,-4.5,44.5,62,Sun,16,17,@,WAS,W 20-16,-4.5,did not cover,44.5,under,early
+804,WAS,1/2/22,4.5,44.5,62,Sun,16,17,,PHI,L 16-20,4.5,covered,44.5,under,early
+805,ATL,12/26/21,-6.5,42,69,Sun,15,16,,DET,W 20-16,-6.5,did not cover,42,under,early
+806,DET,12/26/21,6.5,42,69,Sun,15,16,@,ATL,L 16-20,6.5,covered,42,under,early
+807,CAR,12/26/21,9.5,43,73,Sun,15,16,,TAM,L 6-32,9.5,did not cover,43,under,early
+808,TAM,12/26/21,-9.5,43,73,Sun,15,16,@,CAR,W 32-6,-9.5,covered,43,under,early
+809,CIN,12/26/21,-7,41.5,52,Sun,15,16,,BAL,W 41-21,-7,covered,41.5,over,early
+810,BAL,12/26/21,7,41.5,52,Sun,15,16,@,CIN,L 21-41,7,did not cover,41.5,over,early
+811,HOU,12/26/21,11,45.5,78,Sun,15,16,,LAC,W 41-29,11,covered,45.5,over,early
+812,LAC,12/26/21,-11,45.5,78,Sun,15,16,@,HOU,L 29-41,-11,did not cover,45.5,over,early
+813,MIN,12/26/21,3.5,49,20,Sun,15,16,,LAR,L 23-30,3.5,did not cover,49,over,early
+814,LAR,12/26/21,-3.5,49,20,Sun,15,16,@,MIN,W 30-23,-3.5,covered,49,over,early
+815,BUF,12/26/21,1.5,43.5,38,Sun,15,16,@,NWE,W 33-21,1.5,covered,43.5,over,early
+816,NWE,12/26/21,-1.5,43.5,38,Sun,15,16,,BUF,L 21-33,-1.5,did not cover,43.5,over,early
+817,JAX,12/26/21,1.5,41,47,Sun,15,16,@,NYJ,L 21-26,1.5,did not cover,41,over,early
+818,NYJ,12/26/21,-1.5,41,47,Sun,15,16,,JAX,W 26-21,-1.5,covered,41,over,early
+819,NYG,12/26/21,10,40.5,53,Sun,15,16,@,PHI,L 10-34,10,did not cover,40.5,over,early
+820,PHI,12/26/21,-10,40.5,53,Sun,15,16,,NYG,W 34-10,-10,covered,40.5,over,early
+821,BUF,12/19/21,-14.5,43,30,Sun,14,15,,CAR,W 31-14,-14.5,covered,43,over,early
+822,CAR,12/19/21,14.5,43,30,Sun,14,15,@,BUF,L 14-31,14.5,did not cover,43,over,early
+823,ARI,12/19/21,-13,48,28,Sun,14,15,@,DET,L 12-30,-13,did not cover,48,under,early
+824,DET,12/19/21,13,48,28,Sun,14,15,,ARI,W 30-12,13,covered,48,under,early
+825,HOU,12/19/21,6,40,80,Sun,14,15,@,JAX,W 30-16,6,covered,40,over,early
+826,JAX,12/19/21,-6,40,80,Sun,14,15,,HOU,L 16-30,-6,did not cover,40,over,early
+827,MIA,12/19/21,-10,42,82,Sun,14,15,,NYJ,W 31-24,-10,did not cover,42,over,early
+828,NYJ,12/19/21,10,42,82,Sun,14,15,@,MIA,L 24-31,10,covered,42,over,early
+829,DAL,12/19/21,-11.5,43.5,37,Sun,14,15,@,NYG,W 21-6,-11.5,covered,43.5,under,early
+830,NYG,12/19/21,11.5,43.5,37,Sun,14,15,,DAL,L 6-21,11.5,did not cover,43.5,under,early
+831,TEN,12/19/21,1,44,32,Sun,14,15,@,PIT,L 13-19,1,did not cover,44,under,early
+832,PIT,12/19/21,-1,44,32,Sun,14,15,,TEN,W 19-13,-1,covered,44,under,early
+833,GNB,12/19/21,-9.5,45,43,Sun,14,15,@,BAL,W 31-30,-9.5,did not cover,45,over,early
+834,BAL,12/19/21,9.5,45,43,Sun,14,15,,GNB,L 30-31,9.5,covered,45,over,early
+835,ATL,12/12/21,2.5,41,48,Sun,13,14,@,CAR,W 29-21,2.5,covered,41,over,early
+836,CAR,12/12/21,-2.5,41,48,Sun,13,14,,ATL,L 21-29,-2.5,did not cover,41,over,early
+837,CIN,12/12/21,1.5,49,48,Sun,13,14,,SFO,L 23-26 (OT),1.5,did not cover,49,push,early
+838,SFO,12/12/21,-1.5,49,48,Sun,13,14,@,CIN,W 26-23 (OT),-1.5,covered,49,push,early
+839,CLE,12/12/21,-3,42.5,46,Sun,13,14,,BAL,W 24-22,-3,did not cover,42.5,over,early
+840,BAL,12/12/21,3,42.5,46,Sun,13,14,@,CLE,L 22-24,3,covered,42.5,over,early
+841,HOU,12/12/21,9,40.5,54,Sun,13,14,,SEA,L 13-33,9,did not cover,40.5,over,early
+842,SEA,12/12/21,-9,40.5,54,Sun,13,14,@,HOU,W 33-13,-9,covered,40.5,over,early
+843,KAN,12/12/21,-10,48,47,Sun,13,14,,LVR,W 48-9,-10,covered,48,over,early
+844,LVR,12/12/21,10,48,47,Sun,13,14,@,KAN,L 9-48,10,did not cover,48,over,early
+845,NOR,12/12/21,-5.5,43,46,Sun,13,14,@,NYJ,W 30-9,-5.5,covered,43,under,early
+846,NYJ,12/12/21,5.5,43,46,Sun,13,14,,NOR,L 9-30,5.5,did not cover,43,under,early
+847,JAX,12/12/21,8.5,43.5,45,Sun,13,14,@,TEN,L 0-20,8.5,did not cover,43.5,under,early
+848,TEN,12/12/21,-8.5,43.5,45,Sun,13,14,,JAX,W 20-0,-8.5,covered,43.5,under,early
+849,DAL,12/12/21,-4.5,48,48,Sun,13,14,@,WAS,W 27-20,-4.5,covered,48,under,early
+850,WAS,12/12/21,4.5,48,48,Sun,13,14,,DAL,L 20-27,4.5,did not cover,48,under,early
+851,ATL,12/5/21,10.5,50.5,59,Sun,12,13,,TAM,L 17-30,10.5,did not cover,50.5,under,early
+852,TAM,12/5/21,-10.5,50.5,59,Sun,12,13,@,ATL,W 30-17,-10.5,covered,50.5,under,early
+853,CHI,12/5/21,7.5,42,34,Sun,12,13,,ARI,L 22-33,7.5,did not cover,42,over,early
+854,ARI,12/5/21,-7.5,42,34,Sun,12,13,@,CHI,W 33-22,-7.5,covered,42,over,early
+855,CIN,12/5/21,-3,49.5,48,Sun,12,13,,LAC,L 22-41,-3,did not cover,49.5,over,early
+856,LAC,12/5/21,3,49.5,48,Sun,12,13,@,CIN,W 41-22,3,covered,49.5,over,early
+857,DET,12/5/21,7,46.5,38,Sun,12,13,,MIN,W 29-27,7,covered,46.5,over,early
+858,MIN,12/5/21,-7,46.5,38,Sun,12,13,@,DET,L 27-29,-7,did not cover,46.5,over,early
+859,IND,12/5/21,-10,44.5,79,Sun,13,13,@,HOU,W 31-0,-10,covered,44.5,under,early
+860,HOU,12/5/21,10,44.5,79,Sun,12,13,,IND,L 0-31,10,did not cover,44.5,under,early
+861,MIA,12/5/21,-6.5,39.5,80,Sun,13,13,,NYG,W 20-9,-6.5,covered,39.5,under,early
+862,NYG,12/5/21,6.5,39.5,80,Sun,12,13,@,MIA,L 9-20,6.5,did not cover,39.5,under,early
+863,NYJ,12/5/21,5,43.5,45,Sun,12,13,,PHI,L 18-33,5,did not cover,43.5,over,early
+864,PHI,12/5/21,-5,43.5,45,Sun,13,13,@,NYJ,W 33-18,-5,covered,43.5,over,early
+865,CIN,11/28/21,-3.5,44,43,Sun,11,12,,PIT,W 41-10,-3.5,covered,44,over,early
+866,PIT,11/28/21,3.5,44,43,Sun,11,12,@,CIN,L 10-41,3.5,did not cover,44,over,early
+867,IND,11/28/21,3,53.5,41,Sun,12,12,,TAM,L 31-38,3,did not cover,53.5,over,early
+868,TAM,11/28/21,-3,53.5,41,Sun,11,12,@,IND,W 38-31,-3,covered,53.5,over,early
+869,HOU,11/28/21,-2.5,44.5,57,Sun,11,12,,NYJ,L 14-21,-2.5,did not cover,44.5,under,early
+870,NYJ,11/28/21,2.5,44.5,57,Sun,11,12,@,HOU,W 21-14,2.5,covered,44.5,under,early
+871,ATL,11/28/21,-2,45.5,61,Sun,11,12,@,JAX,W 21-14,-2,covered,45.5,under,early
+872,JAX,11/28/21,2,45.5,61,Sun,11,12,,ATL,L 14-21,2,did not cover,45.5,under,early
+873,CAR,11/28/21,-2.5,42,74,Sun,12,12,@,MIA,L 10-33,-2.5,did not cover,42,over,early
+874,MIA,11/28/21,2.5,42,74,Sun,12,12,,CAR,W 33-10,2.5,covered,42,over,early
+875,NWE,11/28/21,-7,43.5,33,Sun,12,12,,TEN,W 36-13,-7,covered,43.5,over,early
+876,TEN,11/28/21,7,43.5,33,Sun,12,12,@,NWE,L 13-36,7,did not cover,43.5,over,early
+877,NYG,11/28/21,3.5,45.5,39,Sun,11,12,,PHI,W 13-7,3.5,covered,45.5,under,early
+878,PHI,11/28/21,-3.5,45.5,39,Sun,12,12,@,NYG,L 7-13,-3.5,did not cover,45.5,under,early
+879,CHI,11/25/21,-3,41,44,Thu,11,12,@,DET,W 16-14,-3,did not cover,41,under,early
+880,DET,11/25/21,3,41,44,Thu,11,12,,CHI,L 14-16,3,covered,41,under,early
+881,BUF,11/21/21,-7,49.5,49,Sun,10,11,,IND,L 15-41,-7,did not cover,49.5,over,early
+882,IND,11/21/21,7,49.5,49,Sun,11,11,@,BUF,W 41-15,7,covered,49.5,over,early
+883,CAR,11/21/21,-3.5,43,54,Sun,11,11,,WAS,L 21-27,-3.5,did not cover,43,over,early
+884,WAS,11/21/21,3.5,43,54,Sun,10,11,@,CAR,W 27-21,3.5,covered,43,over,early
+885,CHI,11/21/21,5,43.5,46,Sun,10,11,,BAL,L 13-16,5,covered,43.5,under,early
+886,BAL,11/21/21,-5,43.5,46,Sun,10,11,@,CHI,W 16-13,-5,did not cover,43.5,under,early
+887,CLE,11/21/21,-12.5,42.5,42,Sun,11,11,,DET,W 13-10,-12.5,did not cover,42.5,under,early
+888,DET,11/21/21,12.5,42.5,42,Sun,10,11,@,CLE,L 10-13,12.5,covered,42.5,under,early
+889,JAX,11/21/21,6.5,45,68,Sun,10,11,,SFO,L 10-30,6.5,did not cover,45,under,early
+890,SFO,11/21/21,-6.5,45,68,Sun,10,11,@,JAX,W 30-10,-6.5,covered,45,under,early
+891,GNB,11/21/21,-1,47,34,Sun,11,11,@,MIN,L 31-34,-1,did not cover,47,over,early
+892,MIN,11/21/21,1,47,34,Sun,10,11,,GNB,W 34-31,1,covered,47,over,early
+893,MIA,11/21/21,-3.5,44.5,52,Sun,11,11,@,NYJ,W 24-17,-3.5,covered,44.5,under,early
+894,NYJ,11/21/21,3.5,44.5,52,Sun,10,11,,MIA,L 17-24,3.5,did not cover,44.5,under,early
+895,HOU,11/21/21,10,44.5,59,Sun,10,11,@,TEN,W 22-13,10,covered,44.5,under,early
+896,TEN,11/21/21,-10,44.5,59,Sun,11,11,,HOU,L 13-22,-10,did not cover,44.5,under,early
+897,NOR,11/21/21,2.5,42.5,51,Sun,10,11,@,PHI,L 29-40,2.5,did not cover,42.5,over,early
+898,PHI,11/21/21,-2.5,42.5,51,Sun,11,11,,NOR,W 40-29,-2.5,covered,42.5,over,early
+899,IND,11/14/21,-10,47.5,36,Sun,10,10,,JAX,W 23-17,-10,did not cover,47.5,under,early
+900,JAX,11/14/21,10,47.5,36,Sun,9,10,@,IND,L 17-23,10,covered,47.5,under,early
+901,ATL,11/14/21,8,55,63,Sun,9,10,@,DAL,L 3-43,8,did not cover,55,under,early
+902,DAL,11/14/21,-8,55,63,Sun,9,10,,ATL,W 43-3,-8,covered,55,under,early
+903,CLE,11/14/21,2.5,45,48,Sun,10,10,@,NWE,L 7-45,2.5,did not cover,45,over,early
+904,NWE,11/14/21,-2.5,45,48,Sun,10,10,,CLE,W 45-7,-2.5,covered,45,over,early
+905,BUF,11/14/21,-13,47.5,47,Sun,9,10,@,NYJ,W 45-17,-13,covered,47.5,over,early
+906,NYJ,11/14/21,13,47.5,47,Sun,9,10,,BUF,L 17-45,13,did not cover,47.5,over,early
+907,NOR,11/14/21,3,44,53,Sun,9,10,@,TEN,L 21-23,3,covered,44,push,early
+908,TEN,11/14/21,-3,44,53,Sun,10,10,,NOR,W 23-21,-3,did not cover,44,push,early
+909,DET,11/14/21,6,41,37,Sun,9,10,@,PIT,T 16-16 (OT),6,covered,41,under,early
+910,PIT,11/14/21,-6,41,37,Sun,9,10,,DET,T 16-16 (OT),-6,did not cover,41,under,early
+911,TAM,11/14/21,-9.5,51,47,Sun,9,10,@,WAS,L 19-29,-9.5,did not cover,51,under,early
+912,WAS,11/14/21,9.5,51,47,Sun,9,10,,TAM,W 29-19,9.5,covered,51,under,early
+913,CAR,11/7/21,3.5,41,61,Sun,9,9,,NWE,L 6-24,3.5,did not cover,41,under,early
+914,NWE,11/7/21,-3.5,41,61,Sun,9,9,@,CAR,W 24-6,-3.5,covered,41,under,early
+915,CIN,11/7/21,-2.5,47.5,56,Sun,9,9,,CLE,L 16-41,-2.5,did not cover,47.5,over,early
+916,CLE,11/7/21,2.5,47.5,56,Sun,9,9,@,CIN,W 41-16,2.5,covered,47.5,over,early
+917,DAL,11/7/21,-10,48.5,64,Sun,8,9,,DEN,L 16-30,-10,did not cover,48.5,under,early
+918,DEN,11/7/21,10,48.5,64,Sun,9,9,@,DAL,W 30-16,10,covered,48.5,under,early
+919,BUF,11/7/21,-14.5,48.5,59,Sun,8,9,@,JAX,L 6-9,-14.5,did not cover,48.5,under,early
+920,JAX,11/7/21,14.5,48.5,59,Sun,8,9,,BUF,W 9-6,14.5,covered,48.5,under,early
+921,HOU,11/7/21,5.5,46.5,72,Sun,9,9,@,MIA,L 9-17,5.5,did not cover,46.5,under,early
+922,MIA,11/7/21,-5.5,46.5,72,Sun,9,9,,HOU,W 17-9,-5.5,covered,46.5,under,early
+923,ATL,11/7/21,6,41.5,62,Sun,8,9,@,NOR,W 27-25,6,covered,41.5,over,early
+924,NOR,11/7/21,-6,41.5,62,Sun,8,9,,ATL,L 25-27,-6,did not cover,41.5,over,early
+925,NYG,11/7/21,3,46.5,54,Sun,9,9,,LVR,W 23-16,3,covered,46.5,under,early
+926,LVR,11/7/21,-3,46.5,54,Sun,8,9,@,NYG,L 16-23,-3,did not cover,46.5,under,early
+927,MIN,11/7/21,6,50.5,56,Sun,8,9,@,BAL,L 31-34 (OT),6,covered,50.5,over,early
+928,BAL,11/7/21,-6,50.5,56,Sun,8,9,,MIN,W 34-31 (OT),-6,did not cover,50.5,over,early
+929,ATL,10/31/21,-3,47,58,Sun,7,8,,CAR,L 13-19,-3,did not cover,47,under,early
+930,CAR,10/31/21,3,47,58,Sun,8,8,@,ATL,W 19-13,3,covered,47,under,early
+931,BUF,10/31/21,-14,49,54,Sun,7,8,,MIA,W 26-11,-14,covered,49,under,early
+932,MIA,10/31/21,14,49,54,Sun,8,8,@,BUF,L 11-26,14,did not cover,49,under,early
+933,CHI,10/31/21,4,39.5,53,Sun,8,8,,SFO,L 22-33,4,did not cover,39.5,over,early
+934,SFO,10/31/21,-4,39.5,53,Sun,7,8,@,CHI,W 33-22,-4,covered,39.5,over,early
+935,CLE,10/31/21,-4.5,43,57,Sun,8,8,,PIT,L 10-15,-4.5,did not cover,43,under,early
+936,PIT,10/31/21,4.5,43,57,Sun,7,8,@,CLE,W 15-10,4.5,covered,43,under,early
+937,IND,10/31/21,-3,51,55,Sun,8,8,,TEN,L 31-34 (OT),-3,did not cover,51,over,early
+938,TEN,10/31/21,3,51,55,Sun,8,8,@,IND,W 34-31 (OT),3,covered,51,over,early
+939,DET,10/31/21,3.5,48,56,Sun,8,8,,PHI,L 6-44,3.5,did not cover,48,over,early
+940,PHI,10/31/21,-3.5,48,56,Sun,8,8,@,DET,W 44-6,-3.5,covered,48,over,early
+941,HOU,10/31/21,16,46.5,75,Sun,8,8,,LAR,L 22-38,16,push,46.5,over,early
+942,LAR,10/31/21,-16,46.5,75,Sun,8,8,@,HOU,W 38-22,-16,push,46.5,over,early
+943,CIN,10/31/21,-11,43,63,Sun,8,8,@,NYJ,L 31-34,-11,did not cover,43,over,early
+944,NYJ,10/31/21,11,43,63,Sun,7,8,,CIN,W 34-31,11,covered,43,over,early
+945,GNB,10/24/21,-8,48,49,Sun,7,7,,WAS,W 24-10,-8,covered,48,under,early
+946,WAS,10/24/21,8,48,49,Sun,7,7,@,GNB,L 10-24,8,did not cover,48,under,early
+947,ATL,10/24/21,-2,47.5,85,Sun,6,7,@,MIA,W 30-28,-2,push,47.5,over,early
+948,MIA,10/24/21,2,47.5,85,Sun,7,7,,ATL,L 28-30,2,push,47.5,over,early
+949,NWE,10/24/21,-7,42.5,52,Sun,7,7,,NYJ,W 54-13,-7,covered,42.5,over,early
+950,NYJ,10/24/21,7,42.5,52,Sun,6,7,@,NWE,L 13-54,7,did not cover,42.5,over,early
+951,CAR,10/24/21,-3,42.5,57,Sun,7,7,@,NYG,L 3-25,-3,did not cover,42.5,under,early
+952,NYG,10/24/21,3,42.5,57,Sun,7,7,,CAR,W 25-3,3,covered,42.5,under,early
+953,KAN,10/24/21,-4,57.5,74,Sun,7,7,@,TEN,L 3-27,-4,did not cover,57.5,under,early
+954,TEN,10/24/21,4,57.5,74,Sun,7,7,,KAN,W 27-3,4,covered,57.5,under,early
+955,CIN,10/24/21,6.5,45.5,61,Sun,7,7,@,BAL,W 41-17,6.5,covered,45.5,over,early
+956,BAL,10/24/21,-6.5,45.5,61,Sun,7,7,,CIN,L 17-41,-6.5,did not cover,45.5,over,early
+957,CAR,10/17/21,2.5,45.5,62,Sun,6,6,,MIN,L 28-34 (OT),2.5,did not cover,45.5,over,early
+958,MIN,10/17/21,-2.5,45.5,62,Sun,6,6,@,CAR,W 34-28 (OT),-2.5,covered,45.5,over,early
+959,CHI,10/17/21,6,44,59,Sun,6,6,,GNB,L 14-24,6,did not cover,44,under,early
+960,GNB,10/17/21,-6,44,59,Sun,6,6,@,CHI,W 24-14,-6,covered,44,under,early
+961,IND,10/17/21,-10,43.5,58,Sun,6,6,,HOU,W 31-3,-10,covered,43.5,under,early
+962,HOU,10/17/21,10,43.5,58,Sun,6,6,@,IND,L 3-31,10,did not cover,43.5,under,early
+963,CIN,10/17/21,-3.5,47,57,Sun,6,6,@,DET,W 34-11,-3.5,covered,47,under,early
+964,DET,10/17/21,3.5,47,57,Sun,6,6,,CIN,L 11-34,3.5,did not cover,47,under,early
+965,JAX,10/17/21,3,47,63,Sun,6,6,,MIA,W 23-20,3,covered,47,under,early
+966,MIA,10/17/21,-3,47,63,Sun,6,6,@,JAX,L 20-23,-3,did not cover,47,under,early
+967,NYG,10/17/21,9,48.5,61,Sun,6,6,,LAR,L 11-38,9,did not cover,48.5,over,early
+968,LAR,10/17/21,-9,48.5,61,Sun,6,6,@,NYG,W 38-11,-9,covered,48.5,over,early
+969,BAL,10/17/21,-2.5,51.5,63,Sun,6,6,,LAC,W 34-6,-2.5,covered,51.5,under,early
+970,LAC,10/17/21,2.5,51.5,63,Sun,6,6,@,BAL,L 6-34,2.5,did not cover,51.5,under,early
+971,KAN,10/17/21,-7,54,62,Sun,6,6,@,WAS,W 31-13,-7,covered,54,under,early
+972,WAS,10/17/21,7,54,62,Sun,6,6,,KAN,L 13-31,7,did not cover,54,under,early
+973,ATL,10/10/21,-2.5,45,63,Sun,5,5,,NYJ,W 27-20,-2.5,covered,45,over,early
+974,NYJ,10/10/21,2.5,45,63,Sun,5,5,@,ATL,L 20-27,2.5,did not cover,45,over,early
+975,CAR,10/10/21,-3,46,76,Sun,5,5,,PHI,L 18-21,-3,did not cover,46,under,early
+976,PHI,10/10/21,3,46,76,Sun,5,5,@,CAR,W 21-18,3,covered,46,under,early
+977,CIN,10/10/21,3,51,76,Sun,5,5,,GNB,L 22-25 (OT),3,push,51,under,early
+978,GNB,10/10/21,-3,51,76,Sun,5,5,@,CIN,W 25-22 (OT),-3,push,51,under,early
+979,HOU,10/10/21,8,39,84,Sun,5,5,,NWE,L 22-25,8,covered,39,over,early
+980,NWE,10/10/21,-8,39,84,Sun,5,5,@,HOU,W 25-22,-8,did not cover,39,over,early
+981,JAX,10/10/21,4.5,48.5,78,Sun,5,5,,TEN,L 19-37,4.5,did not cover,48.5,over,early
+982,TEN,10/10/21,-4.5,48.5,78,Sun,5,5,@,JAX,W 37-19,-4.5,covered,48.5,over,early
+983,DET,10/10/21,10,49.5,65,Sun,5,5,@,MIN,L 17-19,10,covered,49.5,under,early
+984,MIN,10/10/21,-10,49.5,65,Sun,5,5,,DET,W 19-17,-10,did not cover,49.5,under,early
+985,DEN,10/10/21,-1.5,39.5,71,Sun,5,5,@,PIT,L 19-27,-1.5,did not cover,39.5,over,early
+986,PIT,10/10/21,1.5,39.5,71,Sun,5,5,,DEN,W 27-19,1.5,covered,39.5,over,early
+987,MIA,10/10/21,10,48,84,Sun,5,5,@,TAM,L 17-45,10,did not cover,48,over,early
+988,TAM,10/10/21,-10,48,84,Sun,5,5,,MIA,W 45-17,-10,covered,48,over,early
+989,NOR,10/10/21,-2.5,43.5,70,Sun,5,5,@,WAS,W 33-22,-2.5,covered,43.5,over,early
+990,WAS,10/10/21,2.5,43.5,70,Sun,5,5,,NOR,L 22-33,2.5,did not cover,43.5,over,early
+991,ATL,10/3/21,2,48,73,Sun,4,4,,WAS,L 30-34,2,did not cover,48,over,early
+992,WAS,10/3/21,-2,48,73,Sun,4,4,@,ATL,W 34-30,-2,covered,48,over,early
+993,BUF,10/3/21,-17.5,47,67,Sun,4,4,,HOU,W 40-0,-17.5,covered,47,under,early
+994,HOU,10/3/21,17.5,47,67,Sun,4,4,@,BUF,L 0-40,17.5,did not cover,47,under,early
+995,CHI,10/3/21,-3,41.5,72,Sun,4,4,,DET,W 24-14,-3,covered,41.5,under,early
+996,DET,10/3/21,3,41.5,72,Sun,4,4,@,CHI,L 14-24,3,did not cover,41.5,under,early
+997,CAR,10/3/21,4,51.5,82,Sun,4,4,@,DAL,L 28-36,4,did not cover,51.5,over,early
+998,DAL,10/3/21,-4,51.5,82,Sun,4,4,,CAR,W 36-28,-4,covered,51.5,over,early
+999,IND,10/3/21,2.5,42.5,85,Sun,4,4,@,MIA,W 27-17,2.5,covered,42.5,over,early
+1000,MIA,10/3/21,-2.5,42.5,85,Sun,4,4,,IND,L 17-27,-2.5,did not cover,42.5,over,early
+1001,CLE,10/3/21,-1,51.5,65,Sun,4,4,@,MIN,W 14-7,-1,covered,51.5,under,early
+1002,MIN,10/3/21,1,51.5,65,Sun,4,4,,CLE,L 7-14,1,did not cover,51.5,under,early
+1003,NOR,10/3/21,-7,41.5,82,Sun,4,4,,NYG,L 21-27 (OT),-7,did not cover,41.5,over,early
+1004,NYG,10/3/21,7,41.5,82,Sun,4,4,@,NOR,W 27-21 (OT),7,covered,41.5,over,early
+1005,NYJ,10/3/21,6,44,78,Sun,4,4,,TEN,W 27-24 (OT),6,covered,44,over,early
+1006,TEN,10/3/21,-6,44,78,Sun,4,4,@,NYJ,L 24-27 (OT),-6,did not cover,44,over,early
+1007,KAN,10/3/21,-7,54.5,73,Sun,4,4,@,PHI,W 42-30,-7,covered,54.5,over,early
+1008,PHI,10/3/21,7,54.5,73,Sun,4,4,,KAN,L 30-42,7,did not cover,54.5,over,early
+1009,BUF,9/26/21,-7,45.5,67,Sun,3,3,,WAS,W 43-21,-7,covered,45.5,over,early
+1010,WAS,9/26/21,7,45.5,67,Sun,3,3,@,BUF,L 21-43,7,did not cover,45.5,over,early
+1011,CHI,9/26/21,7.5,44.5,70,Sun,3,3,@,CLE,L 6-26,7.5,did not cover,44.5,under,early
+1012,CLE,9/26/21,-7.5,44.5,70,Sun,3,3,,CHI,W 26-6,-7.5,covered,44.5,under,early
+1013,DET,9/26/21,7.5,50.5,66,Sun,3,3,,BAL,L 17-19,7.5,covered,50.5,under,early
+1014,BAL,9/26/21,-7.5,50.5,66,Sun,3,3,@,DET,W 19-17,-7.5,did not cover,50.5,under,early
+1015,ARI,9/26/21,-7.5,51.5,81,Sun,3,3,@,JAX,W 31-19,-7.5,covered,51.5,under,early
+1016,JAX,9/26/21,7.5,51.5,81,Sun,3,3,,ARI,L 19-31,7.5,did not cover,51.5,under,early
+1017,KAN,9/26/21,-7,54.5,81,Sun,3,3,,LAC,L 24-30,-7,did not cover,54.5,under,early
+1018,LAC,9/26/21,7,54.5,81,Sun,3,3,@,KAN,W 30-24,7,covered,54.5,under,early
+1019,NOR,9/26/21,3,42.5,73,Sun,3,3,@,NWE,W 28-13,3,covered,42.5,under,early
+1020,NWE,9/26/21,-3,42.5,73,Sun,3,3,,NOR,L 13-28,-3,did not cover,42.5,under,early
+1021,ATL,9/26/21,3,47.5,69,Sun,3,3,@,NYG,W 17-14,3,covered,47.5,under,early
+1022,NYG,9/26/21,-3,47.5,69,Sun,3,3,,ATL,L 14-17,-3,did not cover,47.5,under,early
+1023,IND,9/26/21,5.5,47.5,72,Sun,3,3,@,TEN,L 16-25,5.5,did not cover,47.5,under,early
+1024,TEN,9/26/21,-5.5,47.5,72,Sun,3,3,,IND,W 25-16,-5.5,covered,47.5,under,early
+1025,CIN,9/26/21,3,43,67,Sun,3,3,@,PIT,W 24-10,3,covered,43,under,early
+1026,PIT,9/26/21,-3,43,67,Sun,3,3,,CIN,L 10-24,-3,did not cover,43,under,early
+1027,CAR,9/19/21,3,44.5,83,Sun,2,2,,NOR,W 26-7,3,covered,44.5,under,early
+1028,NOR,9/19/21,-3,44.5,83,Sun,2,2,@,CAR,L 7-26,-3,did not cover,44.5,under,early
+1029,CHI,9/19/21,-1.5,44.5,80,Sun,2,2,,CIN,W 20-17,-1.5,covered,44.5,under,early
+1030,CIN,9/19/21,1.5,44.5,80,Sun,2,2,@,CHI,L 17-20,1.5,did not cover,44.5,under,early
+1031,CLE,9/19/21,-13.5,48,75,Sun,2,2,,HOU,W 31-21,-13.5,did not cover,48,over,early
+1032,HOU,9/19/21,13.5,48,75,Sun,2,2,@,CLE,L 21-31,13.5,covered,48,over,early
+1033,IND,9/19/21,3.5,48,81,Sun,2,2,,LAR,L 24-27,3.5,covered,48,over,early
+1034,LAR,9/19/21,-3.5,48,81,Sun,2,2,@,IND,W 27-24,-3.5,did not cover,48,over,early
+1035,DEN,9/19/21,-6,45,80,Sun,2,2,@,JAX,W 23-13,-6,covered,45,under,early
+1036,JAX,9/19/21,6,45,80,Sun,2,2,,DEN,L 13-23,6,did not cover,45,under,early
+1037,BUF,9/19/21,-3.5,47.5,89,Sun,2,2,@,MIA,W 35-0,-3.5,covered,47.5,under,early
+1038,MIA,9/19/21,3.5,47.5,89,Sun,2,2,,BUF,L 0-35,3.5,did not cover,47.5,under,early
+1039,NWE,9/19/21,-6,43,72,Sun,2,2,@,NYJ,W 25-6,-6,covered,43,under,early
+1040,NYJ,9/19/21,6,43,72,Sun,2,2,,NWE,L 6-25,6,did not cover,43,under,early
+1041,PHI,9/19/21,3,49,76,Sun,2,2,,SFO,L 11-17,3,did not cover,49,under,early
+1042,SFO,9/19/21,-3,49,76,Sun,2,2,@,PHI,W 17-11,-3,covered,49,under,early
+1043,PIT,9/19/21,-6,47,77,Sun,2,2,,LVR,L 17-26,-6,did not cover,47,under,early
+1044,LVR,9/19/21,6,47,77,Sun,2,2,@,PIT,W 26-17,6,covered,47,under,early
+1045,ATL,9/12/21,-3.5,49,79,Sun,1,1,,PHI,L 6-32,-3.5,did not cover,49,under,early
+1046,PHI,9/12/21,3.5,49,79,Sun,1,1,@,ATL,W 32-6,3.5,covered,49,under,early
+1047,BUF,9/12/21,-6.5,48.5,73,Sun,1,1,,PIT,L 16-23,-6.5,did not cover,48.5,under,early
+1048,PIT,9/12/21,6.5,48.5,73,Sun,1,1,@,BUF,W 23-16,6.5,covered,48.5,under,early
+1049,CAR,9/12/21,-4,45,81,Sun,1,1,,NYJ,W 19-14,-4,covered,45,under,early
+1050,NYJ,9/12/21,4,45,81,Sun,1,1,@,CAR,L 14-19,4,did not cover,45,under,early
+1051,CIN,9/12/21,3,47.5,81,Sun,1,1,,MIN,W 27-24 (OT),3,covered,47.5,over,early
+1052,MIN,9/12/21,-3,47.5,81,Sun,1,1,@,CIN,L 24-27 (OT),-3,did not cover,47.5,over,early
+1053,IND,9/12/21,3,49,81,Sun,1,1,,SEA,L 16-28,3,did not cover,49,under,early
+1054,SEA,9/12/21,-3,49,81,Sun,1,1,@,IND,W 28-16,-3,covered,49,under,early
+1055,DET,9/12/21,9,45.5,79,Sun,1,1,,SFO,L 33-41,9,covered,45.5,over,early
+1056,SFO,9/12/21,-9,45.5,79,Sun,1,1,@,DET,W 41-33,-9,did not cover,45.5,over,early
+1057,HOU,9/12/21,3,45,84,Sun,1,1,,JAX,W 37-21,3,covered,45,over,early
+1058,JAX,9/12/21,-3,45,84,Sun,1,1,@,HOU,L 21-37,-3,did not cover,45,over,early
+1059,ARI,9/12/21,3,53.5,82,Sun,1,1,@,TEN,W 38-13,3,covered,53.5,under,early
+1060,TEN,9/12/21,-3,53.5,82,Sun,1,1,,ARI,L 13-38,-3,did not cover,53.5,under,early
+1061,LAC,9/12/21,1.5,45,81,Sun,1,1,@,WAS,W 20-16,1.5,covered,45,under,early
+1062,WAS,9/12/21,-1.5,45,81,Sun,1,1,,LAC,L 16-20,-1.5,did not cover,45,under,early
+1,CAR,12/1/24,6,46.5,51,Sun,12,13,,TAM,L 23-26 (OT),6,covered,46.5,over,afternoon
+2,TAM,12/1/24,-6,46.5,51,Sun,12,13,@,CAR,W 26-23 (OT),-6,did not cover,46.5,over,afternoon
+3,PHI,12/1/24,3,51,41,Sun,12,13,@,BAL,W 24-19,3,covered,51,under,afternoon
+4,LAR,12/1/24,-2.5,49.5,64,Sun,12,13,@,NOR,W 21-14,-2.5,covered,49.5,under,afternoon
+5,NOR,12/1/24,2.5,49.5,64,Sun,12,13,,LAR,L 14-21,2.5,did not cover,49.5,under,afternoon
+6,BAL,12/1/24,-3,51,41,Sun,13,13,,PHI,L 19-24,-3,did not cover,51,under,afternoon
+7,LVR,11/29/24,13,42.5,37,Fri,12,13,@,KAN,L 17-19,13,covered,42.5,under,afternoon
+8,KAN,11/29/24,-13,42.5,37,Fri,12,13,,LVR,W 19-17,-13,did not cover,42.5,under,afternoon
+9,DAL,11/28/24,-3,37.5,49,Thu,12,13,,NYG,W 27-20,-3,covered,37.5,over,afternoon
+10,NYG,11/28/24,3,37.5,49,Thu,12,13,@,DAL,L 20-27,3,did not cover,37.5,over,afternoon
+11,SFO,11/24/24,5.5,44.5,43,Sun,11,12,@,GNB,L 10-38,5.5,did not cover,44.5,over,afternoon
+12,GNB,11/24/24,-5.5,44.5,43,Sun,11,12,,SFO,W 38-10,-5.5,covered,44.5,over,afternoon
+13,DEN,11/24/24,-6,41,63,Sun,12,12,@,LVR,W 29-19,-6,covered,41,over,afternoon
+14,ARI,11/24/24,0,47,45,Sun,11,12,@,SEA,L 6-16,0,did not cover,47,under,afternoon
+15,SEA,11/24/24,0,47,45,Sun,11,12,,ARI,W 16-6,0,covered,47,under,afternoon
+16,LVR,11/24/24,6,41,63,Sun,11,12,,DEN,L 19-29,6,did not cover,41,over,afternoon
+17,BUF,11/17/24,-1.5,46,50,Sun,11,11,,KAN,W 30-21,-1.5,covered,46,over,afternoon
+18,ATL,11/17/24,2.5,44.5,55,Sun,11,11,@,DEN,L 6-38,2.5,did not cover,44.5,under,afternoon
+19,SEA,11/17/24,6.5,48,59,Sun,10,11,@,SFO,W 20-17,6.5,covered,48,under,afternoon
+20,DEN,11/17/24,-2.5,44.5,55,Sun,11,11,,ATL,W 38-6,-2.5,covered,44.5,under,afternoon
+21,KAN,11/17/24,1.5,46,50,Sun,10,11,@,BUF,L 21-30,1.5,did not cover,46,over,afternoon
+22,SFO,11/17/24,-6.5,48,59,Sun,10,11,,SEA,L 17-20,-6.5,did not cover,48,under,afternoon
+23,ARI,11/10/24,1.5,46.5,79,Sun,10,10,,NYJ,W 31-6,1.5,covered,46.5,under,afternoon
+24,PHI,11/10/24,-7.5,43.5,78,Sun,9,10,@,DAL,W 34-6,-7.5,covered,43.5,under,afternoon
+25,DAL,11/10/24,7.5,43.5,78,Sun,9,10,,PHI,L 6-34,7.5,did not cover,43.5,under,afternoon
+26,NYJ,11/10/24,-1.5,46.5,79,Sun,10,10,@,ARI,L 6-31,-1.5,did not cover,46.5,under,afternoon
+27,TEN,11/10/24,7.5,38.5,73,Sun,9,10,@,LAC,L 17-27,7.5,did not cover,38.5,over,afternoon
+28,LAC,11/10/24,-7.5,38.5,73,Sun,9,10,,TEN,W 27-17,-7.5,covered,38.5,over,afternoon
+29,CHI,11/3/24,1.5,44.5,71,Sun,8,9,@,ARI,L 9-29,1.5,did not cover,44.5,under,afternoon
+30,JAX,11/3/24,7.5,45.5,57,Sun,9,9,@,PHI,L 23-28,7.5,covered,45.5,over,afternoon
+31,GNB,11/3/24,2.5,47.5,50,Sun,9,9,,DET,L 14-24,2.5,did not cover,47.5,under,afternoon
+32,DET,11/3/24,-2.5,47.5,50,Sun,8,9,@,GNB,W 24-14,-2.5,covered,47.5,under,afternoon
+33,ARI,11/3/24,-1.5,44.5,71,Sun,9,9,,CHI,W 29-9,-1.5,covered,44.5,under,afternoon
+34,LAR,11/3/24,-1,48,52,Sun,8,9,@,SEA,W 26-20 (OT),-1,covered,48,under,afternoon
+35,PHI,11/3/24,-7.5,45.5,57,Sun,8,9,,JAX,W 28-23,-7.5,did not cover,45.5,over,afternoon
+36,SEA,11/3/24,1,48,52,Sun,9,9,,LAR,L 20-26 (OT),1,did not cover,48,under,afternoon
+37,CAR,10/27/24,11,41,76,Sun,8,8,@,DEN,L 14-28,11,did not cover,41,over,afternoon
+38,DEN,10/27/24,-11,41,76,Sun,8,8,,CAR,W 28-14,-11,covered,41,over,afternoon
+39,NOR,10/27/24,7,41,76,Sun,8,8,@,LAC,L 8-26,7,did not cover,41,under,afternoon
+40,LVR,10/27/24,10,41.5,80,Sun,8,8,,KAN,L 20-27,10,covered,41.5,over,afternoon
+41,KAN,10/27/24,-10,41.5,80,Sun,7,8,@,LVR,W 27-20,-10,did not cover,41.5,over,afternoon
+42,SEA,10/27/24,3,45.5,55,Sun,8,8,,BUF,L 10-31,3,did not cover,45.5,under,afternoon
+43,BUF,10/27/24,-3,45.5,55,Sun,8,8,@,SEA,W 31-10,-3,covered,45.5,under,afternoon
+44,LAC,10/27/24,-7,41,76,Sun,7,8,,NOR,W 26-8,-7,covered,41,under,afternoon
+45,CHI,10/27/24,-1,45,58,Sun,7,8,@,WAS,L 15-18,-1,did not cover,45,under,afternoon
+46,WAS,10/27/24,1,45,58,Sun,8,8,,CHI,W 18-15,1,covered,45,under,afternoon
+47,KAN,10/20/24,1.5,47,78,Sun,6,7,@,SFO,W 28-18,1.5,covered,47,under,afternoon
+48,LAR,10/20/24,-7,43.5,80,Sun,6,7,,LVR,W 20-15,-7,did not cover,43.5,under,afternoon
+49,CAR,10/20/24,9.5,51.5,76,Sun,7,7,@,WAS,L 7-40,9.5,did not cover,51.5,under,afternoon
+50,WAS,10/20/24,-9.5,51.5,76,Sun,7,7,,CAR,W 40-7,-9.5,covered,51.5,under,afternoon
+51,SFO,10/20/24,-1.5,47,78,Sun,7,7,,KAN,L 18-28,-1.5,did not cover,47,under,afternoon
+52,LVR,10/20/24,7,43.5,80,Sun,7,7,@,LAR,L 15-20,7,covered,43.5,under,afternoon
+53,ATL,10/13/24,-6.5,47,79,Sun,6,6,@,CAR,W 38-20,-6.5,covered,47,over,afternoon
+54,DAL,10/13/24,3.5,52.5,98,Sun,6,6,,DET,L 9-47,3.5,did not cover,52.5,over,afternoon
+55,CAR,10/13/24,6.5,47,79,Sun,6,6,,ATL,L 20-38,6.5,did not cover,47,over,afternoon
+56,DEN,10/13/24,3,36,65,Sun,6,6,,LAC,L 16-23,3,did not cover,36,over,afternoon
+57,DET,10/13/24,-3.5,52.5,98,Sun,5,6,@,DAL,W 47-9,-3.5,covered,52.5,over,afternoon
+58,LVR,10/13/24,3,36.5,85,Sun,6,6,,PIT,L 13-32,3,did not cover,36.5,over,afternoon
+59,LAC,10/13/24,-3,36,65,Sun,5,6,@,DEN,W 23-16,-3,covered,36,over,afternoon
+60,PIT,10/13/24,-3,36.5,85,Sun,6,6,@,LVR,W 32-13,-3,covered,36.5,over,afternoon
+61,DEN,10/6/24,-3,35.5,73,Sun,5,5,,LVR,W 34-18,-3,covered,35.5,over,afternoon
+62,GNB,10/6/24,-3,48.5,73,Sun,5,5,@,LAR,W 24-19,-3,covered,48.5,under,afternoon
+63,LVR,10/6/24,3,35.5,73,Sun,5,5,@,DEN,L 18-34,3,did not cover,35.5,over,afternoon
+64,SEA,10/6/24,-7,43,61,Sun,5,5,,NYG,L 20-29,-7,did not cover,43,over,afternoon
+65,NYG,10/6/24,7,43,61,Sun,5,5,@,SEA,W 29-20,7,covered,43,over,afternoon
+66,LAR,10/6/24,3,48.5,73,Sun,5,5,,GNB,L 19-24,3,did not cover,48.5,under,afternoon
+67,SFO,10/6/24,-7,49,89,Sun,5,5,,ARI,L 23-24,-7,did not cover,49,under,afternoon
+68,ARI,10/6/24,7,49,89,Sun,5,5,@,SFO,W 24-23,7,covered,49,under,afternoon
+69,KAN,9/29/24,-7,41,68,Sun,4,4,@,LAC,W 17-10,-7,push,41,under,afternoon
+70,LVR,9/29/24,2.5,36.5,99,Sun,4,4,,CLE,W 20-16,2.5,covered,36.5,under,afternoon
+71,ARI,9/29/24,-3.5,48.5,106,Sun,4,4,,WAS,L 14-42,-3.5,did not cover,48.5,over,afternoon
+72,CLE,9/29/24,-2.5,36.5,99,Sun,4,4,@,LVR,L 16-20,-2.5,did not cover,36.5,under,afternoon
+73,WAS,9/29/24,3.5,48.5,106,Sun,4,4,@,ARI,W 42-14,3.5,covered,48.5,over,afternoon
+74,SFO,9/29/24,-10,40.5,71,Sun,4,4,,NWE,W 30-13,-10,covered,40.5,over,afternoon
+75,NWE,9/29/24,10,40.5,71,Sun,4,4,@,SFO,L 13-30,10,did not cover,40.5,over,afternoon
+76,LAC,9/29/24,7,41,68,Sun,4,4,,KAN,L 10-17,7,push,41,under,afternoon
+77,ARI,9/22/24,2.5,51.5,93,Sun,3,3,,DET,L 13-20,2.5,did not cover,51.5,under,afternoon
+78,BAL,9/22/24,-1,48,94,Sun,3,3,@,DAL,W 28-25,-1,covered,48,over,afternoon
+79,DET,9/22/24,-2.5,51.5,93,Sun,3,3,@,ARI,W 20-13,-2.5,covered,51.5,under,afternoon
+80,CAR,9/22/24,5.5,40,86,Sun,3,3,@,LVR,W 36-22,5.5,covered,40,over,afternoon
+81,LAR,9/22/24,6.5,43.5,75,Sun,3,3,,SFO,W 27-24,6.5,covered,43.5,over,afternoon
+82,LVR,9/22/24,-5.5,40,86,Sun,3,3,,CAR,L 22-36,-5.5,did not cover,40,over,afternoon
+83,SFO,9/22/24,-6.5,43.5,75,Sun,3,3,@,LAR,L 24-27,-6.5,did not cover,43.5,over,afternoon
+84,DAL,9/22/24,1,48,94,Sun,3,3,,BAL,L 25-28,1,did not cover,48,over,afternoon
+85,SEA,9/22/24,-4.5,41.5,64,Sun,3,3,,MIA,W 24-3,-4.5,covered,41.5,under,afternoon
+86,MIA,9/22/24,4.5,41.5,64,Sun,3,3,@,SEA,L 3-24,4.5,did not cover,41.5,under,afternoon
+87,CIN,9/15/24,6,48,89,Sun,2,2,@,KAN,L 25-26,6,covered,48,over,afternoon
+88,PIT,9/15/24,-2.5,36.5,83,Sun,2,2,@,DEN,W 13-6,-2.5,covered,36.5,under,afternoon
+89,ARI,9/15/24,0,47.5,97,Sun,2,2,,LAR,W 41-10,0,covered,47.5,over,afternoon
+90,DEN,9/15/24,2.5,36.5,83,Sun,2,2,,PIT,L 6-13,2.5,did not cover,36.5,under,afternoon
+91,LAR,9/15/24,0,47.5,97,Sun,2,2,@,ARI,L 10-41,0,did not cover,47.5,over,afternoon
+92,KAN,9/15/24,-6,48,89,Sun,2,2,,CIN,W 26-25,-6,did not cover,48,over,afternoon
+93,LVR,9/8/24,3,40,97,Sun,1,1,@,LAC,L 10-22,3,did not cover,40,under,afternoon
+94,LAC,9/8/24,-3,40,97,Sun,1,1,,LVR,W 22-10,-3,covered,40,under,afternoon
+95,DAL,9/8/24,2.5,41,68,Sun,1,1,@,CLE,W 33-17,2.5,covered,41,over,afternoon
+96,DEN,9/8/24,6,42,73,Sun,1,1,@,SEA,L 20-26,6,push,42,over,afternoon
+97,TAM,9/8/24,-3.5,42.5,93,Sun,1,1,,WAS,W 37-20,-3.5,covered,42.5,over,afternoon
+98,CLE,9/8/24,-2.5,41,68,Sun,1,1,,DAL,L 17-33,-2.5,did not cover,41,over,afternoon
+99,SEA,9/8/24,-6,42,73,Sun,1,1,,DEN,W 26-20,-6,push,42,over,afternoon
+100,WAS,9/8/24,3.5,42.5,93,Sun,1,1,@,TAM,L 20-37,3.5,did not cover,42.5,over,afternoon
+101,LAC,1/7/24,-3.5,35.5,57,Sun,17,18,,KAN,L 12-13,-3.5,did not cover,35.5,under,afternoon
+102,LAR,1/7/24,4,41,52,Sun,17,18,@,SFO,W 21-20,4,covered,41,push,afternoon
+103,PHI,1/7/24,-4.5,42,36,Sun,17,18,@,NYG,L 10-27,-4.5,did not cover,42,under,afternoon
+104,SFO,1/7/24,-4,41,52,Sun,17,18,,LAR,L 20-21,-4,did not cover,41,push,afternoon
+105,NYG,1/7/24,4.5,42,36,Sun,17,18,,PHI,W 27-10,4.5,covered,42,under,afternoon
+106,GNB,1/7/24,-3,45,34,Sun,17,18,,CHI,W 17-9,-3,covered,45,under,afternoon
+107,WAS,1/7/24,13,46.5,48,Sun,17,18,,DAL,L 10-38,13,did not cover,46.5,over,afternoon
+108,DAL,1/7/24,-13,46.5,48,Sun,17,18,@,WAS,W 38-10,-13,covered,46.5,over,afternoon
+109,ARI,1/7/24,3,47.5,48,Sun,17,18,,SEA,L 20-21,3,covered,47.5,under,afternoon
+110,SEA,1/7/24,-3,47.5,48,Sun,17,18,@,ARI,W 21-20,-3,did not cover,47.5,under,afternoon
+111,CHI,1/7/24,3,45,34,Sun,17,18,@,GNB,L 9-17,3,did not cover,45,under,afternoon
+112,DEN,1/7/24,3,37,50,Sun,17,18,@,LVR,L 14-27,3,did not cover,37,over,afternoon
+113,LVR,1/7/24,-3,37,50,Sun,17,18,,DEN,W 27-14,-3,covered,37,over,afternoon
+114,KAN,1/7/24,3.5,35.5,57,Sun,17,18,@,LAC,W 13-12,3.5,covered,35.5,under,afternoon
+115,PIT,1/6/24,-3,34.5,38,Sat,17,18,@,BAL,W 17-10,-3,covered,34.5,under,afternoon
+116,BAL,1/6/24,3,34.5,38,Sat,17,18,,PIT,L 10-17,3,did not cover,34.5,under,afternoon
+117,DEN,12/31/23,-3.5,36.5,41,Sun,16,17,,LAC,W 16-9,-3.5,covered,36.5,under,afternoon
+118,LAC,12/31/23,3.5,36.5,41,Sun,16,17,@,DEN,L 9-16,3.5,did not cover,36.5,under,afternoon
+119,CIN,12/31/23,6.5,44,36,Sun,16,17,@,KAN,L 17-25,6.5,did not cover,44,under,afternoon
+120,KAN,12/31/23,-6.5,44,36,Sun,16,17,,CIN,W 25-17,-6.5,covered,44,under,afternoon
+121,PIT,12/31/23,4.5,40.5,47,Sun,16,17,@,SEA,W 30-23,4.5,covered,40.5,over,afternoon
+122,SEA,12/31/23,-4.5,40.5,47,Sun,16,17,,PIT,L 23-30,-4.5,did not cover,40.5,over,afternoon
+123,NYG,12/25/23,13.5,43,51,Mon,15,16,@,PHI,L 25-33,13.5,covered,43,over,afternoon
+124,PHI,12/25/23,-13.5,43,51,Mon,15,16,,NYG,W 33-25,-13.5,did not cover,43,over,afternoon
+125,CHI,12/24/23,-4,43,52,Sun,15,16,,ARI,W 27-16,-4,covered,43,push,afternoon
+126,ARI,12/24/23,4,43,52,Sun,15,16,@,CHI,L 16-27,4,did not cover,43,push,afternoon
+127,DAL,12/24/23,1.5,49,75,Sun,15,16,@,MIA,L 20-22,1.5,did not cover,49,under,afternoon
+128,MIA,12/24/23,-1.5,49,75,Sun,15,16,,DAL,W 22-20,-1.5,covered,49,under,afternoon
+129,JAX,12/24/23,-1,43.5,72,Sun,15,16,@,TAM,L 12-30,-1,did not cover,43.5,under,afternoon
+130,TAM,12/24/23,1,43.5,72,Sun,15,16,,JAX,W 30-12,1,covered,43.5,under,afternoon
+131,CIN,12/23/23,-2.5,38,49,Sat,15,16,@,PIT,L 11-34,-2.5,did not cover,38,over,afternoon
+132,PIT,12/23/23,2.5,38,49,Sat,15,16,,CIN,W 34-11,2.5,covered,38,over,afternoon
+133,BUF,12/17/23,-2,49.5,48,Sun,14,15,,DAL,W 31-10,-2,covered,49.5,under,afternoon
+134,DAL,12/17/23,2,49.5,48,Sun,14,15,@,BUF,L 10-31,2,did not cover,49.5,under,afternoon
+135,ARI,12/17/23,12,48.5,76,Sun,14,15,,SFO,L 29-45,12,did not cover,48.5,over,afternoon
+136,SFO,12/17/23,-12,48.5,76,Sun,14,15,@,ARI,W 45-29,-12,covered,48.5,over,afternoon
+137,LAR,12/17/23,-6.5,50.5,78,Sun,14,15,,WAS,W 28-20,-6.5,covered,50.5,under,afternoon
+138,WAS,12/17/23,6.5,50.5,78,Sun,14,15,@,LAR,L 20-28,6.5,did not cover,50.5,under,afternoon
+139,IND,12/16/23,-1,42.5,53,Sat,14,15,,PIT,W 30-13,-1,covered,42.5,over,afternoon
+140,PIT,12/16/23,1,42.5,53,Sat,14,15,@,IND,L 13-30,1,did not cover,42.5,over,afternoon
+141,BUF,12/10/23,1.5,48.5,45,Sun,13,14,@,KAN,W 20-17,1.5,covered,48.5,under,afternoon
+142,KAN,12/10/23,-1.5,48.5,45,Sun,13,14,,BUF,L 17-20,-1.5,did not cover,48.5,under,afternoon
+143,MIN,12/10/23,-3,40,54,Sun,13,14,@,LVR,W 3-0,-3,push,40,under,afternoon
+144,LVR,12/10/23,3,40,54,Sun,13,14,,MIN,L 0-3,3,push,40,under,afternoon
+145,DEN,12/10/23,2.5,43.5,75,Sun,13,14,@,LAC,W 24-7,2.5,covered,43.5,under,afternoon
+146,LAC,12/10/23,-2.5,43.5,75,Sun,13,14,,DEN,L 7-24,-2.5,did not cover,43.5,under,afternoon
+147,SEA,12/10/23,13.5,46.5,63,Sun,13,14,@,SFO,L 16-28,13.5,covered,46.5,under,afternoon
+148,SFO,12/10/23,-13.5,46.5,63,Sun,13,14,,SEA,W 28-16,-13.5,did not cover,46.5,under,afternoon
+149,PHI,12/3/23,3,48,52,Sun,12,13,,SFO,L 19-42,3,did not cover,48,over,afternoon
+150,SFO,12/3/23,-3,48,52,Sun,12,13,@,PHI,W 42-19,-3,covered,48,over,afternoon
+151,CLE,12/3/23,4,40.5,67,Sun,12,13,@,LAR,L 19-36,4,did not cover,40.5,over,afternoon
+152,LAR,12/3/23,-4,40.5,67,Sun,12,13,,CLE,W 36-19,-4,covered,40.5,over,afternoon
+153,CAR,12/3/23,3.5,36.5,81,Sun,12,13,@,TAM,L 18-21,3.5,covered,36.5,over,afternoon
+154,TAM,12/3/23,-3.5,36.5,81,Sun,12,13,,CAR,W 21-18,-3.5,did not cover,36.5,over,afternoon
+155,ARI,11/26/23,2.5,45,68,Sun,12,12,,LAR,L 14-37,2.5,did not cover,45,over,afternoon
+156,LAR,11/26/23,-2.5,45,68,Sun,11,12,@,ARI,W 37-14,-2.5,covered,45,over,afternoon
+157,CLE,11/26/23,1,37,40,Sun,11,12,@,DEN,L 12-29,1,did not cover,37,over,afternoon
+158,DEN,11/26/23,-1,37,40,Sun,11,12,,CLE,W 29-12,-1,covered,37,over,afternoon
+159,BUF,11/26/23,3,48.5,47,Sun,12,12,@,PHI,L 34-37 (OT),3,push,48.5,over,afternoon
+160,PHI,11/26/23,-3,48.5,47,Sun,11,12,,BUF,W 37-34 (OT),-3,push,48.5,over,afternoon
+161,KAN,11/26/23,-10,43,55,Sun,11,12,@,LVR,W 31-17,-10,covered,43,over,afternoon
+162,LVR,11/26/23,10,43,55,Sun,12,12,,KAN,L 17-31,10,did not cover,43,over,afternoon
+163,MIA,11/24/23,-9.5,40.5,48,Fri,11,12,@,NYJ,W 34-13,-9.5,covered,40.5,over,afternoon
+164,NYJ,11/24/23,9.5,40.5,48,Fri,11,12,,MIA,L 13-34,9.5,did not cover,40.5,over,afternoon
+165,DAL,11/23/23,-13.5,48.5,62,Thu,11,12,,WAS,W 45-10,-13.5,covered,48.5,over,afternoon
+166,WAS,11/23/23,13.5,48.5,62,Thu,12,12,@,DAL,L 10-45,13.5,did not cover,48.5,over,afternoon
+167,BUF,11/19/23,-7.5,39,40,Sun,11,11,,NYJ,W 32-6,-7.5,covered,39,under,afternoon
+168,NYJ,11/19/23,7.5,39,40,Sun,10,11,@,BUF,L 6-32,7.5,did not cover,39,under,afternoon
+169,LAR,11/19/23,-2,46,72,Sun,10,11,,SEA,W 17-16,-2,did not cover,46,under,afternoon
+170,SEA,11/19/23,2,46,72,Sun,10,11,@,LAR,L 16-17,2,covered,46,under,afternoon
+171,SFO,11/19/23,-13,41,65,Sun,10,11,,TAM,W 27-14,-13,push,41,push,afternoon
+172,TAM,11/19/23,13,41,65,Sun,10,11,@,SFO,L 14-27,13,push,41,push,afternoon
+173,ATL,11/12/23,-2.5,43.5,0,Sun,10,10,@,ARI,L 23-25,-2.5,did not cover,43.5,over,afternoon
+174,ARI,11/12/23,2.5,43.5,0,Sun,10,10,,ATL,W 25-23,2.5,covered,43.5,over,afternoon
+175,DAL,11/12/23,-17.5,38.5,63,Sun,9,10,,NYG,W 49-17,-17.5,covered,38.5,over,afternoon
+176,NYG,11/12/23,17.5,38.5,63,Sun,10,10,@,DAL,L 17-49,17.5,did not cover,38.5,over,afternoon
+177,DET,11/12/23,-2.5,48.5,79,Sun,9,10,@,LAC,W 41-38,-2.5,covered,48.5,over,afternoon
+178,LAC,11/12/23,2.5,48.5,79,Sun,9,10,,DET,L 38-41,2.5,did not cover,48.5,over,afternoon
+179,SEA,11/12/23,-5.5,44.5,52,Sun,9,10,,WAS,W 29-26,-5.5,did not cover,44.5,over,afternoon
+180,WAS,11/12/23,5.5,44.5,52,Sun,10,10,@,SEA,L 26-29,5.5,covered,44.5,over,afternoon
+181,CAR,11/5/23,1.5,44.5,75,Sun,8,9,,IND,L 13-27,1.5,did not cover,44.5,under,afternoon
+182,IND,11/5/23,-1.5,44.5,75,Sun,9,9,@,CAR,W 27-13,-1.5,covered,44.5,under,afternoon
+183,DAL,11/5/23,3,46.5,64,Sun,8,9,@,PHI,L 23-28,3,did not cover,46.5,over,afternoon
+184,PHI,11/5/23,-3,46.5,64,Sun,9,9,,DAL,W 28-23,-3,covered,46.5,over,afternoon
+185,NYG,11/5/23,1.5,38.5,73,Sun,9,9,@,LVR,L 6-30,1.5,did not cover,38.5,under,afternoon
+186,LVR,11/5/23,-1.5,38.5,73,Sun,9,9,,NYG,W 30-6,-1.5,covered,38.5,under,afternoon
+187,ARI,10/29/23,9.5,44.5,75,Sun,8,8,,BAL,L 24-31,9.5,covered,44.5,over,afternoon
+188,BAL,10/29/23,-9.5,44.5,75,Sun,8,8,@,ARI,W 31-24,-9.5,did not cover,44.5,over,afternoon
+189,DEN,10/29/23,7,45.5,26,Sun,8,8,,KAN,W 24-9,7,covered,45.5,under,afternoon
+190,CLE,10/29/23,4.5,39.5,47,Sun,7,8,@,SEA,L 20-24,4.5,covered,39.5,over,afternoon
+191,SEA,10/29/23,-4.5,39.5,47,Sun,7,8,,CLE,W 24-20,-4.5,did not cover,39.5,over,afternoon
+192,CIN,10/29/23,4.5,44.5,74,Sun,7,8,@,SFO,W 31-17,4.5,covered,44.5,over,afternoon
+193,SFO,10/29/23,-4.5,44.5,74,Sun,8,8,,CIN,L 17-31,-4.5,did not cover,44.5,over,afternoon
+194,KAN,10/29/23,-7,45.5,26,Sun,8,8,@,DEN,L 9-24,-7,did not cover,45.5,under,afternoon
+195,DEN,10/22/23,-1,44,72,Sun,7,7,,GNB,W 19-17,-1,covered,44,under,afternoon
+196,KAN,10/22/23,-5.5,48.5,72,Sun,7,7,,LAC,W 31-17,-5.5,covered,48.5,under,afternoon
+197,LAC,10/22/23,5.5,48.5,72,Sun,6,7,@,KAN,L 17-31,5.5,did not cover,48.5,under,afternoon
+198,PIT,10/22/23,3,43.5,74,Sun,6,7,@,LAR,W 24-17,3,covered,43.5,under,afternoon
+199,LAR,10/22/23,-3,43.5,74,Sun,7,7,,PIT,L 17-24,-3,did not cover,43.5,under,afternoon
+200,ARI,10/22/23,8.5,43.5,56,Sun,7,7,@,SEA,L 10-20,8.5,did not cover,43.5,under,afternoon
+202,SEA,10/22/23,-8.5,43.5,56,Sun,6,7,,ARI,W 20-10,-8.5,covered,43.5,under,afternoon
+203,NYJ,10/15/23,6.5,43.5,59,Sun,6,6,,PHI,W 20-14,6.5,covered,43.5,under,afternoon
+204,PHI,10/15/23,-6.5,43.5,59,Sun,6,6,@,NYJ,L 14-20,-6.5,did not cover,43.5,under,afternoon
+205,NWE,10/15/23,2.5,42.5,81,Sun,6,6,@,LVR,L 17-21,2.5,did not cover,42.5,under,afternoon
+206,LVR,10/15/23,-2.5,42.5,81,Sun,6,6,,NWE,W 21-17,-2.5,covered,42.5,under,afternoon
+207,ARI,10/15/23,7,47.5,82,Sun,6,6,@,LAR,L 9-26,7,did not cover,47.5,under,afternoon
+208,LAR,10/15/23,-7,47.5,82,Sun,6,6,,ARI,W 26-9,-7,covered,47.5,under,afternoon
+209,DET,10/15/23,-3,43.5,77,Sun,6,6,@,TAM,W 20-6,-3,covered,43.5,under,afternoon
+210,TAM,10/15/23,3,43.5,77,Sun,5,6,,DET,L 6-20,3,did not cover,43.5,under,afternoon
+211,CIN,10/8/23,-3,45.5,95,Sun,5,5,@,ARI,W 34-20,-3,covered,45.5,over,afternoon
+212,ARI,10/8/23,3,45.5,95,Sun,5,5,,CIN,L 20-34,3,did not cover,45.5,over,afternoon
+213,DEN,10/8/23,-2.5,42.5,73,Sun,5,5,,NYJ,L 21-31,-2.5,did not cover,42.5,over,afternoon
+214,NYJ,10/8/23,2.5,42.5,73,Sun,5,5,@,DEN,W 31-21,2.5,covered,42.5,over,afternoon
+215,KAN,10/8/23,-3.5,52.5,58,Sun,5,5,@,MIN,W 27-20,-3.5,covered,52.5,under,afternoon
+216,MIN,10/8/23,3.5,52.5,58,Sun,5,5,,KAN,L 20-27,3.5,did not cover,52.5,under,afternoon
+217,PHI,10/8/23,-3.5,49.5,71,Sun,5,5,@,LAR,W 23-14,-3.5,covered,49.5,under,afternoon
+218,LAR,10/8/23,3.5,49.5,71,Sun,5,5,,PHI,L 14-23,3.5,did not cover,49.5,under,afternoon
+219,DAL,10/1/23,-6.5,43.5,91,Sun,4,4,,NWE,W 38-3,-6.5,covered,43.5,under,afternoon
+220,NWE,10/1/23,6.5,43.5,91,Sun,4,4,@,DAL,L 3-38,6.5,did not cover,43.5,under,afternoon
+221,LVR,10/1/23,5.5,48.5,67,Sun,4,4,@,LAC,L 17-24,5.5,did not cover,48.5,under,afternoon
+222,LAC,10/1/23,-5.5,48.5,67,Sun,4,4,,LVR,W 24-17,-5.5,covered,48.5,under,afternoon
+223,ARI,10/1/23,16.5,44.5,75,Sun,4,4,@,SFO,L 16-35,16.5,did not cover,44.5,over,afternoon
+224,SFO,10/1/23,-16.5,44.5,75,Sun,4,4,,ARI,W 35-16,-16.5,covered,44.5,over,afternoon
+225,ARI,9/24/23,11.5,43.5,93,Sun,3,3,,DAL,W 28-16,11.5,covered,43.5,over,afternoon
+226,DAL,9/24/23,-11.5,43.5,93,Sun,3,3,@,ARI,L 16-28,-11.5,did not cover,43.5,over,afternoon
+227,CAR,9/24/23,5,43,61,Sun,3,3,@,SEA,L 27-37,5,did not cover,43,over,afternoon
+228,SEA,9/24/23,-5,43,61,Sun,3,3,,CAR,W 37-27,-5,covered,43,over,afternoon
+229,ARI,9/17/23,4.5,36.5,97,Sun,2,2,,NYG,L 28-31,4.5,covered,36.5,over,afternoon
+230,NYG,9/17/23,-4.5,36.5,97,Sun,2,2,@,ARI,W 31-28,-4.5,did not cover,36.5,over,afternoon
+231,DAL,9/17/23,-8.5,38.5,90,Sun,2,2,,NYJ,W 30-10,-8.5,covered,38.5,over,afternoon
+232,NYJ,9/17/23,8.5,38.5,90,Sun,2,2,@,DAL,L 10-30,8.5,did not cover,38.5,over,afternoon
+233,DEN,9/17/23,-4,38.5,81,Sun,2,2,,WAS,L 33-35,-4,did not cover,38.5,over,afternoon
+234,WAS,9/17/23,4,38.5,81,Sun,2,2,@,DEN,W 35-33,4,covered,38.5,over,afternoon
+235,LAR,9/17/23,7.5,44.5,71,Sun,2,2,,SFO,L 23-30,7.5,covered,44.5,over,afternoon
+236,SFO,9/17/23,-7.5,44.5,71,Sun,2,2,@,LAR,W 30-23,-7.5,did not cover,44.5,over,afternoon
+237,CHI,9/10/23,-1.5,41.5,75,Sun,1,1,,GNB,L 20-38,-1.5,did not cover,41.5,over,afternoon
+238,GNB,9/10/23,1.5,41.5,75,Sun,1,1,@,CHI,W 38-20,1.5,covered,41.5,over,afternoon
+239,DEN,9/10/23,-3,44,64,Sun,1,1,,LVR,L 16-17,-3,did not cover,44,under,afternoon
+240,LVR,9/10/23,3,44,64,Sun,1,1,@,DEN,W 17-16,3,covered,44,under,afternoon
+241,NWE,9/10/23,3.5,45,71,Sun,1,1,,PHI,L 20-25,3.5,did not cover,45,push,afternoon
+242,PHI,9/10/23,-3.5,45,71,Sun,1,1,@,NWE,W 25-20,-3.5,covered,45,push,afternoon
+243,MIA,9/10/23,3,50.5,90,Sun,1,1,@,LAC,W 36-34,3,covered,50.5,over,afternoon
+244,LAC,9/10/23,-3,50.5,90,Sun,1,1,,MIA,L 34-36,-3,did not cover,50.5,over,afternoon
+245,LAR,9/10/23,4.5,46.5,74,Sun,1,1,@,SEA,W 30-13,4.5,covered,46.5,under,afternoon
+246,SEA,9/10/23,-4.5,46.5,74,Sun,1,1,,LAR,L 13-30,-4.5,did not cover,46.5,under,afternoon
+247,DEN,1/8/23,-3,39.5,43,Sun,17,18,,LAC,W 31-28,-3,push,39.5,over,afternoon
+248,LAC,1/8/23,3,39.5,43,Sun,17,18,@,DEN,L 28-31,3,push,39.5,over,afternoon
+249,NYG,1/8/23,16,42,43,Sun,17,18,@,PHI,L 16-22,16,covered,42,under,afternoon
+250,PHI,1/8/23,-16,42,43,Sun,17,18,,NYG,W 22-16,-16,did not cover,42,under,afternoon
+251,LAR,1/8/23,6,41.5,45,Sun,17,18,@,SEA,L 16-19 (OT),6,covered,41.5,under,afternoon
+252,SEA,1/8/23,-6,41.5,45,Sun,17,18,,LAR,W 19-16 (OT),-6,did not cover,41.5,under,afternoon
+253,ARI,1/8/23,14,39.5,57,Sun,17,18,@,SFO,L 13-38,14,did not cover,39.5,over,afternoon
+254,SFO,1/8/23,-14,39.5,57,Sun,17,18,,ARI,W 38-13,-14,covered,39.5,over,afternoon
+255,DAL,1/8/23,-7,40,42,Sun,17,18,@,WAS,L 6-26,-7,did not cover,40,under,afternoon
+256,WAS,1/8/23,7,40,42,Sun,17,18,,DAL,W 26-6,7,covered,40,under,afternoon
+257,KAN,1/7/23,-9,52.5,55,Sat,17,18,@,LVR,W 31-13,-9,covered,52.5,under,afternoon
+258,LVR,1/7/23,9,52.5,55,Sat,17,18,,KAN,L 13-31,9,did not cover,52.5,under,afternoon
+259,GNB,1/1/23,-3,47.5,39,Sun,16,17,,MIN,W 41-17,-3,covered,47.5,over,afternoon
+260,MIN,1/1/23,3,47.5,39,Sun,16,17,@,GNB,L 17-41,3,did not cover,47.5,over,afternoon
+261,LVR,1/1/23,9.5,42.5,59,Sun,16,17,,SFO,L 34-37 (OT),9.5,covered,42.5,over,afternoon
+262,SFO,1/1/23,-9.5,42.5,59,Sun,16,17,@,LVR,W 37-34 (OT),-9.5,did not cover,42.5,over,afternoon
+263,LAR,1/1/23,6.5,41.5,62,Sun,16,17,@,LAC,L 10-31,6.5,did not cover,41.5,under,afternoon
+264,LAC,1/1/23,-6.5,41.5,62,Sun,16,17,,LAR,W 31-10,-6.5,covered,41.5,under,afternoon
+265,NYJ,1/1/23,-1.5,42.5,45,Sun,16,17,@,SEA,L 6-23,-1.5,did not cover,42.5,under,afternoon
+266,SEA,1/1/23,1.5,42.5,45,Sun,16,17,,NYJ,W 23-6,1.5,covered,42.5,under,afternoon
+267,DEN,12/25/22,-3,36.5,83,Sun,15,16,@,LAR,L 14-51,-3,did not cover,36.5,over,afternoon
+268,LAR,12/25/22,3,36.5,83,Sun,15,16,,DEN,W 51-14,3,covered,36.5,over,afternoon
+269,DAL,12/24/22,-4.5,47,35,Sat,15,16,,PHI,W 40-34,-4.5,covered,47,over,afternoon
+270,PHI,12/24/22,4.5,47,35,Sat,15,16,@,DAL,L 34-40,4.5,did not cover,47,over,afternoon
+271,SFO,12/24/22,-6.5,37.5,54,Sat,15,16,,WAS,W 37-20,-6.5,covered,37.5,over,afternoon
+272,WAS,12/24/22,6.5,37.5,54,Sat,15,16,@,SFO,L 20-37,6.5,did not cover,37.5,over,afternoon
+273,ARI,12/18/22,1.5,36.5,37,Sun,14,15,@,DEN,L 15-24,1.5,did not cover,36.5,over,afternoon
+274,DEN,12/18/22,-1.5,36.5,37,Sun,14,15,,ARI,W 24-15,-1.5,covered,36.5,over,afternoon
+275,NWE,12/18/22,1.5,45,53,Sun,14,15,@,LVR,L 24-30,1.5,did not cover,45,over,afternoon
+276,LVR,12/18/22,-1.5,45,53,Sun,14,15,,NWE,W 30-24,-1.5,covered,45,over,afternoon
+277,TEN,12/18/22,3,46.5,66,Sun,14,15,@,LAC,L 14-17,3,push,46.5,under,afternoon
+278,LAC,12/18/22,-3,46.5,66,Sun,14,15,,TEN,W 17-14,-3,push,46.5,under,afternoon
+279,CIN,12/18/22,-3.5,45,66,Sun,14,15,@,TAM,W 34-23,-3.5,covered,45,over,afternoon
+280,TAM,12/18/22,3.5,45,66,Sun,14,15,,CIN,L 23-34,3.5,did not cover,45,over,afternoon
+281,CLE,12/17/22,-3,38,34,Sat,14,15,,BAL,W 13-3,-3,covered,38,under,afternoon
+282,BAL,12/17/22,3,38,34,Sat,14,15,@,CLE,L 3-13,3,did not cover,38,under,afternoon
+283,DEN,12/11/22,8.5,44,55,Sun,13,14,,KAN,L 28-34,8.5,covered,44,over,afternoon
+284,KAN,12/11/22,-8.5,44,55,Sun,13,14,@,DEN,W 34-28,-8.5,did not cover,44,over,afternoon
+285,CAR,12/11/22,4,44.5,45,Sun,13,14,@,SEA,W 30-24,4,covered,44.5,over,afternoon
+286,SEA,12/11/22,-4,44.5,45,Sun,13,14,,CAR,L 24-30,-4,did not cover,44.5,over,afternoon
+287,SFO,12/11/22,-3.5,37.5,54,Sun,13,14,,TAM,W 35-7,-3.5,covered,37.5,over,afternoon
+288,TAM,12/11/22,3.5,37.5,54,Sun,13,14,@,SFO,L 7-35,3.5,did not cover,37.5,over,afternoon
+289,CIN,12/4/22,2.5,53,57,Sun,12,13,,KAN,W 27-24,2.5,covered,53,under,afternoon
+290,KAN,12/4/22,-2.5,53,57,Sun,12,13,@,CIN,L 24-27,-2.5,did not cover,53,under,afternoon
+291,LVR,12/4/22,-2.5,49.5,73,Sun,12,13,,LAC,W 27-20,-2.5,covered,49.5,under,afternoon
+292,LAC,12/4/22,2.5,49.5,73,Sun,12,13,@,LVR,L 20-27,2.5,did not cover,49.5,under,afternoon
+293,LAR,12/4/22,7,41,47,Sun,12,13,,SEA,L 23-27,7,covered,41,over,afternoon
+294,SEA,12/4/22,-7,41,47,Sun,12,13,@,LAR,W 27-23,-7,did not cover,41,over,afternoon
+295,MIA,12/4/22,4.5,45.5,58,Sun,12,13,@,SFO,L 17-33,4.5,did not cover,45.5,over,afternoon
+296,SFO,12/4/22,-4.5,45.5,58,Sun,12,13,,MIA,W 33-17,-4.5,covered,45.5,over,afternoon
+297,ARI,11/27/22,2.5,48.5,64,Sun,12,12,,LAC,L 24-25,2.5,covered,48.5,over,afternoon
+298,LAC,11/27/22,-2.5,48.5,64,Sun,11,12,@,ARI,W 25-24,-2.5,did not cover,48.5,over,afternoon
+299,KAN,11/27/22,-15.5,42,44,Sun,11,12,,LAR,W 26-10,-15.5,covered,42,under,afternoon
+300,LAR,11/27/22,15.5,42,44,Sun,11,12,@,KAN,L 10-26,15.5,did not cover,42,under,afternoon
+301,LVR,11/27/22,4,47.5,44,Sun,11,12,@,SEA,W 40-34 (OT),4,covered,47.5,over,afternoon
+302,SEA,11/27/22,-4,47.5,44,Sun,11,12,,LVR,L 34-40 (OT),-4,did not cover,47.5,over,afternoon
+303,NOR,11/27/22,9,43,59,Sun,12,12,@,SFO,L 0-13,9,did not cover,43,under,afternoon
+304,SFO,11/27/22,-9,43,59,Sun,11,12,,NOR,W 13-0,-9,covered,43,under,afternoon
+305,DAL,11/24/22,-10,45.5,57,Thu,11,12,,NYG,W 28-20,-10,did not cover,45.5,over,afternoon
+306,NYG,11/24/22,10,45.5,57,Thu,11,12,@,DAL,L 20-28,10,covered,45.5,over,afternoon
+307,DEN,11/20/22,-2.5,41,49,Sun,10,11,,LVR,L 16-22 (OT),-2.5,did not cover,41,under,afternoon
+308,LVR,11/20/22,2.5,41,49,Sun,10,11,@,DEN,W 22-16 (OT),2.5,covered,41,under,afternoon
+309,DAL,11/20/22,-1.5,48.5,29,Sun,10,11,@,MIN,W 40-3,-1.5,covered,48.5,under,afternoon
+310,MIN,11/20/22,1.5,48.5,29,Sun,10,11,,DAL,L 3-40,1.5,did not cover,48.5,under,afternoon
+311,CIN,11/20/22,-3.5,40,27,Sun,10,11,@,PIT,W 37-30,-3.5,covered,40,over,afternoon
+312,PIT,11/20/22,3.5,40,27,Sun,10,11,,CIN,L 30-37,3.5,did not cover,40,over,afternoon
+313,DAL,11/13/22,-4,44.5,33,Sun,9,10,@,GNB,L 28-31 (OT),-4,did not cover,44.5,over,afternoon
+314,GNB,11/13/22,4,44.5,33,Sun,10,10,,DAL,W 31-28 (OT),4,covered,44.5,over,afternoon
+315,IND,11/13/22,4,41,56,Sun,10,10,@,LVR,W 25-20,4,covered,41,over,afternoon
+316,LVR,11/13/22,-4,41,56,Sun,9,10,,IND,L 20-25,-4,did not cover,41,over,afternoon
+317,ARI,11/13/22,2.5,39.5,68,Sun,10,10,@,LAR,W 27-17,2.5,covered,39.5,over,afternoon
+318,LAR,11/13/22,-2.5,39.5,68,Sun,9,10,,ARI,L 17-27,-2.5,did not cover,39.5,over,afternoon
+319,ARI,11/6/22,-2,49,72,Sun,9,9,,SEA,L 21-31,-2,did not cover,49,over,afternoon
+320,SEA,11/6/22,2,49,72,Sun,9,9,@,ARI,W 31-21,2,covered,49,over,afternoon
+321,LAR,11/6/22,3,42.5,88,Sun,8,9,@,TAM,L 13-16,3,push,42.5,under,afternoon
+322,TAM,11/6/22,-3,42.5,88,Sun,9,9,,LAR,W 16-13,-3,push,42.5,under,afternoon
+323,IND,10/30/22,-3,39.5,58,Sun,8,8,,WAS,L 16-17,-3,did not cover,39.5,under,afternoon
+324,WAS,10/30/22,3,39.5,58,Sun,8,8,@,IND,W 17-16,3,covered,39.5,under,afternoon
+325,HOU,10/30/22,3.5,39,72,Sun,7,8,,TEN,L 10-17,3.5,did not cover,39,under,afternoon
+326,TEN,10/30/22,-3.5,39,72,Sun,7,8,@,HOU,W 17-10,-3.5,covered,39,under,afternoon
+327,LAR,10/30/22,-2.5,42,75,Sun,7,8,,SFO,L 14-31,-2.5,did not cover,42,over,afternoon
+328,SFO,10/30/22,2.5,42,75,Sun,8,8,@,LAR,W 31-14,2.5,covered,42,over,afternoon
+329,NYG,10/30/22,3,44.5,54,Sun,8,8,@,SEA,L 13-27,3,did not cover,44.5,under,afternoon
+330,SEA,10/30/22,-3,44.5,54,Sun,8,8,,NYG,W 27-13,-3,covered,44.5,under,afternoon
+331,HOU,10/23/22,7,46,63,Sun,6,7,@,LVR,L 20-38,7,did not cover,46,over,afternoon
+332,LVR,10/23/22,-7,46,63,Sun,6,7,,HOU,W 38-20,-7,covered,46,over,afternoon
+333,LAC,10/23/22,-4.5,50.5,73,Sun,7,7,,SEA,L 23-37,-4.5,did not cover,50.5,over,afternoon
+334,SEA,10/23/22,4.5,50.5,73,Sun,7,7,@,LAC,W 37-23,4.5,covered,50.5,over,afternoon
+335,KAN,10/23/22,-1,49,64,Sun,7,7,@,SFO,W 44-23,-1,covered,49,over,afternoon
+336,SFO,10/23/22,1,49,64,Sun,7,7,,KAN,L 23-44,1,did not cover,49,over,afternoon
+337,CAR,10/16/22,10,41.5,72,Sun,6,6,@,LAR,L 10-24,10,did not cover,41.5,under,afternoon
+338,LAR,10/16/22,-10,41.5,72,Sun,6,6,,CAR,W 24-10,-10,covered,41.5,under,afternoon
+339,ARI,10/16/22,-2.5,50.5,72,Sun,6,6,@,SEA,L 9-19,-2.5,did not cover,50.5,under,afternoon
+340,SEA,10/16/22,2.5,50.5,72,Sun,6,6,,ARI,W 19-9,2.5,covered,50.5,under,afternoon
+341,CAR,10/9/22,6.5,39.5,68,Sun,5,5,,SFO,L 15-37,6.5,did not cover,39.5,over,afternoon
+342,SFO,10/9/22,-6.5,39.5,68,Sun,5,5,@,CAR,W 37-15,-6.5,covered,39.5,over,afternoon
+343,ARI,10/9/22,5,49,0,Sun,5,5,,PHI,L 17-20,5,covered,49,under,afternoon
+344,PHI,10/9/22,-5,49,0,Sun,5,5,@,ARI,W 20-17,-5,did not cover,49,under,afternoon
+345,DAL,10/9/22,5.5,42,74,Sun,5,5,@,LAR,W 22-10,5.5,covered,42,under,afternoon
+346,LAR,10/9/22,-5.5,42,74,Sun,5,5,,DAL,L 10-22,-5.5,did not cover,42,under,afternoon
+347,CAR,10/2/22,-1,43.5,66,Sun,4,4,,ARI,L 16-26,-1,did not cover,43.5,under,afternoon
+348,ARI,10/2/22,1,43.5,66,Sun,4,4,@,CAR,W 26-16,1,covered,43.5,under,afternoon
+349,GNB,10/2/22,-9.5,40,66,Sun,4,4,,NWE,W 27-24 (OT),-9.5,did not cover,40,over,afternoon
+350,NWE,10/2/22,9.5,40,66,Sun,4,4,@,GNB,L 24-27 (OT),9.5,covered,40,over,afternoon
+351,DEN,10/2/22,2.5,45.5,91,Sun,4,4,@,LVR,L 23-32,2.5,did not cover,45.5,over,afternoon
+352,LVR,10/2/22,-2.5,45.5,91,Sun,4,4,,DEN,W 32-23,-2.5,covered,45.5,over,afternoon
+353,ARI,9/25/22,3.5,48.5,0,Sun,3,3,,LAR,L 12-20,3.5,did not cover,48.5,under,afternoon
+354,LAR,9/25/22,-3.5,48.5,0,Sun,3,3,@,ARI,W 20-12,-3.5,covered,48.5,under,afternoon
+355,JAX,9/25/22,3,42.5,81,Sun,3,3,@,LAC,W 38-10,3,covered,42.5,over,afternoon
+356,LAC,9/25/22,-3,42.5,81,Sun,3,3,,JAX,L 10-38,-3,did not cover,42.5,over,afternoon
+357,ATL,9/25/22,1,42,67,Sun,3,3,@,SEA,W 27-23,1,covered,42,over,afternoon
+358,SEA,9/25/22,-1,42,67,Sun,3,3,,ATL,L 23-27,-1,did not cover,42,over,afternoon
+359,GNB,9/25/22,1,42,88,Sun,3,3,@,TAM,W 14-12,1,covered,42,under,afternoon
+360,TAM,9/25/22,-1,42,88,Sun,3,3,,GNB,L 12-14,-1,did not cover,42,under,afternoon
+361,DEN,9/18/22,-10,45.5,77,Sun,2,2,,HOU,W 16-9,-10,did not cover,45.5,under,afternoon
+362,HOU,9/18/22,10,45.5,77,Sun,2,2,@,DEN,L 9-16,10,covered,45.5,under,afternoon
+363,ARI,9/18/22,5.5,51.5,90,Sun,2,2,@,LVR,W 29-23 (OT),5.5,covered,51.5,over,afternoon
+364,LVR,9/18/22,-5.5,51.5,90,Sun,2,2,,ARI,L 23-29 (OT),-5.5,did not cover,51.5,over,afternoon
+365,ATL,9/18/22,10,46.5,74,Sun,2,2,@,LAR,L 27-31,10,covered,46.5,over,afternoon
+366,LAR,9/18/22,-10,46.5,74,Sun,2,2,,ATL,W 31-27,-10,did not cover,46.5,over,afternoon
+367,ARI,9/11/22,6.5,54,0,Sun,1,1,,KAN,L 21-44,6.5,did not cover,54,over,afternoon
+368,KAN,9/11/22,-6.5,54,0,Sun,1,1,@,ARI,W 44-21,-6.5,covered,54,over,afternoon
+369,GNB,9/11/22,2.5,46,73,Sun,1,1,@,MIN,L 7-23,2.5,did not cover,46,under,afternoon
+370,MIN,9/11/22,-2.5,46,73,Sun,1,1,,GNB,W 23-7,-2.5,covered,46,under,afternoon
+371,NYG,9/11/22,5,44,75,Sun,1,1,@,TEN,W 21-20,5,covered,44,under,afternoon
+372,TEN,9/11/22,-5,44,75,Sun,1,1,,NYG,L 20-21,-5,did not cover,44,under,afternoon
+373,LVR,9/11/22,3.5,52.5,86,Sun,1,1,@,LAC,L 19-24,3.5,did not cover,52.5,under,afternoon
+374,LAC,9/11/22,-3.5,52.5,86,Sun,1,1,,LVR,W 24-19,-3.5,covered,52.5,under,afternoon
+375,BUF,1/9/22,-16.5,40.5,36,Sun,17,18,,NYJ,W 27-10,-16.5,covered,40.5,under,afternoon
+376,NYJ,1/9/22,16.5,40.5,36,Sun,17,18,@,BUF,L 10-27,16.5,did not cover,40.5,under,afternoon
+377,ARI,1/9/22,-5.5,48,70,Sun,17,18,,SEA,L 30-38,-5.5,did not cover,48,over,afternoon
+378,SEA,1/9/22,5.5,48,70,Sun,17,18,@,ARI,W 38-30,5.5,covered,48,over,afternoon
+379,LAR,1/9/22,-3.5,44.5,73,Sun,17,18,,SFO,L 24-27 (OT),-3.5,did not cover,44.5,over,afternoon
+380,SFO,1/9/22,3.5,44.5,73,Sun,17,18,@,LAR,W 27-24 (OT),3.5,covered,44.5,over,afternoon
+381,DEN,1/8/22,11,45,41,Sat,17,18,,KAN,L 24-28,11,covered,45,over,afternoon
+382,KAN,1/8/22,-11,45,41,Sat,17,18,@,DEN,W 28-24,-11,did not cover,45,over,afternoon
+383,ARI,1/2/22,6.5,52.5,38,Sun,16,17,@,DAL,W 25-22,6.5,covered,52.5,under,afternoon
+384,DAL,1/2/22,-6.5,52.5,38,Sun,16,17,,ARI,L 22-25,-6.5,did not cover,52.5,under,afternoon
+385,LAR,1/2/22,-6,46.5,59,Sun,16,17,@,BAL,W 20-19,-6,did not cover,46.5,under,afternoon
+386,BAL,1/2/22,6,46.5,59,Sun,16,17,,LAR,L 19-20,6,covered,46.5,under,afternoon
+387,DEN,1/2/22,7.5,45,63,Sun,16,17,@,LAC,L 13-34,7.5,did not cover,45,over,afternoon
+388,LAC,1/2/22,-7.5,45,63,Sun,16,17,,DEN,W 34-13,-7.5,covered,45,over,afternoon
+389,DET,1/2/22,7,41.5,37,Sun,16,17,@,SEA,L 29-51,7,did not cover,41.5,over,afternoon
+390,SEA,1/2/22,-7,41.5,37,Sun,16,17,,DET,W 51-29,-7,covered,41.5,over,afternoon
+391,HOU,1/2/22,12.5,43.5,50,Sun,16,17,@,SFO,L 7-23,12.5,did not cover,43.5,under,afternoon
+392,SFO,1/2/22,-12.5,43.5,50,Sun,16,17,,HOU,W 23-7,-12.5,covered,43.5,under,afternoon
+393,KAN,12/26/21,-12.5,46.5,60,Sun,15,16,,PIT,W 36-10,-12.5,covered,46.5,under,afternoon
+394,PIT,12/26/21,12.5,46.5,60,Sun,15,16,@,KAN,L 10-36,12.5,did not cover,46.5,under,afternoon
+395,DEN,12/26/21,0,41,53,Sun,15,16,@,LVR,L 13-17,0,did not cover,41,under,afternoon
+396,LVR,12/26/21,0,41,53,Sun,15,16,,DEN,W 17-13,0,covered,41,under,afternoon
+397,CHI,12/26/21,6.5,41.5,25,Sun,15,16,@,SEA,W 25-24,6.5,covered,41.5,over,afternoon
+398,SEA,12/26/21,-6.5,41.5,25,Sun,15,16,,CHI,L 24-25,-6.5,did not cover,41.5,over,afternoon
+399,CLE,12/25/21,7.5,46.5,35,Sat,15,16,@,GNB,L 22-24,7.5,covered,46.5,under,afternoon
+400,GNB,12/25/21,-7.5,46.5,35,Sat,15,16,,CLE,W 24-22,-7.5,did not cover,46.5,under,afternoon
+401,CLE,12/20/21,-3,41,40,Mon,14,15,,LVR,L 14-16,-3,did not cover,41,under,afternoon
+402,LVR,12/20/21,3,41,40,Mon,14,15,@,CLE,W 16-14,3,covered,41,under,afternoon
+403,CIN,12/19/21,3,44,61,Sun,14,15,@,DEN,W 15-10,3,covered,44,under,afternoon
+404,DEN,12/19/21,-3,44,61,Sun,14,15,,CIN,L 10-15,-3,did not cover,44,under,afternoon
+405,ATL,12/19/21,8.5,48,46,Sun,14,15,@,SFO,L 13-31,8.5,did not cover,48,under,afternoon
+406,SFO,12/19/21,-8.5,48,46,Sun,14,15,,ATL,W 31-13,-8.5,covered,48,under,afternoon
+407,DEN,12/12/21,-11,42,63,Sun,13,14,,DET,W 38-10,-11,covered,42,over,afternoon
+408,DET,12/12/21,11,42,63,Sun,13,14,@,DEN,L 10-38,11,did not cover,42,over,afternoon
+409,NYG,12/12/21,9,43,63,Sun,13,14,@,LAC,L 21-37,9,did not cover,43,over,afternoon
+410,LAC,12/12/21,-9,43,63,Sun,13,14,,NYG,W 37-21,-9,covered,43,over,afternoon
+411,BUF,12/12/21,3.5,54.5,82,Sun,13,14,@,TAM,L 27-33 (OT),3.5,did not cover,54.5,over,afternoon
+412,TAM,12/12/21,-3.5,54.5,82,Sun,13,14,,BUF,W 33-27 (OT),-3.5,covered,54.5,over,afternoon
+413,PIT,12/5/21,4.5,44,50,Sun,12,13,,BAL,W 20-19,4.5,covered,44,under,afternoon
+414,BAL,12/5/21,-4.5,44,50,Sun,12,13,@,PIT,L 19-20,-4.5,did not cover,44,under,afternoon
+415,LVR,12/5/21,-1.5,48,70,Sun,12,13,,WAS,L 15-17,-1.5,did not cover,48,under,afternoon
+416,WAS,12/5/21,1.5,48,70,Sun,12,13,@,LVR,W 17-15,1.5,covered,48,under,afternoon
+417,JAX,12/5/21,13,48,59,Sun,12,13,@,LAR,L 7-37,13,did not cover,48,under,afternoon
+418,LAR,12/5/21,-13,48,59,Sun,12,13,,JAX,W 37-7,-13,covered,48,under,afternoon
+419,SEA,12/5/21,3.5,45.5,41,Sun,12,13,,SFO,W 30-23,3.5,covered,45.5,over,afternoon
+420,SFO,12/5/21,-3.5,45.5,41,Sun,12,13,@,SEA,L 23-30,-3.5,did not cover,45.5,over,afternoon
+421,DEN,11/28/21,3,47,62,Sun,11,12,,LAC,W 28-13,3,covered,47,under,afternoon
+422,LAC,11/28/21,-3,47,62,Sun,11,12,@,DEN,L 13-28,-3,did not cover,47,under,afternoon
+423,GNB,11/28/21,2,46.5,37,Sun,12,12,,LAR,W 36-28,2,covered,46.5,over,afternoon
+424,LAR,11/28/21,-2,46.5,37,Sun,11,12,@,GNB,L 28-36,-2,did not cover,46.5,over,afternoon
+425,MIN,11/28/21,3.5,49,68,Sun,11,12,@,SFO,L 26-34,3.5,did not cover,49,over,afternoon
+426,SFO,11/28/21,-3.5,49,68,Sun,11,12,,MIN,W 34-26,-3.5,covered,49,over,afternoon
+427,DAL,11/25/21,-7.5,51.5,58,Thu,11,12,,LVR,L 33-36 (OT),-7.5,did not cover,51.5,over,afternoon
+428,LVR,11/25/21,7.5,51.5,58,Thu,11,12,@,DAL,W 36-33 (OT),7.5,covered,51.5,over,afternoon
+429,DAL,11/21/21,2.5,56.5,57,Sun,10,11,@,KAN,L 9-19,2.5,did not cover,56.5,under,afternoon
+430,KAN,11/21/21,-2.5,56.5,57,Sun,11,11,,DAL,W 19-9,-2.5,covered,56.5,under,afternoon
+431,CIN,11/21/21,-1,50.5,65,Sun,10,11,@,LVR,W 32-13,-1,covered,50.5,under,afternoon
+432,LVR,11/21/21,1,50.5,65,Sun,10,11,,CIN,L 13-32,1,did not cover,50.5,under,afternoon
+433,ARI,11/21/21,2.5,47,46,Sun,11,11,@,SEA,W 23-13,2.5,covered,47,under,afternoon
+434,SEA,11/21/21,-2.5,47,46,Sun,10,11,,ARI,L 13-23,-2.5,did not cover,47,under,afternoon
+435,CAR,11/14/21,10.5,43,81,Sun,10,10,@,ARI,W 34-10,10.5,covered,43,over,afternoon
+436,ARI,11/14/21,-10.5,43,81,Sun,10,10,,CAR,L 10-34,-10.5,did not cover,43,over,afternoon
+437,DEN,11/14/21,-2,46,57,Sun,10,10,,PHI,L 13-30,-2,did not cover,46,under,afternoon
+438,PHI,11/14/21,2,46,57,Sun,10,10,@,DEN,W 30-13,2,covered,46,under,afternoon
+439,GNB,11/14/21,-3.5,49.5,35,Sun,10,10,,SEA,W 17-0,-3.5,covered,49.5,under,afternoon
+440,SEA,11/14/21,3.5,49.5,35,Sun,9,10,@,GNB,L 0-17,3.5,did not cover,49.5,under,afternoon
+441,MIN,11/14/21,3,53.5,88,Sun,9,10,@,LAC,W 27-20,3,covered,53.5,under,afternoon
+442,LAC,11/14/21,-3,53.5,88,Sun,9,10,,MIN,L 20-27,-3,did not cover,53.5,under,afternoon
+443,GNB,11/7/21,7.5,48,51,Sun,9,9,@,KAN,L 7-13,7.5,covered,48,under,afternoon
+444,KAN,11/7/21,-7.5,48,51,Sun,9,9,,GNB,W 13-7,-7.5,did not cover,48,under,afternoon
+445,PHI,11/7/21,1.5,49,54,Sun,9,9,,LAC,L 24-27,1.5,did not cover,49,over,afternoon
+446,LAC,11/7/21,-1.5,49,54,Sun,8,9,@,PHI,W 27-24,-1.5,covered,49,over,afternoon
+447,ARI,11/7/21,3.5,45,57,Sun,9,9,@,SFO,W 31-17,3.5,covered,45,over,afternoon
+448,SFO,11/7/21,-3.5,45,57,Sun,8,9,,ARI,L 17-31,-3.5,did not cover,45,over,afternoon
+449,DEN,10/31/21,-3.5,45,41,Sun,8,8,,WAS,W 17-10,-3.5,covered,45,under,afternoon
+450,WAS,10/31/21,3.5,45,41,Sun,8,8,@,DEN,L 10-17,3.5,did not cover,45,under,afternoon
+451,NOR,10/31/21,4.5,49,72,Sun,7,8,,TAM,W 36-27,4.5,covered,49,over,afternoon
+452,TAM,10/31/21,-4.5,49,72,Sun,8,8,@,NOR,L 27-36,-4.5,did not cover,49,over,afternoon
+453,NWE,10/31/21,4.5,49.5,64,Sun,8,8,@,LAC,W 27-24,4.5,covered,49.5,over,afternoon
+454,LAC,10/31/21,-4.5,49.5,64,Sun,7,8,,NWE,L 24-27,-4.5,did not cover,49.5,over,afternoon
+455,JAX,10/31/21,3.5,44.5,54,Sun,7,8,@,SEA,L 7-31,3.5,did not cover,44.5,under,afternoon
+456,SEA,10/31/21,-3.5,44.5,54,Sun,8,8,,JAX,W 31-7,-3.5,covered,44.5,under,afternoon
+457,ARI,10/24/21,-18,47.5,82,Sun,7,7,,HOU,W 31-5,-18,covered,47.5,under,afternoon
+458,HOU,10/24/21,18,47.5,82,Sun,7,7,@,ARI,L 5-31,18,did not cover,47.5,under,afternoon
+459,PHI,10/24/21,3,48.5,71,Sun,7,7,@,LVR,L 22-33,3,did not cover,48.5,over,afternoon
+460,LVR,10/24/21,-3,48.5,71,Sun,7,7,,PHI,W 33-22,-3,covered,48.5,over,afternoon
+461,DET,10/24/21,16.5,50.5,66,Sun,7,7,@,LAR,L 19-28,16.5,covered,50.5,under,afternoon
+462,LAR,10/24/21,-16.5,50.5,66,Sun,7,7,,DET,W 28-19,-16.5,did not cover,50.5,under,afternoon
+463,CHI,10/24/21,11.5,47,83,Sun,7,7,@,TAM,L 3-38,11.5,did not cover,47,under,afternoon
+464,TAM,10/24/21,-11.5,47,83,Sun,7,7,,CHI,W 38-3,-11.5,covered,47,under,afternoon
+465,CLE,10/17/21,-3.5,48.5,58,Sun,6,6,,ARI,L 14-37,-3.5,did not cover,48.5,over,afternoon
+466,ARI,10/17/21,3.5,48.5,58,Sun,6,6,@,CLE,W 37-14,3.5,covered,48.5,over,afternoon
+467,DEN,10/17/21,-4,43.5,76,Sun,6,6,,LVR,L 24-34,-4,did not cover,43.5,over,afternoon
+468,LVR,10/17/21,4,43.5,76,Sun,6,6,@,DEN,W 34-24,4,covered,43.5,over,afternoon
+469,DAL,10/17/21,-3.5,50.5,62,Sun,6,6,@,NWE,W 35-29 (OT),-3.5,covered,50.5,over,afternoon
+470,NWE,10/17/21,3.5,50.5,62,Sun,6,6,,DAL,L 29-35 (OT),3.5,did not cover,50.5,over,afternoon
+471,ARI,10/10/21,-5,48.5,81,Sun,5,5,,SFO,W 17-10,-5,covered,48.5,under,afternoon
+472,SFO,10/10/21,5,48.5,81,Sun,5,5,@,ARI,L 10-17,5,did not cover,48.5,under,afternoon
+473,DAL,10/10/21,-7,52.5,88,Sun,5,5,,NYG,W 44-20,-7,covered,52.5,over,afternoon
+474,NYG,10/10/21,7,52.5,88,Sun,5,5,@,DAL,L 20-44,7,did not cover,52.5,over,afternoon
+475,CHI,10/10/21,5.5,45.5,72,Sun,5,5,@,LVR,W 20-9,5.5,covered,45.5,under,afternoon
+476,LVR,10/10/21,-5.5,45.5,72,Sun,5,5,,CHI,L 9-20,-5.5,did not cover,45.5,under,afternoon
+477,CLE,10/10/21,2.5,46.5,74,Sun,5,5,@,LAC,L 42-47,2.5,did not cover,46.5,over,afternoon
+478,LAC,10/10/21,-2.5,46.5,74,Sun,5,5,,CLE,W 47-42,-2.5,covered,46.5,over,afternoon
+479,DEN,10/3/21,1,44,77,Sun,4,4,,BAL,L 7-23,1,did not cover,44,under,afternoon
+480,BAL,10/3/21,-1,44,77,Sun,4,4,@,DEN,W 23-7,-1,covered,44,under,afternoon
+481,GNB,10/3/21,-6,44.5,67,Sun,4,4,,PIT,W 27-17,-6,covered,44.5,under,afternoon
+482,PIT,10/3/21,6,44.5,67,Sun,4,4,@,GNB,L 17-27,6,did not cover,44.5,under,afternoon
+483,ARI,10/3/21,4,49.5,89,Sun,4,4,@,LAR,W 37-20,4,covered,49.5,over,afternoon
+484,LAR,10/3/21,-4,49.5,89,Sun,4,4,,ARI,L 20-37,-4,did not cover,49.5,over,afternoon
+485,SEA,10/3/21,2.5,52,80,Sun,4,4,@,SFO,W 28-21,2.5,covered,52,under,afternoon
+486,SFO,10/3/21,-2.5,52,80,Sun,4,4,,SEA,L 21-28,-2.5,did not cover,52,under,afternoon
+487,DEN,9/26/21,-10,41.5,82,Sun,3,3,,NYJ,W 26-0,-10,covered,41.5,under,afternoon
+488,NYJ,9/26/21,10,41.5,82,Sun,3,3,@,DEN,L 0-26,10,did not cover,41.5,under,afternoon
+489,MIN,9/26/21,2,55,77,Sun,3,3,,SEA,W 30-17,2,covered,55,under,afternoon
+490,SEA,9/26/21,-2,55,77,Sun,3,3,@,MIN,L 17-30,-2,did not cover,55,under,afternoon
+491,MIA,9/26/21,4,44,87,Sun,3,3,@,LVR,L 28-31 (OT),4,covered,44,over,afternoon
+492,LVR,9/26/21,-4,44,87,Sun,3,3,,MIA,W 31-28 (OT),-4,did not cover,44,over,afternoon
+493,LAR,9/26/21,1.5,55.5,66,Sun,3,3,,TAM,W 34-24,1.5,covered,55.5,over,afternoon
+494,TAM,9/26/21,-1.5,55.5,66,Sun,3,3,@,LAR,L 24-34,-1.5,did not cover,55.5,over,afternoon
+495,ARI,9/19/21,-3.5,50.5,93,Sun,2,2,,MIN,W 34-33,-3.5,did not cover,50.5,over,afternoon
+496,MIN,9/19/21,3.5,50.5,93,Sun,2,2,@,ARI,L 33-34,3.5,covered,50.5,over,afternoon
+497,DAL,9/19/21,3,55,71,Sun,2,2,@,LAC,W 20-17,3,covered,55,under,afternoon
+498,LAC,9/19/21,-3,55,71,Sun,2,2,,DAL,L 17-20,-3,did not cover,55,under,afternoon
+499,TEN,9/19/21,6.5,54,62,Sun,2,2,@,SEA,W 33-30 (OT),6.5,covered,54,over,afternoon
+500,SEA,9/19/21,-6.5,54,62,Sun,2,2,,TEN,L 30-33 (OT),-6.5,did not cover,54,over,afternoon
+501,ATL,9/19/21,12.5,51.5,85,Sun,2,2,@,TAM,L 25-48,12.5,did not cover,51.5,over,afternoon
+502,TAM,9/19/21,-12.5,51.5,85,Sun,2,2,,ATL,W 48-25,-12.5,covered,51.5,over,afternoon
+503,CLE,9/12/21,5.5,54.5,88,Sun,1,1,@,KAN,L 29-33,5.5,covered,54.5,over,afternoon
+504,KAN,9/12/21,-5.5,54.5,88,Sun,1,1,,CLE,W 33-29,-5.5,did not cover,54.5,over,afternoon
+505,GNB,9/12/21,-3.5,49.5,86,Sun,1,1,@,NOR,L 3-38,-3.5,did not cover,49.5,under,afternoon
+506,NOR,9/12/21,3.5,49.5,86,Sun,1,1,,GNB,W 38-3,3.5,covered,49.5,under,afternoon
+507,MIA,9/12/21,3,43.5,81,Sun,1,1,@,NWE,W 17-16,3,covered,43.5,under,afternoon
+508,NWE,9/12/21,-3,43.5,81,Sun,1,1,,MIA,L 16-17,-3,did not cover,43.5,under,afternoon
+509,DEN,9/12/21,-3,41.5,82,Sun,1,1,@,NYG,W 27-13,-3,covered,41.5,under,afternoon
+510,NYG,9/12/21,3,41.5,82,Sun,1,1,,DEN,L 13-27,3,did not cover,41.5,under,afternoon
+1,DET,12/5/24,-3.5,51.5,68,Thu,13,14,,GNB,W 34-31,-3.5,did not cover,51.5,over,night
+2,GNB,12/5/24,3.5,51.5,68,Thu,13,14,@,DET,L 31-34,3.5,covered,51.5,over,night
+3,CLE,12/2/24,6,42,48,Mon,12,13,@,DEN,L 32-41,6,did not cover,42,over,night
+4,DEN,12/2/24,-6,42,48,Mon,13,13,,CLE,W 41-32,-6,covered,42,over,night
+5,BUF,12/1/24,-6,44.5,28,Sun,12,13,,SFO,W 35-10,-6,covered,44.5,over,night
+6,SFO,12/1/24,6,44.5,28,Sun,12,13,@,BUF,L 10-35,6,did not cover,44.5,over,night
+7,GNB,11/28/24,-3,47.5,27,Thu,12,13,,MIA,W 30-17,-3,covered,47.5,under,night
+8,MIA,11/28/24,3,47.5,27,Thu,12,13,@,GNB,L 17-30,3,did not cover,47.5,under,night
+9,BAL,11/25/24,-2.5,50.5,62,Mon,12,12,@,LAC,W 30-23,-2.5,covered,50.5,over,night
+10,LAC,11/25/24,2.5,50.5,62,Mon,11,12,,BAL,L 23-30,2.5,did not cover,50.5,over,night
+11,PHI,11/24/24,-3,49,57,Sun,11,12,@,LAR,W 37-20,-3,covered,49,over,night
+12,LAR,11/24/24,3,49,57,Sun,11,12,,PHI,L 20-37,3,did not cover,49,over,night
+13,CLE,11/21/24,3.5,36.5,36,Thu,11,12,,PIT,W 24-19,3.5,covered,36.5,over,night
+14,PIT,11/21/24,-3.5,36.5,36,Thu,11,12,@,CLE,L 19-24,-3.5,did not cover,36.5,over,night
+15,HOU,11/18/24,-7,41,64,Mon,11,11,@,DAL,W 34-10,-7,covered,41,over,night
+16,DAL,11/18/24,7,41,64,Mon,10,11,,HOU,L 10-34,7,did not cover,41,over,night
+17,LAC,11/17/24,-1,48.5,61,Sun,10,11,,CIN,W 34-27,-1,covered,48.5,over,night
+18,CIN,11/17/24,1,48.5,61,Sun,11,11,@,LAC,L 27-34,1,did not cover,48.5,over,night
+19,WAS,11/14/24,3.5,48.5,46,Thu,11,11,@,PHI,L 18-26,3.5,did not cover,48.5,under,night
+20,PHI,11/14/24,-3.5,48.5,46,Thu,10,11,,WAS,W 26-18,-3.5,covered,48.5,under,night
+21,MIA,11/11/24,2.5,49,60,Mon,9,10,@,LAR,W 23-15,2.5,covered,49,under,night
+22,LAR,11/11/24,-2.5,49,60,Mon,9,10,,MIA,L 15-23,-2.5,did not cover,49,under,night
+23,DET,11/10/24,-3.5,49,73,Sun,9,10,@,HOU,W 26-23,-3.5,did not cover,49,push,night
+24,HOU,11/10/24,3.5,49,73,Sun,10,10,,DET,L 23-26,3.5,covered,49,push,night
+25,CIN,11/7/24,6,53.5,69,Thu,10,10,@,BAL,L 34-35,6,covered,53.5,over,night
+26,BAL,11/7/24,-6,53.5,69,Thu,10,10,,CIN,W 35-34,-6,did not cover,53.5,over,night
+27,KAN,11/4/24,-9,45.5,63,Mon,8,9,,TAM,W 30-24 (OT),-9,did not cover,45.5,over,night
+28,TAM,11/4/24,9,45.5,63,Mon,9,9,@,KAN,L 24-30 (OT),9,covered,45.5,over,night
+29,IND,11/3/24,5.5,47,47,Sun,9,9,@,MIN,L 13-21,5.5,did not cover,47,under,night
+30,MIN,11/3/24,-5.5,47,47,Sun,8,9,,IND,W 21-13,-5.5,covered,47,under,night
+31,HOU,10/31/24,2,42,71,Thu,9,9,@,NYJ,L 13-21,2,did not cover,42,under,night
+32,NYJ,10/31/24,-2,42,71,Thu,9,9,,HOU,W 21-13,-2,covered,42,under,night
+33,NYG,10/28/24,6,36.5,54,Mon,8,8,@,PIT,L 18-26,6,did not cover,36.5,over,night
+34,PIT,10/28/24,-6,36.5,54,Mon,8,8,,NYG,W 26-18,-6,covered,36.5,over,night
+35,DAL,10/27/24,4.5,47,69,Sun,7,8,@,SFO,L 24-30,4.5,did not cover,47,over,night
+36,SFO,10/27/24,-4.5,47,69,Sun,8,8,,DAL,W 30-24,-4.5,covered,47,over,night
+37,MIN,10/24/24,-3,48,66,Thu,7,8,@,LAR,L 20-30,-3,did not cover,48,over,night
+38,LAR,10/24/24,3,48,66,Thu,7,8,,MIN,W 30-20,3,covered,48,over,night
+39,ARI,10/21/24,1,44.5,85,Mon,7,7,,LAC,W 17-15,1,covered,44.5,under,night
+40,LAC,10/21/24,-1,44.5,85,Mon,6,7,@,ARI,L 15-17,-1,did not cover,44.5,under,night
+41,BAL,10/21/24,-3.5,50,80,Mon,7,7,@,TAM,W 41-31,-3.5,covered,50,over,night
+42,TAM,10/21/24,3.5,50,80,Mon,7,7,,BAL,L 31-41,3.5,did not cover,50,over,night
+43,NYJ,10/20/24,-1.5,39,60,Sun,7,7,@,PIT,L 15-37,-1.5,did not cover,39,over,night
+44,PIT,10/20/24,1.5,39,60,Sun,7,7,,NYJ,W 37-15,1.5,covered,39,over,night
+45,DEN,10/17/24,-2.5,37,65,Thu,7,7,@,NOR,W 33-10,-2.5,covered,37,over,night
+46,NOR,10/17/24,2.5,37,65,Thu,7,7,,DEN,L 10-33,2.5,did not cover,37,over,night
+47,BUF,10/14/24,-1,40.5,49,Mon,6,6,@,NYJ,W 23-20,-1,covered,40.5,over,night
+48,NYJ,10/14/24,1,40.5,49,Mon,6,6,,BUF,L 20-23,1,did not cover,40.5,over,night
+49,CIN,10/13/24,-3.5,46.5,63,Sun,6,6,@,NYG,W 17-7,-3.5,covered,46.5,under,night
+50,NYG,10/13/24,3.5,46.5,63,Sun,6,6,,CIN,L 7-17,3.5,did not cover,46.5,under,night
+51,SEA,10/10/24,3.5,49,59,Thu,6,6,,SFO,L 24-36,3.5,did not cover,49,over,night
+52,SFO,10/10/24,-3.5,49,59,Thu,6,6,@,SEA,W 36-24,-3.5,covered,49,over,night
+53,KAN,10/7/24,-5.5,43,70,Mon,5,5,,NOR,W 26-13,-5.5,covered,43,under,night
+54,NOR,10/7/24,5.5,43,70,Mon,5,5,@,KAN,L 13-26,5.5,did not cover,43,under,night
+55,DAL,10/6/24,2.5,43.5,67,Sun,5,5,@,PIT,W 20-17,2.5,covered,43.5,under,night
+56,PIT,10/6/24,-2.5,43.5,67,Sun,5,5,,DAL,L 17-20,-2.5,did not cover,43.5,under,night
+57,ATL,10/3/24,-1.5,44,0,Thu,5,5,,TAM,W 36-30 (OT),-1.5,covered,44,over,night
+58,TAM,10/3/24,1.5,44,0,Thu,5,5,@,ATL,L 30-36 (OT),1.5,did not cover,44,over,night
+59,DET,9/30/24,-4,47,71,Mon,4,4,,SEA,W 42-29,-4,covered,47,over,night
+60,SEA,9/30/24,4,47,71,Mon,4,4,@,DET,L 29-42,4,did not cover,47,over,night
+61,MIA,9/30/24,-2.5,37,86,Mon,4,4,,TEN,L 12-31,-2.5,did not cover,37,over,night
+62,TEN,9/30/24,2.5,37,86,Mon,4,4,@,MIA,W 31-12,2.5,covered,37,over,night
+63,BUF,9/29/24,2.5,46.5,68,Sun,4,4,@,BAL,L 10-35,2.5,did not cover,46.5,under,night
+64,BAL,9/29/24,-2.5,46.5,68,Sun,4,4,,BUF,W 35-10,-2.5,covered,46.5,under,night
+65,DAL,9/26/24,-6,45.5,74,Thu,4,4,@,NYG,W 20-15,-6,did not cover,45.5,under,night
+66,NYG,9/26/24,6,45.5,74,Thu,4,4,,DAL,L 15-20,6,covered,45.5,under,night
+67,BUF,9/23/24,-5.5,45.5,68,Mon,3,3,,JAX,W 47-10,-5.5,covered,45.5,over,night
+68,JAX,9/23/24,5.5,45.5,68,Mon,3,3,@,BUF,L 10-47,5.5,did not cover,45.5,over,night
+69,CIN,9/23/24,-7.5,46.5,69,Mon,3,3,,WAS,L 33-38,-7.5,did not cover,46.5,over,night
+70,WAS,9/23/24,7.5,46.5,69,Mon,3,3,@,CIN,W 38-33,7.5,covered,46.5,over,night
+71,ATL,9/22/24,3,46.5,89,Sun,3,3,,KAN,L 17-22,3,did not cover,46.5,under,night
+72,KAN,9/22/24,-3,46.5,89,Sun,3,3,@,ATL,W 22-17,-3,covered,46.5,under,night
+73,NWE,9/19/24,6,38.5,75,Thu,3,3,@,NYJ,L 3-24,6,did not cover,38.5,under,night
+74,NYJ,9/19/24,-6,38.5,75,Thu,3,3,,NWE,W 24-3,-6,covered,38.5,under,night
+75,ATL,9/16/24,5.5,45.5,71,Mon,2,2,@,PHI,W 22-21,5.5,covered,45.5,under,night
+76,PHI,9/16/24,-5.5,45.5,71,Mon,2,2,,ATL,L 21-22,-5.5,did not cover,45.5,under,night
+77,CHI,9/15/24,6,45,89,Sun,2,2,@,HOU,L 13-19,6,push,45,under,night
+78,HOU,9/15/24,-6,45,89,Sun,2,2,,CHI,W 19-13,-6,push,45,under,night
+79,BUF,9/12/24,2,49,86,Thu,2,2,@,MIA,W 31-10,2,covered,49,under,night
+80,MIA,9/12/24,-2,49,86,Thu,2,2,,BUF,L 10-31,-2,did not cover,49,under,night
+81,NYJ,9/9/24,4,43.5,76,Mon,1,1,@,SFO,L 19-32,4,did not cover,43.5,over,night
+82,SFO,9/9/24,-4,43.5,76,Mon,1,1,,NYJ,W 32-19,-4,covered,43.5,over,night
+83,DET,9/8/24,-4.5,52.5,69,Sun,1,1,,LAR,W 26-20 (OT),-4.5,covered,52.5,under,night
+84,LAR,9/8/24,4.5,52.5,69,Sun,1,1,@,DET,L 20-26 (OT),4.5,did not cover,52.5,under,night
+85,GNB,9/6/24,2,49.5,63,Fri,1,1,@,PHI,L 29-34,2,did not cover,49.5,over,night
+86,PHI,9/6/24,-2,49.5,63,Fri,1,1,,GNB,W 34-29,-2,covered,49.5,over,night
+87,KAN,9/5/24,-3,47,67,Thu,1,1,,BAL,W 27-20,-3,covered,47,push,night
+88,BAL,9/5/24,3,47,67,Thu,1,1,@,KAN,L 20-27,3,did not cover,47,push,night
+89,BUF,1/7/24,-2.5,48,63,Sun,17,18,@,MIA,W 21-14,-2.5,covered,48,under,night
+90,MIA,1/7/24,2.5,48,63,Sun,17,18,,BUF,L 14-21,2.5,did not cover,48,under,night
+91,IND,1/6/24,1.5,47.5,36,Sat,17,18,,HOU,L 19-23,1.5,did not cover,47.5,under,night
+92,HOU,1/6/24,-1.5,47.5,36,Sat,17,18,@,IND,W 23-19,-1.5,covered,47.5,under,night
+93,GNB,12/31/23,1.5,43,23,Sun,16,17,@,MIN,W 33-10,1.5,covered,43,push,night
+94,MIN,12/31/23,-1.5,43,23,Sun,16,17,,GNB,L 10-33,-1.5,did not cover,43,push,night
+95,DAL,12/30/23,-5,52,55,Sat,16,17,,DET,W 20-19,-5,did not cover,52,under,night
+96,DET,12/30/23,5,52,55,Sat,16,17,@,DAL,L 19-20,5,covered,52,under,night
+97,CLE,12/28/23,-7.5,35,47,Thu,16,17,,NYJ,W 37-20,-7.5,covered,35,over,night
+98,NYJ,12/28/23,7.5,35,47,Thu,16,17,@,CLE,L 20-37,7.5,did not cover,35,over,night
+99,BAL,12/25/23,6,46.5,56,Mon,15,16,@,SFO,W 33-19,6,covered,46.5,over,night
+100,SFO,12/25/23,-6,46.5,56,Mon,15,16,,BAL,L 19-33,-6,did not cover,46.5,over,night
+101,DEN,12/24/23,-7,35,28,Sun,15,16,,NWE,L 23-26,-7,did not cover,35,over,night
+102,NWE,12/24/23,7,35,28,Sun,15,16,@,DEN,W 26-23,7,covered,35,over,night
+103,BUF,12/23/23,-12.5,44,62,Sat,15,16,@,LAC,W 24-22,-12.5,did not cover,44,over,night
+104,LAC,12/23/23,12.5,44,62,Sat,15,16,,BUF,L 22-24,12.5,covered,44,over,night
+105,NOR,12/21/23,4,46,63,Thu,15,16,@,LAR,L 22-30,4,did not cover,46,over,night
+106,LAR,12/21/23,-4,46,63,Thu,15,16,,NOR,W 30-22,-4,covered,46,over,night
+107,PHI,12/18/23,-3,45,46,Mon,14,15,@,SEA,L 17-20,-3,did not cover,45,under,night
+108,SEA,12/18/23,3,45,46,Mon,14,15,,PHI,W 20-17,3,covered,45,under,night
+109,JAX,12/17/23,3,42,58,Sun,14,15,,BAL,L 7-23,3,did not cover,42,under,night
+110,BAL,12/17/23,-3,42,58,Sun,14,15,@,JAX,W 23-7,-3,covered,42,under,night
+111,DEN,12/16/23,4.5,48,70,Sat,14,15,@,DET,L 17-42,4.5,did not cover,48,over,night
+112,DET,12/16/23,-4.5,48,70,Sat,14,15,,DEN,W 42-17,-4.5,covered,48,over,night
+113,LVR,12/14/23,-3,34,58,Thu,14,15,,LAC,W 63-21,-3,covered,34,over,night
+114,LAC,12/14/23,3,34,58,Thu,14,15,@,LVR,L 21-63,3,did not cover,34,over,night
+115,MIA,12/11/23,-13.5,46.5,64,Mon,13,14,,TEN,L 27-28,-13.5,did not cover,46.5,over,night
+116,TEN,12/11/23,13.5,46.5,64,Mon,13,14,@,MIA,W 28-27,13.5,covered,46.5,over,night
+117,GNB,12/11/23,-6,37,39,Mon,13,14,@,NYG,L 22-24,-6,did not cover,37,over,night
+118,NYG,12/11/23,6,37,39,Mon,13,14,,GNB,W 24-22,6,covered,37,over,night
+119,DAL,12/10/23,-3.5,51.5,43,Sun,13,14,,PHI,W 33-13,-3.5,covered,51.5,under,night
+120,PHI,12/10/23,3.5,51.5,43,Sun,13,14,@,DAL,L 13-33,3.5,did not cover,51.5,under,night
+121,NWE,12/7/23,6,30,42,Thu,13,14,@,PIT,W 21-18,6,covered,30,over,night
+122,PIT,12/7/23,-6,30,42,Thu,13,14,,NWE,L 18-21,-6,did not cover,30,over,night
+123,CIN,12/4/23,10,40,61,Mon,12,13,@,JAX,W 34-31 (OT),10,covered,40,over,night
+124,JAX,12/4/23,-10,40,61,Mon,12,13,,CIN,L 31-34 (OT),-10,did not cover,40,over,night
+125,GNB,12/3/23,5.5,42.5,31,Sun,12,13,,KAN,W 27-19,5.5,covered,42.5,over,night
+126,KAN,12/3/23,-5.5,42.5,31,Sun,12,13,@,GNB,L 19-27,-5.5,did not cover,42.5,over,night
+127,DAL,11/30/23,-9.5,47,61,Thu,12,13,,SEA,W 41-35,-9.5,did not cover,47,over,night
+128,SEA,11/30/23,9.5,47,61,Thu,12,13,@,DAL,L 35-41,9.5,covered,47,over,night
+129,CHI,11/27/23,3,44,16,Mon,12,12,@,MIN,W 12-10,3,covered,44,under,night
+130,MIN,11/27/23,-3,44,16,Mon,12,12,,CHI,L 10-12,-3,did not cover,44,under,night
+131,BAL,11/26/23,-3,48,64,Sun,12,12,@,LAC,W 20-10,-3,covered,48,under,night
+132,LAC,11/26/23,3,48,64,Sun,11,12,,BAL,L 10-20,3,did not cover,48,under,night
+133,SEA,11/23/23,7.5,43.5,39,Thu,11,12,,SFO,L 13-31,7.5,did not cover,43.5,over,night
+134,SFO,11/23/23,-7.5,43.5,39,Thu,11,12,@,SEA,W 31-13,-7.5,covered,43.5,over,night
+135,KAN,11/20/23,-2.5,46,45,Mon,10,11,,PHI,L 17-21,-2.5,did not cover,46,under,night
+136,PHI,11/20/23,2.5,46,45,Mon,10,11,@,KAN,W 21-17,2.5,covered,46,under,night
+137,DEN,11/19/23,-3,41,53,Sun,10,11,,MIN,W 21-20,-3,did not cover,41,push,night
+138,MIN,11/19/23,3,41,53,Sun,11,11,@,DEN,L 20-21,3,covered,41,push,night
+139,CIN,11/16/23,4,46,56,Thu,10,11,@,BAL,L 20-34,4,did not cover,46,over,night
+140,BAL,11/16/23,-4,46,56,Thu,11,11,,CIN,W 34-20,-4,covered,46,over,night
+141,BUF,11/13/23,-7.5,47.5,49,Mon,10,10,,DEN,L 22-24,-7.5,did not cover,47.5,under,night
+142,DEN,11/13/23,7.5,47.5,49,Mon,9,10,@,BUF,W 24-22,7.5,covered,47.5,under,night
+143,NYJ,11/12/23,-1.5,35.5,71,Sun,9,10,@,LVR,L 12-16,-1.5,did not cover,35.5,under,night
+144,LVR,11/12/23,1.5,35.5,71,Sun,10,10,,NYJ,W 16-12,1.5,covered,35.5,under,night
+145,CAR,11/9/23,3.5,38.5,51,Thu,9,10,@,CHI,L 13-16,3.5,covered,38.5,under,night
+146,CHI,11/9/23,-3.5,38.5,51,Thu,10,10,,CAR,W 16-13,-3.5,did not cover,38.5,under,night
+147,NYJ,11/6/23,3,41,48,Mon,8,9,,LAC,L 6-27,3,did not cover,41,under,night
+148,LAC,11/6/23,-3,41,48,Mon,8,9,@,NYJ,W 27-6,-3,covered,41,under,night
+149,BUF,11/5/23,1.5,50.5,51,Sun,9,9,@,CIN,L 18-24,1.5,did not cover,50.5,under,night
+150,CIN,11/5/23,-1.5,50.5,51,Sun,8,9,,BUF,W 24-18,-1.5,covered,50.5,under,night
+151,TEN,11/2/23,3,36.5,40,Thu,8,9,@,PIT,L 16-20,3,did not cover,36.5,under,night
+152,PIT,11/2/23,-3,36.5,40,Thu,8,9,,TEN,W 20-16,-3,covered,36.5,under,night
+153,DET,10/30/23,-7,45.5,72,Mon,8,8,,LVR,W 26-14,-7,covered,45.5,under,night
+154,LVR,10/30/23,7,45.5,72,Mon,8,8,@,DET,L 14-26,7,did not cover,45.5,under,night
+155,CHI,10/29/23,10.5,45.5,76,Sun,8,8,@,LAC,L 13-30,10.5,did not cover,45.5,under,night
+156,LAC,10/29/23,-10.5,45.5,76,Sun,7,8,,CHI,W 30-13,-10.5,covered,45.5,under,night
+157,BUF,10/26/23,-10,43.5,66,Thu,8,8,,TAM,W 24-18,-10,did not cover,43.5,under,night
+158,TAM,10/26/23,10,43.5,66,Thu,7,8,@,BUF,L 18-24,10,covered,43.5,under,night
+159,MIN,10/23/23,7,44,60,Mon,7,7,,SFO,W 22-17,7,covered,44,under,night
+160,SFO,10/23/23,-7,44,60,Mon,7,7,@,MIN,L 17-22,-7,did not cover,44,under,night
+161,MIA,10/22/23,3,51.5,55,Sun,7,7,@,PHI,L 17-31,3,did not cover,51.5,under,night
+162,PHI,10/22/23,-3,51.5,55,Sun,7,7,,MIA,W 31-17,-3,covered,51.5,under,night
+163,JAX,10/19/23,2.5,40.5,79,Thu,7,7,@,NOR,W 31-24,2.5,covered,40.5,over,night
+164,NOR,10/19/23,-2.5,40.5,79,Thu,7,7,,JAX,L 24-31,-2.5,did not cover,40.5,over,night
+165,DAL,10/16/23,-1.5,50,74,Mon,6,6,@,LAC,W 20-17,-1.5,covered,50,under,night
+166,LAC,10/16/23,1.5,50,74,Mon,5,6,,DAL,L 17-20,1.5,did not cover,50,under,night
+167,BUF,10/15/23,-15.5,43.5,46,Sun,6,6,,NYG,W 14-9,-15.5,did not cover,43.5,under,night
+168,NYG,10/15/23,15.5,43.5,46,Sun,6,6,@,BUF,L 9-14,15.5,covered,43.5,under,night
+169,GNB,10/9/23,1.5,44.5,93,Mon,5,5,@,LVR,L 13-17,1.5,did not cover,44.5,under,night
+170,LVR,10/9/23,-1.5,44.5,93,Mon,5,5,,GNB,W 17-13,-1.5,covered,44.5,under,night
+171,DAL,10/8/23,3.5,45,78,Sun,5,5,@,SFO,L 10-42,3.5,did not cover,45,over,night
+172,SFO,10/8/23,-3.5,45,78,Sun,5,5,,DAL,W 42-10,-3.5,covered,45,over,night
+173,CHI,10/5/23,6,44.5,70,Thu,5,5,@,WAS,W 40-20,6,covered,44.5,over,night
+174,WAS,10/5/23,-6,44.5,70,Thu,5,5,,CHI,L 20-40,-6,did not cover,44.5,over,night
+175,NYG,10/2/23,2.5,46.5,67,Mon,4,4,,SEA,L 3-24,2.5,did not cover,46.5,under,night
+176,SEA,10/2/23,-2.5,46.5,67,Mon,4,4,@,NYG,W 24-3,-2.5,covered,46.5,under,night
+177,KAN,10/1/23,-9.5,41.5,69,Sun,4,4,@,NYJ,W 23-20,-9.5,did not cover,41.5,over,night
+178,NYJ,10/1/23,9.5,41.5,69,Sun,4,4,,KAN,L 20-23,9.5,covered,41.5,over,night
+179,DET,9/28/23,-2.5,45,64,Thu,4,4,@,GNB,W 34-20,-2.5,covered,45,over,night
+180,GNB,9/28/23,2.5,45,64,Thu,4,4,,DET,L 20-34,2.5,did not cover,45,over,night
+181,CIN,9/25/23,-3,45.5,74,Mon,3,3,,LAR,W 19-16,-3,push,45.5,under,night
+182,LAR,9/25/23,3,45.5,74,Mon,3,3,@,CIN,L 16-19,3,push,45.5,under,night
+183,PHI,9/25/23,-6,44,90,Mon,3,3,@,TAM,W 25-11,-6,covered,44,under,night
+184,TAM,9/25/23,6,44,90,Mon,3,3,,PHI,L 11-25,6,did not cover,44,under,night
+185,PIT,9/24/23,3,43.5,87,Sun,3,3,@,LVR,W 23-18,3,covered,43.5,under,night
+186,LVR,9/24/23,-3,43.5,87,Sun,3,3,,PIT,L 18-23,-3,did not cover,43.5,under,night
+187,NYG,9/21/23,10.5,43.5,77,Thu,3,3,@,SFO,L 12-30,10.5,did not cover,43.5,under,night
+188,SFO,9/21/23,-10.5,43.5,77,Thu,3,3,,NYG,W 30-12,-10.5,covered,43.5,under,night
+189,CAR,9/18/23,3,39.5,78,Mon,2,2,,NOR,L 17-20,3,push,39.5,under,night
+190,NOR,9/18/23,-3,39.5,78,Mon,2,2,@,CAR,W 20-17,-3,push,39.5,under,night
+191,CLE,9/18/23,-2.5,39,62,Mon,2,2,@,PIT,L 22-26,-2.5,did not cover,39,over,night
+192,PIT,9/18/23,2.5,39,62,Mon,2,2,,CLE,W 26-22,2.5,covered,39,over,night
+193,MIA,9/17/23,-2,46.5,63,Sun,2,2,@,NWE,W 24-17,-2,covered,46.5,under,night
+194,NWE,9/17/23,2,46.5,63,Sun,2,2,,MIA,L 17-24,2,did not cover,46.5,under,night
+195,MIN,9/14/23,6,49,72,Thu,2,2,@,PHI,L 28-34,6,push,49,over,night
+196,PHI,9/14/23,-6,49,72,Thu,2,2,,MIN,W 34-28,-6,push,49,over,night
+197,BUF,9/11/23,-2.5,45.5,72,Mon,1,1,@,NYJ,L 16-22 (OT),-2.5,did not cover,45.5,under,night
+198,NYJ,9/11/23,2.5,45.5,72,Mon,1,1,,BUF,W 22-16 (OT),2.5,covered,45.5,under,night
+199,DAL,9/10/23,-3.5,45.5,74,Sun,1,1,@,NYG,W 40-0,-3.5,covered,45.5,under,night
+200,NYG,9/10/23,3.5,45.5,74,Sun,1,1,,DAL,L 0-40,3.5,did not cover,45.5,under,night
+201,DET,1/8/23,5,49,21,Sun,17,18,@,GNB,W 20-16,5,covered,49,under,night
+202,GNB,1/8/23,-5,49,21,Sun,17,18,,DET,L 16-20,-5,did not cover,49,under,night
+203,JAX,1/7/23,-6.5,40,56,Sat,17,18,,TEN,W 20-16,-6.5,did not cover,40,under,night
+204,TEN,1/7/23,6.5,40,56,Sat,17,18,@,JAX,L 16-20,6.5,covered,40,under,night
+205,PIT,1/1/23,2.5,35,44,Sun,16,17,@,BAL,W 16-13,2.5,covered,35,under,night
+206,BAL,1/1/23,-2.5,35,44,Sun,16,17,,PIT,L 13-16,-2.5,did not cover,35,under,night
+207,DAL,12/29/22,-12.5,39.5,56,Thu,16,17,@,TEN,W 27-13,-12.5,covered,39.5,over,night
+208,TEN,12/29/22,12.5,39.5,56,Thu,16,17,,DAL,L 13-27,12.5,did not cover,39.5,over,night
+209,IND,12/26/22,4,45.5,22,Mon,15,16,,LAC,L 3-20,4,did not cover,45.5,under,night
+210,LAC,12/26/22,-4,45.5,22,Mon,15,16,@,IND,W 20-3,-4,covered,45.5,under,night
+211,ARI,12/25/22,7.5,40.5,66,Sun,15,16,,TAM,L 16-19 (OT),7.5,covered,40.5,under,night
+212,TAM,12/25/22,-7.5,40.5,66,Sun,15,16,@,ARI,W 19-16 (OT),-7.5,did not cover,40.5,under,night
+213,PIT,12/24/22,-2,38,9,Sat,15,16,,LVR,W 13-10,-2,covered,38,under,night
+214,LVR,12/24/22,2,38,9,Sat,15,16,@,PIT,L 10-13,2,did not cover,38,under,night
+215,JAX,12/22/22,2,37,43,Thu,15,16,@,NYJ,W 19-3,2,covered,37,under,night
+216,NYJ,12/22/22,-2,37,43,Thu,15,16,,JAX,L 3-19,-2,did not cover,37,under,night
+217,GNB,12/19/22,-7,39.5,15,Mon,14,15,,LAR,W 24-12,-7,covered,39.5,under,night
+218,LAR,12/19/22,7,39.5,15,Mon,14,15,@,GNB,L 12-24,7,did not cover,39.5,under,night
+219,NYG,12/18/22,4.5,40.5,35,Sun,14,15,@,WAS,W 20-12,4.5,covered,40.5,under,night
+220,WAS,12/18/22,-4.5,40.5,35,Sun,14,15,,NYG,L 12-20,-4.5,did not cover,40.5,under,night
+221,BUF,12/17/22,-7,43.5,29,Sat,14,15,,MIA,W 32-29,-7,did not cover,43.5,over,night
+222,MIA,12/17/22,7,43.5,29,Sat,14,15,@,BUF,L 29-32,7,covered,43.5,over,night
+223,SEA,12/15/22,3,43,39,Thu,14,15,,SFO,L 13-21,3,did not cover,43,under,night
+224,SFO,12/15/22,-3,43,39,Thu,14,15,@,SEA,W 21-13,-3,covered,43,under,night
+225,ARI,12/12/22,1.5,43.5,54,Mon,13,14,,NWE,L 13-27,1.5,did not cover,43.5,under,night
+226,NWE,12/12/22,-1.5,43.5,54,Mon,13,14,@,ARI,W 27-13,-1.5,covered,43.5,under,night
+227,MIA,12/11/22,-3,53.5,57,Sun,13,14,@,LAC,L 17-23,-3,did not cover,53.5,under,night
+228,LAC,12/11/22,3,53.5,57,Sun,13,14,,MIA,W 23-17,3,covered,53.5,under,night
+229,LVR,12/8/22,-6,44.5,58,Thu,13,14,@,LAR,L 16-17,-6,did not cover,44.5,under,night
+230,LAR,12/8/22,6,44.5,58,Thu,13,14,,LVR,W 17-16,6,covered,44.5,under,night
+231,NOR,12/5/22,3,41,69,Mon,13,13,@,TAM,L 16-17,3,covered,41,under,night
+232,TAM,12/5/22,-3,41,69,Mon,12,13,,NOR,W 17-16,-3,did not cover,41,under,night
+233,IND,12/4/22,10.5,44.5,67,Sun,13,13,@,DAL,L 19-54,10.5,did not cover,44.5,over,night
+234,DAL,12/4/22,-10.5,44.5,67,Sun,12,13,,IND,W 54-19,-10.5,covered,44.5,over,night
+235,BUF,12/1/22,-3.5,43.5,35,Thu,12,13,@,NWE,W 24-10,-3.5,covered,43.5,under,night
+236,NWE,12/1/22,3.5,43.5,35,Thu,12,13,,BUF,L 10-24,3.5,did not cover,43.5,under,night
+237,IND,11/28/22,-2.5,39.5,44,Mon,12,12,,PIT,L 17-24,-2.5,did not cover,39.5,over,night
+238,PIT,11/28/22,2.5,39.5,44,Mon,11,12,@,IND,W 24-17,2.5,covered,39.5,over,night
+239,GNB,11/27/22,6.5,46,62,Sun,12,12,@,PHI,L 33-40,6.5,did not cover,46,over,night
+240,PHI,11/27/22,-6.5,46,62,Sun,11,12,,GNB,W 40-33,-6.5,covered,46,over,night
+241,MIN,11/24/22,-2.5,42.5,36,Thu,11,12,,NWE,W 33-26,-2.5,covered,42.5,over,night
+242,NWE,11/24/22,2.5,42.5,36,Thu,11,12,@,MIN,L 26-33,2.5,did not cover,42.5,over,night
+243,ARI,11/21/22,8,43,64,Mon,11,11,,SFO,L 10-38,8,did not cover,43,over,night
+244,SFO,11/21/22,-8,43,64,Mon,10,11,@,ARI,W 38-10,-8,covered,43,over,night
+245,KAN,11/20/22,-5,52.5,69,Sun,10,11,@,LAC,W 30-27,-5,did not cover,52.5,over,night
+246,LAC,11/20/22,5,52.5,69,Sun,10,11,,KAN,L 27-30,5,covered,52.5,over,night
+247,GNB,11/17/22,-3,41,25,Thu,11,11,,TEN,L 17-27,-3,did not cover,41,over,night
+248,TEN,11/17/22,3,41,25,Thu,10,11,@,GNB,W 27-17,3,covered,41,over,night
+249,PHI,11/14/22,-10.5,43.5,43,Mon,9,10,,WAS,L 21-32,-10.5,did not cover,43.5,over,night
+250,WAS,11/14/22,10.5,43.5,43,Mon,10,10,@,PHI,W 32-21,10.5,covered,43.5,over,night
+251,LAC,11/13/22,7.5,45,57,Sun,9,10,@,SFO,L 16-22,7.5,covered,45,under,night
+252,SFO,11/13/22,-7.5,45,57,Sun,9,10,,LAC,W 22-16,-7.5,did not cover,45,under,night
+253,ATL,11/10/22,-2.5,41.5,61,Thu,10,10,@,CAR,L 15-25,-2.5,did not cover,41.5,under,night
+254,CAR,11/10/22,2.5,41.5,61,Thu,10,10,,ATL,W 25-15,2.5,covered,41.5,under,night
+255,NOR,11/7/22,1.5,46.5,76,Mon,9,9,,BAL,L 13-27,1.5,did not cover,46.5,under,night
+256,BAL,11/7/22,-1.5,46.5,76,Mon,9,9,@,NOR,W 27-13,-1.5,covered,46.5,under,night
+257,KAN,11/6/22,-12.5,45.5,54,Sun,8,9,,TEN,W 20-17 (OT),-12.5,did not cover,45.5,under,night
+258,TEN,11/6/22,12.5,45.5,54,Sun,8,9,@,KAN,L 17-20 (OT),12.5,covered,45.5,under,night
+259,HOU,11/3/22,13.5,45.5,77,Thu,8,9,,PHI,L 17-29,13.5,covered,45.5,over,night
+260,PHI,11/3/22,-13.5,45.5,77,Thu,8,9,@,HOU,W 29-17,-13.5,did not cover,45.5,over,night
+261,CIN,10/31/22,-3,45,66,Mon,8,8,@,CLE,L 13-32,-3,did not cover,45,push,night
+262,CLE,10/31/22,3,45,66,Mon,8,8,,CIN,W 32-13,3,covered,45,push,night
+263,BUF,10/30/22,-10.5,47,50,Sun,7,8,,GNB,W 27-17,-10.5,did not cover,47,under,night
+264,GNB,10/30/22,10.5,47,50,Sun,8,8,@,BUF,L 17-27,10.5,covered,47,under,night
+265,BAL,10/27/22,1.5,45.5,79,Thu,8,8,@,TAM,W 27-22,1.5,covered,45.5,over,night
+266,TAM,10/27/22,-1.5,45.5,79,Thu,8,8,,BAL,L 22-27,-1.5,did not cover,45.5,over,night
+267,CHI,10/24/22,8.5,40.5,56,Mon,7,7,@,NWE,W 33-14,8.5,covered,40.5,over,night
+268,NWE,10/24/22,-8.5,40.5,56,Mon,7,7,,CHI,L 14-33,-8.5,did not cover,40.5,over,night
+269,MIA,10/23/22,-7.5,44.5,78,Sun,7,7,,PIT,W 16-10,-7.5,did not cover,44.5,under,night
+270,PIT,10/23/22,7.5,44.5,78,Sun,7,7,@,MIA,L 10-16,7.5,covered,44.5,under,night
+271,ARI,10/20/22,-2.5,44,89,Thu,7,7,,NOR,W 42-34,-2.5,covered,44,over,night
+272,NOR,10/20/22,2.5,44,89,Thu,7,7,@,ARI,L 34-42,2.5,did not cover,44,over,night
+273,DEN,10/17/22,4.5,45.5,69,Mon,6,6,@,LAC,L 16-19 (OT),4.5,covered,45.5,under,night
+274,LAC,10/17/22,-4.5,45.5,69,Mon,6,6,,DEN,W 19-16 (OT),-4.5,did not cover,45.5,under,night
+275,DAL,10/16/22,6.5,42,63,Sun,6,6,@,PHI,L 17-26,6.5,did not cover,42,over,night
+276,PHI,10/16/22,-6.5,42,63,Sun,6,6,,DAL,W 26-17,-6.5,covered,42,over,night
+277,CHI,10/13/22,1,38,46,Thu,6,6,,WAS,L 7-12,1,did not cover,38,under,night
+278,WAS,10/13/22,-1,38,46,Thu,6,6,@,CHI,W 12-7,-1,covered,38,under,night
+279,KAN,10/10/22,-7,51.5,77,Mon,5,5,,LVR,W 30-29,-7,did not cover,51.5,over,night
+280,LVR,10/10/22,7,51.5,77,Mon,5,5,@,KAN,L 29-30,7,covered,51.5,over,night
+281,CIN,10/9/22,3.5,47.5,60,Sun,5,5,@,BAL,L 17-19,3.5,covered,47.5,under,night
+282,BAL,10/9/22,-3.5,47.5,60,Sun,5,5,,CIN,W 19-17,-3.5,did not cover,47.5,under,night
+283,IND,10/6/22,3,42,69,Thu,5,5,@,DEN,W 12-9 (OT),3,covered,42,under,night
+284,DEN,10/6/22,-3,42,69,Thu,5,5,,IND,L 9-12 (OT),-3,did not cover,42,under,night
+285,LAR,10/3/22,1.5,42.5,73,Mon,4,4,@,SFO,L 9-24,1.5,did not cover,42.5,under,night
+286,SFO,10/3/22,-1.5,42.5,73,Mon,4,4,,LAR,W 24-9,-1.5,covered,42.5,under,night
+287,KAN,10/2/22,1,46,75,Sun,4,4,@,TAM,W 41-31,1,covered,46,over,night
+288,TAM,10/2/22,-1,46,75,Sun,4,4,,KAN,L 31-41,-1,did not cover,46,over,night
+289,CIN,9/29/22,-3.5,47.5,63,Thu,4,4,,MIA,W 27-15,-3.5,covered,47.5,under,night
+290,MIA,9/29/22,3.5,47.5,63,Thu,4,4,@,CIN,L 15-27,3.5,did not cover,47.5,under,night
+291,DAL,9/26/22,1,39,66,Mon,3,3,@,NYG,W 23-16,1,covered,39,push,night
+292,NYG,9/26/22,-1,39,66,Mon,3,3,,DAL,L 16-23,-1,did not cover,39,push,night
+293,DEN,9/25/22,1.5,44.5,73,Sun,3,3,,SFO,W 11-10,1.5,covered,44.5,under,night
+294,SFO,9/25/22,-1.5,44.5,73,Sun,3,3,@,DEN,L 10-11,-1.5,did not cover,44.5,under,night
+295,CLE,9/22/22,-4.5,38.5,60,Thu,3,3,,PIT,W 29-17,-4.5,covered,38.5,over,night
+296,PIT,9/22/22,4.5,38.5,60,Thu,3,3,@,CLE,L 17-29,4.5,did not cover,38.5,over,night
+297,BUF,9/19/22,-10,47.5,70,Mon,2,2,,TEN,W 41-7,-10,covered,47.5,over,night
+298,TEN,9/19/22,10,47.5,70,Mon,2,2,@,BUF,L 7-41,10,did not cover,47.5,over,night
+299,MIN,9/19/22,2.5,50.5,76,Mon,2,2,@,PHI,L 7-24,2.5,did not cover,50.5,under,night
+300,PHI,9/19/22,-2.5,50.5,76,Mon,2,2,,MIN,W 24-7,-2.5,covered,50.5,under,night
+301,CHI,9/18/22,10,41.5,73,Sun,2,2,@,GNB,L 10-27,10,did not cover,41.5,under,night
+302,GNB,9/18/22,-10,41.5,73,Sun,2,2,,CHI,W 27-10,-10,covered,41.5,under,night
+303,DEN,9/12/22,-6.5,44.5,74,Mon,1,1,@,SEA,L 16-17,-6.5,did not cover,44.5,under,night
+304,SEA,9/12/22,6.5,44.5,74,Mon,1,1,,DEN,W 17-16,6.5,covered,44.5,under,night
+305,DAL,9/11/22,2,50,81,Sun,1,1,,TAM,L 3-19,2,did not cover,50,under,night
+306,TAM,9/11/22,-2,50,81,Sun,1,1,@,DAL,W 19-3,-2,covered,50,under,night
+307,BUF,9/8/22,-2.5,52,88,Thu,1,1,@,LAR,W 31-10,-2.5,covered,52,under,night
+308,LAR,9/8/22,2.5,52,88,Thu,1,1,,BUF,L 10-31,2.5,did not cover,52,under,night
+309,LVR,1/9/22,3,49,57,Sun,17,18,,LAC,W 35-32 (OT),3,covered,49,over,night
+310,LAC,1/9/22,-3,49,57,Sun,17,18,@,LVR,L 32-35 (OT),-3,did not cover,49,over,night
+311,DAL,1/8/22,-4,43.5,31,Sat,17,18,@,PHI,W 51-26,-4,covered,43.5,over,night
+312,PHI,1/8/22,4,43.5,31,Sat,17,18,,DAL,L 26-51,4,did not cover,43.5,over,night
+313,CLE,1/3/22,2,42,25,Mon,16,17,@,PIT,L 14-26,2,did not cover,42,under,night
+314,PIT,1/3/22,-2,42,25,Mon,16,17,,CLE,W 26-14,-2,covered,42,under,night
+315,GNB,1/2/22,-13,42.5,11,Sun,16,17,,MIN,W 37-10,-13,covered,42.5,over,night
+316,MIN,1/2/22,13,42.5,11,Sun,16,17,@,GNB,L 10-37,13,did not cover,42.5,over,night
+317,MIA,12/27/21,-2.5,37.5,72,Mon,15,16,@,NOR,W 20-3,-2.5,covered,37.5,under,night
+318,NOR,12/27/21,2.5,37.5,72,Mon,15,16,,MIA,L 3-20,2.5,did not cover,37.5,under,night
+319,DAL,12/26/21,-10,46.5,74,Sun,15,16,,WAS,W 56-14,-10,covered,46.5,over,night
+320,WAS,12/26/21,10,46.5,74,Sun,15,16,@,DAL,L 14-56,10,did not cover,46.5,over,night
+321,IND,12/25/21,2,49,61,Sat,15,16,@,ARI,W 22-16,2,covered,49,under,night
+322,ARI,12/25/21,-2,49,61,Sat,15,16,,IND,L 16-22,-2,did not cover,49,under,night
+323,TEN,12/23/21,3.5,44,48,Thu,15,16,,SFO,W 20-17,3.5,covered,44,under,night
+324,SFO,12/23/21,-3.5,44,48,Thu,15,16,@,TEN,L 17-20,-3.5,did not cover,44,under,night
+325,PHI,12/21/21,-6.5,42,42,Tue,14,15,,WAS,W 27-17,-6.5,covered,42,over,night
+326,WAS,12/21/21,6.5,42,42,Tue,14,15,@,PHI,L 17-27,6.5,did not cover,42,over,night
+327,LAR,12/21/21,-7,46,60,Tue,14,15,,SEA,W 20-10,-7,covered,46,under,night
+328,SEA,12/21/21,7,46,60,Tue,14,15,@,LAR,L 10-20,7,did not cover,46,under,night
+329,CHI,12/20/21,6.5,44.5,37,Mon,14,15,,MIN,L 9-17,6.5,did not cover,44.5,under,night
+330,MIN,12/20/21,-6.5,44.5,37,Mon,14,15,@,CHI,W 17-9,-6.5,covered,44.5,under,night
+331,NOR,12/19/21,11.5,45.5,75,Sun,14,15,@,TAM,W 9-0,11.5,covered,45.5,under,night
+332,TAM,12/19/21,-11.5,45.5,75,Sun,14,15,,NOR,L 0-9,-11.5,did not cover,45.5,under,night
+333,IND,12/18/21,-2.5,45.5,36,Sat,14,15,,NWE,W 27-17,-2.5,covered,45.5,under,night
+334,NWE,12/18/21,2.5,45.5,36,Sat,14,15,@,IND,L 17-27,2.5,did not cover,45.5,under,night
+335,KAN,12/16/21,-3,52.5,54,Thu,14,15,@,LAC,W 34-28 (OT),-3,covered,52.5,over,night
+336,LAC,12/16/21,3,52.5,54,Thu,14,15,,KAN,L 28-34 (OT),3,did not cover,52.5,over,night
+337,ARI,12/13/21,-2.5,51.5,68,Mon,13,14,,LAR,L 23-30,-2.5,did not cover,51.5,over,night
+338,LAR,12/13/21,2.5,51.5,68,Mon,13,14,@,ARI,W 30-23,2.5,covered,51.5,over,night
+339,CHI,12/12/21,11.5,43,36,Sun,13,14,@,GNB,L 30-45,11.5,did not cover,43,over,night
+340,GNB,12/12/21,-11.5,43,36,Sun,13,14,,CHI,W 45-30,-11.5,covered,43,over,night
+341,MIN,12/9/21,-3,44,36,Thu,13,14,,PIT,W 36-28,-3,covered,44,over,night
+342,PIT,12/9/21,3,44,36,Thu,13,14,@,MIN,L 28-36,3,did not cover,44,over,night
+343,BUF,12/6/21,-4,44,36,Mon,12,13,,NWE,L 10-14,-4,did not cover,44,under,night
+344,NWE,12/6/21,4,44,36,Mon,13,13,@,BUF,W 14-10,4,covered,44,under,night
+345,DEN,12/5/21,9.5,47,58,Sun,12,13,@,KAN,L 9-22,9.5,did not cover,47,under,night
+346,KAN,12/5/21,-9.5,47,58,Sun,12,13,,DEN,W 22-9,-9.5,covered,47,under,night
+347,DAL,12/2/21,-5,47.5,59,Thu,12,13,@,NOR,W 27-17,-5,covered,47.5,under,night
+348,NOR,12/2/21,5,47.5,59,Thu,12,13,,DAL,L 17-27,5,did not cover,47.5,under,night
+349,SEA,11/29/21,0,47,41,Mon,11,12,@,WAS,L 15-17,0,did not cover,47,under,night
+350,WAS,11/29/21,0,47,41,Mon,11,12,,SEA,W 17-15,0,covered,47,under,night
+351,CLE,11/28/21,3.5,47,43,Sun,12,12,@,BAL,L 10-16,3.5,did not cover,47,under,night
+352,BAL,11/28/21,-3.5,47,43,Sun,11,12,,CLE,W 16-10,-3.5,covered,47,under,night
+353,BUF,11/25/21,-6.5,45,69,Thu,11,12,@,NOR,W 31-6,-6.5,covered,45,under,night
+354,NOR,11/25/21,6.5,45,69,Thu,11,12,,BUF,L 6-31,6.5,did not cover,45,under,night
+355,NYG,11/22/21,11,50,68,Mon,10,11,@,TAM,L 10-30,11,did not cover,50,under,night
+356,TAM,11/22/21,-11,50,68,Mon,10,11,,NYG,W 30-10,-11,covered,50,under,night
+357,PIT,11/21/21,5.5,47.5,75,Sun,10,11,@,LAC,L 37-41,5.5,covered,47.5,over,night
+358,LAC,11/21/21,-5.5,47.5,75,Sun,10,11,,PIT,W 41-37,-5.5,did not cover,47.5,over,night
+359,ATL,11/18/21,7,47,53,Thu,10,11,,NWE,L 0-25,7,did not cover,47,under,night
+360,NWE,11/18/21,-7,47,53,Thu,11,11,@,ATL,W 25-0,-7,covered,47,under,night
+361,LAR,11/15/21,-4,49.5,59,Mon,10,10,@,SFO,L 10-31,-4,did not cover,49.5,under,night
+362,SFO,11/15/21,4,49.5,59,Mon,9,10,,LAR,W 31-10,4,covered,49.5,under,night
+363,KAN,11/14/21,-2.5,52,73,Sun,10,10,@,LVR,W 41-14,-2.5,covered,52,over,night
+364,LVR,11/14/21,2.5,52,73,Sun,9,10,,KAN,L 14-41,2.5,did not cover,52,over,night
+365,MIA,11/11/21,7.5,46.5,77,Thu,10,10,,BAL,W 22-10,7.5,covered,46.5,under,night
+366,BAL,11/11/21,-7.5,46.5,77,Thu,9,10,@,MIA,L 10-22,-7.5,did not cover,46.5,under,night
+367,CHI,11/8/21,6.5,38.5,55,Mon,9,9,@,PIT,L 27-29,6.5,covered,38.5,over,night
+368,PIT,11/8/21,-6.5,38.5,55,Mon,8,9,,CHI,W 29-27,-6.5,did not cover,38.5,over,night
+369,TEN,11/7/21,7.5,52.5,58,Sun,9,9,@,LAR,W 28-16,7.5,covered,52.5,under,night
+370,LAR,11/7/21,-7.5,52.5,58,Sun,9,9,,TEN,L 16-28,-7.5,did not cover,52.5,under,night
+371,IND,11/4/21,-10.5,46,33,Thu,9,9,,NYJ,W 45-30,-10.5,covered,46,over,night
+372,NYJ,11/4/21,10.5,46,33,Thu,8,9,@,IND,L 30-45,10.5,did not cover,46,over,night
+373,KAN,11/1/21,-10,52,39,Mon,8,8,,NYG,W 20-17,-10,did not cover,52,under,night
+374,NYG,11/1/21,10,52,39,Mon,8,8,@,KAN,L 17-20,10,covered,52,under,night
+375,DAL,10/31/21,3,51.5,42,Sun,7,8,@,MIN,W 20-16,3,covered,51.5,under,night
+376,MIN,10/31/21,-3,51.5,42,Sun,7,8,,DAL,L 16-20,-3,did not cover,51.5,under,night
+377,ARI,10/28/21,-6.5,50.5,84,Thu,8,8,,GNB,L 21-24,-6.5,did not cover,50.5,under,night
+378,GNB,10/28/21,6.5,50.5,84,Thu,8,8,@,ARI,W 24-21,6.5,covered,50.5,under,night
+379,NOR,10/25/21,-4.5,42.5,54,Mon,6,7,@,SEA,W 13-10,-4.5,did not cover,42.5,under,night
+380,SEA,10/25/21,4.5,42.5,54,Mon,7,7,,NOR,L 10-13,4.5,covered,42.5,under,night
+381,IND,10/24/21,4,42.5,64,Sun,7,7,@,SFO,W 30-18,4,covered,42.5,over,night
+382,SFO,10/24/21,-4,42.5,64,Sun,6,7,,IND,L 18-30,-4,did not cover,42.5,over,night
+383,CLE,10/21/21,-1.5,41.5,59,Thu,7,7,,DEN,W 17-14,-1.5,covered,41.5,under,night
+384,DEN,10/21/21,1.5,41.5,59,Thu,7,7,@,CLE,L 14-17,1.5,did not cover,41.5,under,night
+385,BUF,10/18/21,-6,53.5,66,Mon,6,6,@,TEN,L 31-34,-6,did not cover,53.5,over,night
+386,TEN,10/18/21,6,53.5,66,Mon,6,6,,BUF,W 34-31,6,covered,53.5,over,night
+387,PIT,10/17/21,-5,43,49,Sun,6,6,,SEA,W 23-20 (OT),-5,did not cover,43,push,night
+388,SEA,10/17/21,5,43,49,Sun,6,6,@,PIT,L 20-23 (OT),5,covered,43,push,night
+389,PHI,10/14/21,7,52.5,74,Thu,6,6,,TAM,L 22-28,7,covered,52.5,under,night
+390,TAM,10/14/21,-7,52.5,74,Thu,6,6,@,PHI,W 28-22,-7,did not cover,52.5,under,night
+391,IND,10/11/21,7,46,69,Mon,5,5,@,BAL,L 25-31 (OT),7,covered,46,over,night
+392,BAL,10/11/21,-7,46,69,Mon,5,5,,IND,W 31-25 (OT),-7,did not cover,46,over,night
+393,BUF,10/10/21,2.5,56.5,76,Sun,5,5,@,KAN,W 38-20,2.5,covered,56.5,over,night
+394,KAN,10/10/21,-2.5,56.5,76,Sun,5,5,,BUF,L 20-38,-2.5,did not cover,56.5,over,night
+395,LAR,10/7/21,-2.5,54.5,56,Thu,5,5,@,SEA,W 26-17,-2.5,covered,54.5,under,night
+396,SEA,10/7/21,2.5,54.5,56,Thu,5,5,,LAR,L 17-26,2.5,did not cover,54.5,under,night
+397,LVR,10/4/21,3,52,73,Mon,4,4,@,LAC,L 14-28,3,did not cover,52,under,night
+398,LAC,10/4/21,-3,52,73,Mon,4,4,,LVR,W 28-14,-3,covered,52,under,night
+399,NWE,10/3/21,7,49.5,62,Sun,4,4,,TAM,L 17-19,7,covered,49.5,under,night
+400,TAM,10/3/21,-7,49.5,62,Sun,4,4,@,NWE,W 19-17,-7,did not cover,49.5,under,night
+401,CIN,9/30/21,-7.5,46.5,65,Thu,4,4,,JAX,W 24-21,-7.5,did not cover,46.5,under,night
+402,JAX,9/30/21,7.5,46.5,65,Thu,4,4,@,CIN,L 21-24,7.5,covered,46.5,under,night
+403,DAL,9/27/21,-3.5,51.5,86,Mon,3,3,,PHI,W 41-21,-3.5,covered,51.5,over,night
+404,PHI,9/27/21,3.5,51.5,86,Mon,3,3,@,DAL,L 21-41,3.5,did not cover,51.5,over,night
+405,GNB,9/26/21,3,50.5,69,Sun,3,3,@,SFO,W 30-28,3,covered,50.5,over,night
+406,SFO,9/26/21,-3,50.5,69,Sun,3,3,,GNB,L 28-30,-3,did not cover,50.5,over,night
+407,CAR,9/23/21,-9,43.5,77,Thu,3,3,@,HOU,W 24-9,-9,covered,43.5,under,night
+408,HOU,9/23/21,9,43.5,77,Thu,3,3,,CAR,L 9-24,9,did not cover,43.5,under,night
+409,DET,9/20/21,11.5,48,73,Mon,2,2,@,GNB,L 17-35,11.5,did not cover,48,over,night
+410,GNB,9/20/21,-11.5,48,73,Mon,2,2,,DET,W 35-17,-11.5,covered,48,over,night
+411,KAN,9/19/21,-4,54.5,82,Sun,2,2,@,BAL,L 35-36,-4,did not cover,54.5,over,night
+412,BAL,9/19/21,4,54.5,82,Sun,2,2,,KAN,W 36-35,4,covered,54.5,over,night
+413,NYG,9/16/21,3.5,40.5,71,Thu,2,2,@,WAS,L 29-30,3.5,covered,40.5,over,night
+414,WAS,9/16/21,-3.5,40.5,71,Thu,2,2,,NYG,W 30-29,-3.5,did not cover,40.5,over,night
+415,LVR,9/13/21,4,50.5,102,Mon,1,1,,BAL,W 33-27 (OT),4,covered,50.5,over,night
+416,BAL,9/13/21,-4,50.5,102,Mon,1,1,@,LVR,L 27-33 (OT),-4,did not cover,50.5,over,night
+417,CHI,9/12/21,8,46.5,72,Sun,1,1,@,LAR,L 14-34,8,did not cover,46.5,over,night
+418,LAR,9/12/21,-8,46.5,72,Sun,1,1,,CHI,W 34-14,-8,covered,46.5,over,night
+419,DAL,9/9/21,8.5,52,82,Thu,1,1,@,TAM,L 29-31,8.5,covered,52,over,night
+420,TAM,9/9/21,-8.5,52,82,Thu,1,1,,DAL,W 31-29,-8.5,did not cover,52,over,night
