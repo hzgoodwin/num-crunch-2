@@ -125,9 +125,12 @@ server <- function(input, output) {
                                     "Home team result: ", actual_result_home))) +
         geom_point(alpha = .4) +
         geom_abline(slope=1, color= "blue") +
-        geom_label(aes(label = "Home team covered"), vjust = -1, hjust = 0.5)
+        annotate("text", x = 12, y = -30, label = "Home team covered", 
+                 hjust = 1, vjust = -1, size = 5, color = "blue", alpha = .5) +
+        annotate("text", x = -15, y = 25, label = "Away team covered", 
+                 hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5)
+      
       ggplotly(p1, tooltip = "text")
-        
       })
     
     output$results_text <- renderText({
