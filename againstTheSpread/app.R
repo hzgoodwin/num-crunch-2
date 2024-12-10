@@ -72,13 +72,15 @@ ui <- fluidPage(
                  checkboxGroupInput("X_var", "Report Year of Interest:", 
                                     choices = names(data)),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
+                 varSelectInput("plotpred", "Residual Plot for Predictor", data = data)
                ),
                mainPanel(
                  plotOutput("MLR_plot"),
                  verbatimTextOutput("lm_sum"),
                  verbatimTextOutput("confint"),
-                 plotOutput("resplot"),
-                 plotOutput("qqplot")
+                 plotOutput("resplotfit"),
+                 plotOutput("qqplot"),
+                 plotOutput("resplotpred")
                )
              )
     )
@@ -131,7 +133,7 @@ server <- function(input, output) {
       confint(model(), level = input$conflev)
     })
     
-    output$resplot <- renderPlot({
+    output$resplotfit <- renderPlot({
       ggplot(mapping = aes(x = fitted(model()), y = resid(model()))) +
         geom_point() +
         geom_hline(yintercept = 0)
@@ -141,6 +143,20 @@ server <- function(input, output) {
       ggplot(mapping = aes(sample = resid(model()))) +
         geom_qq() +
         geom_qq_line()
+    })
+    
+    observe({
+      updateVarSelectInput(inputId = "plotpred", data = data |> dplyr::select(input$X_var))
+    }) |> 
+      bindEvent(model())
+    
+    output$resplotpred <- renderPlot({
+      validate(
+        need(length(input$X_var) > 0, message = FALSE)
+      )
+      ggplot(data = data, mapping = aes(x = !!(input$plotpred), y = resid(model()))) +
+        geom_point() +
+        geom_hline(yintercept = 0)
     })
     
     output$spread_vs_actual <- renderPlotly({
