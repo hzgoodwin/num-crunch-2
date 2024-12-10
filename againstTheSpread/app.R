@@ -33,7 +33,7 @@ ui <- fluidPage(
                mainPanel(
                  verbatimTextOutput("results_text"),
                  plotOutput("spread_vs_actual"),
-                 tableOutput("ttest_res")
+                 plotOutput("time_graph")
                )
              )
     ),
@@ -77,6 +77,13 @@ server <- function(input, output) {
       "Percent of games in where the teams pushed: ",
       round(filter(data, vs_line_home == "push") |> nrow()*100 /nrow(data), 2), "%"
       )
+    })
+    
+    output$time_graph <- renderPlot({
+      data |>
+        mutate(yearless_date = format(date, "%m-%d")) |>
+        ggplot(aes(yearless_date, actual_result_home)) +
+        geom_point(alpha = 0.4)
     })
 
 }
