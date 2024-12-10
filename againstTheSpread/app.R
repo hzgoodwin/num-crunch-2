@@ -72,15 +72,16 @@ ui <- fluidPage(
                  checkboxGroupInput("X_var", "Report Year of Interest:", 
                                     choices = names(data)),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
-                 varSelectInput("plotpred", "Residual Plot for Predictor", data = data)
+                 varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data)
                ),
                mainPanel(
-                 plotOutput("MLR_plot"),
                  verbatimTextOutput("lm_sum"),
                  verbatimTextOutput("confint"),
                  plotOutput("resplotfit"),
                  plotOutput("qqplot"),
-                 plotOutput("resplotpred")
+                 plotOutput("resplotpred"),
+                 plotOutput("MLR_plot"),
+                 plotOutput("timeplot")
                )
              )
     )
@@ -158,6 +159,29 @@ server <- function(input, output) {
         geom_point() +
         geom_hline(yintercept = 0)
     })
+    
+    # correlation plot
+    
+    output$MLR_plot <- renderPlot({
+      validate(
+        need(length(input$X_var) > 0, message = FALSE)
+      )
+      ggplot(data = data, aes(x = !!(input$plotpred), y = spread_home)) +
+        geom_point() +
+        geom_smooth(method = lm, se = FALSE)
+    })
+    
+    # time-correlation plot
+    
+    output$timeplot <- renderPlot({
+      validate(
+        need(length(input$X_var) > 0, message = FALSE)
+      )
+      ggplot(data = data, aes(x = date, y = resid(model()))) +
+        geom_line() +
+        geom_point()
+    })
+    
     
     output$spread_vs_actual <- renderPlotly({
       p1 <- ggplot(filtered_data(), aes(spread_home, actual_result_home, 
