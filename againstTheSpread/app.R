@@ -76,7 +76,9 @@ ui <- fluidPage(
                mainPanel(
                  plotOutput("MLR_plot"),
                  verbatimTextOutput("lm_sum"),
-                 verbatimTextOutput("confint")
+                 verbatimTextOutput("confint"),
+                 plotOutput("resplot"),
+                 plotOutput("qqplot")
                )
              )
     )
@@ -127,6 +129,18 @@ server <- function(input, output) {
     
     output$confint <- renderPrint({
       confint(model(), level = input$conflev)
+    })
+    
+    output$resplot <- renderPlot({
+      ggplot(mapping = aes(x = fitted(model()), y = resid(model()))) +
+        geom_point() +
+        geom_hline(yintercept = 0)
+    })
+    
+    output$qqplot <- renderPlot({
+      ggplot(mapping = aes(sample = resid(model()))) +
+        geom_qq() +
+        geom_qq_line()
     })
     
     output$spread_vs_actual <- renderPlotly({
