@@ -112,8 +112,12 @@ server <- function(input, output) {
       validate(
         need(length(input$X_var) > 0, "Select at least one predictor to display linear model")
       )
-      lm(as.formula(paste0("spread_home" ~ paste(input$X_var, collapse = " + "))),
+      lm(as.formula(paste0("spread_home ~ ", paste(input$X_var, collapse = "+"))),
          data = data)
+    })
+    
+    output$lm_sum <- renderPrint({
+      print(summary(model()))
     })
     
     output$spread_vs_actual <- renderPlotly({
