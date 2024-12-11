@@ -1262,6 +1262,11 @@ Rk,Team,Date,Spread,Over/Under,Temperature,Day,G#,Week,,Opp,Result,Spread,vs. Li
 198,PIT,10/22/23,3,43.5,74,Sun,6,7,@,LAR,W 24-17,3,covered,43.5,under,afternoon
 199,LAR,10/22/23,-3,43.5,74,Sun,7,7,,PIT,L 17-24,-3,did not cover,43.5,under,afternoon
 200,ARI,10/22/23,8.5,43.5,56,Sun,7,7,@,SEA,L 10-20,8.5,did not cover,43.5,under,afternoon
+<<<<<<< HEAD
+200,ARI,10/22/23,8.5,43.5,56,Sun,7,7,@,SEA,L 10-20,8.5,did not cover,43.5,under,afternoon
+201,ARI,10/22/23,8.5,43.5,56,Sun,7,7,@,SEA,L 10-20,8.5,did not cover,43.5,under,afternoon
+=======
+>>>>>>> dcac54f86c715e555e0ca18b088609a7850b8778
 202,SEA,10/22/23,-8.5,43.5,56,Sun,6,7,,ARI,W 20-10,-8.5,covered,43.5,under,afternoon
 203,NYJ,10/15/23,6.5,43.5,59,Sun,6,6,,PHI,W 20-14,6.5,covered,43.5,under,afternoon
 204,PHI,10/15/23,-6.5,43.5,59,Sun,6,6,@,NYJ,L 14-20,-6.5,did not cover,43.5,under,afternoon
@@ -1990,4 +1995,8 @@ Rk,Team,Date,Spread,Over/Under,Temperature,Day,G#,Week,,Opp,Result,Spread,vs. Li
 417,CHI,9/12/21,8,46.5,72,Sun,1,1,@,LAR,L 14-34,8,did not cover,46.5,over,night
 418,LAR,9/12/21,-8,46.5,72,Sun,1,1,,CHI,W 34-14,-8,covered,46.5,over,night
 419,DAL,9/9/21,8.5,52,82,Thu,1,1,@,TAM,L 29-31,8.5,covered,52,over,night
+<<<<<<< HEAD
 420,TAM,9/9/21,-8.5,52,82,Thu,1,1,,DAL,W 31-29,-8.5,did not cover,52,over,night
+=======
+420,TAM,9/9/21,-8.5,52,82,Thu,1,1,,DAL,W 31-29,-8.5,did not cover,52,over,night
+>>>>>>> dcac54f86c715e555e0ca18b088609a7850b8778
