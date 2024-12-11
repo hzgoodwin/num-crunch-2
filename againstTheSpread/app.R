@@ -12,9 +12,13 @@ library(plotly)
 data <- read_csv("../data/data.csv")
 
 teams <- c("--All--", str_sort(unique(data$home_team)))
+
+data <- data |>
+  mutate(total_points = str_extract_all(result_home, "\\d+") |>
+           lapply(function (x) sum(as.numeric(x))) |> as.numeric())
+
 # cleaning done in final_cleaning.R file
 
-#
 predInp <- function(pred) {
   numericInput(
     inputId = paste0("input_", pred),
@@ -72,7 +76,7 @@ ui <- fluidPage(
                mainPanel(
                  verbatimTextOutput("results_text"),
                  plotlyOutput("spread_vs_actual"),
-                 plotlyOutput("time_graph")
+                 plotlyOutput("ou_vs_actual")
                )
              )
     ),
@@ -211,9 +215,23 @@ server <- function(input, output) {
             interval = "confidence", level = input$conflev)
   })
   
+  # tab 2-------------
+  output$results_text <- renderText({
+    paste0(
+      "Total games selected: ", nrow(filtered_data()), "\n",
+      "Percent of games in which the home team covered the spread: ",
+      round(filter(filtered_data(), vs_line_home == "covered") |> nrow()*100 
+            /nrow(filtered_data()), 2), "%\n",
+      "Percent of games in which the away team covered the spread: ",
+      round(filter(filtered_data(), vs_line_away == "covered") |> nrow()*100 
+            /nrow(filtered_data()), 2), "%\n",
+      "Percent of games where the teams pushed: ",
+      round(filter(filtered_data(), vs_line_home == "push") |> nrow()*100 /nrow(filtered_data()), 2), "%"
+    )
+  })
   
   output$spread_vs_actual <- renderPlotly({
-    p1 <- ggplot(filtered_data(), aes(spread_home, actual_result_home, 
+    p1 <- ggplot(filtered_data(), aes(actual_result_home, spread_home,
                                       text = paste0(
                                         season, " week ", week, "<br>",
                                         home_team, " ", str_extract(result_home, "\\d+-\\d+"),
@@ -222,40 +240,29 @@ server <- function(input, output) {
                                         "Home team result: ", actual_result_home))) +
       geom_point(alpha = .4) +
       geom_abline(slope=1, color= "blue") +
-      annotate("text", x = 12, y = -30, label = "Home team covered", 
+      annotate("text", x = 12, y = -30, label = "Away team covered", 
                hjust = 1, vjust = -1, size = 5, color = "blue", alpha = .5) +
-      annotate("text", x = -15, y = 25, label = "Away team covered", 
+      annotate("text", x = -15, y = 25, label = "Home team covered", 
                hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5)
     
     ggplotly(p1, tooltip = "text")
   })
   
-  output$results_text <- renderText({
-    paste0(
-      "Total games selected: ", nrow(filtered_data()), "\n",
-      "Percent of games in which the home team covered the spread: ",
-      round(filter(filtered_data(), vs_line_home == "covered") |> nrow()*100 /nrow(filtered_data()), 2), "%\n",
-      "Percent of games in which the away team covered the spread: ",
-      round(filter(filtered_data(), vs_line_away == "covered") |> nrow()*100 /nrow(filtered_data()), 2), "%\n",
-      "Percent of games where the teams pushed: ",
-      round(filter(filtered_data(), vs_line_home == "push") |> nrow()*100 /nrow(filtered_data()), 2), "%"
-    )
-  })
-  
-  output$time_graph <- renderPlotly({
-    p2 <- filtered_data() |>
-      ggplot(aes(x = date, y = actual_result_home, text = paste0(
-        season, " week ", week, "<br>",
-        home_team, " ", str_extract(result_home, "\\d+-\\d+"),
-        " ", away_team, "<br>",
-        "Home team spread: ", spread_home, "<br>",
-        "Home team result: ", actual_result_home))) +
-      geom_point(alpha = 0.6) +
-      scale_x_date(
-        breaks = "1 month",
-        limits = range(filtered_data()$date)
-      ) +
-      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  output$ou_vs_actual <- renderPlotly({
+    p2 <- ggplot(filtered_data(), aes(total_points, over_under,
+                                      text = paste0(
+                                        season, " week ", week, "<br>",
+                                        home_team, " ", str_extract(result_home, "\\d+-\\d+"),
+                                        " ", away_team, "<br>",
+                                        "Home team spread: ", spread_home, "<br>",
+                                        "Home team result: ", actual_result_home))) +
+      geom_point(alpha = .4) +
+      geom_abline(slope=1, color= "blue") +
+      annotate("text", x = 12, y = -30, label = "X", 
+               hjust = 1, vjust = -1, size = 5, color = "blue", alpha = .5) +
+      annotate("text", x = -15, y = 25, label = "Y", 
+               hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5)
+    
     ggplotly(p2, tooltip = "text")
   })
   
