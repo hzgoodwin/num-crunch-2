@@ -88,8 +88,10 @@ ui <- fluidPage(
                mainPanel(
                  verbatimTextOutput("results_text"),
                  plotlyOutput("spread_vs_actual"),
+                 tags$br(),
+                 verbatimTextOutput("ou_text"),
                  plotlyOutput("ou_vs_actual"),
-                 textOutput("plot_info")
+                 uiOutput("plot_info")
                )
              )
     ),
@@ -240,17 +242,30 @@ server <- function(input, output) {
       "Percent of games in which the away team covered the spread: ",
       round(filter(filtered_data(), vs_line_away == "covered") |> nrow()*100 
             /nrow(filtered_data()), 2), "%\n",
-      "Percent of games where the teams pushed: ",
+      "Push: ",
       round(filter(filtered_data(), vs_line_home == "push") |> nrow()*100 /nrow(filtered_data()), 2), "%"
     )
   })
   
-  output$plot_info <- renderText(
-    "Home teams are shown on the right in the plots' interactive tooltips. 
+  output$ou_text <- renderText({
+    paste0(
+      "Percent of games in which the over hit: ", 
+      round(filter(filtered_data(), ou_result == "over") |> 
+              nrow()*100 /nrow(filtered_data()), 2), "%\n",
+      "Percent of games in which the under hit: ",
+      round(filter(filtered_data(), ou_result == "under") |> nrow()*100
+            /nrow(filtered_data()), 2), "%\n", "Push: ",
+      round(filter(filtered_data(), ou_result == "push") |> nrow()*100 
+            /nrow(filtered_data()), 2), "%"
+    )
+  })
+  
+  output$plot_info <- renderUI( HTML(
+    "<br>Note: Home teams are shown on the right in the plots' interactive tooltips. 
     The first plot shows the spread and result from the home team's perspective. 
     (Each game has two spreads: a negative spread for the favorite and a positive 
     spread for the underdog.) A negative result counterintuitively means that 
-    the home team won."
+    the home team won.")
   )
   
   output$spread_vs_actual <- renderPlotly({
