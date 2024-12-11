@@ -36,7 +36,7 @@ ui <- fluidPage(
   tabsetPanel(
     tabPanel(
       "Introduction",
-      textOutput( "<h3>Against the Spread</h3>",
+      HTML( "<h3>Against the Spread</h3>",
                   "<p><b>Welcome to Against the Spread!</b> This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. A few things to know before getting into our app:</p>",
                   
                   "<ul>
