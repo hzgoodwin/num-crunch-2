@@ -52,6 +52,10 @@ ui <- fluidPage(
              sidebarLayout(
                sidebarPanel(
                  
+                 shinyjs::useShinyjs(),  # for reset button
+                 id = "side-panel",
+                 actionButton("reset_input", "Reset inputs"),
+                 
                  # variable inputs
                  
                  selectInput("home_team", "Select home team", choices = teams),
@@ -124,6 +128,10 @@ ui <- fluidPage(
 
 # Define server logic
 server <- function(input, output) {
+  
+  observeEvent(input$reset_input, {
+    shinyjs::reset("side-panel")
+  })
   
   filtered_data <- reactive({
     data |>
