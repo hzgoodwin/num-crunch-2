@@ -122,7 +122,10 @@ ui <- fluidPage(
                  verbatimTextOutput("predmeanYOut")
                )
              )
-    )
+    ),
+    
+    tabPanel("Raw data", DTOutput("table"))
+    
   )
 )
 
@@ -341,6 +344,10 @@ server <- function(input, output) {
   
   outputOptions(output, "filtered_data_nrow", suspendWhenHidden = FALSE)
   
+  output$table <- renderDT({
+      datatable(data, options = list(pageLength = 20, order = list(2, 'desc'))
+                , filter = "top")
+    })
   
 }
 
