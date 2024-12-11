@@ -19,12 +19,20 @@ data <- data |>
 
 # cleaning done in final_cleaning.R file
 
+# Function for updating model input UI
 predInp <- function(pred) {
-  numericInput(
-    inputId = paste0("input_", pred),
-    label = paste("Value for", pred),
-    value = 1
-  )
+  if (is.numeric(data[[pred]])) {
+    numericInput(
+      inputId = paste0("input_", pred),
+      label = paste0("Value for ", pred),
+      value = 1)
+  } else if (is.factor(data[[pred]])) {
+    selectInput(
+      inputId = paste0("input_", pred),
+      label = paste0("Value for ", pred),
+      choices = levels(data[[pred]])
+    )
+  }
 }
 
 
@@ -211,7 +219,8 @@ server <- function(input, output) {
     )
     ggplot(data = data, aes(x = date, y = resid(model()))) +
       geom_line() +
-      geom_point()
+      geom_point() +
+      facet_wrap(year(data$date), scales = "free_x")
   })
   
   # Predict mean of Y at single obs:
@@ -227,6 +236,11 @@ server <- function(input, output) {
     temp_df <- map(input$X_var, \(x) input[[paste0("input_", x)]]) |> 
       setNames(input$X_var) |> 
       data.frame()
+    for (p in input$X_var) {
+      if (is.factor(data[[p]])) {
+        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(data[[p]]))
+      }
+    }
     predict(model(), newdata = temp_df,
             interval = "confidence", level = input$conflev)
   })
