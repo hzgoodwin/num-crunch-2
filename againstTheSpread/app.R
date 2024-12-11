@@ -121,7 +121,7 @@ ui <- fluidPage(
                                     choices = names(data)[!names(data) %in% discard_cols]),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
                  varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data),
-                 uiOutput("predmeaninputs")
+                 uiOutput("predinputs")
                ),
                mainPanel(
                  verbatimTextOutput("lm_sum"),
@@ -131,7 +131,8 @@ ui <- fluidPage(
                  plotOutput("resplotpred"),
                  plotOutput("MLR_plot"),
                  plotOutput("timeplot"),
-                 verbatimTextOutput("predmeanYOut")
+                 verbatimTextOutput("predmeanYOut"),
+                 verbatimTextOutput("predindivYOut")
                )
              )
     ),
@@ -242,13 +243,13 @@ server <- function(input, output) {
       facet_wrap(year(data$date), scales = "free_x")
   })
   
-  # Predict mean of Y at single obs:
+  # Predict mean & individual obs of Y at single obs:
   
-  output$predmeaninputs <- renderUI({
+  output$predinputs <- renderUI({
     map(input$X_var, predInp)
   })
   
-  output$predmeanYOut <- renderPrint({
+  predY <- reactive({
     validate(
       need(length(input$X_var) > 0, message = FALSE)
     )
@@ -260,8 +261,23 @@ server <- function(input, output) {
         temp_df[[p]] <- factor(temp_df[[p]], levels = levels(data[[p]]))
       }
     }
-    predict(model(), newdata = temp_df,
+    temp_df
+  })
+  
+  output$predmeanYOut <- renderPrint({
+    validate(
+      need(length(input$X_var) > 0, message = FALSE)
+    )
+    predict(model(), newdata = predY(),
             interval = "confidence", level = input$conflev)
+  })
+  
+  output$predindivYOut <- renderPrint({
+    validate(
+      need(length(input$X_var) > 0, message = FALSE)
+    )
+    predict(model(), newdata = predY(),
+            interval = "prediction", level = input$conflev)
   })
   
   # tab 2-------------
