@@ -86,6 +86,9 @@ ui <- fluidPage(
                  
                ),
                mainPanel(
+                 conditionalPanel(
+                   "output.filtered_data_nrow", verbatimTextOutput("empty_error") 
+                 ),
                  verbatimTextOutput("results_text"),
                  plotlyOutput("spread_vs_actual"),
                  tags$br(),
@@ -233,6 +236,10 @@ server <- function(input, output) {
   })
   
   # tab 2-------------
+  output$games <- renderUI({
+    paste0("Total games selected: ", nrow(filtered_data()))
+  })
+  
   output$results_text <- renderText({
     paste0(
       "Total games selected: ", nrow(filtered_data()), "\n",
@@ -305,14 +312,27 @@ server <- function(input, output) {
                hjust = 1, vjust = -1, size = 5, color = "blue", alpha = .5) +
       annotate("text", x = 18, y = 55, label = "Under", 
                hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5) +
-      labs(title = "Over/Under vs True Points Scored",
-           x = "True points scored",
+      labs(title = "Over/Under vs Actual Points Scored",
+           x = "Actual points scored",
            y = "Vegas over/under") +
       theme(plot.title=element_text(size=16,face="bold", color="gray30"),
             axis.title=element_text(size=14))
     
     ggplotly(p2, tooltip = "text")
   })
+  
+  output$empty_error <- renderText({
+    "WARNING: No games match your criteria. Try broadening your search."
+  })
+  
+  output$filtered_data_nrow <- renderText({
+    if (nrow(filtered_data()) == 0){
+      return(TRUE)
+    }
+  })
+  
+  outputOptions(output, "filtered_data_nrow", suspendWhenHidden = FALSE)
+  
   
 }
 
