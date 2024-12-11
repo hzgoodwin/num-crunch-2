@@ -1,0 +1,31 @@
+---
+title: "combing_raw_data"
+format: html
+editor: visual
+---
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+# Run Once
+```{r}
+gametimedata <- read_csv("gametimedata.csv")
+View(gametimedata)
+```
+
+```{r}
+names(gametimedata) <- gametimedata[1,]
+gametimedata <- gametimedata[-1,]
+```
+
+```{r}
+colnames(gametimedata)[10] <- "Location"
+```
+
+# Cleaning
+```{r}
+gametimedata$Location[is.na(gametimedata$Location)] <- "home"
+gametimedata$Location[gametimedata$Location == "@"] <- "away"
+```
+
