@@ -17,6 +17,10 @@ data <- data |>
   mutate(total_points = str_extract_all(result_home, "\\d+") |>
            lapply(function (x) sum(as.numeric(x))) |> as.numeric())
 
+discard_cols <- c("season", "date", "ou_result", "result_home",
+                  "result_away", "vs_line_home", "vs_line_away",
+                  "actual_result_home", "actual_result_away", "spread_away")
+
 # cleaning done in final_cleaning.R file
 
 predInp <- function(pred) {
@@ -105,8 +109,8 @@ ui <- fluidPage(
     tabPanel("Spread v. User Selected Variables",
              sidebarLayout(
                sidebarPanel(
-                 checkboxGroupInput("X_var", "Report Year of Interest:", 
-                                    choices = names(data)),
+                 checkboxGroupInput("X_var", "Variables of interest:", 
+                                    choices = names(data)[!names(data) %in% discard_cols]),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
                  varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data),
                  uiOutput("predmeaninputs")

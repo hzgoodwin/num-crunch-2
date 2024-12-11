@@ -1,4 +1,5 @@
 HTML(
+  "<br>",
   "<h3>Against the Spread</h3>",
   "<p><b>Welcome to Against the Spread!</b> This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. 2024 season data is current through 12/5/24. A couple things to know before getting into our app:</p>",
   
