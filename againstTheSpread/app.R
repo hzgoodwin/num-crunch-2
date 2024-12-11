@@ -48,7 +48,7 @@ ui <- fluidPage(
       source("../vignette/intropage.R", local = TRUE)$value
     ),
     
-    tabPanel("Actual results v. Vegas Spread",
+    tabPanel("Game Results",
              sidebarLayout(
                sidebarPanel(
                  
@@ -89,7 +89,8 @@ ui <- fluidPage(
                  verbatimTextOutput("results_text"),
                  plotlyOutput("spread_vs_actual"),
                  plotlyOutput("ou_vs_actual"),
-                 textOutput("plot_info")
+                 textOutput("plot_info"),
+                 textOutput("clarifying_info")
                )
              )
     ),
@@ -246,7 +247,13 @@ server <- function(input, output) {
   })
   
   output$plot_info <- renderText(
-    "Note: home teams are shown on the right in the plots' interactive tooltips."
+    "Home teams are shown on the right in the plots' interactive tooltips."
+  )
+  
+  output$clarifying_info <- renderText(
+    "The first plot shows the spread and result from the home team's perspective. 
+    Each game has two spreads: a negative spread for the favorite 
+    and a positive spread for the underdog."
   )
   
   output$spread_vs_actual <- renderPlotly({
@@ -265,7 +272,9 @@ server <- function(input, output) {
                hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5) +
       labs(title = "Spread vs Actual Result",
            x = "Actual result (home team)",
-           y = "Vegas spread (home team)")
+           y = "Vegas spread (home team)") +
+      theme(plot.title=element_text(size=16,face="bold",color="gray30"),
+            axis.title=element_text(size=14))
     
     ggplotly(p1, tooltip = "text")
   })
@@ -286,7 +295,9 @@ server <- function(input, output) {
                hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5) +
       labs(title = "Over/Under vs True Points Scored",
            x = "True points scored",
-           y = "Vegas over/under")
+           y = "Vegas over/under") +
+      theme(plot.title=element_text(size=16,face="bold", color="gray30"),
+            axis.title=element_text(size=14))
     
     ggplotly(p2, tooltip = "text")
   })

@@ -8,7 +8,7 @@ HTML(
         </ul>",
   
   "<h4>Instructions</h4>",
-  "<p>To begin, select the “Actual results v. Vegas Spread” tab in the above menu bar. Once selected, you will be greeted with a page divided in half. On the left side is a column with several variables and filters that can be edited, and on the right is a one-character-based and two-graphic-based output result. Let’s go through each variable and filter in the left-side column:</p>",
+  "<p>To begin, select the “Game Results” tab in the above menu bar. Once selected, you will be greeted with a page divided in half. On the left side is a column with several variables and filters that can be edited, and on the right is a one-character-based and two-graphic-based output result. Let’s go through each variable and filter in the left-side column:</p>",
   
   "<ul>
           <li><b>Select Home Team & Select Away Team:</b> This filter allows the user to select their home of choice and their away team of choice. This filter can be used to view a team’s entire history of games at home or away if only one filter is used. Example: Every home game the Seahawks have played since 2021. This filter can also be used to see every matchup between two teams. Example: Every game the Seahawks have been the home team and the 49ers have been the away team.</li>
