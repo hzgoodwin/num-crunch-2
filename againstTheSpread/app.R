@@ -124,15 +124,27 @@ ui <- fluidPage(
                  uiOutput("predinputs")
                ),
                mainPanel(
-                 verbatimTextOutput("lm_sum"),
-                 verbatimTextOutput("confint"),
-                 plotOutput("resplotfit"),
-                 plotOutput("qqplot"),
-                 plotOutput("resplotpred"),
-                 plotOutput("MLR_plot"),
-                 plotOutput("timeplot"),
-                 verbatimTextOutput("predmeanYOut"),
-                 verbatimTextOutput("predindivYOut")
+                 tabsetPanel(
+                   tabPanel("Tab 1",
+                     verbatimTextOutput("lm_sum")
+                   ),
+                   tabPanel("Tab 2",
+                     verbatimTextOutput("confint"),
+                     verbatimTextOutput("predmeanYOut"),
+                     verbatimTextOutput("predindivYOut") 
+                   ),
+                   tabPanel("Tab 3",
+                     plotOutput("resplotfit"),
+                     plotOutput("qqplot")
+                   ),
+                   tabPanel("Tab 4",
+                     plotOutput("resplotpred"),
+                     plotOutput("MLR_plot")       
+                   ),
+                   tabPanel("Tab 5",
+                     plotOutput("timeplot")
+                   )
+                 )
                )
              )
     ),
