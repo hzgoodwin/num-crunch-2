@@ -14,6 +14,16 @@ data <- read_csv("../data/data.csv")
 teams <- c("--All--", str_sort(unique(data$home_team)))
 # cleaning done in final_cleaning.R file
 
+#
+predInp <- function(pred) {
+  numericInput(
+    inputId = paste0("input_", pred),
+    label = paste("Value for", pred),
+    value = 1
+  )
+}
+
+
 ## UI
 ui <- fluidPage(
 
@@ -73,7 +83,7 @@ ui <- fluidPage(
                                     choices = names(data)),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
                  varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data),
-                 numericInput("predmeanYIn", "Single Value of Predictor to Predict Spread", value = 0, min = 0, max = 1)
+                 uiOutput("predmeaninputs")
                ),
                mainPanel(
                  verbatimTextOutput("lm_sum"),
@@ -83,7 +93,7 @@ ui <- fluidPage(
                  plotOutput("resplotpred"),
                  plotOutput("MLR_plot"),
                  plotOutput("timeplot"),
-                 verbarimTextOutput("predmeanYOut")
+                 verbatimTextOutput("predmeanYOut")
                )
              )
     )
@@ -186,11 +196,18 @@ server <- function(input, output) {
     
     # Predict mean of Y at single obs:
     
-    output$predmeanY <- renderPrint({
+    output$predmeaninputs <- renderUI({
+      map(input$X_var, predInp)
+    })
+    
+    output$predmeanYOut <- renderPrint({
       validate(
         need(length(input$X_var) > 0, message = FALSE)
       )
-      predict(model(), newdata = data.frame(data[[input$plotpred]] = 0),
+      temp_df <- map(input$X_var, \(x) input[[paste0("input_", x)]]) |> 
+        setNames(input$X_var) |> 
+        data.frame()
+      predict(model(), newdata = temp_df,
               interval = "confidence", level = input$conflev)
     })
     
