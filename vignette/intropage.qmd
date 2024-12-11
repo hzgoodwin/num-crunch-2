@@ -1,0 +1,89 @@
+<div style="display: flex; align-items: center;">
+  <h1 style="margin-right: 10px; font-size: 80px;">Against the Spread</h1>
+  <img src="football.png" alt="Football" style="height: 100px; width: 100px;">
+</div>
+
+# Welcome to Against the Spread
+
+Welcome to **Against the Spread**! This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. A few things to know before getting into our app:
+
+- **This app is not a crystal ball or a future-telling machine**. Gambling is a risk. Never bet more than you can afford to lose. Never chase your losses.
+- **Gambling problem?** Call 1-800-GAMBLER (CO, DC, IL, IN, LA, MD, MS, NJ, OH, PA, TN, VA, WV, WY) or call 877-8-HOPENY or text HOPENY (467369) (NY) or call 1-800-327-5050 (MA).
+
+
+## Instructions
+
+To begin, select the “Actual results v. Vegas Spread” tab in the above menu bar. Once selected, you will be greeted with a page divided in half. On the left side is a column with several different variables and filters that can be edited, and on the right is a one-character based and two graphic-based output results. Let’s go through each variable and filter in the left side column first.
+
+### Select Home Team & Select Away Team
+This filter allows the user to select their home team and their away team of choice. This filter can be used to view a team’s entire history of games at home or away if only one filter is used. 
+For example:  
+- Every home game the **Seahawks** have played since 2021.  
+- Every matchup between the **Seahawks** and the **49ers**.  
+
+### Home Team Spread
+This filter allows the user to give a range of odds (-20 to 20) for the home team. 
+For example:  
+- Every game where the home team is favored by between -5 and -10.
+
+### Home and Away Team Winning Percentage
+These filters allow the user to select games where the home or away team has a specific winning percentage. For example:  
+- Every game where the home team has a winning percentage of between .67 and 1.  
+- You can also combine filters for home and away teams. For example:  
+- Every game where the home team has a winning percentage of between .67 and 1, and the away team has a winning percentage of between 0 and .5.
+
+### Season
+This variable allows the user to select one, multiple, or all seasons from which to pull games. 
+Example:  
+- Every game played in 2022 and 2023.
+
+### Week of Season
+This variable allows the user to select a range of weeks or a single week where games were played. 
+Example:  
+- Every game played between weeks 14 and 17.
+
+### Day of Week
+This allows the user to select which day(s) of the week a game was played on. It also allows the user to exclude days. 
+Example:  
+- Only show games played on **Thursdays**.
+
+### Game Time
+This filter allows the user to select the time of day the game was played at. 
+Example:  
+- Every game played **at night** or every game played in the **afternoon and night**.
+
+### Divisional Games Only
+This variable allows the user to toggle games where the home team is only playing other teams in their division. 
+Example:  
+- Games where the **Seahawks** are the home team and are only playing teams in the **NFC West**.
+
+### Home Team Off Bye / Away Team Off Bye
+This variable allows the user to toggle whether a team is coming off a bye week or not.
+
+### Over/Under
+This filter allows the user to find games that had a certain level of predicted scoring. 
+Example:  
+- Games where the **over/under** was between **40 and 50 points**.
+
+### Temperature
+This filter allows the user to select a range of temperatures and find games played within that range. Example:  
+- Every game played where the temperature was between **32 and 45 degrees Fahrenheit**.
+
+---
+
+These variables can be used on their own, but the true power of this app is their use in combination to make a unique query for a game you are interested in betting on.
+
+### Example:
+If you are interested in betting on the **Rams vs. 49ers** on **Thursday, December 11th, 2024**, you can search for similar games by inputting the following filters:
+
+- **Home team spread** of between -5 and 0  
+- **Thursday games only**  
+- **Night games only**  
+- **Divisional games only**
+
+In this case, you would find that 8 games meet similar criteria, and **62.5%** of the time, the home team covered the spread.
+
+---
+
+
+
