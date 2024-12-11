@@ -89,8 +89,7 @@ ui <- fluidPage(
                  verbatimTextOutput("results_text"),
                  plotlyOutput("spread_vs_actual"),
                  plotlyOutput("ou_vs_actual"),
-                 textOutput("plot_info"),
-                 textOutput("clarifying_info")
+                 textOutput("plot_info")
                )
              )
     ),
@@ -247,13 +246,11 @@ server <- function(input, output) {
   })
   
   output$plot_info <- renderText(
-    "Home teams are shown on the right in the plots' interactive tooltips."
-  )
-  
-  output$clarifying_info <- renderText(
-    "The first plot shows the spread and result from the home team's perspective. 
-    Each game has two spreads: a negative spread for the favorite 
-    and a positive spread for the underdog."
+    "Home teams are shown on the right in the plots' interactive tooltips. 
+    The first plot shows the spread and result from the home team's perspective. 
+    (Each game has two spreads: a negative spread for the favorite and a positive 
+    spread for the underdog.) A negative result counterintuitively means that 
+    the home team won."
   )
   
   output$spread_vs_actual <- renderPlotly({
