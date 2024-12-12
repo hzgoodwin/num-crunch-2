@@ -56,7 +56,7 @@ ui <- fluidPage(
   
   tabsetPanel(
     tabPanel(
-      "Introduction",
+      "Home",
       source("./intropage.R", local = TRUE)$value
     ),
     
