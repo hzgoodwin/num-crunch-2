@@ -58,7 +58,10 @@ ui <- fluidPage(
   tabsetPanel(
     tabPanel(
       "Home",
-      source("./intropage.R", local = TRUE)$value),
+ethan_branch
+      source("./intropage.R", local = TRUE)$value
+    ),
+main
     
     tabPanel("Game Results",
              sidebarLayout(
