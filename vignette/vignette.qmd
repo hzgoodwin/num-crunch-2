@@ -1,0 +1,58 @@
+---
+title: "Vignette"
+date: today
+author: Number Crunchers
+toc: true
+format: 
+  html:
+    embed-resources: true
+---
+
+## Use Case
+As in all gambling, consumers of sports gambling desire a way to make bets that maximize their winnings. To do this, one needs a model that can accurately predict the winners. Various models have been developed, but their accuracy may differ depending on the circumstances. For example, models may be more accurate for predicting home games than away games for a specific team. Our app provides bettors with an interface to easily access data that will inform their bets, including both exploratory data analysis and a model to predict actual game results.\
+
+Our app works with National Football League (NFL) data, and focuses primarily on the “spread.” The spread is a betting term that refers to the difference between the winning and losing team’s scores. The favorite (i.e., the team that is expected to win the game) has a negative spread, while the underdog has a positive spread. For example, a team’s spread for a given game may be -4.5, meaning that Vegas expects that that team will win by 4.5 points. Bettors then bet whether they think the actual result will be less than or greater than the Vegas spread. If the Vegas spread is -4.5, but the favorite wins by 5 or more, they “beat” or “covered” the spread. If the favorite wins by less than 5, or the underdog wins, the underdog “beat” or “covered” the spread.\
+
+Our app’s goal is twofold: first, allow users to see what the actual spread was for games with characteristics selected and filtered by the user, and second, allow users to predict what the actual result will be for a game using an analytical model based on user-selected input variables. In doing so, the app would allow users to make better-informed bets and hopefully make money.
+
+## Required Packages
+- Tidyverse: Set of packages to improve ease of tidying, manipulation, and visualization. Version: 2.0.0
+- Shiny: Used to create the project app. Version: 1.9.1
+- Bslib: Used to apply a Bootstrap theme to the app. Version: 0.8.0
+- DT: Used to create an interface to the JavaScript library DataTables for the Raw Data tab. Version: 0.33
+- Plotly: Used to create interactive plots in the Game Results tab. Version: 4.10.4
+- Shinyjs: Used to implement a “reset inputs” button in the Game Results tab. Version: 2.1.0
+
+## Data Source and Structure
+Our data was obtained from Pro Football Reference, https://www.pro-football-reference.com/. Unfortunately, it is not possible to link directly to our primary data source, as it is an interactive data table that is dependent on user-selected characteristics. This feature is known as “Stathead.” Stathead compiles data already available elsewhere in the site into one place, with hundreds of possible variables. We downloaded our data from this resource in 200 game increments, which was the greatest number allowed. There were two entries for every game: one for the home team’s perspective, and one for the away team’s. We then compiled the downloaded data, which was in the form of 200-game Excel sheets, into two large Excel sheets. One sheet contained all of our necessary variables plus whether a team was off a bye week. One sheet contained all of our necessary variables plus the game’s time of day. We also added teams’ win percentages, which were also obtained through a separate series of downloads from Stathead. We merged these three files in the R script in our data-raw folder, pivoted wider to have one entry per game, and added additional variables. For example, we used a regex script to get the total points scored in each game from a variable that showed the game’s result. In the end, we were left with 969 observations corresponding with an NFL game. We were able to obtain the necessary data for over 97% of the games played in our time frame of interest (2021-2024 (so far)), but some games did not have complete data and were excluded.
+
+## EDA Inputs, Controls, and Outputs
+Tab 2: Game Results is designed for exploratory data analysis. An input panel on the left allows users to filter NFL games based on certain characteristics, like the game’s spread, the win percentages of the teams playing, and whether the game was a divisional matchup.\
+
+There are four outputs on the right side of the page which are dependent on the user-selected criteria. First, a text output states the total number of games that meet the criteria, and the percentage of these games where the home team covered the spread, the away team covered the spread, and games where the spread pushed. Below that output is a graph visualizing the contents of the text output. The graph shows each game’s actual result (i.e., the true margin in points between the home and away teams) vs the game’s spread. There are two spreads for each game (the favorite’s and the underdog’s), but the graph simplifies this by depicting spread and result based on the home team. A blue line is set at y = x, representing games where the spread was exactly correct. In games above that line, the home team covered the spread. In games below the line, the away team covered. The graph is interactive, allowing users to hover over points and get specific information: namely, the season and week of the game, the teams that played and their scores, the spread, and the actual margin of loss or victory for the home team.\
+
+The third output is a text output that operates similarly to the first text output. For games meeting the user-selected criteria, it outputs the percent of games in which the over hit, the percent of games in which the under hit, and the percent of games where the over/under pushed. Below that output is a graph visualizing the contents of the text output. Actual points scored is on the x axis, and the over/under is on the y axis. Like the previous graph, a blue line is set at y = x, representing games where the over/under was exactly correct. In games above that line, the under hit. In games below the line, the over hit. The graph is interactive, allowing users to hover over points and get specific information: namely, the season and week of the game, the teams that played and their scores, the over/under, and the actual points scored.\
+
+A user might use this EDA tab to get information about similar games to a game they are considering betting on. For example, on 12/5/24, the Los Angeles Rams play the San Francisco 49ers. To see similar games, the user might filter to games played in week 11 onwards between divisional opponents with win percentages between 0.4-0.6 and the home team is favored by 0-4 points. (These characteristics match the Rams-49ers game.) These filters yield 23 game results, and the away team covered the spread at approximately 56% of them. This may be a slight indication, based on these criteria, to bet on the Rams. Users could interact with the first graph to get more info about these games. The second output text indicates that the under hit in approximately 61% of similar games. This is fairly significant and might compel a bettor to take the under on the game based on historical trends. Again, the user could interact with the second graph to get game-by-game specifics.
+
+## Statistical Analysis Inputs, Controls, and Outputs
+Tab 3: Result Predictor provides statistical analysis that allows users to predict the result of future games based on a multiple linear regression. The left side of the tab is an input panel allowing users to select the variables they would like included in the statistical analysis. These variables are the same as the ones in Tab 2, except that variables that would not be known before the game is over are excluded. The input tab also allows users to select the confidence level and one of the selected variables for plotting. This is discussed in more detail below. Every time a checkbox corresponding with a variable is selected, a new input box appears in the input panel. These boxes allow users to input specific values for these variables that will be fed into the results of the linear regression and used to output a game’s expected result. There are five output tabs for the linear model, which become usable once at least one variable is selected. Many show outputs that can be used by user’s to check the model’s robustness and assumptions.\
+
+The first tab shows the output for the linear model, with its residuals and coefficients, including whether they are statistically significant. It also includes confidence intervals for each coefficient.\
+
+The second tab shows the mean result and the individual result for a game based on the input values inputted by the user and the model’s equation. Changing the input confidence level changes these confidence intervals.\
+
+The third tab shows a residuals vs fitted values and a qq plot for the model.\
+
+The fourth tab shows residuals vs predictor and result vs predictor plots for one of the model’s variables. Users select which of the variables they are interested in in the input panel.\
+
+The fifth tab shows time plots of the residuals, faceted by season.\
+
+To see how a user might use this tab, let’s return to the Rams-49ers game discussed above. All of the potential input variables are known for that game except for temperature. A user thus could select all variables except temperature. The user could then plug in all of the corresponding information for this game in the boxes that appear. For example, the spread is -2.5 49ers, the over/under is 49.5, it’s a divisional game, and so on. The app then outputs a linear regression. The linear regression’s adjusted R-squared 0.2459, as shown on output tab 1, which is better at predicting the actual result than the spread alone. Tab 2 then shows that our model predicts an actual result of -2.200254. This is expressed in terms of the home team, so this means that the model expects the 49ers to win by 2.2 points—very similar to the spread of -2.5. If, however, the model had predicted a result that was significantly different from the spread, that may indicate to a bettor that, based on past results, they should place a bet on the game. For instance, if the model expected the Rams to win by 4, that would indicate to bettors that they may want to bet on the Rams to cover the spread.
+
+## References
+Kaunitz, L., Zhong, S., & Kreiner, J. (2017). Beating the bookies with their own numbers—And how the online sports betting market is rigged (arXiv:1710.02824). arXiv. https://doi.org/10.48550/arXiv.1710.02824.\
+
+Matej, U., Gustav, S., Ondřej, H., & Filip, J. (2021) Optimal sports betting strategies in practice: an experimental review, IMA Journal of Management Mathematics, Volume 32, Issue 4, October 2021, Pages 465–489, https://doi.org/10.1093/imaman/dpaa029.\
+
+Torrance, J., O’Hanrahan, M., Carroll, J., & Newall, P. (2024). The structural characteristics of online sports betting: A scoping review of current product features and utility patents as indicators of potential future developments. Addiction Research & Theory, 32(3), 204–218. https://doi.org/10.1080/16066359.2023.2241350.
