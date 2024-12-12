@@ -34,7 +34,7 @@ predInp <- function(pred) {
     selectInput(
       inputId = paste0("input_", pred),
       label = paste0("Value for ", pred),
-      choices = levels(data[[pred]])
+      choices = levels(fct_relevel(data[[pred]], sort))
     )
   }
 }
@@ -271,7 +271,7 @@ server <- function(input, output) {
       data.frame()
     for (p in input$X_var) {
       if (is.factor(data[[p]])) {
-        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(data[[p]]))
+        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[pred]], sort)))
       }
     }
     temp_df
