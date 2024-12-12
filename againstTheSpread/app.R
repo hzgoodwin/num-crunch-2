@@ -2,9 +2,8 @@ library(shiny)
 library(tidyverse)
 library(bslib)
 library(DT)
-library(thematic)
-library(showtext)
 library(plotly)
+library(shinyjs)
 
 # Business Logic
 
@@ -64,7 +63,7 @@ ui <- fluidPage(
              sidebarLayout(
                sidebarPanel(
                  
-                 shinyjs::useShinyjs(),  # for reset button
+                 useShinyjs(),  # for reset button
                  id = "side-panel",
                  actionButton("reset_input", "Reset inputs"),
                  
