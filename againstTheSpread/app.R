@@ -115,7 +115,7 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Spread v. User Selected Variables",
+    tabPanel("Game Results vs User Selected Variables",
              sidebarLayout(
                sidebarPanel(
                  checkboxGroupInput("X_var", "Variables of interest:", 
@@ -127,22 +127,32 @@ ui <- fluidPage(
                mainPanel(
                  tabsetPanel(
                    tabPanel("Tab 1",
-                     verbatimTextOutput("lm_sum")
+                     h1("Linear Model Output"),
+                     verbatimTextOutput("lm_sum"),
+                     h4("CI for Regression Coefficients"),
+                     verbatimTextOutput("confint")
                    ),
                    tabPanel("Tab 2",
-                     verbatimTextOutput("confint"),
+                     h1("Predict New Results"),
+                     h4("Mean Result (CI)"),
                      verbatimTextOutput("predmeanYOut"),
-                     verbatimTextOutput("predindivYOut") 
+                     h4("Individual Result (PI)"),
+                     verbatimTextOutput("predindivYOut")
                    ),
                    tabPanel("Tab 3",
+                     h4("Residuals vs Fitted Values"),
                      plotOutput("resplotfit"),
+                     h4("Normal Q-Q Plot of Residuals"),
                      plotOutput("qqplot")
                    ),
                    tabPanel("Tab 4",
+                     h4("Residuals vs Predictor"),
                      plotOutput("resplotpred"),
+                     h4("Result vs Predictor"),
                      plotOutput("MLR_plot")       
                    ),
                    tabPanel("Tab 5",
+                     h1("Time Plots"),
                      plotOutput("timeplot")
                    )
                  )
