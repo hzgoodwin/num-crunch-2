@@ -18,7 +18,9 @@ data <- data |>
 
 discard_cols <- c("season", "date", "ou_result", "result_home",
                   "result_away", "vs_line_home", "vs_line_away",
-                  "actual_result_home", "actual_result_away", "spread_away")
+                  "actual_result_home", "actual_result_away", "spread_away", "total_points")
+
+data <- data |> mutate(week = as.numeric(week))
 
 # cleaning done in final_cleaning.R file
 
@@ -112,7 +114,7 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Spread v. User Selected Variables",
+    tabPanel("Result Predictor",
              sidebarLayout(
                sidebarPanel(
                  checkboxGroupInput("X_var", "Variables of interest:", 
@@ -124,22 +126,32 @@ ui <- fluidPage(
                mainPanel(
                  tabsetPanel(
                    tabPanel("Tab 1",
-                     verbatimTextOutput("lm_sum")
+                     h1("Linear Model Output"),
+                     verbatimTextOutput("lm_sum"),
+                     h4("CI for Regression Coefficients"),
+                     verbatimTextOutput("confint")
                    ),
                    tabPanel("Tab 2",
-                     verbatimTextOutput("confint"),
+                     h1("Predict New Results"),
+                     h4("Mean Result (CI)"),
                      verbatimTextOutput("predmeanYOut"),
-                     verbatimTextOutput("predindivYOut") 
+                     h4("Individual Result (PI)"),
+                     verbatimTextOutput("predindivYOut")
                    ),
                    tabPanel("Tab 3",
+                     h4("Residuals vs Fitted Values"),
                      plotOutput("resplotfit"),
+                     h4("Normal Q-Q Plot of Residuals"),
                      plotOutput("qqplot")
                    ),
                    tabPanel("Tab 4",
+                     h4("Residuals vs Predictor"),
                      plotOutput("resplotpred"),
+                     h4("Result vs Predictor"),
                      plotOutput("MLR_plot")       
                    ),
                    tabPanel("Tab 5",
+                     h1("Time Plots"),
                      plotOutput("timeplot")
                    )
                  )
@@ -269,7 +281,7 @@ server <- function(input, output) {
       data.frame()
     for (p in input$X_var) {
       if (is.factor(data[[p]])) {
-        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[pred]], sort)))
+        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[p]], sort)))
       }
     }
     temp_df
