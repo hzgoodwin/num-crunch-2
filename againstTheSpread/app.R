@@ -270,7 +270,7 @@ server <- function(input, output) {
       data.frame()
     for (p in input$X_var) {
       if (is.factor(data[[p]])) {
-        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[pred]], sort)))
+        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[p]], sort)))
       }
     }
     temp_df
