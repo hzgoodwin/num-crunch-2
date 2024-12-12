@@ -2,7 +2,11 @@ HTML(
   "<br>",
   "<h3>Welcome to Against the Spread!</h3>",
   "<p>This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. 2024 season data is current through 12/5/24. A couple things to know before getting into our app:</p>",
-  
+  "<h4>Sports Gambling 101:</h4>
+    <p><b>What is point spread?</b> The point spread is the expected final score difference between two teams. It is represented as both a negative and positive number; if the spread is 3 points, you'll see that as both -3 and +3. The team that is the favorite to win gets the minus-number (-3); the underdog gets the plus-number (+3). (via Fox Sports)</p>
+    
+    <p><b>What is over/under?</b> The expected combined points scored by both teams in a game, also known as the total. When high-powered football teams like the Bills and Chiefs play, the over/under could be as high as 55. When it’s the Dolphins and Jaguars, it could be 38.5. <b>Over</b> bets need to surpass the total while <b>Under</b> bets must stay lower. (via Fox Sports)</p>",
+
   "<ul>
           <li>This app is not a crystal ball or a future-telling machine. Gambling is a risk. Never bet more than you can afford to lose. Never chase your losses. Gambling problem? Call 1-800-GAMBLER (CO, DC, IL, IN, LA, MD, MS, NJ, OH, PA, TN, VA, WV, WY), Call 877-8-HOPENY or text HOPENY (467369) (NY), Call 1-800-327-5050 (MA).</li>
           <li>This app does not provide any financial advice. This app organizes and filters historical gambling odds and final scores of completed NFL games. There is no guarantee trends continue, even with evidence to the contrary. Sports are unpredictable. Gamble responsibly.</li>
