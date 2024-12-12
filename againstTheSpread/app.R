@@ -57,7 +57,7 @@ ui <- fluidPage(
   tabsetPanel(
     tabPanel(
       "Introduction",
-      source("../vignette/intropage.R", local = TRUE)$value
+      source("./intropage.R", local = TRUE)$value
     ),
     
     tabPanel("Game Results",
