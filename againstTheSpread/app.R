@@ -115,7 +115,7 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Game Results vs User Selected Variables",
+    tabPanel("Result Predictor",
              sidebarLayout(
                sidebarPanel(
                  checkboxGroupInput("X_var", "Variables of interest:", 
