@@ -253,7 +253,7 @@ server <- function(input, output) {
     ggplot(data = data, aes(x = date, y = resid(model()))) +
       geom_line() +
       geom_point() +
-      facet_wrap(year(data$date), scales = "free_x")
+      facet_wrap(data$season, scales = "free_x")
   })
   
   # Predict mean & individual obs of Y at single obs:
