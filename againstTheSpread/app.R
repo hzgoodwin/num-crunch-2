@@ -192,7 +192,7 @@ server <- function(input, output) {
     validate(
       need(length(input$X_var) > 0, message = FALSE)
     )
-    lm(as.formula(paste0("spread_home ~ ", paste(input$X_var, collapse = "+"))),
+    lm(as.formula(paste0("actual_result_home ~ ", paste(input$X_var, collapse = "+"))),
        data = data)
   })
   
@@ -239,7 +239,7 @@ server <- function(input, output) {
     validate(
       need(length(input$X_var) > 0, message = FALSE)
     )
-    ggplot(data = data, aes(x = !!(input$plotpred), y = spread_home)) +
+    ggplot(data = data, aes(x = !!(input$plotpred), y = actual_result_home)) +
       geom_point() +
       geom_smooth(method = lm, se = FALSE)
   })
