@@ -1,7 +1,7 @@
 HTML(
   "<br>",
-  "<h3>Against the Spread</h3>",
-  "<p><b>Welcome to Against the Spread!</b> This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. 2024 season data is current through 12/5/24. A couple things to know before getting into our app:</p>",
+  "<h3>Welcome to Against the Spread!</h3>",
+  "<p>This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. 2024 season data is current through 12/5/24. A couple things to know before getting into our app:</p>",
   
   "<ul>
           <li>This app is not a crystal ball or a future-telling machine. Gambling is a risk. Never bet more than you can afford to lose. Never chase your losses. Gambling problem? Call 1-800-GAMBLER (CO, DC, IL, IN, LA, MD, MS, NJ, OH, PA, TN, VA, WV, WY), Call 877-8-HOPENY or text HOPENY (467369) (NY), Call 1-800-327-5050 (MA).</li>

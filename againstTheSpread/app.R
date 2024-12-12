@@ -2,9 +2,8 @@ library(shiny)
 library(tidyverse)
 library(bslib)
 library(DT)
-library(thematic)
-library(showtext)
 library(plotly)
+library(shinyjs)
 
 # Business Logic
 
@@ -34,7 +33,7 @@ predInp <- function(pred) {
     selectInput(
       inputId = paste0("input_", pred),
       label = paste0("Value for ", pred),
-      choices = levels(data[[pred]])
+      choices = levels(fct_relevel(data[[pred]], sort))
     )
   }
 }
@@ -63,7 +62,7 @@ ui <- fluidPage(
              sidebarLayout(
                sidebarPanel(
                  
-                 shinyjs::useShinyjs(),  # for reset button
+                 useShinyjs(),  # for reset button
                  id = "side-panel",
                  actionButton("reset_input", "Reset inputs"),
                  
@@ -270,7 +269,7 @@ server <- function(input, output) {
       data.frame()
     for (p in input$X_var) {
       if (is.factor(data[[p]])) {
-        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(data[[p]]))
+        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[pred]], sort)))
       }
     }
     temp_df
