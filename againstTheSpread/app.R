@@ -9,7 +9,7 @@ library(plotly)
 # Business Logic
 
 ## Read Data, Clean Data
-data <- read_csv("../data/data.csv")
+data <- read_rds("../data/data.rds")
 
 teams <- c("--All--", str_sort(unique(data$home_team)))
 
@@ -17,14 +17,26 @@ data <- data |>
   mutate(total_points = str_extract_all(result_home, "\\d+") |>
            lapply(function (x) sum(as.numeric(x))) |> as.numeric())
 
+discard_cols <- c("season", "date", "ou_result", "result_home",
+                  "result_away", "vs_line_home", "vs_line_away",
+                  "actual_result_home", "actual_result_away", "spread_away")
+
 # cleaning done in final_cleaning.R file
 
+# Function for updating model input UI
 predInp <- function(pred) {
-  numericInput(
-    inputId = paste0("input_", pred),
-    label = paste("Value for", pred),
-    value = 1
-  )
+  if (is.numeric(data[[pred]])) {
+    numericInput(
+      inputId = paste0("input_", pred),
+      label = paste0("Value for ", pred),
+      value = 1)
+  } else if (is.factor(data[[pred]])) {
+    selectInput(
+      inputId = paste0("input_", pred),
+      label = paste0("Value for ", pred),
+      choices = levels(data[[pred]])
+    )
+  }
 }
 
 
@@ -33,48 +45,37 @@ ui <- fluidPage(
   
   theme = bslib::bs_theme(version = 5, bootswatch = "minty"),
   titlePanel("Against the Spread"),
+  
+  tags$head(
+    tags$style(HTML("
+      h2 {
+        font-size: 50px
+      }
+    "))
+  ),
+  
   tabsetPanel(
     tabPanel(
-      "Introduction",
-      HTML( "<h3>Against the Spread</h3>",
-                  "<p><b>Welcome to Against the Spread!</b> This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on. A few things to know before getting into our app:</p>",
-                  
-                  "<ul>
-          <li>This app is not a crystal ball or a future-telling machine, gambling is a risk. Never bet more than you can afford to lose. Never chase your losses. Gambling problem? Call 1-800-GAMBLER (CO, DC, IL, IN, LA, MD, MS, NJ, OH, PA, TN, VA, WV, WY), Call 877-8-HOPENY or text HOPENY (467369) (NY), Call 1-800-327-5050 (MA).</li>
-          <li>This app is not providing any financial advice. This app organizes and filters historical gambling odds and final scores of completed NFL games. There is no guarantee trends continue, even with evidence to the contrary. Sports are unpredictable. Gamble responsibly.</li>
-        </ul>",
-                  
-                  "<h4>Instructions</h4>",
-                  "<p>To begin, select the “Actual results v. Vegas Spread” tab in the above menu bar. Once selected, you will be greeted with a page divided in half. On the left side is a column with several variables and filters that can be edited, and on the right is a one-character-based and two-graphic-based output result. Let’s go through each variable and filter in the left-side column:</p>",
-                  
-                  "<ul>
-          <li><b>Select Home Team & Select Away Team:</b> This filter allows the user to select their home of choice and their away team of choice. This filter can be used to view a team’s entire history of games at home or away if only one filter is used. Example: Every home game the Seahawks have played since 2021. This filter can also be used to see every matchup between two teams. Example: Every game the Seahawks have been the home team and the 49ers have been the away team.</li>
-          <li><b>Home Team Spread:</b> This filter allows the user to give a range of searchable odds (-20 to 20) for the home team. Example: Every game where the home team is favored by between -5 and -10.</li>
-          <li><b>Home and Away Team Winning Percentage:</b> These filters allow the user to select games played where the home or away team has a specific winning percentage. Example: Every game where the home team has a winning percentage of between .67 and 1. This filter can also be combined for home and away teams. Example: Every game played where the home team has a winning percentage of between .67 and 1 and the away team has a winning percentage of between 0 and .5.</li>
-          <li><b>Season:</b> This variable allows the user to select one, multiple, or all seasons of which to pull games from. Example: Every game played in 2022 and 2023.</li>
-          <li><b>Week of Season:</b> This variable allows the user to select a range of weeks or a single week where games were played. Example: Every game played between weeks 14 and 17.</li>
-          <li><b>Day of Week:</b> This allows the user to select which day(s) of the week a game is played on. It also allows the user to exclude certain days. Example: Only show games played on Thursdays.</li>
-          <li><b>Game Time:</b> This filter allows the user to select the time of day the game was played. Example: Every game played at night or every game played in the afternoon and night.</li>
-          <li><b>Divisional Games Only:</b> This variable allows the user to toggle games where the home team is only playing other teams in their division. Example: Games where the Seahawks are the home team and are only playing teams in the NFC West.</li>
-          <li><b>Home Team off Bye / Away Team off Bye:</b> This variable allows the user to toggle whether a team is coming off a bye week or not.</li>
-          <li><b>Over/Under:</b> This filter allows the user to find games that had a certain level of predicted scoring. Example: Games where the over/under was between 40 and 50 points.</li>
-          <li><b>Temperature:</b> This filter allows the user to select a range of temperatures and find games played within that range. Example: Every game played where the temperature was between 32- and 45-degrees Fahrenheit.</li>
-        </ul>",
-                  
-                  "<p>These variables can be used on their own, but the power of this app is their use in combination to make a unique query for a game you are interested in betting on. For example, if you are interested in betting on Rams vs 49ers on Thursday, December 11th, 2024, you can search for similar games by inputting a home team spread of between -5 and 0, Thursday games only, at night, and divisional games only. You would find that 8 games meet similar criteria, and 62.5% of the time, the home team covered the spread.</p>"
-      )
-    ),
+      "Home",
+      source("./intropage.R", local = TRUE)$value),
     
-    tabPanel("Actual results v. Vegas Spread",
+    tabPanel("Game Results",
              sidebarLayout(
                sidebarPanel(
+                 
+                 shinyjs::useShinyjs(),  # for reset button
+                 id = "side-panel",
+                 actionButton("reset_input", "Reset inputs"),
                  
                  # variable inputs
                  
                  selectInput("home_team", "Select home team", choices = teams),
                  selectInput("away_team", "Select away team", choices = teams),
+                 selectInput("either_team", 
+                             "Alternatively, select a team that can either be home or away", 
+                             choices = teams),
                  
-                 sliderInput("home_spread", "Home team spread", value = c(-20, 20), min = -20, max = 20),
+                 sliderInput("home_spread", "Home team spread", value = c(-20, 20), min = -20, max = 20, step = 0.5),
                  
                  sliderInput("home_win_percentage", "Home team win percentage", value = c(0, 1), min = 0, max = 1),
                  sliderInput("away_win_percentage", "Away team win percentage", value = c(0, 1), min = 0, max = 1),
@@ -100,44 +101,73 @@ ui <- fluidPage(
                  
                ),
                mainPanel(
+                 conditionalPanel(
+                   "output.filtered_data_nrow", verbatimTextOutput("empty_error") 
+                 ),
                  verbatimTextOutput("results_text"),
                  plotlyOutput("spread_vs_actual"),
-                 plotlyOutput("ou_vs_actual")
+                 tags$br(),
+                 verbatimTextOutput("ou_text"),
+                 plotlyOutput("ou_vs_actual"),
+                 uiOutput("plot_info")
                )
              )
     ),
     tabPanel("Spread v. User Selected Variables",
              sidebarLayout(
                sidebarPanel(
-                 checkboxGroupInput("X_var", "Report Year of Interest:", 
-                                    choices = names(data)),
+                 checkboxGroupInput("X_var", "Variables of interest:", 
+                                    choices = names(data)[!names(data) %in% discard_cols]),
                  sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
                  varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data),
-                 uiOutput("predmeaninputs")
+                 uiOutput("predinputs")
                ),
                mainPanel(
-                 verbatimTextOutput("lm_sum"),
-                 verbatimTextOutput("confint"),
-                 plotOutput("resplotfit"),
-                 plotOutput("qqplot"),
-                 plotOutput("resplotpred"),
-                 plotOutput("MLR_plot"),
-                 plotOutput("timeplot"),
-                 verbatimTextOutput("predmeanYOut")
+                 tabsetPanel(
+                   tabPanel("Tab 1",
+                     verbatimTextOutput("lm_sum")
+                   ),
+                   tabPanel("Tab 2",
+                     verbatimTextOutput("confint"),
+                     verbatimTextOutput("predmeanYOut"),
+                     verbatimTextOutput("predindivYOut") 
+                   ),
+                   tabPanel("Tab 3",
+                     plotOutput("resplotfit"),
+                     plotOutput("qqplot")
+                   ),
+                   tabPanel("Tab 4",
+                     plotOutput("resplotpred"),
+                     plotOutput("MLR_plot")       
+                   ),
+                   tabPanel("Tab 5",
+                     plotOutput("timeplot")
+                   )
+                 )
                )
              )
-    )
+    ),
+    
+    tabPanel("Raw Data", DTOutput("table"))
+    
   )
 )
 
 # Define server logic
 server <- function(input, output) {
   
+  observeEvent(input$reset_input, {
+    shinyjs::reset("side-panel")
+  })
+  
   filtered_data <- reactive({
     data |>
+      mutate(week = as.numeric(week)) |>
       filter(
         input$home_team == "--All--" | home_team == input$home_team,
         input$away_team == "--All--" | away_team == input$away_team,
+        input$either_team == "--All--" | 
+          (home_team == input$either_team | away_team == input$either_team),
         spread_home >= input$home_spread[1] & 
           spread_home <= input$home_spread[2],
         win_percentage_home >= input$home_win_percentage[1] & 
@@ -161,7 +191,7 @@ server <- function(input, output) {
     validate(
       need(length(input$X_var) > 0, message = FALSE)
     )
-    lm(as.formula(paste0("spread_home ~ ", paste(input$X_var, collapse = "+"))),
+    lm(as.formula(paste0("actual_result_home ~ ", paste(input$X_var, collapse = "+"))),
        data = data)
   })
   
@@ -208,7 +238,7 @@ server <- function(input, output) {
     validate(
       need(length(input$X_var) > 0, message = FALSE)
     )
-    ggplot(data = data, aes(x = !!(input$plotpred), y = spread_home)) +
+    ggplot(data = data, aes(x = !!(input$plotpred), y = actual_result_home)) +
       geom_point() +
       geom_smooth(method = lm, se = FALSE)
   })
@@ -221,27 +251,52 @@ server <- function(input, output) {
     )
     ggplot(data = data, aes(x = date, y = resid(model()))) +
       geom_line() +
-      geom_point()
+      geom_point() +
+      facet_wrap(data$season, scales = "free_x")
   })
   
-  # Predict mean of Y at single obs:
+  # Predict mean & individual obs of Y at single obs:
   
-  output$predmeaninputs <- renderUI({
+  output$predinputs <- renderUI({
     map(input$X_var, predInp)
   })
   
-  output$predmeanYOut <- renderPrint({
+  predY <- reactive({
     validate(
       need(length(input$X_var) > 0, message = FALSE)
     )
     temp_df <- map(input$X_var, \(x) input[[paste0("input_", x)]]) |> 
       setNames(input$X_var) |> 
       data.frame()
-    predict(model(), newdata = temp_df,
+    for (p in input$X_var) {
+      if (is.factor(data[[p]])) {
+        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(data[[p]]))
+      }
+    }
+    temp_df
+  })
+  
+  output$predmeanYOut <- renderPrint({
+    validate(
+      need(length(input$X_var) > 0, message = FALSE)
+    )
+    predict(model(), newdata = predY(),
             interval = "confidence", level = input$conflev)
   })
   
+  output$predindivYOut <- renderPrint({
+    validate(
+      need(length(input$X_var) > 0, message = FALSE)
+    )
+    predict(model(), newdata = predY(),
+            interval = "prediction", level = input$conflev)
+  })
+  
   # tab 2-------------
+  output$games <- renderUI({
+    paste0("Total games selected: ", nrow(filtered_data()))
+  })
+  
   output$results_text <- renderText({
     paste0(
       "Total games selected: ", nrow(filtered_data()), "\n",
@@ -251,25 +306,51 @@ server <- function(input, output) {
       "Percent of games in which the away team covered the spread: ",
       round(filter(filtered_data(), vs_line_away == "covered") |> nrow()*100 
             /nrow(filtered_data()), 2), "%\n",
-      "Percent of games where the teams pushed: ",
+      "Push: ",
       round(filter(filtered_data(), vs_line_home == "push") |> nrow()*100 /nrow(filtered_data()), 2), "%"
     )
   })
   
+  output$ou_text <- renderText({
+    paste0(
+      "Percent of games in which the over hit: ", 
+      round(filter(filtered_data(), ou_result == "over") |> 
+              nrow()*100 /nrow(filtered_data()), 2), "%\n",
+      "Percent of games in which the under hit: ",
+      round(filter(filtered_data(), ou_result == "under") |> nrow()*100
+            /nrow(filtered_data()), 2), "%\n", "Push: ",
+      round(filter(filtered_data(), ou_result == "push") |> nrow()*100 
+            /nrow(filtered_data()), 2), "%"
+    )
+  })
+  
+  output$plot_info <- renderUI( HTML(
+    "<br>Note: Home teams are shown on the right in the plots' interactive tooltips. 
+    The first plot shows the spread and result from the home team's perspective. 
+    (Each game has two spreads: a negative spread for the favorite and a positive 
+    spread for the underdog.) A negative result counterintuitively means that 
+    the home team won.")
+  )
+  
   output$spread_vs_actual <- renderPlotly({
     p1 <- ggplot(filtered_data(), aes(actual_result_home, spread_home,
                                       text = paste0(
-                                        season, " week ", week, "<br>",
-                                        home_team, " ", str_extract(result_home, "\\d+-\\d+"),
-                                        " ", away_team, "<br>",
+                                        season, " Week ", week, "<br>",
+                                        away_team, " ", str_extract(result_away, "\\d+-\\d+"),
+                                        " ", home_team, "<br>",
                                         "Home team spread: ", spread_home, "<br>",
                                         "Home team result: ", actual_result_home))) +
       geom_point(alpha = .4) +
       geom_abline(slope=1, color= "blue") +
-      annotate("text", x = 12, y = -30, label = "Away team covered", 
+      annotate("text", x = 20, y = -15, label = "Away team covered", 
                hjust = 1, vjust = -1, size = 5, color = "blue", alpha = .5) +
-      annotate("text", x = -15, y = 25, label = "Home team covered", 
-               hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5)
+      annotate("text", x = -35, y = 12, label = "Home team covered", 
+               hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5) +
+      labs(title = "Spread vs Actual Result",
+           x = "Actual result (home team)",
+           y = "Vegas spread (home team)") +
+      theme(plot.title=element_text(size=16,face="bold",color="gray30"),
+            axis.title=element_text(size=14))
     
     ggplotly(p1, tooltip = "text")
   })
@@ -277,20 +358,42 @@ server <- function(input, output) {
   output$ou_vs_actual <- renderPlotly({
     p2 <- ggplot(filtered_data(), aes(total_points, over_under,
                                       text = paste0(
-                                        season, " week ", week, "<br>",
-                                        home_team, " ", str_extract(result_home, "\\d+-\\d+"),
-                                        " ", away_team, "<br>",
-                                        "Home team spread: ", spread_home, "<br>",
-                                        "Home team result: ", actual_result_home))) +
+                                        season, " Week ", week, "<br>",
+                                        away_team, " ", str_extract(result_away, "\\d+-\\d+"),
+                                        " ", home_team, "<br>",
+                                        "O/U: ", over_under, "<br>",
+                                        "Points scored: ", total_points))) +
       geom_point(alpha = .4) +
       geom_abline(slope=1, color= "blue") +
-      annotate("text", x = 12, y = -30, label = "X", 
+      annotate("text", x = 70, y = 35, label = "Over", 
                hjust = 1, vjust = -1, size = 5, color = "blue", alpha = .5) +
-      annotate("text", x = -15, y = 25, label = "Y", 
-               hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5)
+      annotate("text", x = 18, y = 55, label = "Under", 
+               hjust = 0, vjust = 1, size = 5, color = "blue", alpha = 0.5) +
+      labs(title = "Over/Under vs Actual Points Scored",
+           x = "Actual points scored",
+           y = "Vegas over/under") +
+      theme(plot.title=element_text(size=16,face="bold", color="gray30"),
+            axis.title=element_text(size=14))
     
     ggplotly(p2, tooltip = "text")
   })
+  
+  output$empty_error <- renderText({
+    "WARNING: No games match your criteria. Try broadening your search."
+  })
+  
+  output$filtered_data_nrow <- renderText({
+    if (nrow(filtered_data()) == 0){
+      return(TRUE)
+    }
+  })
+  
+  outputOptions(output, "filtered_data_nrow", suspendWhenHidden = FALSE)
+  
+  output$table <- renderDT({
+      datatable(data, options = list(pageLength = 20, order = list(2, 'desc'))
+                , filter = "top")
+    })
   
 }
 

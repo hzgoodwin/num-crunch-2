@@ -1,0 +1,92 @@
+---
+title: "intropage2"
+format: html
+editor: visual
+---
+
+```{r}
+# Install and load required packages
+library(png)
+library(grid)
+
+# Function to display the football image next to the title
+display_image_title <- function() {
+  # Load the image (ensure 'football.png' is in your working directory)
+  football_image <- rasterGrob(readPNG("football.png"), width = unit(1, "inches"), height = unit(1, "inches"))
+  
+  # Create a new grid page for the layout
+  grid.newpage()
+  
+  # Set up a 1x2 grid layout (1 row, 2 columns)
+  pushViewport(viewport(layout = grid.layout(1, 2)))  # Define layout with 1 row and 2 columns
+  
+  # Draw title text in the first column (1st position)
+  grid.text("Against the Spread", vp = viewport(layout.pos.row = 1, layout.pos.col = 1), gp = gpar(fontsize = 24))
+  
+  # Draw football image in the second column (2nd position)
+  
+}
+
+# Function to display all the content as text
+display_content <- function() {
+  cat("\n")
+  cat("Welcome to Against the Spread!\n")
+  cat("This app gives users the ability to filter NFL games starting from the 2021 season to help inform a decision on what team to bet on.\n")
+  cat("A few things to know before getting into our app:\n")
+  
+  cat("\n")
+  cat("• This app is not a crystal ball or a future-telling machine, gambling is a risk. Never bet more than you can afford to lose. Never chase your losses.\n")
+  cat("• Gambling problem? Call 1-800-GAMBLER (CO, DC, IL, IN, LA, MD, MS, NJ, OH, PA, TN, VA, WV, WY) or call 877-8-HOPENY or text HOPENY (467369) (NY) or call 1-800-327-5050 (MA).\n")
+  
+  cat("\n")
+  cat("Instructions:\n")
+  cat("To begin, select the 'Actual results v. Vegas Spread' tab in the above menu bar. Once selected, you will be greeted with a page divided in half. On the left side is a column with several different variables and filters able to be edited, and on the right is a one-character based and two-graphic based output results.\n")
+  
+  cat("\n")
+  cat("Let's go through each variable and filter in the left side column first:\n")
+  
+  cat("\n")
+  cat("• Select Home Team & Select Away Team: This filter allows the user to select their home of choice and their away team of choice. This filter can be used to view a team’s entire history of games at home or away if only one filter is used.\n")
+  cat("Example: Every home game the Seahawks have played since 2021.\n")
+  
+  cat("\n")
+  cat("• Home Team Spread: This filter allows the user to give a range searchable odds (-20 to 20) for the home team. Example: Every game where the home team is favored by between -5 and -10.\n")
+  
+  cat("\n")
+  cat("• Home and Away Team Winning Percentage: These filters allow the user to select games played where the home or away team has a specific winning percentage. Example: Every game where the home team has a winning percentage of between .67 and 1.\n")
+  
+  cat("\n")
+  cat("• Season: This variable allows the user to select either one, multiple or all seasons of which to pull games from. Example: Every game played in 2022 and 2023.\n")
+  
+  cat("\n")
+  cat("• Week of Season: This variable allows the user to select a range of weeks or single week where games were played. Example: Every game played between weeks 14 and 17.\n")
+  
+  cat("\n")
+  cat("• Day of Week: This allows the user to select which day of the week or days of the week a game is played on. It also allows the user to exclude days. Example: Only show games played on Thursdays.\n")
+  
+  cat("\n")
+  cat("• Game Time: This filter allows the user to select the time of day the game was played at. Example: Every game played at night or every game played in the afternoon and night.\n")
+  
+  cat("\n")
+  cat("• Divisional Games Only: This variable allows the user to toggle games where the home team is only playing other teams in their division.\n")
+  
+  cat("\n")
+  cat("• Home team off bye/Away Team off bye: This variable allows the user to toggle whether a team is coming off a bye week or not.\n")
+  
+  cat("\n")
+  cat("• Over/Under: This filter allows the user to find games that had a certain level of predicted scoring. Example: Games where the over/under was between 40 and 50 points.\n")
+  
+  cat("\n")
+  cat("• Temperature: This filter allows the user to select a range of temperatures and find games played within that range. Example: Every game played where the temperature was between 32- and 45-degrees Fahrenheit.\n")
+  
+  cat("\n")
+  cat("These variables can be used on their own, but the power of this app is their use in combination to make a unique query for a game you are interested in betting on.\n")
+  cat("For example, if you are interested in betting on Rams vs 49ers on Thursday December 11th, 2024, you can search for similar games by inputting a home team spread of between -5 and 0, Thursday games only, at night, and divisional games only.\n")
+  cat("You would find that 8 games meet similar criteria and 62.5% of the time, the home team covered the spread.\n")
+}
+
+# Run the functions to display everything
+display_image_title()  # Displays title and image
+display_content()      # Displays the content
+
+```
