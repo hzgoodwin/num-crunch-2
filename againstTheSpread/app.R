@@ -9,7 +9,7 @@ library(plotly)
 # Business Logic
 
 ## Read Data, Clean Data
-data <- read_csv("../data/data.csv")
+data <- read_rds("../data/data.rds")
 
 teams <- c("--All--", str_sort(unique(data$home_team)))
 
@@ -149,7 +149,7 @@ ui <- fluidPage(
              )
     ),
     
-    tabPanel("Raw data", DTOutput("table"))
+    tabPanel("Raw Data", DTOutput("table"))
     
   )
 )
@@ -163,6 +163,7 @@ server <- function(input, output) {
   
   filtered_data <- reactive({
     data |>
+      mutate(week = as.numeric(week)) |>
       filter(
         input$home_team == "--All--" | home_team == input$home_team,
         input$away_team == "--All--" | away_team == input$away_team,

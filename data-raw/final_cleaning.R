@@ -126,4 +126,4 @@ temp <- temp |>
          )
 
 # final data file
-write_csv(temp, "./data/data.csv")
+write_rds(temp, "./data/data.rds")
