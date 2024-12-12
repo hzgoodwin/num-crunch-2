@@ -18,7 +18,9 @@ data <- data |>
 
 discard_cols <- c("season", "date", "ou_result", "result_home",
                   "result_away", "vs_line_home", "vs_line_away",
-                  "actual_result_home", "actual_result_away", "spread_away")
+                  "actual_result_home", "actual_result_away", "spread_away", "total_points")
+
+data <- data |> mutate(week = as.numeric(week))
 
 # cleaning done in final_cleaning.R file
 
