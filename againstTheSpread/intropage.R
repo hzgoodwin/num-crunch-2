@@ -32,12 +32,12 @@ HTML(
   "<p>These variables can be used on their own, but the power of this app is their use in combination to make a unique query for a game you are interested in betting on. For example, if you are interested in betting on Rams vs 49ers on Thursday, December 11th, 2024, you can search for similar games by inputting a home team spread of between -5 and 0, Thursday games only, at night, and divisional games only. You would find that 8 games meet similar criteria, and 62.5% of the time, the home team covered the spread.</p>",
   
   "<ul>
-    <li><b>Spread v. User Selected Variables:</b> For a more advanced predictor, select the “Results Predictor” tab at the top of the page. From there, select your “variables of interest”, which have the same meanings as the variables from the “Game Results” tab. Below those check boxes, select which variable you would like to see in a correlation plot and assign the values for each selected variable. <br> 
-    <i>Note:</i> For the variables divisional, after bye home, and after bye away, input 0 for NO and 1 for YES.</li>
+   <b>Spread v. User Selected Variables:</b> For a more advanced predictor, select the “Results Predictor” tab at the top of the page. From there, select your “variables of interest”, which have the same meanings as the variables from the “Game Results” tab. Below those check boxes, select which variable you would like to see in a correlation plot and assign the values for each selected variable. <br> 
+   <i>Note:</i> For the variables divisional, after bye home, and after bye away, input 0 for NO and 1 for YES.</li>
     
-    <li><b>Once you have selected your variables of choice, 5 tabs will appear on the right side:</b></li>
+   <b>Once you have selected your variables of choice, 5 tabs will appear on the right side:</b>
     
-    <ul>
+   <ul>
     <li><b>Tab 1:</b> Gives you your residuals, coefficients, the confidence interval for regression coefficients, R-squared and p value.</li>
     <li><b>Tab 2:</b> Gives you the result. The mean result is likely the most valuable and gives you a predicted spread under “fit”.</li>
     <li><b>Tab 3-5:</b> Provide graphical representation of your selected variables.</li>
