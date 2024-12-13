@@ -38,8 +38,8 @@ HTML(
    <b>Once you have selected your variables of choice, 5 tabs will appear on the right side:</b>
     
    <ul>
-    <li><b>Tab 1:</b> Gives you your residuals, coefficients, the confidence interval for regression coefficients, R-squared and p value.</li>
-    <li><b>Tab 2:</b> Gives you the result. The mean result is likely the most valuable and gives you a predicted spread under “fit”.</li>
+    <li><b>Tab 1:</b> Gives the output for the linear model, with its residuals and coefficients, including whether they are statistically significant. It also includes confidence intervals for each coefficient.</li>
+    <li><b>Tab 2:</b> shows the mean result and the individual result for a game based on the input values inputted by the user and the model’s equation. Changing the input confidence level changes these confidence intervals.</li>
     <li><b>Tab 3-5:</b> Provide graphical representation of your selected variables.</li>
     </ul>"
 )
