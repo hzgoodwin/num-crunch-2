@@ -97,7 +97,7 @@ ui <- fluidPage(
                  checkboxInput("after_bye_home", "Games with home team coming off bye only"),
                  checkboxInput("after_bye_away", "Games with away team coming off bye only"),
                  
-                 sliderInput("over_under", "Over/Under", value = c(30, 60), min = 30, max = 60),
+                 sliderInput("over_under", "Over/Under", value = c(30, 60), min = 30, max = 60, step = 0.5),
                  sliderInput("temperature", "Temperature (F)", value = c(0, 110), min = 0, max = 110)
                  
                ),
@@ -114,55 +114,12 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Result Predictor",
-             sidebarLayout(
-               sidebarPanel(
-                 checkboxGroupInput("X_var", "Variables of interest:", 
-                                    choices = names(data)[!names(data) %in% discard_cols]),
-                 sliderInput("conflev", "Confidence Level", value = 0.95, min = 0, max = 1),
-                 varSelectInput("plotpred", "Residual & Correlation Plot for Predictor", data = data),
-                 uiOutput("predinputs")
-               ),
-               mainPanel(
-                 tabsetPanel(
-                   tabPanel("Tab 1",
-                            h1("Linear Model Output"),
-                            verbatimTextOutput("lm_sum"),
-                            h4("CI for Regression Coefficients"),
-                            verbatimTextOutput("confint")
-                   ),
-                   tabPanel("Tab 2",
-                            h1("Predict New Results"),
-                            h4("Mean Result (CI)"),
-                            verbatimTextOutput("predmeanYOut"),
-                            h4("Individual Result (PI)"),
-                            verbatimTextOutput("predindivYOut")
-                   ),
-                   tabPanel("Tab 3",
-                            h4("Residuals vs Fitted Values"),
-                            plotOutput("resplotfit"),
-                            h4("Normal Q-Q Plot of Residuals"),
-                            plotOutput("qqplot")
-                   ),
-                   tabPanel("Tab 4",
-                            h4("Residuals vs Predictor"),
-                            plotOutput("resplotpred"),
-                            h4("Result vs Predictor"),
-                            plotOutput("MLR_plot")       
-                   ),
-                   tabPanel("Tab 5",
-                            h1("Time Plots"),
-                            plotOutput("timeplot")
-                   )
-                 )
-               )
-             )
-    ),
     
     tabPanel("Raw Data", DTOutput("table"))
     
   )
 )
+
 
 # Define server logic
 server <- function(input, output) {
@@ -198,110 +155,7 @@ server <- function(input, output) {
   })
   
   
-  model <- reactive({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    lm(as.formula(paste0("actual_result_home ~ ", paste(input$X_var, collapse = "+"))),
-       data = data)
-  })
-  
-  output$lm_sum <- renderPrint({
-    validate(
-      need(length(input$X_var) > 0, "Select at least one predictor to display linear model")
-    )
-    print(summary(model()))
-  })
-  
-  output$confint <- renderPrint({
-    confint(model(), level = input$conflev)
-  })
-  
-  output$resplotfit <- renderPlot({
-    ggplot(mapping = aes(x = fitted(model()), y = resid(model()))) +
-      geom_point() +
-      geom_hline(yintercept = 0)
-  })
-  
-  output$qqplot <- renderPlot({
-    ggplot(mapping = aes(sample = resid(model()))) +
-      geom_qq() +
-      geom_qq_line()
-  })
-  
-  observe({
-    updateVarSelectInput(inputId = "plotpred", data = data |> dplyr::select(input$X_var))
-  }) |> 
-    bindEvent(model())
-  
-  output$resplotpred <- renderPlot({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    ggplot(data = data, mapping = aes(x = !!(input$plotpred), y = resid(model()))) +
-      geom_point() +
-      geom_hline(yintercept = 0)
-  })
-  
-  # correlation plot
-  
-  output$MLR_plot <- renderPlot({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    ggplot(data = data, aes(x = !!(input$plotpred), y = actual_result_home)) +
-      geom_point() +
-      geom_smooth(method = lm, se = FALSE)
-  })
-  
-  # time-correlation plot
-  
-  output$timeplot <- renderPlot({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    ggplot(data = data, aes(x = date, y = resid(model()))) +
-      geom_line() +
-      geom_point() +
-      facet_wrap(data$season, scales = "free_x")
-  })
-  
-  # Predict mean & individual obs of Y at single obs:
-  
-  output$predinputs <- renderUI({
-    map(input$X_var, predInp)
-  })
-  
-  predY <- reactive({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    temp_df <- map(input$X_var, \(x) input[[paste0("input_", x)]]) |> 
-      setNames(input$X_var) |> 
-      data.frame()
-    for (p in input$X_var) {
-      if (is.factor(data[[p]])) {
-        temp_df[[p]] <- factor(temp_df[[p]], levels = levels(fct_relevel(data[[p]], sort)))
-      }
-    }
-    temp_df
-  })
-  
-  output$predmeanYOut <- renderPrint({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    predict(model(), newdata = predY(),
-            interval = "confidence", level = input$conflev)
-  })
-  
-  output$predindivYOut <- renderPrint({
-    validate(
-      need(length(input$X_var) > 0, message = FALSE)
-    )
-    predict(model(), newdata = predY(),
-            interval = "prediction", level = input$conflev)
-  })
+
   
   # tab 2-------------
   output$games <- renderUI({
