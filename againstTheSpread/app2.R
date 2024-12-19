@@ -5,7 +5,7 @@ library(DT)
 library(plotly)
 library(shinyjs)
 
-# Business Logic
+# Business Logic ----------------------
 
 ## Read Data, Clean Data
 data <- read_rds("../data/data.rds")
@@ -14,7 +14,7 @@ teams <- c("--All--", str_sort(unique(data$home_team)))
 
 data <- data |>
   mutate(total_points = str_extract_all(result_home, "\\d+") |>
-           lapply(function (x) sum(as.numeric(x))) |> as.numeric())
+           lapply(function(x) sum(as.numeric(x))) |> as.numeric())
 
 discard_cols <- c("season", "date", "ou_result", "result_home",
                   "result_away", "vs_line_home", "vs_line_away",
@@ -24,25 +24,10 @@ data <- data |> mutate(week = as.numeric(week))
 
 # cleaning done in final_cleaning.R file
 
-# Function for updating model input UI
-predInp <- function(pred) {
-  if (is.numeric(data[[pred]])) {
-    numericInput(
-      inputId = paste0("input_", pred),
-      label = paste0("Value for ", pred),
-      value = 1)
-  } else if (is.factor(data[[pred]])) {
-    selectInput(
-      inputId = paste0("input_", pred),
-      label = paste0("Value for ", pred),
-      choices = levels(fct_relevel(data[[pred]], sort))
-    )
-  }
-}
-
-
-## UI
+## UI --------------------------
 ui <- fluidPage(
+  
+  useShinyjs(),
   
   theme = bslib::bs_theme(version = 5, bootswatch = "minty"),
   titlePanel("Against the Spread"),
@@ -63,10 +48,8 @@ ui <- fluidPage(
     tabPanel("Game Results",
              sidebarLayout(
                sidebarPanel(
-                 
-                 useShinyjs(),  # for reset button
-                 id = "side-panel",
-                 actionButton("reset_input", "Reset inputs"),
+                 id = "tab2_panel",
+                 actionButton("reset_tab2", "Reset inputs"),
                  
                  # variable inputs
                  
@@ -115,17 +98,66 @@ ui <- fluidPage(
              )
     ),
     
+    tabPanel("Result Predictor", 
+             sidebarLayout(
+               sidebarPanel(
+                 id = "tab3_panel",
+                 fluidRow(
+                   column(6, 
+                          actionButton("reset_tab3", "Reset inputs")
+                   ),
+                   column(6, 
+                          actionButton("build_model", "Build model", 
+                                       style = "background-color: #6ccca9; position: absolute; 
+                                       right: 20px; border-color: #6ccca9; color: white;")
+                   )
+                 ),
+                 
+                 # variables
+                 
+                 selectInput("home_team2", "Select home team", choices = str_sort(unique(data$home_team))),
+                 selectInput("away_team2", "Select away team", choices = str_sort(unique(data$home_team))),
+                 
+                 sliderInput("home_spread2", "Home team spread", value = 0, min = -20, max = 20, step = 0.5),
+                 
+                 numericInput("home_win_percentage2", "Home team win percentage", value = 0.5, min = 0, max = 1, step = 0.01),
+                 numericInput("away_win_percentage2", "Away team win percentage", value = 0.5, min = 0, max = 1, step = 0.01),
+                 
+                 sliderInput("week2", "Week of the season", value = 1, min = 1, max = 18),
+                 selectInput("day2", "Day of the week",
+                                    choices = c("Mon", "Tue", "Thu", "Fri", "Sat", "Sun"),
+                                    selected = c("Sun")),
+                 selectInput("game_time2", "Game time",
+                                    choices = c("early", "afternoon", "night"),
+                                    selected = c("early")),
+                 
+                 checkboxInput("divisional2", "Divisional game?"),
+                 checkboxInput("after_bye_home2", "Home team coming off bye?"),
+                 checkboxInput("after_bye_away2", "Away team coming off bye?"),
+                 
+                 sliderInput("over_under2", "Over/Under", value = 45, min = 30, max = 60, step = 0.5),
+                 sliderInput("temperature2", "Temperature (F)", value = 55, min = 0, max = 110)
+                 
+               ),
+               
+               mainPanel(
+                 
+               )
+             )),
+    
     tabPanel("Raw Data", DTOutput("table"))
     
   )
 )
 
 
-# Define server logic
+# Define server logic -------------------
+
+# tab 2 ---------------------------
 server <- function(input, output) {
   
-  observeEvent(input$reset_input, {
-    shinyjs::reset("side-panel")
+  observeEvent(input$reset_tab2, {
+    shinyjs::reset("tab2_panel")
   })
   
   filtered_data <- reactive({
@@ -154,10 +186,6 @@ server <- function(input, output) {
       )
   })
   
-  
-
-  
-  # tab 2-------------
   output$games <- renderUI({
     paste0("Total games selected: ", nrow(filtered_data()))
   })
@@ -243,6 +271,8 @@ server <- function(input, output) {
     ggplotly(p2, tooltip = "text")
   })
   
+  # checking to ensure there is at least 1 game
+  
   output$empty_error <- renderText({
     "WARNING: No games match your criteria. Try broadening your search."
   })
@@ -255,12 +285,19 @@ server <- function(input, output) {
   
   outputOptions(output, "filtered_data_nrow", suspendWhenHidden = FALSE)
   
+  
+# tab 3 ---------------------------
+  observeEvent(input$reset_tab3, {
+    shinyjs::reset("tab3_panel")
+  })
+  
+  
+# tab 4 ---------------------------
   output$table <- renderDT({
     datatable(data, options = list(pageLength = 20, order = list(2, 'desc'))
               , filter = "top")
   })
-  
 }
 
-# Run the application 
+# Run the application -------------------
 shinyApp(ui = ui, server = server)
