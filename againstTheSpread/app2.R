@@ -146,12 +146,14 @@ ui <- fluidPage(
                  checkboxInput("after_bye_away2", "Away team coming off bye?"),
                  
                  sliderInput("over_under2", "Over/Under", value = 45, min = 30, max = 60, step = 0.5),
-                 sliderInput("temperature2", "Temperature (F)", value = 55, min = 0, max = 110)
+                 sliderInput("temperature2", "Temperature (F)", value = 55, min = 0, max = 110),
+                 
+                 actionButton("reset_all", "Hard reset")
                  
                ),
                
                mainPanel(
-                 verbatimTextOutput("model")
+                 verbatimTextOutput("output_predictions")
                )
              )),
     
@@ -297,72 +299,81 @@ server <- function(input, output) {
   
   
 # tab 3 ---------------------------
+  
+  observeEvent(input$reset_all, {
+    shinyjs::reset("tab3_panel")
+    predictions$all_outputs <- list()
+    output$output_predictions <- renderText({})
+  })
+  
   observeEvent(input$reset_tab3, {
     shinyjs::reset("tab3_panel")
-    shinyjs::hide("model")
   })
+  
+  predictions <- reactiveValues(all_outputs = list())
   
   observeEvent(input$build_model, {
     
     shinyjs::show("model")
     
-    output$model <- renderText({
+    validate(need((isolate(input$home_win_percentage2) <= 1 &
+                     isolate(input$home_win_percentage2) >= 0), 
+                  "ERROR: Win percentages must be between 0 and 1"))
+    validate(need((isolate(input$away_win_percentage2) <= 1 &
+                     isolate(input$away_win_percentage2) >= 0), 
+                  "ERROR: Win percentages must be between 0 and 1"))
     
-      validate(need((isolate(input$home_win_percentage2) <= 1 &
-                       isolate(input$home_win_percentage2) >= 0), 
-                    "ERROR: Win percentages must be between 0 and 1"))
-      validate(need((isolate(input$away_win_percentage2) <= 1 &
-                       isolate(input$away_win_percentage2) >= 0), 
-                    "ERROR: Win percentages must be between 0 and 1"))
-      
-      new_data <- data.frame(
-        home_team = isolate(input$home_team2),
-        away_team = isolate(input$away_team2),
-        spread_home = isolate(input$home_spread2),
-        win_percentage_home = isolate(input$home_win_percentage2),
-        win_percentage_away = isolate(input$away_win_percentage2),
-        week = isolate(input$week2),
-        day = isolate(input$day2),
-        game_time = isolate(input$game_time2),
-        divisional = as.integer(isolate(input$divisional2)),
-        after_bye_home = as.integer(isolate(input$after_bye_home2)),
-        after_bye_away = as.integer(isolate(input$after_bye_away2)),
-        over_under = isolate(input$over_under2),
-        temperature = isolate(input$temperature2)
+    new_data <- data.frame(
+      home_team = isolate(input$home_team2),
+      away_team = isolate(input$away_team2),
+      spread_home = isolate(input$home_spread2),
+      win_percentage_home = isolate(input$home_win_percentage2),
+      win_percentage_away = isolate(input$away_win_percentage2),
+      week = isolate(input$week2),
+      day = isolate(input$day2),
+      game_time = isolate(input$game_time2),
+      divisional = as.integer(isolate(input$divisional2)),
+      after_bye_home = as.integer(isolate(input$after_bye_home2)),
+      after_bye_away = as.integer(isolate(input$after_bye_away2)),
+      over_under = isolate(input$over_under2),
+      temperature = isolate(input$temperature2)
+    )
+    
+    margin <- predict(spread_model, newdata = new_data)
+    points <- predict(over_under_model, newdata = new_data)
+    
+    spread_diff <- input$home_spread2 - margin
+    
+    win_probability <- pt(margin / 12.32, 890, lower.tail = FALSE)
+    percent_chance_spread <- pt(spread_diff / 12.32, 890)
+    
+    points_diff <- input$over_under2 - points
+    percent_chance_over <- pt(points_diff / 12.98, 890, lower.tail = FALSE)
+    
+    home <- isolate(input$home_team2)
+    away <- isolate(input$away_team2)
+    
+    new_output <- paste0(
+      "Game: ", length(predictions$all_outputs) + 1, "\n",
+      home, " win probability: ", round(win_probability * 100, 2), "%\n",
+      away, " win probability: ", 100 - round(win_probability * 100, 2), "%\n",
+      "\nHome team spread (", home, "): ", isolate(input$home_spread2), 
+      "\nProjected result for ", home, ": ", round(margin, 2),
+      "\nPercent chance ", home, " covers the spread: ", round(percent_chance_spread * 100, 2), "%",
+      "\nPercent chance ", away, " covers the spread: ", 100 - round(percent_chance_spread * 100, 2), "%\n",
+      "\nOver/under: ", isolate(input$over_under2),
+      "\nProjected number of points scored: ", round(points, 2),
+      "\nPercent chance the over hits: ", round(percent_chance_over * 100, 2), "%",
+      "\nPercent chance the under hits: ", 100 - round(percent_chance_over * 100, 2), "%\n"
       )
-      
-      margin <- predict(spread_model, newdata = new_data)
-      points <- predict(over_under_model, newdata = new_data)
-      
-      spread_diff <- input$home_spread2 - margin
-      
-      win_probability <- pt(margin / 12.32, 890, lower.tail = FALSE)
-      percent_chance_spread <- pt(spread_diff / 12.32, 890)
-      
-      points_diff <- input$over_under2 - points
-      percent_chance_over <- pt(points_diff / 12.98, 890, lower.tail = FALSE)
-      
-      home <- isolate(input$home_team2)
-      away <- isolate(input$away_team2)
-      
-      output$model <- renderText({
-        paste0(
-          home, " win probability: ", round(win_probability * 100, 2), "%\n",
-          away, " win probability: ", 100 - round(win_probability * 100, 2), "%\n",
-          "\nHome team spread (", home, "): ", isolate(input$home_spread2), 
-          "\nProjected result for ", home, ": ", round(margin, 2),
-          "\nPercent chance ", home, " covers the spread: ", round(percent_chance_spread * 100, 2), "%",
-          "\nPercent chance ", away, " covers the spread: ", 100 - round(percent_chance_spread * 100, 2), "%\n",
-          "\nOver/under: ", isolate(input$over_under2),
-          "\nProjected number of points scored: ", round(points, 2),
-          "\nPercent chance the over hits: ", round(percent_chance_over * 100, 2), "%",
-          "\nPercent chance the under hits: ", 100 - round(percent_chance_over * 100, 2), "%"
-          )
-        
-        })
-      })
     
-  })
+    predictions$all_outputs <- c(new_output, predictions$all_outputs)
+    
+    output$output_predictions <- renderText({
+      paste(predictions$all_outputs, collapse = 
+      "\n----------------------------------------------\n")
+    })
+})
   
   
 # tab 4 ---------------------------
