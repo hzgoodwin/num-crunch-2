@@ -299,9 +299,12 @@ server <- function(input, output) {
 # tab 3 ---------------------------
   observeEvent(input$reset_tab3, {
     shinyjs::reset("tab3_panel")
+    shinyjs::hide("model")
   })
   
   observeEvent(input$build_model, {
+    
+    shinyjs::show("model")
     
     output$model <- renderText({
     
@@ -331,12 +334,25 @@ server <- function(input, output) {
       margin <- predict(spread_model, newdata = new_data)
       points <- predict(over_under_model, newdata = new_data)
       
-      paste0(
-        "Predicted result for home team: ", round(margin, 2),
-        "\nPredicted number of points scored: ", round(points, 2),
-        "\nPercent chance home team covers the spread: ", 
-        pt(((!!input$home_spread2 - margin)/12.32), 890) * 100, "%"
-      )
+      spread_diff <- input$home_spread2 - margin
+      percent_chance_spread <- pt(spread_diff / 12.32, 890) * 100
+      
+      points_diff <- input$over_under2 - points
+      percent_chance_over <- pt(points_diff / 12.98, 890, lower.tail = FALSE) * 100
+      
+      home <- isolate(input$home_team2)
+      
+      output$model <- renderText({
+        paste0(
+          "Spread (", home, "): ", isolate(input$home_spread2), 
+          "\nProjected result for ", home, ": ", round(margin, 2),
+          "\nPercent chance ", home, " covers the spread: ", round(percent_chance_spread, 2), "%\n",
+          "\nOver/under: ", isolate(input$over_under2),
+          "\nProjected number of points scored: ", round(points, 2),
+          "\nPercent chance the over hits: ", round(percent_chance_over, 2), "%"
+          
+        )
+      })
  
       
       })
