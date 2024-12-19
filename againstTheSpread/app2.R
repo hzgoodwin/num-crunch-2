@@ -335,27 +335,33 @@ server <- function(input, output) {
       points <- predict(over_under_model, newdata = new_data)
       
       spread_diff <- input$home_spread2 - margin
-      percent_chance_spread <- pt(spread_diff / 12.32, 890) * 100
+      
+      win_probability <- pt(margin / 12.32, 890, lower.tail = FALSE)
+      percent_chance_spread <- pt(spread_diff / 12.32, 890)
       
       points_diff <- input$over_under2 - points
-      percent_chance_over <- pt(points_diff / 12.98, 890, lower.tail = FALSE) * 100
+      percent_chance_over <- pt(points_diff / 12.98, 890, lower.tail = FALSE)
       
       home <- isolate(input$home_team2)
+      away <- isolate(input$away_team2)
       
       output$model <- renderText({
         paste0(
-          "Spread (", home, "): ", isolate(input$home_spread2), 
+          home, " win probability: ", round(win_probability * 100, 2), "%\n",
+          away, " win probability: ", 100 - round(win_probability * 100, 2), "%\n",
+          "\nHome team spread (", home, "): ", isolate(input$home_spread2), 
           "\nProjected result for ", home, ": ", round(margin, 2),
-          "\nPercent chance ", home, " covers the spread: ", round(percent_chance_spread, 2), "%\n",
+          "\nPercent chance ", home, " covers the spread: ", round(percent_chance_spread * 100, 2), "%",
+          "\nPercent chance ", away, " covers the spread: ", 100 - round(percent_chance_spread * 100, 2), "%\n",
           "\nOver/under: ", isolate(input$over_under2),
           "\nProjected number of points scored: ", round(points, 2),
-          "\nPercent chance the over hits: ", round(percent_chance_over, 2), "%"
-          
-        )
+          "\nPercent chance the over hits: ", round(percent_chance_over * 100, 2), "%",
+          "\nPercent chance the under hits: ", 100 - round(percent_chance_over * 100, 2), "%"
+          )
+        
+        })
       })
- 
-      
-      })
+    
   })
   
   
