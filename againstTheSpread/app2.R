@@ -298,7 +298,7 @@ server <- function(input, output) {
   
 # tab 3 ---------------------------
   observeEvent(input$reset_tab3, {
-    reset("tab3_panel")
+    shinyjs::reset("tab3_panel")
   })
   
   observeEvent(input$build_model, {
