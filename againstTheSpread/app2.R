@@ -14,13 +14,23 @@ teams <- c("--All--", str_sort(unique(data$home_team)))
 
 data <- data |>
   mutate(total_points = str_extract_all(result_home, "\\d+") |>
-           lapply(function(x) sum(as.numeric(x))) |> as.numeric())
-
-discard_cols <- c("season", "date", "ou_result", "result_home",
-                  "result_away", "vs_line_home", "vs_line_away",
-                  "actual_result_home", "actual_result_away", "spread_away", "total_points")
+           lapply( function(x) sum(as.numeric(x))) |> as.numeric())
 
 data <- data |> mutate(week = as.numeric(week))
+
+spread_model <- lm(actual_result_home ~ 
+                             home_team + away_team + spread_home +
+                             win_percentage_home + win_percentage_away +
+                             week + day + game_time + divisional +
+                             after_bye_home + after_bye_away + 
+                             over_under + temperature, data = data)
+
+over_under_model <- lm(total_points ~ 
+                         home_team + away_team + spread_home +
+                         win_percentage_home + win_percentage_away +
+                         week + day + game_time + divisional +
+                         after_bye_home + after_bye_away + 
+                         over_under + temperature, data = data)
 
 # cleaning done in final_cleaning.R file
 
@@ -107,7 +117,7 @@ ui <- fluidPage(
                           actionButton("reset_tab3", "Reset inputs")
                    ),
                    column(6, 
-                          actionButton("build_model", "Build model", 
+                          actionButton("build_model", "Calculate predictions", 
                                        style = "background-color: #6ccca9; position: absolute; 
                                        right: 20px; border-color: #6ccca9; color: white;")
                    )
@@ -141,7 +151,7 @@ ui <- fluidPage(
                ),
                
                mainPanel(
-                 
+                 verbatimTextOutput("model")
                )
              )),
     
@@ -288,7 +298,48 @@ server <- function(input, output) {
   
 # tab 3 ---------------------------
   observeEvent(input$reset_tab3, {
-    shinyjs::reset("tab3_panel")
+    reset("tab3_panel")
+  })
+  
+  observeEvent(input$build_model, {
+    
+    output$model <- renderText({
+    
+      validate(need((isolate(input$home_win_percentage2) <= 1 &
+                       isolate(input$home_win_percentage2) >= 0), 
+                    "ERROR: Win percentages must be between 0 and 1"))
+      validate(need((isolate(input$away_win_percentage2) <= 1 &
+                       isolate(input$away_win_percentage2) >= 0), 
+                    "ERROR: Win percentages must be between 0 and 1"))
+      
+      new_data <- data.frame(
+        home_team = isolate(input$home_team2),
+        away_team = isolate(input$away_team2),
+        spread_home = isolate(input$home_spread2),
+        win_percentage_home = isolate(input$home_win_percentage2),
+        win_percentage_away = isolate(input$away_win_percentage2),
+        week = isolate(input$week2),
+        day = isolate(input$day2),
+        game_time = isolate(input$game_time2),
+        divisional = as.integer(isolate(input$divisional2)),
+        after_bye_home = as.integer(isolate(input$after_bye_home2)),
+        after_bye_away = as.integer(isolate(input$after_bye_away2)),
+        over_under = isolate(input$over_under2),
+        temperature = isolate(input$temperature2)
+      )
+      
+      margin <- predict(spread_model, newdata = new_data)
+      points <- predict(over_under_model, newdata = new_data)
+      
+      paste0(
+        "Predicted result for home team: ", round(margin, 2),
+        "\nPredicted number of points scored: ", round(points, 2),
+        "\nPercent chance home team covers the spread: ", 
+        pt(((!!input$home_spread2 - margin)/12.32), 890) * 100, "%"
+      )
+ 
+      
+      })
   })
   
   
